@@ -37,6 +37,7 @@ The test behind every decision: **was this chosen, or did it happen?** Anything 
 | `references/figma.md` + `references/figma/` | Expert Figma practice: structure and naming, variables/tokens, auto layout, components, canvas craft, prototyping, design system, hand-off, QA | Output to Figma |
 | `references/web.md` | Building the style as code and shipping it live | Output to web |
 | `assets/taste-test.html` | Interactive A/B taste test that outputs a DNA vector | Mode 1 |
+| `assets/style-board.html` | Template for three style boards at equal depth, same slots | Style first, before any product build |
 | `scripts/atlas_match.py` | Ranks atlas cards against a DNA vector (kin / tension / far) | Modes 1 to 3, and `--check` after editing the atlas |
 | `scripts/icon_check.py` | Checks an SVG icon set: grid, stroke, currentColor, naming | After drawing icons |
 | `scripts/copy_check.py` | Finds dashes, hyphen ranges and AI-slop phrases in pages and text | Before showing any copy |
@@ -73,9 +74,17 @@ At the start of Modes 3 to 6, run `ls ~/.design-atelier/profiles/ 2>/dev/null`. 
 
 The skill serves many people (a designer, their clients, students, brands); each gets their own profile. Name the folder after whoever the style belongs to, the person by the name they gave, or the brand/project for client work, and ask when unclear; never derive it from account names, emails or file paths. Never mix two people's journals.
 
-## When no style is named
+## Style first
 
-Present **three directions**, never one and never ten. Each is a different blend recipe, usually the same spine with a different voice gene, shown as: a name, its five laws, the genes and their sources, a 3-line token sketch (palette, type pair, shape), and a small visual preview when the environment can render one. Ask the person to pick, merge, or reject. Details in `method/blend.md` § Three directions.
+This skill's job is to define a style. When there is no profile style and the person has not chosen one, **the first deliverable is the style, not the product.**
+
+1. Run a short Discover (four questions) or, if the person can't answer, read the brief, their assets and their place for evidence.
+2. Present **three style boards** at equal depth, built from `assets/style-board.html`. Each board shows the style at real size: name, five laws, palette with roles, the type pair set in real copy, one hero composition, the imagery treatment, four icons, a button and a card, and the source of each gene.
+3. The three must be genuinely different: different voice and accent genes, different palette family or type classification, and at least one board built from a far source. Three moods of the same look (say, three cream café pages) are one direction, not three.
+4. Ask the person to pick, merge or reject. Build the full page or product only after that choice.
+5. Exception: if the person explicitly says to skip the choice ("just build it"), build the strongest board as the product and keep all three boards beside it.
+
+Details in `method/blend.md` § Three directions.
 
 ## Guardrails
 
@@ -95,7 +104,7 @@ Present **three directions**, never one and never ten. Each is a different blend
 After Andrej Karpathy's guidelines for LLM work (the `karpathy-guidelines` skill, MIT), applied to design:
 
 - **Think before building.** State assumptions in one line each. If the brief has two readings, name both and ask, don't build both.
-- **Simplicity first.** Build only what was asked: one direction fully, the others as small previews; one specimen, not a full component library, unless asked. No extra pages, sections or features.
+- **Simplicity first.** Build only what was asked. Before a style is chosen, that means three style boards, not a finished product. After the choice, one product build, not a full component library unless asked. No extra pages, sections or features.
 - **Surgical changes.** When revising, change only what the feedback names; leave untouched parts as they are.
 - **Verify against criteria.** Turn the request into checkable goals (laws, sizes, contrast, the pre-delivery check) and loop until they pass.
 

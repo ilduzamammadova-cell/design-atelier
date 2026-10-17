@@ -97,7 +97,9 @@ The specimen is where a style stops being words. Most problems appear here.
 
 ## Three directions
 
-When the person has not chosen a style, present three directions side by side. Keep the Spine (it is who they are) and vary the Voice and Accent so the three are genuinely different, not three shades of one idea.
+When the person has not chosen a style, present three directions as **style boards** (`assets/style-board.html`), side by side and at equal depth. Defining the style is the deliverable; a product page comes after the choice.
+
+Make them genuinely different. Keep the Spine if there is real evidence of who the person is; otherwise vary it too. Each board needs its own Voice and Accent genes, and the set must differ in at least two of: palette family, type classification, composition logic, imagery treatment. Build at least one board from a FAR source (`atlas_match.py --vary`). Check each board against `atlas/trends/_saturation-map.md` and the model-default lists; a board that lands on a familiar look (cream page, sepia photos, editorial serif) is replaced, not polished.
 
 For each direction:
 
@@ -110,6 +112,6 @@ Feels like: one sentence a non-designer would understand.
 Risk: the one way this direction could go wrong.
 ```
 
-If the environment can render HTML (artifact, widget, or local preview), add a small preview per direction: the same tiny layout, a headline, a paragraph, a button, a card, in each style, so the difference is visible, not described.
+Fill one board per direction in `assets/style-board.html` (copy it to the project). Every board shows the same slots at real size, so the person compares styles, not layouts: hero composition, type pair in real copy, palette with roles, imagery treatment (a real photo graded to the style, or an illustration drawn for it), four icons from the style's set, a button and a card, five laws, and gene sources named plainly. Render the boards and look at them before showing them.
 
 Then ask: pick one, merge two (say which parts), or reject all and say why. A rejection is useful data, record it in the journal.

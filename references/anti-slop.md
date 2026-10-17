@@ -56,6 +56,7 @@ Trend slop is what the internet repeats. Model slop is what *Claude* repeats: th
 - **Palette:** black and white with one vermilion/orange accent; amber "safelight" for anything nocturnal; warm paper + ink + one accent as the universal "tasteful" answer.
 - **Motifs:** an ensō-style gap or brush circle for anything wabi-sabi or Zen (also a religious symbol, see the culture card's Respect section); a transit-map diagram for anything about flows; a tick-marked dial for anything about measurement.
 - **Skill defaults:** this atlas has its own gravity. Across unrelated briefs, tests kept reaching for the same few sources, Anni Albers' weave and threads, Carlo Scarpa's joints, Edward Tufte, Ladislav Sutnar, James Turrell's light, and the same faces (Libre Franklin, Fira Sans, Source Sans 3, Literata). Use `--vary` and the recent-sources memory; if one of these comes first, look again.
+- **Venue and food clichés:** opening hours drawn as a 12-cell clock or lit windows; the brand's initial or a special letter turned into a cup or plate; a cream or limestone page with sepia photos for any café. Independent runs on the same café brief produced all three.
 - **Structure:** exactly three directions that differ only in palette; seven laws when five would do; every direction recommending a blend of A and C.
 
 ## Pre-delivery check

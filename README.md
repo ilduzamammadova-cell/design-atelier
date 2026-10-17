@@ -14,7 +14,7 @@ It keeps an atlas of masters, movements, typefaces and traditions across graphic
 | `references/` | Visual principles, dimensions, typography, icons, imagery, motion, UX audit, anti-slop, web, Figma (9 files) |
 | `templates/` | DNA profile, style spec, journal entry, gene card |
 | `scripts/` | `atlas_match.py` (match a taste vector to the atlas), `icon_check.py` (validate SVG icon sets) |
-| `assets/taste-test.html` | Interactive A/B taste test that outputs a 12-axis Style DNA vector |
+| `assets/` | `taste-test.html` (A/B taste test → 12-axis Style DNA vector), `style-board.html` (three style boards to choose from) |
 | `evals/` | Test prompts and assertions used to evaluate the skill |
 
 ## Install

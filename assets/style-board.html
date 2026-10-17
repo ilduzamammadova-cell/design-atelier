@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Style boards</title>
+<!--
+  STYLE BOARD TEMPLATE (design-atelier)
+  Copy this file into the project and fill one <section class="board"> per direction.
+  Every board keeps the same slots so the person compares styles, not layouts.
+  Set each board's tokens on its own selector (.board.a / .b / .c). Load the fonts each board needs.
+  Replace every [bracket]. Use real copy for the brief, real images (graded) or illustrations drawn for the style.
+  No em or en dashes in any text. Run scripts/copy_check.py on the finished file.
+-->
+<!-- <link href="https://fonts.googleapis.com/css2?family=...&display=swap" rel="stylesheet"> -->
+<style>
+  /* Neutral frame: the page around the boards stays out of the way */
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #f2f2f0; color: #1c1c1c; font: 400 15px/1.5 system-ui, sans-serif; }
+  .frame { max-width: 1440px; margin: 0 auto; padding: 32px 16px 64px; }
+  .frame > header h1 { font-size: 20px; font-weight: 600; margin: 0 0 4px; }
+  .frame > header p { margin: 0 0 24px; color: #555; max-width: 70ch; }
+  .boards { display: grid; gap: 24px; }
+  @media (min-width: 1100px) { .boards { grid-template-columns: repeat(3, 1fr); } }
+
+  /* Per-board tokens: edit these for each direction */
+  .board.a { --bg: #ffffff; --surface: #f4f4f4; --ink: #111111; --muted: #555555; --accent: #0050ff; --on-accent: #ffffff; --line: #dddddd;
+             --font-display: Georgia, serif; --font-text: system-ui, sans-serif; --radius: 0px; --stroke: 1.5; }
+  .board.b { --bg: #ffffff; --surface: #f4f4f4; --ink: #111111; --muted: #555555; --accent: #00804a; --on-accent: #ffffff; --line: #dddddd;
+             --font-display: system-ui, sans-serif; --font-text: system-ui, sans-serif; --radius: 8px; --stroke: 1.5; }
+  .board.c { --bg: #ffffff; --surface: #f4f4f4; --ink: #111111; --muted: #555555; --accent: #b3261e; --on-accent: #ffffff; --line: #dddddd;
+             --font-display: system-ui, sans-serif; --font-text: Georgia, serif; --radius: 2px; --stroke: 2; }
+
+  /* Board layout: identical slots for every direction */
+  .board { background: var(--bg); color: var(--ink); font-family: var(--font-text); border: 1px solid #d8d8d4; display: grid; }
+  .board > * { padding: 20px; border-top: 1px solid var(--line); }
+  .board > :first-child { border-top: 0; }
+  .slot-label { display: block; font: 600 11px/1 system-ui, sans-serif; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-bottom: 12px; }
+  .b-head h2 { font-family: var(--font-display); font-size: 28px; line-height: 1.1; margin: 0 0 6px; }
+  .b-head p { margin: 0; color: var(--muted); }
+  .hero { min-height: 340px; display: grid; align-content: end; gap: 12px; position: relative; overflow: hidden; background: var(--surface); }
+  .hero img, .hero svg.art { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  .hero .copy { position: relative; }
+  .hero h3 { font-family: var(--font-display); font-size: 40px; line-height: 1.02; margin: 0 0 12px; max-width: 12ch; }
+  .type .display { font-family: var(--font-display); font-size: 32px; line-height: 1.1; margin: 0 0 8px; }
+  .type .text { font-size: 16px; margin: 0 0 8px; max-width: 46ch; }
+  .type .label { font-size: 12px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+  .type .names { font-size: 12px; color: var(--muted); margin-top: 8px; }
+  .palette { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; }
+  .chip { aspect-ratio: 1; border: 1px solid var(--line); border-radius: var(--radius); display: flex; align-items: flex-end; padding: 6px; font-size: 10px; line-height: 1.2; }
+  .imagery { display: grid; grid-template-columns: 2fr 1fr; gap: 8px; }
+  .imagery .frame-img { aspect-ratio: 4 / 5; background: var(--surface); overflow: hidden; border-radius: var(--radius); }
+  .imagery img, .imagery svg { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .imagery p { font-size: 13px; color: var(--muted); margin: 0; }
+  .icons { display: flex; gap: 20px; align-items: center; }
+  .icons svg { width: 28px; height: 28px; stroke: currentColor; stroke-width: var(--stroke); fill: none; }
+  .components { display: grid; gap: 12px; }
+  .btn { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0 20px; border-radius: var(--radius);
+         background: var(--accent); color: var(--on-accent); border: 1px solid var(--accent); font: 600 15px/1 var(--font-text); text-decoration: none; }
+  .btn.secondary { background: transparent; color: var(--ink); border-color: var(--ink); }
+  .row { display: flex; gap: 8px; flex-wrap: wrap; }
+  .card { border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; background: var(--bg); }
+  .card h4 { font-family: var(--font-display); font-size: 20px; margin: 0 0 6px; }
+  .card p { margin: 0; color: var(--muted); font-size: 14px; }
+  .laws ol, .genes ul { margin: 0; padding-left: 18px; }
+  .laws li, .genes li { margin-bottom: 6px; }
+  .genes li span { color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="frame">
+  <header>
+    <h1>[Brand or project]: three styles</h1>
+    <p>[One sentence: what to compare and how to answer: pick one, merge two (name the parts), or reject all and say why.]</p>
+  </header>
+
+  <div class="boards">
+    <!-- Repeat this section for .b and .c, changing only content and tokens -->
+    <section class="board a" aria-labelledby="a-name">
+      <div class="b-head">
+        <span class="slot-label">A · [recommended or not]</span>
+        <h2 id="a-name">[Style name]</h2>
+        <p>[Feels like: one sentence a non-designer understands.]</p>
+      </div>
+
+      <div class="hero">
+        <!-- Real image graded to the style, or an inline SVG illustration drawn for it -->
+        <!-- <img src="[image]" alt="[what it shows]"> -->
+        <div class="copy">
+          <h3>[Real headline for this brief]</h3>
+          <a class="btn" href="#">[Primary action]</a>
+        </div>
+      </div>
+
+      <div class="type">
+        <span class="slot-label">Type</span>
+        <p class="display">[Display sample in real copy]</p>
+        <p class="text">[Two lines of body copy for this brief, set in the text face.]</p>
+        <span class="label">[UI label]</span>
+        <p class="names">[Display face] · [Text face] · [why, tied to a gene]</p>
+      </div>
+
+      <div>
+        <span class="slot-label">Palette</span>
+        <div class="palette">
+          <div class="chip" style="background:var(--bg)">bg<br>[hex]</div>
+          <div class="chip" style="background:var(--surface)">surface<br>[hex]</div>
+          <div class="chip" style="background:var(--ink);color:var(--bg)">ink<br>[hex]</div>
+          <div class="chip" style="background:var(--accent);color:var(--on-accent)">accent<br>[hex]</div>
+          <div class="chip" style="background:var(--muted);color:var(--bg)">muted<br>[hex]</div>
+        </div>
+      </div>
+
+      <div class="imagery">
+        <div><span class="slot-label">Imagery</span><div class="frame-img"><!-- graded photo or illustration --></div></div>
+        <p>[Art direction in one or two lines: light, grade or illustration construction, crop.]</p>
+      </div>
+
+      <div>
+        <span class="slot-label">Icons</span>
+        <div class="icons" aria-hidden="true">
+          <!-- four icons from this style's own monochrome set, viewBox 0 0 24 24 -->
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M5 12h14M12 5v14"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg>
+        </div>
+      </div>
+
+      <div class="components">
+        <span class="slot-label">Components</span>
+        <div class="row"><a class="btn" href="#">[Primary]</a><a class="btn secondary" href="#">[Secondary]</a></div>
+        <div class="card"><h4>[Card title]</h4><p>[One line of card copy.]</p></div>
+      </div>
+
+      <div class="laws">
+        <span class="slot-label">Laws</span>
+        <ol><li>[Law 1]</li><li>[Law 2]</li><li>[Law 3]</li><li>[Law 4]</li><li>[Law 5]</li></ol>
+      </div>
+
+      <div class="genes">
+        <span class="slot-label">Where it comes from</span>
+        <ul>
+          <li>[Spine idea] <span>from [real name]</span></li>
+          <li>[Voice idea] <span>from [real name]</span></li>
+          <li>[Accent idea] <span>from [real name, far source]</span></li>
+          <li>[Personal idea] <span>from [the person, brand or place]</span></li>
+        </ul>
+      </div>
+    </section>
+  </div>
+</div>
+</body>
+</html>

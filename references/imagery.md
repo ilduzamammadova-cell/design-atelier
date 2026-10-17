@@ -19,10 +19,11 @@ Mixing photography and illustration on one page is fine when each has a clear jo
 
 1. **The person's own assets**: product shots, team, places, past work. Ask for them early; list exactly what is needed (subject, orientation, minimum size).
 2. **Generated images** when an image-generation tool is available in the session (an MCP image generator, Figma's image tools, etc.). Build prompts from the style spec (§ 4). Label generated stand-ins for real things, a product, a team, a venue, as `[placeholder: replace with real photo of …]`; never present them as the real thing.
-3. **Licensed stock**: Unsplash and Pexels allow free commercial use under their own licences; check the licence page for each source and keep a credits list. Choose images that obey the art direction (§ 3), then grade them to the palette.
-4. **Hand-built illustration / SVG**: when no generator is available, or when the style's laws call for drawn, geometric or diagrammatic imagery (§ 5).
+3. **A new business with no photos of its own?** Define the imagery inside the style first: an illustration system, a graphic photo treatment, or type and colour as the image. Generic stock of other cafés, shops or products undermines the style and tells a small lie about the place. Stock is a last resort for atmosphere, never a stand-in for the business's own room, product or people.
+4. **Licensed stock**: Unsplash and Pexels allow free commercial use under their own licences; check the licence page for each source and keep a credits list. Choose images that obey the art direction (§ 3), then grade them to the palette.
+5. **Hand-built illustration / SVG**: when no generator is available, or when the style's laws call for drawn, geometric or diagrammatic imagery (§ 5).
 
-Never ship a page with empty image frames. When the person's real photos are missing, fill every photo slot with a **stand-in**, stock or generated, graded to the art direction, and mark it visibly and in the alt text as a stand-in ("sample photo, replace with your own bread"). The stand-in shows what the real photo should look like; the label keeps it honest. Use a styled empty placeholder only when no stock or generation is possible at all (offline), and list the missing assets either way.
+Never ship a page with empty image frames. When the person's real photos are missing, fill every photo slot with a **stand-in**, stock or generated, graded to the art direction, and mark it visibly and in the alt text as a stand-in ("sample photo, replace with your own bread"). Never use a stock image that shows another business's logo, sign, packaging or recognisable interior. The stand-in shows what the real photo should look like; the label keeps it honest. Use a styled empty placeholder only when no stock or generation is possible at all (offline), and list the missing assets either way.
 
 ## 3. Art direction (write it into the style spec)
 
