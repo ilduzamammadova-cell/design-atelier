@@ -34,3 +34,7 @@ Then call it with `/design-atelier`, or just ask for help finding a design style
 - Profiles and journals are stored per person in `~/.design-atelier/profiles/`.
 - Atlas text is original analysis written for this skill; it does not reproduce source books.
 - The scripts need only Python 3 (no dependencies).
+
+## License
+
+MIT. See [LICENSE](LICENSE). Use it, change it, share it.
