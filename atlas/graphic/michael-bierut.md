@@ -3,7 +3,7 @@ id: michael-bierut
 name: Michael Bierut
 type: designer
 discipline: [graphic]
-era: 1980–present
+era: 1980 to present
 origin: New York, USA
 lineage: [massimo-vignelli, pentagram, swiss-international]
 tags:
@@ -22,7 +22,7 @@ axes: {order: 8, density: 4, ornament: 1, warmth: 5, contrast: 6, geometry: 7, c
 |---|---|---|
 | G1 · Cut the mark into a system | For Saks Fifth Avenue (2007) an existing script logo was sliced into a grid of squares and reshuffled into endless patterns. | Slice the brand mark into an N×N tile set; a pattern generator rotates and shuffles tiles for backgrounds, packaging and placeholders. The uncut mark appears at most once per screen. |
 | G2 · Generative family from one matrix | The MIT Media Lab identity (2014) gave each research group its own glyph drawn from the same small grid. | Every sub-product gets a glyph cut from one shared 7×7 matrix; glyphs differ in fill pattern only, so the family is obvious and infinite. |
-| G3 · Open symbol others can fill | The 2015–16 Clinton campaign "H" with arrow was simple enough for supporters to remake in their own colours and patterns. | A badge or avatar whose outer geometry is fixed but whose inner panel accepts user colour, pattern or photo; the fixed frame guarantees recognition. |
+| G3 · Open symbol others can fill | The 2015 to 16 Clinton campaign "H" with arrow was simple enough for supporters to remake in their own colours and patterns. | A badge or avatar whose outer geometry is fixed but whose inner panel accepts user colour, pattern or photo; the fixed frame guarantees recognition. |
 | G4 · Words first | A prolific writer (Design Observer, *79 Short Essays*), he explains design in plain English and treats the client's language as raw material. | Write microcopy and a one-sentence "why" for each component before layout; headings must make sense read alone; design rationale lives in the system docs in plain language. |
 | G5 · Vignelli discipline, softened | Ten years at Vignelli Associates: few typefaces, firm grids, but used with humour and a lighter hand. | Two type families, five sizes, one grid; humour allowed only in content and in one illustrative moment, never in the structure. |
 
@@ -39,9 +39,9 @@ Bierut sees design as a democratic, everyday art that should be understood by no
 
 ## Blends
 
-- **Amplifies:** `massimo-vignelli`, `experimental-jetset` — systematic modernism with a dry wit.
-- **Productive tension with:** `m-m-paris` — a generative grid system filled with hand-drawn alphabets keeps rigour but gains intimacy.
-- **Clashes with:** `vaughan-oliver` — Bierut's clarity and Oliver's deliberate mystery undo each other; the result is neither readable nor haunting.
+- **Amplifies:** `massimo-vignelli`, `experimental-jetset`, systematic modernism with a dry wit.
+- **Productive tension with:** `m-m-paris`, a generative grid system filled with hand-drawn alphabets keeps rigour but gains intimacy.
+- **Clashes with:** `vaughan-oliver`, Bierut's clarity and Oliver's deliberate mystery undo each other; the result is neither readable nor haunting.
 
 ## Don't copy
 

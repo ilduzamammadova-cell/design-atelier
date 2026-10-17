@@ -3,7 +3,7 @@ id: studio-dumbar
 name: Studio Dumbar (Gert Dumbar)
 type: studio
 discipline: [graphic]
-era: 1977–present
+era: 1977 to present
 origin: The Hague, later Rotterdam, Netherlands
 lineage: [postmodern-new-wave, de-stijl, dada]
 tags:
@@ -20,7 +20,7 @@ axes: {order: 4, density: 7, ornament: 5, warmth: 6, contrast: 7, geometry: 5, c
 
 | Gene | The idea | In UI / product terms |
 |---|---|---|
-| G1 · Staged photography | Gert Dumbar built physical sets (papier-mâché figures, found objects, smashed plates), had them photographed (often by Lex van Pieterson), then added typography. | Hero images are photographs of physical constructions made for the product — paper, props, models — never stock or 3D renders. Type is composited live in HTML over them. |
+| G1 · Staged photography | Gert Dumbar built physical sets (papier-mâché figures, found objects, smashed plates), had them photographed (often by Lex van Pieterson), then added typography. | Hero images are photographs of physical constructions made for the product, paper, props, models, never stock or 3D renders. Type is composited live in HTML over them. |
 | G2 · Colour as a public service code | In the privatised PTT identity (1989) colour identified each service: red for post, green for telephone, so booths were findable in any season. | Each top-level product area owns one saturated hue used on its nav marker and key surfaces; users learn the code. All hues contrast-checked for text use. |
 | G3 · Shape follows image | Posters die-cut into silhouettes dictated by the picture rather than the rectangle. | Promotional cards may use `clip-path` silhouettes drawn from their own image; standard content cards stay rectangular for scanning. |
 | G4 · Follow the fingertips | Intuition leads, the system follows; humour and impulse belong in public design too. | Before tokens exist, prototype three directions in analogue media; each campaign keeps one "impulse" element that is intentionally outside the system. |
@@ -39,9 +39,9 @@ Dumbar rejected "dehumanised" functionalism and wanted design with the freedom o
 
 ## Blends
 
-- **Amplifies:** `why-not-associates`, `hard-werken` — the same Dutch–British appetite for layered, joyful experiment.
-- **Productive tension with:** `wim-crouwel` — Total Design and Dumbar collaborated on the PTT; a Crouwel-grade grid under Dumbar's staged images makes a public system that still smiles.
-- **Clashes with:** `minimalism-art` — stillness and theatrical sets cancel each other out.
+- **Amplifies:** `why-not-associates`, `hard-werken`, the same Dutch-British appetite for layered, joyful experiment.
+- **Productive tension with:** `wim-crouwel`, Total Design and Dumbar collaborated on the PTT; a Crouwel-grade grid under Dumbar's staged images makes a public system that still smiles.
+- **Clashes with:** `minimalism-art`, stillness and theatrical sets cancel each other out.
 
 ## Don't copy
 
@@ -51,4 +51,4 @@ The PTT identity elements (1989), the Dutch police (Politie) livery, the 1987 Ho
 
 - Studio Dumbar, *Behind the Seen* (1996)
 - Studio site: https://studiodumbar.com
-- Aynsley, *A Century of Graphic Design*, pp. 184–185; Meggs, ch. 23
+- Aynsley, *A Century of Graphic Design*, pp. 184 to 185; Meggs, ch. 23

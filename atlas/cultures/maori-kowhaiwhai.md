@@ -40,9 +40,9 @@ The wharenui is understood as the body of an ancestor; rafters are ribs, and the
 
 ## Blends
 
-- **Amplifies:** `op-art` — figure–ground equality and optical rhythm (structurally, not stylistically).
-- **Productive tension with:** `swiss-international` — rational grid that admits one long, pulsing structural band.
-- **Clashes with:** `memphis` — random ornament contradicts the principle that pattern must carry meaning.
+- **Amplifies:** `op-art`, figure-ground equality and optical rhythm (structurally, not stylistically).
+- **Productive tension with:** `swiss-international`, rational grid that admits one long, pulsing structural band.
+- **Clashes with:** `memphis`, random ornament contradicts the principle that pattern must carry meaning.
 
 ## Don't copy
 

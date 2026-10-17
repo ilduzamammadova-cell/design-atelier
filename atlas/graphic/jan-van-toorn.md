@@ -3,8 +3,8 @@ id: jan-van-toorn
 name: Jan van Toorn
 type: designer
 discipline: [graphic]
-era: 1957–2020
-origin: Amsterdam, Netherlands (1932–2020)
+era: 1957 to 2020
+origin: Amsterdam, Netherlands (1932 to 2020)
 lineage: [dada, constructivism, photomontage]
 tags:
   mood: [critical, provocative, unfinished, political]
@@ -39,13 +39,13 @@ Van Toorn held that graphic design is never neutral: left unexamined, it serves 
 
 ## Blends
 
-- **Amplifies:** `adbusters`, `metahaven` — critique of media and power through their own visual codes.
-- **Productive tension with:** `wim-crouwel` — the classic Dutch opposition; an objective grid carrying deliberately unfinished montage.
-- **Clashes with:** `peter-saville` — Saville aestheticises borrowed images; Van Toorn exposes them. Combined, critique turns into a stylish surface.
+- **Amplifies:** `adbusters`, `metahaven`, critique of media and power through their own visual codes.
+- **Productive tension with:** `wim-crouwel`, the classic Dutch opposition; an objective grid carrying deliberately unfinished montage.
+- **Clashes with:** `peter-saville`, Saville aestheticises borrowed images; Van Toorn exposes them. Combined, critique turns into a stylish surface.
 
 ## Don't copy
 
-The Mart. Spruijt calendars (1960s–70s), the Van Abbemuseum catalogues, the *Mens en Omgeving* posters (1982), the Willem Drees stamp (1986), the *Dutch Art + Architecture Today* covers.
+The Mart. Spruijt calendars (1960s to 70s), the Van Abbemuseum catalogues, the *Mens en Omgeving* posters (1982), the Willem Drees stamp (1986), the *Dutch Art + Architecture Today* covers.
 
 ## Study
 
@@ -53,4 +53,4 @@ The Mart. Spruijt calendars (1960s–70s), the Van Abbemuseum catalogues, the *M
 - *The Debate* (Monacelli, 2015)
 - Stedelijk Museum tribute and collection: https://www.stedelijk.nl
 - Dutch Graphic Roots: https://www.dutchgraphicroots.nl
-- Aynsley, *A Century of Graphic Design*, pp. 182–183
+- Aynsley, *A Century of Graphic Design*, pp. 182 to 183

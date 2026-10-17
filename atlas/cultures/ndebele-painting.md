@@ -20,10 +20,10 @@ axes: {order: 9, density: 6, ornament: 7, warmth: 7, contrast: 10, geometry: 10,
 
 | Gene | The idea | In UI / product terms |
 |---|---|---|
-| G1 · Black contour as structure | Thick black lines define every shape; colour sits inside like enamel in cloisons. | Components with 3–4px black borders, flat fills and no shadows; the outline network doubles as the grid. |
+| G1 · Black contour as structure | Thick black lines define every shape; colour sits inside like enamel in cloisons. | Components with 3 to 4px black borders, flat fills and no shadows; the outline network doubles as the grid. |
 | G2 · Symmetry around the doorway | Homestead walls and gateways are painted symmetrically, with the entrance as the centre of the composition. | Landing and checkout screens centred on the primary action as "doorway", with mirrored ornamental bands framing it. |
 | G3 · New objects absorbed into geometry | Painters drew modern things (buildings, stairs, light fittings, letters) into the geometric vocabulary. | Abstract your own product's objects (devices, documents, routes) into the pattern language, so ornament speaks of the present. |
-| G4 · White ground, saturated fills | Lime-white walls carry reds, blues, yellows, greens and pinks at full strength. | White canvas with 4–5 saturated fills and black; no tints, no gradients. |
+| G4 · White ground, saturated fills | Lime-white walls carry reds, blues, yellows, greens and pinks at full strength. | White canvas with 4 to 5 saturated fills and black; no tints, no gradients. |
 | G5 · Scale crescendo | On her 1991 BMW Art Car, Esther Mahlangu made shapes grow continuously from the front to the rear of the car to add a sense of motion. | Patterns that grow in scale along the direction of scroll or progress (small at start, large at completion). |
 
 ## Visual facts
@@ -39,9 +39,9 @@ The painting is women's work, passed from mother to daughter, and asserted Ndebe
 
 ## Blends
 
-- **Amplifies:** `de-stijl`, `memphis` — black line plus primaries, colour as structure.
-- **Productive tension with:** `scandinavian-modern` — restrained furniture-like UI with one fully painted "wall".
-- **Clashes with:** `japanese-wabi-sabi-and-ma` — muted void and saturated declaration undo each other.
+- **Amplifies:** `de-stijl`, `memphis`, black line plus primaries, colour as structure.
+- **Productive tension with:** `scandinavian-modern`, restrained furniture-like UI with one fully painted "wall".
+- **Clashes with:** `japanese-wabi-sabi-and-ma`, muted void and saturated declaration undo each other.
 
 ## Don't copy
 

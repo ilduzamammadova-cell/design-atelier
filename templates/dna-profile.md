@@ -9,7 +9,7 @@ stated_axes: {order: 5, density: 5, ornament: 5, warmth: 5, contrast: 5, geometr
 cultural_mixing: no                  # yes only if the person asked for it; list traditions below
 ---
 
-# Style DNA — [Name]
+# Style DNA, [Name]
 
 ## Portrait
 
@@ -39,7 +39,7 @@ What the gap suggests, and what the person chose to do about it.
 ## Loves / rejects
 
 - **Loves:** objects, places, materials, words
-- **Never:** verbatim rejections — these are the style's first "never" rules
+- **Never:** verbatim rejections, these are the style's first "never" rules
 
 ## Personal material
 
@@ -56,8 +56,8 @@ Promoted after appearing in 3+ journal entries. Empty at first.
 
 ## Styles
 
-- [style-slug] — one-line description — created YYYY-MM-DD
+- [style-slug], one-line description, created YYYY-MM-DD
 
 ## Changelog
 
-- YYYY-MM-DD — created from [evidence]
+- YYYY-MM-DD, created from [evidence]

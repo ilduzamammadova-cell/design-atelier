@@ -3,7 +3,7 @@ id: eastern-european-folk-embroidery
 name: Eastern European folk embroidery and paper-cut (Ukrainian vyshyvanka, Romanian ia, Hungarian, Polish traditions)
 type: tradition
 discipline: [craft]
-era: centuries old; 19th–20th century regional peaks; living practice (Romanian–Moldovan ia with altiță on UNESCO's Representative List, 2022)
+era: centuries old; 19th to 20th century regional peaks; living practice (Romanian-Moldovan ia with altiță on UNESCO's Representative List, 2022)
 origin: Ukraine, Romania, Moldova, Hungary, Poland and neighbouring regions
 lineage: []
 tags:
@@ -39,9 +39,9 @@ Embroidery recorded who and where a person was: village, region, marital status,
 
 ## Blends
 
-- **Amplifies:** `susan-kare`, `sonia-delaunay`, `henri-matisse` — grid-born pixel motifs and folk colour.
-- **Productive tension with:** `bauhaus` — rational sans and plain surfaces, with ornament confined to thresholds.
-- **Clashes with:** `deconstructivist-type` — fractured layouts destroy the counted symmetry.
+- **Amplifies:** `susan-kare`, `sonia-delaunay`, `henri-matisse`, grid-born pixel motifs and folk colour.
+- **Productive tension with:** `bauhaus`, rational sans and plain surfaces, with ornament confined to thresholds.
+- **Clashes with:** `deconstructivist-type`, fractured layouts destroy the counted symmetry.
 
 ## Don't copy
 

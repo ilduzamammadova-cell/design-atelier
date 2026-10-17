@@ -3,7 +3,7 @@ id: bodoni
 name: Bodoni
 type: typeface
 discipline: [graphic, ui]
-era: 1790s; revivals 1926–2020s
+era: 1790s; revivals 1926 to 2020s
 origin: Parma, Italy
 lineage: [giambattista-bodoni, baskerville]
 tags:
@@ -21,16 +21,16 @@ axes: {order: 8, density: 2, ornament: 1, warmth: 2, contrast: 10, geometry: 8, 
 | Gene | The idea | In UI / product terms |
 |---|---|---|
 | G1 · Vertical stress, hairline serifs | Thick strokes stand upright, the thin ones shrink to hairlines, and serifs meet stems at a sharp right angle with no bracket. | Display-only token. With Bodoni Moda use `font-optical-sizing: auto`, or pin `opsz` to the rendered size. The high-contrast cut appears only where its hairline renders ≥ 1 device pixel: about 32px+ on 1×, 24px+ on 2×. |
-| G2 · Optical sizes, rebuilt from punches | ITC Bodoni (1994) went back to the Parma punches and produced three designs: Six for small text, Seventytwo for large, and Twelve interpolated between. Bodoni himself varied each size. | Map tokens to optical sizes, not just pixel sizes: caption → `opsz` 6–11, body → 11–14, display → 72–96. One family, three voices, and the small one gets sturdier hairlines and looser spacing. |
+| G2 · Optical sizes, rebuilt from punches | ITC Bodoni (1994) went back to the Parma punches and produced three designs: Six for small text, Seventytwo for large, and Twelve interpolated between. Bodoni himself varied each size. | Map tokens to optical sizes, not just pixel sizes: caption → `opsz` 6 to 11, body → 11 to 14, display → 72 to 96. One family, three voices, and the small one gets sturdier hairlines and looser spacing. |
 | G3 · Ball terminals as the only curve | Drops on *a, c, f, r, y* are the softest moment in a severe system. | Echo the ball terminal as the system's only rounded element (solid round bullets, radio dots, slider knobs) while every other corner stays at 0px radius. |
-| G4 · Picket-fence rhythm | Narrow-ish letters with strong verticals create a dazzling stripe. It is thrilling in a headline and tiring in a paragraph. | Headlines track 0 to −1%. All-caps navigation in Bodoni opens to +8–12% so the stripes breathe. No Bodoni paragraph runs longer than three lines; text goes to the companion face. |
-| G5 · Big theatrical numerals | High-contrast lining figures turn dates, prices and edition numbers into ornaments. | "Big number" hero (year, issue no., price) at ≥ 80px in Bodoni with a 12–14px sans caption under it. Tabular data never uses Bodoni figures. |
+| G4 · Picket-fence rhythm | Narrow-ish letters with strong verticals create a dazzling stripe. It is thrilling in a headline and tiring in a paragraph. | Headlines track 0 to −1%. All-caps navigation in Bodoni opens to +8 to 12% so the stripes breathe. No Bodoni paragraph runs longer than three lines; text goes to the companion face. |
+| G5 · Big theatrical numerals | High-contrast lining figures turn dates, prices and edition numbers into ornaments. | "Big number" hero (year, issue no., price) at ≥ 80px in Bodoni with a 12 to 14px sans caption under it. Tabular data never uses Bodoni figures. |
 
 ## Visual facts
 
 - **Classification:** Didone (Modern) serif.
 - **Origin:** Giambattista Bodoni, Parma, refined through the 1790s; shown in the *Manuale tipografico* (1788; expanded edition 1818).
-- **Main digital versions:** Bauer Bodoni (Heinrich Jost with punchcutter Louis Hoell, 1926–27; often called the most faithful revival; commercial via Linotype/Monotype). ITC Bodoni (1994; team led by Sumner Stone with Holly Goldsmith, Janice Prescott Fishman and Jim Parkinson; commercial). Its Seventytwo cut ships with macOS as Bodoni 72. ATF Bodoni (Morris Fuller Benton) was the American standard Bauer competed with.
+- **Main digital versions:** Bauer Bodoni (Heinrich Jost with punchcutter Louis Hoell, 1926 to 27; often called the most faithful revival; commercial via Linotype/Monotype). ITC Bodoni (1994; team led by Sumner Stone with Holly Goldsmith, Janice Prescott Fishman and Jim Parkinson; commercial). Its Seventytwo cut ships with macOS as Bodoni 72. ATF Bodoni (Morris Fuller Benton) was the American standard Bauer competed with.
 - **Anatomy:** small x-height, long extenders, extreme stroke contrast, flat hairline serifs, ball terminals, fairly narrow proportions, terminals that curl inward (tight apertures).
 - **Free / open alternatives:** Bodoni Moda (Owen Earl / indestructible type, OFL; variable weight and optical-size axes, the gene intact) and Libre Bodoni (Impallari Type, OFL).
 

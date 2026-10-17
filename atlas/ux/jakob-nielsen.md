@@ -3,7 +3,7 @@ id: jakob-nielsen
 name: Jakob Nielsen
 type: designer
 discipline: [ux]
-era: 1990–present
+era: 1990 to present
 origin: Copenhagen, Denmark / Silicon Valley, USA
 lineage: [don-norman]
 tags:
@@ -20,7 +20,7 @@ axes: {order: 7, density: 5, ornament: 0, warmth: 3, contrast: 5, geometry: 5, c
 
 | Gene | The idea | In UI / product terms |
 |---|---|---|
-| G1 · Always show status | Heuristic 1: users should always know what is happening and where they are | Feedback by duration: under 1s nothing extra; 1–10s spinner or skeleton; over 10s a percent bar with time estimate and Cancel. Breadcrumb or clear page title on every page |
+| G1 · Always show status | Heuristic 1: users should always know what is happening and where they are | Feedback by duration: under 1s nothing extra; 1 to 10s spinner or skeleton; over 10s a percent bar with time estimate and Cancel. Breadcrumb or clear page title on every page |
 | G2 · Recognition over recall | Seeing options is easier than remembering them | Visible menus beside shortcuts; recent items and searches offered on focus; form labels always visible (no placeholder-only labels); autocomplete for known values |
 | G3 · Jakob's Law | People spend most of their time on other sites, so they expect yours to work the same way | Logo top-left returns home; search top-right; cart icon top-right; links look like links. Break a convention only when testing shows a measurable win |
 | G4 · Response-time limits | 0.1s feels instant, 1s keeps flow, 10s is the limit of attention | Optimistic updates for anything under 100ms; never block input during a save; tasks over 10s run in the background with a notification when done |
@@ -29,20 +29,20 @@ axes: {order: 7, density: 5, ornament: 0, warmth: 3, contrast: 5, geometry: 5, c
 
 ## Visual facts
 
-- **Color:** his own site (useit.com) was famously plain — white ground, default blue underlined links, almost no imagery. Echo: #FFFFFF, text #222, links #0645AD / visited #551A8B.
+- **Color:** his own site (useit.com) was famously plain, white ground, default blue underlined links, almost no imagery. Echo: #FFFFFF, text #222, links #0645AD / visited #551A8B.
 - **Type:** system sans at readable sizes, high contrast → Verdana, Arial, Atkinson Hyperlegible (period-correct).
 - **Form:** few images, no ornament; underlined links as a moral position.
 - **Composition:** single readable column, conventional placement of navigation, generous headings.
 
 ## Attitude
 
-Nielsen championed "discount usability": a few users, heuristic reviews and quick iteration beat expensive studies that never happen. His ten heuristics (with Rolf Molich, 1990; refined 1994) became the profession's shared checklist. He values the user's time over the designer's expression, and since founding UX Tigers (2023) argues that AI introduces intent-based interaction — users state outcomes rather than commands.
+Nielsen championed "discount usability": a few users, heuristic reviews and quick iteration beat expensive studies that never happen. His ten heuristics (with Rolf Molich, 1990; refined 1994) became the profession's shared checklist. He values the user's time over the designer's expression, and since founding UX Tigers (2023) argues that AI introduces intent-based interaction, users state outcomes rather than commands.
 
 ## Blends
 
-- **Amplifies:** `steve-krug`, `don-norman`, `laws-of-ux` — the empirical, plain-spoken usability canon.
-- **Productive tension with:** `alan-kay` — convention against invention; ship new media but anchor them in familiar entry points.
-- **Clashes with:** `deconstructivist-type` — expressive illegibility defeats scanning, conventions and recognition.
+- **Amplifies:** `steve-krug`, `don-norman`, `laws-of-ux`, the empirical, plain-spoken usability canon.
+- **Productive tension with:** `alan-kay`, convention against invention; ship new media but anchor them in familiar entry points.
+- **Clashes with:** `deconstructivist-type`, expressive illegibility defeats scanning, conventions and recognition.
 
 ## Don't copy
 

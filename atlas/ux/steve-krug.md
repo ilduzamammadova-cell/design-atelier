@@ -3,7 +3,7 @@ id: steve-krug
 name: Steve Krug
 type: designer
 discipline: [ux]
-era: 2000–present
+era: 2000 to present
 origin: Massachusetts, USA
 lineage: [jakob-nielsen, don-norman]
 tags:
@@ -14,7 +14,7 @@ axes: {order: 6, density: 3, ornament: 1, warmth: 7, contrast: 6, geometry: 5, c
 
 # Steve Krug
 
-**Essence:** Don't make people think: every page should be obvious at a glance, because users scan, take the first reasonable option and muddle through — design for how people really behave, and check it by watching a few of them.
+**Essence:** Don't make people think: every page should be obvious at a glance, because users scan, take the first reasonable option and muddle through, design for how people really behave, and check it by watching a few of them.
 
 ## Genes
 
@@ -29,7 +29,7 @@ axes: {order: 6, density: 3, ornament: 1, warmth: 7, contrast: 6, geometry: 5, c
 
 ## Visual facts
 
-- **Color:** conventional and functional — clear link colour, high-contrast text, colour used to separate page areas.
+- **Color:** conventional and functional, clear link colour, high-contrast text, colour used to separate page areas.
 - **Type:** plain sans, large clear page titles → Source Sans 3, Public Sans.
 - **Form:** tabs, obvious buttons, bounded areas; nothing that hides interactivity.
 - **Composition:** conventional placements (logo, navigation, search) so attention goes to content; generous headings.
@@ -40,9 +40,9 @@ Krug's *Don't Make Me Think* (2000; revised 2014) made usability readable and fu
 
 ## Blends
 
-- **Amplifies:** `jakob-nielsen`, `don-norman`, `gestalt-principles` — convention, signifiers and visual grouping.
-- **Productive tension with:** `bret-victor` — invented media need explaining; Krug's discipline makes new interaction forms legible at first glance.
-- **Clashes with:** `david-carson` — expressive illegibility and self-evidence cannot share the same working surface.
+- **Amplifies:** `jakob-nielsen`, `don-norman`, `gestalt-principles`, convention, signifiers and visual grouping.
+- **Productive tension with:** `bret-victor`, invented media need explaining; Krug's discipline makes new interaction forms legible at first glance.
+- **Clashes with:** `david-carson`, expressive illegibility and self-evidence cannot share the same working surface.
 
 ## Don't copy
 

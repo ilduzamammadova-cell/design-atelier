@@ -3,7 +3,7 @@ id: universal-design
 name: Universal Design
 type: principle
 discipline: [product, architecture, ux]
-era: 1960s–present (term c. 1985; seven principles 1997)
+era: 1960s to present (term c. 1985; seven principles 1997)
 origin: Raleigh, North Carolina, USA
 lineage: [henry-dreyfuss]
 tags:
@@ -14,7 +14,7 @@ axes: {order: 6, density: 3, ornament: 1, warmth: 6, contrast: 6, geometry: 4, c
 
 # Universal Design
 
-**Essence:** One design, usable by the widest range of people without adaptation or a special version — the curb cut, not the separate ramp around the back.
+**Essence:** One design, usable by the widest range of people without adaptation or a special version, the curb cut, not the separate ramp around the back.
 
 ## Genes
 
@@ -25,7 +25,7 @@ axes: {order: 6, density: 3, ornament: 1, warmth: 6, contrast: 6, geometry: 4, c
 | G3 · Simple and intuitive | Understandable regardless of experience, language or concentration | Icon + text label pairs; one primary action per screen; copy at roughly a 12-year-old reading level; consistent placement across screens |
 | G4 · Perceptible information | Communicate through redundant channels so information survives any one sense failing | Status = colour + icon + text, always all three; alerts = sound + haptic + visual; text over images always on a solid scrim |
 | G5 · Tolerance for error | Minimise hazards and the consequences of accidental actions | Undo everywhere; dangerous controls separated and guarded; inputs forgive formats (dates, phone numbers, spaces); warnings appear before the point of no return, not after |
-| G6 · Low effort, room to approach | Minimal fatigue; size and space for any body, posture or device | Targets ≥ 48px with 8px gaps; no long-press- or precise-drag-only actions; sticky bottom actions on long pages; kiosk controls within seated reach (roughly 38–120cm high) |
+| G6 · Low effort, room to approach | Minimal fatigue; size and space for any body, posture or device | Targets ≥ 48px with 8px gaps; no long-press- or precise-drag-only actions; sticky bottom actions on long pages; kiosk controls within seated reach (roughly 38 to 120cm high) |
 
 ## Visual facts
 
@@ -36,13 +36,13 @@ axes: {order: 6, density: 3, ornament: 1, warmth: 6, contrast: 6, geometry: 4, c
 
 ## Attitude
 
-Architect Ronald Mace, himself a wheelchair user, popularised the term in the 1980s and led the NC State Center for Universal Design's working group that published the seven principles in 1997. Antecedents include Selwyn Goldsmith's dropped-kerb work in the UK and Patricia Moore's late-1970s experiment living disguised as an elderly woman. The belief: designing for the extremes of human ability improves things for everyone — and segregated solutions stigmatise.
+Architect Ronald Mace, himself a wheelchair user, popularised the term in the 1980s and led the NC State Center for Universal Design's working group that published the seven principles in 1997. Antecedents include Selwyn Goldsmith's dropped-kerb work in the UK and Patricia Moore's late-1970s experiment living disguised as an elderly woman. The belief: designing for the extremes of human ability improves things for everyone, and segregated solutions stigmatise.
 
 ## Blends
 
-- **Amplifies:** `inclusive-design`, `henry-dreyfuss`, `fitts-and-hicks-laws` — human measurement, reach and fit.
-- **Productive tension with:** `memphis` — loud colour and chunky forms can become high-perceptibility, high-grip objects; irony meets usefulness.
-- **Clashes with:** `op-art` — vibrating patterns and figure–ground illusions defeat perceptibility and can trigger vestibular discomfort.
+- **Amplifies:** `inclusive-design`, `henry-dreyfuss`, `fitts-and-hicks-laws`, human measurement, reach and fit.
+- **Productive tension with:** `memphis`, loud colour and chunky forms can become high-perceptibility, high-grip objects; irony meets usefulness.
+- **Clashes with:** `op-art`, vibrating patterns and figure-ground illusions defeat perceptibility and can trigger vestibular discomfort.
 
 ## Don't copy
 
@@ -53,5 +53,5 @@ The OXO Good Grips handle form, NC State's principle poster and wording reproduc
 - Center for Universal Design, NC State, *The Principles of Universal Design*, version 2.0 (1997)
 - Selwyn Goldsmith, *Designing for the Disabled* (1963)
 - Patricia Moore, *Disguised* (1985)
-- Cooper Hewitt, *Access+Ability* exhibition (2017–18): https://www.cooperhewitt.org
+- Cooper Hewitt, *Access+Ability* exhibition (2017 to 18): https://www.cooperhewitt.org
 - Universal Design Ireland's principles resource: https://universaldesign.ie

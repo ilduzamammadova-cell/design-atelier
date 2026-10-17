@@ -3,7 +3,7 @@ id: henry-van-de-velde
 name: Henry van de Velde
 type: designer
 discipline: [graphic, architecture, product]
-era: 1892–1914
+era: 1892 to 1914
 origin: Brussels, Belgium and Weimar, Germany (born Antwerp)
 lineage: [arts-and-crafts, art-nouveau]
 tags:
@@ -20,7 +20,7 @@ axes: {order: 4, density: 5, ornament: 7, warmth: 6, contrast: 7, geometry: 2, c
 
 | Gene | The idea | In UI / product terms |
 |---|---|---|
-| G1 · Abstract line as meaning | For Tropon food concentrate (c. 1898) he made no picture of the product or its users. Swelling abstract curves and colour suggested vitality, an early abstract advertisement. | Brand imagery without literal depiction: a set of 3–5 abstract line forms whose tension expresses the product's quality (speed, nourishment, calm). Used in heroes, motion intros and packaging instead of stock photos. |
+| G1 · Abstract line as meaning | For Tropon food concentrate (c. 1898) he made no picture of the product or its users. Swelling abstract curves and colour suggested vitality, an early abstract advertisement. | Brand imagery without literal depiction: a set of 3 to 5 abstract line forms whose tension expresses the product's quality (speed, nourishment, calm). Used in heroes, motion intros and packaging instead of stock photos. |
 | G2 · Line shapes both figure and ground | His ornament defines negative space as actively as positive, so the white between the lines is shaped too. | Draw illustrations and patterns so the background shapes are designed: test by inverting colours, where both versions should read well. Use for logos and spot illustrations. |
 | G3 · Ornament as expression, not decoration | He argued ornament should express structure and force, earning a place as art rather than applied decoration. | Each decorative element states its job in the spec: "shows direction", "marks section", "signals energy". Elements without a stated expressive job are removed. |
 | G4 · Honest machine form | Machine-made objects, he argued, should look like what they are and not pretend to be handmade. | Digital-native styling: no fake brush strokes, simulated paper or stitched leather. Texture appears only where it comes from real input (a user's drawing, a photograph). |

@@ -3,7 +3,7 @@ id: saul-bass
 name: Saul Bass
 type: designer
 discipline: [graphic]
-era: 1950s–1990s
+era: 1950s to 1990s
 origin: Los Angeles, USA
 lineage: [new-york-school, bauhaus, paul-rand]
 tags:
@@ -12,19 +12,19 @@ tags:
 axes: {order: 4, density: 3, ornament: 2, warmth: 6, contrast: 8, geometry: 5, chroma: 6, typevoice: 6, energy: 8, hand: 6, play: 5, era: 7}
 ---
 
-# Saul Bass (1920–1996)
+# Saul Bass (1920 to 1996)
 
-**Essence:** One jagged symbol that holds a whole story — cut with scissors, set in motion, and carried across every surface.
+**Essence:** One jagged symbol that holds a whole story, cut with scissors, set in motion, and carried across every surface.
 
 ## Genes
 
 | Gene | The idea | In UI / product terms |
 |---|---|---|
-| G1 · One glyph, whole programme | For *The Man with the Golden Arm* (1955) a single pictographic arm unified posters, newspaper ads, titles and stationery — the first fully unified film campaign. | One key symbol is used from app icon to splash, onboarding, empty states and notifications, scaled and animated but never swapped for a different illustration. |
+| G1 · One glyph, whole programme | For *The Man with the Golden Arm* (1955) a single pictographic arm unified posters, newspaper ads, titles and stationery, the first fully unified film campaign. | One key symbol is used from app icon to splash, onboarding, empty states and notifications, scaled and animated but never swapped for a different illustration. |
 | G2 · Scissor-cut edges | Shapes are cut from paper or brushed, deliberately imprecise; reduction without the coldness of ruler-drawn constructivism. | Illustration and mask shapes drawn as slightly irregular SVG paths (no perfect radii, no 90° corners), with one jagged silhouette as the hero. Flat fills only. |
-| G3 · Motion as transformation | Title sequences in which bars enter, assemble, part and finally morph into the film's symbol — form appearing, dissolving, reforming. | Screen transitions where layout bars animate into the next view's structure; the loader assembles from bars into the logo (stagger 60–80ms, ease-out). |
+| G3 · Motion as transformation | Title sequences in which bars enter, assemble, part and finally morph into the film's symbol, form appearing, dissolving, reforming. | Screen transitions where layout bars animate into the next view's structure; the loader assembles from bars into the logo (stagger 60 to 80ms, ease-out). |
 | G4 · Cut to the beat | Graphics synchronised with a jazz or orchestral score; motion has syncopation. | A motion grid based on tempo (e.g. 120 BPM → 500ms beat, 250ms half-beat); all onboarding animations start on beats; one deliberate off-beat accent. |
-| G5 · Colour bands + silhouette | Flat bands of colour with a black silhouette cutting across them and type knocked into the figure (*Anatomy of a Murder*, 1959). | Hero made of 2–3 horizontal flat colour bands; one black silhouette overlaps the bands; the title is knocked out of the silhouette in a hand-drawn letter. |
+| G5 · Colour bands + silhouette | Flat bands of colour with a black silhouette cutting across them and type knocked into the figure (*Anatomy of a Murder*, 1959). | Hero made of 2 to 3 horizontal flat colour bands; one black silhouette overlaps the bands; the title is knocked out of the silhouette in a hand-drawn letter. |
 | G6 · Simple with a second reading | His corporate marks (AT&T, United, Minolta, Quaker) are readable instantly but keep a metaphor that rewards return. | Logo brief requirement: one reading at a glance, one discovered on the third look; test with users at 1s and 10s exposure. |
 
 ## Visual facts
@@ -40,9 +40,9 @@ Bass believed the essence of a subject could be distilled into a symbol strong e
 
 ## Blends
 
-- **Amplifies:** `paul-rand`, `polish-poster-school` — reduced, hand-cut, metaphorical symbols.
-- **Productive tension with:** `otl-aicher` — precise pictogram systems loosened by cut-paper energy: expressive yet consistent icon families.
-- **Clashes with:** `memphis` — many competing patterned shapes cancel the one-symbol idea.
+- **Amplifies:** `paul-rand`, `polish-poster-school`, reduced, hand-cut, metaphorical symbols.
+- **Productive tension with:** `otl-aicher`, precise pictogram systems loosened by cut-paper energy: expressive yet consistent icon families.
+- **Clashes with:** `memphis`, many competing patterned shapes cancel the one-symbol idea.
 
 ## Don't copy
 

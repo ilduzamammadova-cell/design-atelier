@@ -3,7 +3,7 @@ id: islamic-geometric-pattern
 name: Islamic geometric pattern (girih, zellige and related traditions)
 type: tradition
 discipline: [architecture, craft, graphic]
-era: c. 9th century–present; girih tile method by c. 1200; living craft (Moroccan zellige, Iranian and Central Asian tilework)
+era: c. 9th century-present; girih tile method by c. 1200; living craft (Moroccan zellige, Iranian and Central Asian tilework)
 origin: cross-regional: from al-Andalus and Morocco to Egypt, Anatolia, Iran, Central Asia and South Asia
 lineage: []
 tags:
@@ -36,13 +36,13 @@ axes: {order: 10, density: 8, ornament: 9, warmth: 5, contrast: 6, geometry: 10,
 
 ## Attitude
 
-The patterns express unity in multiplicity and were transmitted as workshop knowledge, recorded in design scrolls such as the Topkapı Scroll. They are mathematics made visible and tactile. Owen Jones's study of the Alhambra (1842–45) and *The Grammar of Ornament* (1856) brought them into Western design teaching.
+The patterns express unity in multiplicity and were transmitted as workshop knowledge, recorded in design scrolls such as the Topkapı Scroll. They are mathematics made visible and tactile. Owen Jones's study of the Alhambra (1842 to 45) and *The Grammar of Ornament* (1856) brought them into Western design teaching.
 
 ## Blends
 
-- **Amplifies:** `owen-jones`, `art-deco`, `op-art` — geometric star systems and optical order.
-- **Productive tension with:** `kuba-raffia-cloth` — perfect symmetry against deliberate interruption.
-- **Clashes with:** `punk-graphics` — torn collage breaks the logic that is the whole point.
+- **Amplifies:** `owen-jones`, `art-deco`, `op-art`, geometric star systems and optical order.
+- **Productive tension with:** `kuba-raffia-cloth`, perfect symmetry against deliberate interruption.
+- **Clashes with:** `punk-graphics`, torn collage breaks the logic that is the whole point.
 
 ## Don't copy
 

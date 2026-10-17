@@ -3,7 +3,7 @@ id: geofroy-tory
 name: Geofroy (Geoffroy) Tory
 type: designer
 discipline: [graphic]
-era: 1505–1533
+era: 1505 to 1533
 origin: Paris, France (born Bourges)
 lineage: [aldus-manutius, illuminated-manuscripts]
 tags:
@@ -21,7 +21,7 @@ axes: {order: 7, density: 6, ornament: 6, warmth: 6, contrast: 5, geometry: 7, c
 | Gene | The idea | In UI / product terms |
 |---|---|---|
 | G1 · Letters constructed on a declared grid | *Champ Fleury* (1529) builds each roman capital on a background of 10×10 squares with stated compass centres. The construction is published, not hidden. | Build logotypes, monograms and icon sets on an explicit grid (e.g. 10×10 or 24×24 units with named keylines). Publish the construction drawings in the brand docs so anyone can extend the set consistently. |
-| G2 · Proportion from the body | Tory related the parts of letters to the proportions of the human figure and face, measuring the abstract against the body. | Size from the body, not the screen: touch targets ≥ 44×44px (fingertip), body type set by reading distance (16–18px at arm's length, larger in kiosks), line length set by eye span (45–75 characters). |
+| G2 · Proportion from the body | Tory related the parts of letters to the proportions of the human figure and face, measuring the abstract against the body. | Size from the body, not the screen: touch targets ≥ 44×44px (fingertip), body type set by reading distance (16 to 18px at arm's length, larger in kiosks), line length set by eye span (45 to 75 characters). |
 | G3 · Light, open ornament | His 1525 Books of Hours dropped the crowded patchwork of earlier printed borders for fine contour line with air around it, matching the lightness of the new roman type. Initials sat in squares with a dotted *criblé* ground. | Ornament at body-text weight: hairline frames (1px at 40% ink) and badge or initial backgrounds in a dot field (1px dots, 4px pitch) instead of solid fills. Decoration should never be darker than the text it accompanies. |
 | G4 · Modular borders | Border pieces filled with plants and animals were combined and recombined across his books, so a few cut blocks gave many frames. | Frames built from interchangeable edge modules (corner, top, side, bottom), assembled with 9-slice or CSS `border-image`. Four to six SVG parts produce every card, certificate and modal frame in the product. |
 | G5 · Orthography is design | As a reformer of French printing he helped introduce the apostrophe, accents and cedilla to the printed page. | Make diacritics and locale punctuation first-class: test every font against full Latin Extended, build French thin spaces before `; : ! ?` and correct quotation marks into text components, and never truncate in a way that strips accents. |

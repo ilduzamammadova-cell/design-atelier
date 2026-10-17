@@ -3,7 +3,7 @@ id: arts-and-crafts
 name: Arts and Crafts Movement (and the Private Press Movement)
 type: movement
 discipline: [graphic, craft, product, architecture]
-era: c. 1860–1914
+era: c. 1860 to 1914
 origin: England (spreading to the USA, Germany, Austria, Scandinavia)
 lineage: [illuminated-manuscripts, owen-jones]
 tags:

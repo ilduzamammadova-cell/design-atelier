@@ -11,7 +11,7 @@ Load `figma:figma-use` before writing interactions via MCP. Reactions are set wi
 | The primary task, end to end | Every edge state of every screen |
 | The most likely error on that path, and its recovery | Platform-standard behavior (system sheets, pickers, permission dialogs) unless the design changes it |
 | The navigation model: tabs, back, modals, deep entry points | Settings lists, legal pages, long static content |
-| Novel interactions and gestures — anything costly to get wrong in code | Marketing pages: build them in code (`../web.md`) |
+| Novel interactions and gestures, anything costly to get wrong in code | Marketing pages: build them in code (`../web.md`) |
 | Transitions that carry meaning (continuity, hierarchy) | Decorative motion |
 | State-heavy controls, through interactive components | Data variety beyond what variables can fake |
 
@@ -58,10 +58,10 @@ Touch screens have no hover: never put meaning only in a hover trigger.
 - **Layers match when they share the same name, the same parent names and the same position in the hierarchy.** Top-level frame names may differ. Text layers you renamed match by name; auto-named text layers match by text style.
 - **Duplicate the frame, then edit**, so names stay identical. Name new layers deliberately; hover a layer in the Prototype tab to see what it matches.
 - **Hide with opacity 0, not visibility**, so the layer fades instead of popping. Layers that exist only in the destination dissolve in.
-- **Animates:** position, size, rotation, opacity, and fills (solid, gradient, image). Auto layout reflow animates too — expanding a row moves its neighbors.
+- **Animates:** position, size, rotation, opacity, and fills (solid, gradient, image). Auto layout reflow animates too, expanding a row moves its neighbors.
 - **Falls back to dissolve:** layers with drop or inner shadows, and morphs between different shapes. Layers with noise, texture or blur do animate, but only between duplicated frames.
 - **Overlays:** Open overlay can't Smart Animate; Swap overlay between overlays with matching layers can.
-- **Shared-element transitions:** use Push/Slide/Move with "Smart animate matching layers" — matched layers (header, image) animate while the rest slides. Put a solid-fill rectangle behind the content, or Slide and Move show both screens overlapping.
+- **Shared-element transitions:** use Push/Slide/Move with "Smart animate matching layers", matched layers (header, image) animate while the rest slides. Put a solid-fill rectangle behind the content, or Slide and Move show both screens overlapping.
 
 ## 6. Motion matched to the style's tokens
 
@@ -83,11 +83,11 @@ Prototype motion is a spec developers copy; it must use the same numbers as the 
 - **Audit:** read every node's `reactions` and list the distinct (transition, easing, duration) combinations; anything not in the token table is a bug.
 - **Back easings (overshoot) and Bouncy springs** only when the style's personality is Physical or Kinetic.
 - **Reduced motion:** prototypes have no reduced-motion switch (verify). To show the alternative, add a boolean `proto/reduceMotion` and a Conditional that runs an Instant or Dissolve version of the same Navigate.
-- **Figma Motion** (open beta since Config 2026, any plan, edit access): a timeline with keyframes, preset and composite animation styles, custom animation styles you can publish, a Hold easing, and custom curves and springs saveable as variables. Use it for authored animation that Smart Animate can't express: loaders, illustration, staged reveals. Author with `figma:figma-use-motion`; implement with `get_motion_context` and `figma:figma-implement-motion`. Developer handoff of Motion: `handoff.md` § 5. Whether Motion timelines play inside prototypes — verify.
+- **Figma Motion** (open beta since Config 2026, any plan, edit access): a timeline with keyframes, preset and composite animation styles, custom animation styles you can publish, a Hold easing, and custom curves and springs saveable as variables. Use it for authored animation that Smart Animate can't express: loaders, illustration, staged reveals. Author with `figma:figma-use-motion`; implement with `get_motion_context` and `figma:figma-implement-motion`. Developer handoff of Motion: `handoff.md` § 5. Whether Motion timelines play inside prototypes, verify.
 
 ## 7. Overlays
 
-- **Use for** menus, popovers, dialogs, bottom sheets, toasts and tooltips — anything that sits above the current screen without replacing it.
+- **Use for** menus, popovers, dialogs, bottom sheets, toasts and tooltips, anything that sits above the current screen without replacing it.
 - **Size the overlay frame to the component** (a sheet is device width and its own height), not a full-screen frame with an empty area: that breaks "Close when clicking outside".
 - **Settings live on the overlay frame**, not the connection: position (seven presets or manual), Close when clicking outside, and Add background behind overlay (set color and opacity to the scrim token). These are read-only in the Plugin API (`overlayPositionType`, `overlayBackground`), so specify them for the person or ask them to set them.
 - Multi-step dialogs: **Swap overlay** (Smart Animate works between matching overlays). Dismiss with Close overlay or Back.
@@ -105,7 +105,7 @@ Prototype motion is a spec developers copy; it must use the same numbers as the 
 
 ## 9. Interactive components for states
 
-- **Wire the states from `components.md` § 6 inside the component set once**, and every instance in every prototype behaves — no duplicate screens per state. Typical wiring: While hovering → Hover; While pressing (or Mouse down / up) → Pressed; On click → Change to Checked / Expanded / Selected.
+- **Wire the states from `components.md` § 6 inside the component set once**, and every instance in every prototype behaves, no duplicate screens per state. Typical wiring: While hovering → Hover; While pressing (or Mouse down / up) → Pressed; On click → Change to Checked / Expanded / Selected.
 - **Change to works only between variants of the same set**; a nested instance can switch its parent's variant (an accordion row's chevron expanding the row).
 - **Same layer names across variants** make Smart Animate move the parts (a switch knob slides instead of blinking), at `--duration-fast`.
 - **After delay** between a Loading and a Loaded variant shows async behavior; loop two variants for a spinner.
@@ -117,9 +117,9 @@ Prototype motion is a spec developers copy; it must use the same numbers as the 
 Available on paid plans to anyone with edit access.
 
 - **Set variable** makes one frame behave like many: a number for cart count or progress width, a string for a name or total, a boolean for "error shown" or "signed in", a color for selection.
-- **Expressions:** number math, string joins and boolean logic — `cartCount + 1`, `"Hi, " + firstName`.
+- **Expressions:** number math, string joins and boolean logic, `cartCount + 1`, `"Hi, " + firstName`.
 - **Conditional (if/else)** for validation and branching: if `proto/emailValid` is false, show the error variant; else navigate.
-- **Set variable mode** switches the page's mode live — Light/Dark, locale, brand. Objects with an explicit mode ignore it, so leave screens on Auto when they should follow.
+- **Set variable mode** switches the page's mode live, Light/Dark, locale, brand. Objects with an explicit mode ignore it, so leave screens on Auto when they should follow.
 - **Keep prototype state in its own collection** (`proto/*`), hidden from publishing: it is state, not design tokens (`variables-and-tokens.md`).
 - **Typing is faked:** prototypes don't accept real text input (verify), so a tap sets the "typed" value.
 - Via MCP: `setReactionsAsync` takes `SET_VARIABLE`, `SET_VARIABLE_MODE` and `CONDITIONAL` actions; bind properties with `setBoundVariable` (patterns in `figma:figma-use`).
@@ -127,7 +127,7 @@ Available on paid plans to anyone with edit access.
 ## 11. Test on the device
 
 - **Figma mobile app:** in the **Mirror** tab, the phone shows whatever top-level frame is selected on the desktop, scaled to the device width and tappable. Use the same account on both devices; Wi-Fi or cellular both work; mirroring needs edit access. The app's presentation view plays from the flow starting point.
-- **Check on the real device:** thumb reach and target size, type legibility at true size, safe areas (notch, island, home indicator), the keyboard covering inputs, fixed bars during scroll, and motion timing — durations that feel right on a monitor often feel slow in the hand.
+- **Check on the real device:** thumb reach and target size, type legibility at true size, safe areas (notch, island, home indicator), the keyboard covering inputs, fixed bars during scroll, and motion timing, durations that feel right on a monitor often feel slow in the hand.
 - **Desktop and web:** present at Actual size (100%) at each breakpoint width; Fit width hides real type sizes.
 
 ## 12. Present
@@ -137,7 +137,7 @@ Available on paid plans to anyone with edit access.
 - **Usability test:** turn off "Show hints on click" so hotspot highlights don't give answers away. Give each task its own starting point; R restarts the current flow.
 - **While building**, use the inline preview (Shift+Space); edits show live.
 
-## QA — prototype
+## QA, prototype
 
 - [ ] Each flow answers a stated question; its starting point is named as a user goal and has a description.
 - [ ] Device and background set in the page's prototype settings; device matches the frame width.

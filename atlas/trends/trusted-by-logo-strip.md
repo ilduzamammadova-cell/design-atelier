@@ -3,8 +3,8 @@ id: trusted-by-logo-strip
 name: Trusted-By Logo Strip
 type: trend
 discipline: [ui, ux]
-era: 2008–2026
-origin: Global — "as seen in" press badges of the Web 2.0 era, then B2B SaaS landing pages and templates
+era: 2008 to 2026
+origin: Global, "as seen in" press badges of the Web 2.0 era, then B2B SaaS landing pages and templates
 lineage: [web-2-gloss, corporate-identity]
 tags:
   mood: [reassuring, corporate, generic, borrowed]
@@ -33,14 +33,14 @@ saturation: 9
 ## Subvert
 
 - **Proof inline.** Place each piece of evidence beside the claim it supports, with names and numbers, instead of a detached wall.
-- **One deep story.** A single, specific customer story — the problem, the change, the numbers, a photo of the real team — outweighs twenty logos.
+- **One deep story.** A single, specific customer story, the problem, the change, the numbers, a photo of the real team, outweighs twenty logos.
 - **Show usage, not names.** Real anonymised usage (documents created this week, uptime history, public changelog cadence) proves the product is alive.
 
 ## Visual facts
 
-- **Color:** logos forced to gray (#9CA3AF) or white at 40–60% opacity.
+- **Color:** logos forced to gray (#9CA3AF) or white at 40 to 60% opacity.
 - **Type:** small caption in uppercase or muted gray ("Trusted by teams at").
-- **Form:** 24–40px logo height, 5–8 logos per row, or a masked infinite marquee.
+- **Form:** 24 to 40px logo height, 5 to 8 logos per row, or a masked infinite marquee.
 - **Composition:** directly under the hero, full width, before features.
 
 ## Attitude
@@ -50,8 +50,8 @@ Credibility by association. Legitimate when true and specific; empty when it is 
 ## Blends
 
 - **Amplifies:** `centered-hero-three-cards-template`, `marquee-tickers`, `linear-style-dark-ui`.
-- **Productive tension with:** `edward-tufte` — evidence shown with its source and context, close to the claim.
-- **Clashes with:** `editorial-web` — a narrative page with a logo wall reads like an ad break.
+- **Productive tension with:** `edward-tufte`, evidence shown with its source and context, close to the claim.
+- **Clashes with:** `editorial-web`, a narrative page with a logo wall reads like an ad break.
 
 ## Don't copy
 
@@ -59,6 +59,6 @@ Other companies' logos without written permission (trademark use); template plac
 
 ## Study
 
-- Edward Tufte, *Beautiful Evidence* (2006) — evidence integrated with argument.
+- Edward Tufte, *Beautiful Evidence* (2006), evidence integrated with argument.
 - Nielsen Norman Group on social proof and credibility in UX (nngroup.com).
-- `dark-patterns` (ux) — where exaggerated social proof becomes deception.
+- `dark-patterns` (ux), where exaggerated social proof becomes deception.

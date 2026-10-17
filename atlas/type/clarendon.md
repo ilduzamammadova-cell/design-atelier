@@ -3,7 +3,7 @@ id: clarendon
 name: Clarendon
 type: typeface
 discipline: [graphic, ui]
-era: 1845; revivals 1953–2021
+era: 1845; revivals 1953 to 2021
 origin: London, England
 lineage: [victorian-wood-type]
 tags:
@@ -20,11 +20,11 @@ axes: {order: 5, density: 6, ornament: 2, warmth: 7, contrast: 5, geometry: 5, c
 
 | Gene | The idea | In UI / product terms |
 |---|---|---|
-| G1 · Bracketed slab: warmth inside strength | Earlier "Egyptian" slabs were blunt and mechanical. Clarendon's slabs flow into the stems through curved brackets, with moderate contrast, so weight reads as reliability, not aggression. | Brand and headline face for products that need authority without coldness (outdoor, utilities, food, civic): weight 600–800 at ≥ 24px. Long text goes to a gentler text serif or the family's regular weight. |
-| G2 · Big x-height, short extenders | A tall lowercase and compact ascenders and descenders pack strong words into little vertical space and read at distance. That made it a poster and signage face. | Signage, wayfinding and mobile headings: leading 1.05–1.15 at display sizes, sentence case, ≥ 20px on signs. Cards and list titles stay compact without losing legibility. |
-| G3 · Friendly terminals | Ball terminals on *a* and *c* and a curled leg on *R* add charm to a sturdy body. | Translate into components: 2–4px corner radius (never 0, never pill), thick 2px icon strokes with rounded caps. The details soften; the mass stays solid. |
+| G1 · Bracketed slab: warmth inside strength | Earlier "Egyptian" slabs were blunt and mechanical. Clarendon's slabs flow into the stems through curved brackets, with moderate contrast, so weight reads as reliability, not aggression. | Brand and headline face for products that need authority without coldness (outdoor, utilities, food, civic): weight 600 to 800 at ≥ 24px. Long text goes to a gentler text serif or the family's regular weight. |
+| G2 · Big x-height, short extenders | A tall lowercase and compact ascenders and descenders pack strong words into little vertical space and read at distance. That made it a poster and signage face. | Signage, wayfinding and mobile headings: leading 1.05 to 1.15 at display sizes, sentence case, ≥ 20px on signs. Cards and list titles stay compact without losing legibility. |
+| G3 · Friendly terminals | Ball terminals on *a* and *c* and a curled leg on *R* add charm to a sturdy body. | Translate into components: 2 to 4px corner radius (never 0, never pill), thick 2px icon strokes with rounded caps. The details soften; the mass stays solid. |
 | G4 · A genre, specified by traits | Besley's design protection lasted three years. Copies followed at once, and "Clarendon" became a whole category of type. | Define the brand slab by traits rather than by font name (bracketed slab, large x-height, ball terminals, moderate contrast), so licensed and open implementations (Sentinel, Besley*, Clarendon) can be swapped per platform. |
-| G5 · One poster moment | In wood type and "French Clarendon" variants it shouted from circus bills and wanted posters. | Allow one poster-scale moment per flow (empty state, onboarding, campaign) with heavy Clarendon at 12–20vw. Everywhere else it stays at normal sizes, so the Old-West cliché never takes over. |
+| G5 · One poster moment | In wood type and "French Clarendon" variants it shouted from circus bills and wanted posters. | Allow one poster-scale moment per flow (empty state, onboarding, campaign) with heavy Clarendon at 12 to 20vw. Everywhere else it stays at normal sizes, so the Old-West cliché never takes over. |
 
 ## Visual facts
 
@@ -59,5 +59,5 @@ Sentinel's and Haas Clarendon's outlines without licence; NPS sign layouts and t
 
 - Fonts In Use, Clarendon and Besley Clarendon: fontsinuse.com/typefaces/14828/besley-clarendon
 - Besley* repository and specimen (indestructible type; Google Fonts "Besley").
-- Rob Roy Kelly, *American Wood Type 1828–1900* (1969), for the poster afterlife.
+- Rob Roy Kelly, *American Wood Type 1828 to 1900* (1969), for the poster afterlife.
 - St Bride Library, London: Fann Street Foundry specimens.

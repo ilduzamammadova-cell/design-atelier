@@ -3,7 +3,7 @@ id: surrealism
 name: Surrealism (Magritte, Ernst, Miró, Arp, Dalí)
 type: movement
 discipline: [art]
-era: 1924–1950s
+era: 1924 to 1950s
 origin: Paris, France; Brussels
 lineage: [dada]
 tags:
@@ -14,7 +14,7 @@ axes: {order: 3, density: 5, ornament: 4, warmth: 5, contrast: 6, geometry: 3, c
 
 # Surrealism (Magritte, Ernst, Miró, Arp, Dalí)
 
-**Essence:** The ordinary made strange — calm, plainly rendered images that contradict logic, plus soft biomorphic forms drawn from the unconscious.
+**Essence:** The ordinary made strange, calm, plainly rendered images that contradict logic, plus soft biomorphic forms drawn from the unconscious.
 
 ## Genes
 
@@ -36,13 +36,13 @@ axes: {order: 3, density: 5, ornament: 4, warmth: 5, contrast: 6, geometry: 3, c
 
 ## Attitude
 
-André Breton's 1924 manifesto aimed to free imagination from reason and convention. The painters, more than the poets, reached the public; advertising has borrowed their methods ever since, often trivially. Use the method — displacement, disrupted expectation — not the props.
+André Breton's 1924 manifesto aimed to free imagination from reason and convention. The painters, more than the poets, reached the public; advertising has borrowed their methods ever since, often trivially. Use the method, displacement, disrupted expectation, not the props.
 
 ## Blends
 
-- **Amplifies:** `dada`, `paul-klee`, `push-pin-studios` — wit, metaphor and visual puns.
-- **Productive tension with:** `swiss-international` — objective type and grid around one impossible image makes a powerful poster or landing page.
-- **Clashes with:** `minimalism-art` — literalism denies the hidden meaning surrealism depends on.
+- **Amplifies:** `dada`, `paul-klee`, `push-pin-studios`, wit, metaphor and visual puns.
+- **Productive tension with:** `swiss-international`, objective type and grid around one impossible image makes a powerful poster or landing page.
+- **Clashes with:** `minimalism-art`, literalism denies the hidden meaning surrealism depends on.
 
 ## Don't copy
 

@@ -3,7 +3,7 @@ id: emigre
 name: Emigre (Rudy VanderLans & Zuzana Licko)
 type: studio
 discipline: [graphic, ui]
-era: 1984–2005 (magazine); foundry 1985–present
+era: 1984 to 2005 (magazine); foundry 1985 to present
 origin: Berkeley and Sacramento, California, USA
 lineage: [postmodern-new-wave, hard-werken]
 tags:
@@ -20,7 +20,7 @@ axes: {order: 4, density: 6, ornament: 4, warmth: 5, contrast: 6, geometry: 6, c
 
 | Gene | The idea | In UI / product terms |
 |---|---|---|
-| G1 · Native resolution | Licko's first fonts (Emigre, Oakland, Matrix, 1985–86) were drawn *for* the coarse Macintosh screen and printer instead of imitating metal type. | One brand display face built on the real pixel grid (integer stems, e.g. 12px cap height), rendered crisp without smoothing at its native sizes; never scaled to fractional sizes. |
+| G1 · Native resolution | Licko's first fonts (Emigre, Oakland, Matrix, 1985 to 86) were drawn *for* the coarse Macintosh screen and printer instead of imitating metal type. | One brand display face built on the real pixel grid (integer stems, e.g. 12px cap height), rendered crisp without smoothing at its native sizes; never scaled to fractional sizes. |
 | G2 · Legibility is learned | Licko's position that people read best what they read most, which started the 1990s "legibility wars". | Introduce an unusual face gradually: first in short labels, then headlines, measuring comprehension at each step. Never in forms, errors or legal text. |
 | G3 · Format follows the issue | No two issues looked alike; guest editors, sizes and structures changed (letter size from no. 33, books with Princeton Architectural Press at the end). | Each season of an editorial channel gets a new layout template while reading controls, navigation and type sizes for body stay fixed. |
 | G4 · Discourse as product | The magazine published criticism, interviews and debate alongside work too experimental for other journals. | A public design journal or changelog where designers explain decisions; design notes are first-class content with their own URL and typography. |
@@ -39,9 +39,9 @@ VanderLans found Dutch modernism too restrictive; Licko, trained partly in progr
 
 ## Blends
 
-- **Amplifies:** `april-greiman`, `deconstructivist-type` — early digital pioneers and the academic laboratory that fed the magazine.
-- **Productive tension with:** `massimo-vignelli` — a strict canonical system with one Emigre-style display face keeps order and gains a voice.
-- **Clashes with:** `corporate-identity` — fonts that change with every issue undermine the fixed standards a corporate system needs.
+- **Amplifies:** `april-greiman`, `deconstructivist-type`, early digital pioneers and the academic laboratory that fed the magazine.
+- **Productive tension with:** `massimo-vignelli`, a strict canonical system with one Emigre-style display face keeps order and gains a voice.
+- **Clashes with:** `corporate-identity`, fonts that change with every issue undermine the fixed standards a corporate system needs.
 
 ## Don't copy
 
@@ -50,6 +50,6 @@ The *Emigre* covers and spreads; the outlines of Emigre-licensed fonts (licence 
 ## Study
 
 - Rudy VanderLans & Zuzana Licko, *Emigre: Graphic Design into the Digital Realm* (1993)
-- *Emigre* nos. 1–69 (1984–2005); essays at https://www.emigre.com
+- *Emigre* nos. 1 to 69 (1984 to 2005); essays at https://www.emigre.com
 - MoMA, *Standard Deviations* (2011), which acquired several Emigre fonts
-- Aynsley, *A Century of Graphic Design*, pp. 216–217; Meggs, ch. 24
+- Aynsley, *A Century of Graphic Design*, pp. 216 to 217; Meggs, ch. 24

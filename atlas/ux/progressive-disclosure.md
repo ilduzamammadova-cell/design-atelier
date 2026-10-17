@@ -3,7 +3,7 @@ id: progressive-disclosure
 name: Progressive Disclosure
 type: principle
 discipline: [ux, ui]
-era: 1980s–present
+era: 1980s to present
 origin: Yorktown Heights, New York, USA (IBM Watson Research Center)
 lineage: []
 tags:
@@ -14,7 +14,7 @@ axes: {order: 7, density: 3, ornament: 1, warmth: 5, contrast: 4, geometry: 5, c
 
 # Progressive Disclosure
 
-**Essence:** Show what most people need now, and let the rest unfold on request — complexity is welcome as long as it arrives in layers, at the moment it becomes relevant.
+**Essence:** Show what most people need now, and let the rest unfold on request, complexity is welcome as long as it arrives in layers, at the moment it becomes relevant.
 
 ## Genes
 
@@ -25,7 +25,7 @@ axes: {order: 7, density: 3, ornament: 1, warmth: 5, contrast: 4, geometry: 5, c
 | G3 · Disclose at the moment of relevance | Options mean most when the context that needs them exists | Contextual toolbars appear on selection; field-specific options appear after the field has a value; "more" controls reachable by keyboard focus, not hover alone |
 | G4 · Strong scent on the trigger | Users open a disclosure only if its label predicts what's inside | Label the content, not the mechanism: "Shipping options (3)" instead of "More"; chevron direction matches the expansion; the collapsed row summarises current values ("Quality: Auto · 1080p") |
 | G5 · Defaults carry the weight | Deferred options must be safe untouched, or disclosure becomes a trap | Every hidden option has a sensible default shown in the summary; nothing required lives behind a disclosure; validation errors inside a collapsed section force it open |
-| G6 · Staged disclosure for rare, linear tasks | Wizards suit infrequent tasks with a fixed order; they punish frequent ones | Multi-step flows only for one-off setup: 3–5 fields per step, visible step count, Back that keeps entries; frequent tasks get one editable page instead |
+| G6 · Staged disclosure for rare, linear tasks | Wizards suit infrequent tasks with a fixed order; they punish frequent ones | Multi-step flows only for one-off setup: 3 to 5 fields per step, visible step count, Back that keeps entries; frequent tasks get one editable page instead |
 
 ## Visual facts
 
@@ -36,13 +36,13 @@ axes: {order: 7, density: 3, ornament: 1, warmth: 5, contrast: 4, geometry: 5, c
 
 ## Attitude
 
-John Carroll's training-wheels and minimalist-instruction research at IBM gave early evidence for staging features; Jakob Nielsen later made progressive disclosure a household term in usability, and now applies it to long-running AI agents, whose steps must be summarised by default and inspectable on demand. The belief: attention is scarce, but people are capable — so stage the complexity rather than deleting it.
+John Carroll's training-wheels and minimalist-instruction research at IBM gave early evidence for staging features; Jakob Nielsen later made progressive disclosure a household term in usability, and now applies it to long-running AI agents, whose steps must be summarised by default and inspectable on demand. The belief: attention is scarce, but people are capable, so stage the complexity rather than deleting it.
 
 ## Blends
 
-- **Amplifies:** `calm-technology`, `alan-cooper`, `fitts-and-hicks-laws` — protected attention, perpetual intermediates, fewer choices at once.
-- **Productive tension with:** `edward-tufte` — Tufte wants everything visible at once; the hybrid is a dense overview with detail drawers rather than hidden settings.
-- **Clashes with:** `brutalism` — web brutalism's show-everything rawness and staged revelation cancel each other out.
+- **Amplifies:** `calm-technology`, `alan-cooper`, `fitts-and-hicks-laws`, protected attention, perpetual intermediates, fewer choices at once.
+- **Productive tension with:** `edward-tufte`, Tufte wants everything visible at once; the hybrid is a dense overview with detail drawers rather than hidden settings.
+- **Clashes with:** `brutalism`, web brutalism's show-everything rawness and staged revelation cancel each other out.
 
 ## Don't copy
 

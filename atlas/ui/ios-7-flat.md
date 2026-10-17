@@ -3,7 +3,7 @@ id: ios-7-flat
 name: iOS 7 Flat
 type: system
 discipline: [ui]
-era: 2013–2020
+era: 2013 to 2020
 origin: Cupertino, USA
 lineage: [metro-design-language, dieter-rams, swiss-international]
 tags:
@@ -20,7 +20,7 @@ axes: {order: 8, density: 3, ornament: 1, warmth: 4, contrast: 4, geometry: 7, c
 
 | Gene | The idea | In UI / product terms |
 |---|---|---|
-| G1 · Deference | Apple's iOS 7 guidance named three themes — deference, clarity, depth. Chrome thinned out so content filled the screen and scrolled beneath translucent bars. | Navigation and tab bars at ~80% white with `backdrop-filter: blur(20px) saturate(180%)`; content scrolls under them edge to edge. No bar backgrounds with texture or gradient. |
+| G1 · Deference | Apple's iOS 7 guidance named three themes, deference, clarity, depth. Chrome thinned out so content filled the screen and scrolled beneath translucent bars. | Navigation and tab bars at ~80% white with `backdrop-filter: blur(20px) saturate(180%)`; content scrolls under them edge to edge. No bar backgrounds with texture or gradient. |
 | G2 · Text as button | Buttons lost their borders and became tinted words; one tint colour marked everything tappable. | Interactive elements = text in a single tint (`#007AFF`), no outline or fill; reserve filled buttons for one primary action per screen. Tint is never used for non-interactive text. |
 | G3 · Outline → fill as state | Tab and toolbar glyphs were thin line drawings that became filled when selected. | Icon pairs: outline (1.5 px stroke) inactive, solid fill active; the same silhouette in both so the state change reads as "lighting up". |
 | G4 · Depth by layers, not bevels | Hierarchy came from stacked translucent planes (wallpaper → content → overlays) and a parallax wallpaper tied to device tilt. | Define three z-planes; overlays blur what's beneath; a subtle tilt/pointer parallax (±10 px) on the background plane only. |
@@ -36,13 +36,13 @@ axes: {order: 8, density: 3, ornament: 1, warmth: 4, contrast: 4, geometry: 7, c
 
 ## Attitude
 
-Announced in June 2013 after Jony Ive took over Human Interface, iOS 7 rejected literal textures in favour of a digital honesty closer to industrial design: the device is a pane of glass, so the UI should be layers of light. Its risk — low-contrast hairlines and ambiguous text buttons — drew sharp usability critiques, which is part of what to learn.
+Announced in June 2013 after Jony Ive took over Human Interface, iOS 7 rejected literal textures in favour of a digital honesty closer to industrial design: the device is a pane of glass, so the UI should be layers of light. Its risk, low-contrast hairlines and ambiguous text buttons, drew sharp usability critiques, which is part of what to learn.
 
 ## Blends
 
-- **Amplifies:** `metro-design-language`, `dieter-rams`, `material-design` — reduction, clarity, content first.
-- **Productive tension with:** `ios-skeuomorphism` — keep the flat structure but let one true, meaningful material return; the post-flat synthesis of the late 2010s.
-- **Clashes with:** `windows-95` — hairlines and translucency beside chunky bevels look like a rendering error.
+- **Amplifies:** `metro-design-language`, `dieter-rams`, `material-design`, reduction, clarity, content first.
+- **Productive tension with:** `ios-skeuomorphism`, keep the flat structure but let one true, meaningful material return; the post-flat synthesis of the late 2010s.
+- **Clashes with:** `windows-95`, hairlines and translucency beside chunky bevels look like a rendering error.
 
 ## Don't copy
 
@@ -50,6 +50,6 @@ Announced in June 2013 after Jony Ive took over Human Interface, iOS 7 rejected 
 
 ## Study
 
-- Apple, *iOS 7 UI Transition Guide* (Apple developer archive) — states the three themes.
+- Apple, *iOS 7 UI Transition Guide* (Apple developer archive), states the three themes.
 - WWDC keynote, 10 June 2013 (video) and Apple's iOS 7 press materials.
 - Nielsen Norman Group, critiques of flat design and "flat UI elements attract less attention" studies (nngroup.com).

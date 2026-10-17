@@ -3,8 +3,8 @@ id: y2k-chrome-and-acid
 name: Y2K Chrome & Acid Graphics
 type: trend
 discipline: [graphic, ui]
-era: 2019–2024 peak; residual to 2026
-origin: Global — Gen-Z/TikTok nostalgia, fashion and music graphics, newly accessible 3D tools
+era: 2019 to 2024 peak; residual to 2026
+origin: Global, Gen-Z/TikTok nostalgia, fashion and music graphics, newly accessible 3D tools
 lineage: [web-2-gloss, mac-os-x-aqua, postmodern-new-wave]
 tags:
   mood: [shiny, rave, nostalgic, maximal]
@@ -15,7 +15,7 @@ saturation: 5
 
 # Y2K Chrome & Acid Graphics
 
-**Essence:** Liquid-chrome lettering, blobby metallic shapes, acid-green and hot-pink gradients, starbursts, swirls and pixel type — a remix of 1997–2005 rave flyers, early-web graphics and millennium optimism.
+**Essence:** Liquid-chrome lettering, blobby metallic shapes, acid-green and hot-pink gradients, starbursts, swirls and pixel type, a remix of 1997 to 2005 rave flyers, early-web graphics and millennium optimism.
 
 ## Genes
 
@@ -27,12 +27,12 @@ saturation: 5
 
 ## Why it reads as slop now
 
-The original look grew from late-1990s techno-optimism and rave culture — The Designers Republic's game and record graphics, early web gloss, Aqua-era candy plastic. Around 2020–2022 TikTok nostalgia, fashion and music revived it, helped by cheap 3D tools and chrome-text presets; NFT projects then saturated it. Today chrome type is a one-click filter and image generators produce "Y2K chrome" endlessly. The cheap version: a liquid-chrome logo, an acid-green starburst sticker, butterfly or tribal clip art, a pixel font for body copy, a pink-to-blue gradient — costume nostalgia with no idea of its own.
+The original look grew from late-1990s techno-optimism and rave culture, The Designers Republic's game and record graphics, early web gloss, Aqua-era candy plastic. Around 2020 to 2022 TikTok nostalgia, fashion and music revived it, helped by cheap 3D tools and chrome-text presets; NFT projects then saturated it. Today chrome type is a one-click filter and image generators produce "Y2K chrome" endlessly. The cheap version: a liquid-chrome logo, an acid-green starburst sticker, butterfly or tribal clip art, a pixel font for body copy, a pink-to-blue gradient, costume nostalgia with no idea of its own.
 
 ## Subvert
 
-- **Find a different retro-future.** Mine another era's vision of tomorrow — 1930s `streamline-moderne`, 1960s space-age, 1970s science-fiction illustration — less exhausted, same optimism.
-- **Chrome as process.** Photograph real reflective objects, scan foil, use holographic print — material truth instead of a preset.
+- **Find a different retro-future.** Mine another era's vision of tomorrow, 1930s `streamline-moderne`, 1960s space-age, 1970s science-fiction illustration, less exhausted, same optimism.
+- **Chrome as process.** Photograph real reflective objects, scan foil, use holographic print, material truth instead of a preset.
 - **Acid in one channel.** One acid color as a system accent (links, highlights) inside an otherwise sober layout.
 
 ## Visual facts
@@ -49,8 +49,8 @@ Technology as party and promise. The revival is nostalgia for that promise rathe
 ## Blends
 
 - **Amplifies:** `spline-3d-hero`, `liquid-glass-imitation`, `marquee-tickers`.
-- **Productive tension with:** `swiss-international` — a strict information layout under a chrome headline is how good event design handles maximalism.
-- **Clashes with:** `shadcn-tailwind-default-look` — gray default components with chrome stickers look like a costume.
+- **Productive tension with:** `swiss-international`, a strict information layout under a chrome headline is how good event design handles maximalism.
+- **Clashes with:** `shadcn-tailwind-default-look`, gray default components with chrome stickers look like a costume.
 
 ## Don't copy
 
@@ -58,6 +58,6 @@ The Designers Republic's specific works (Wipeout game graphics, Warp record slee
 
 ## Study
 
-- Webflow blog, "Y2K aesthetic for web design projects" — ingredients and where it fails.
-- The Designers Republic (Sheffield, founded 1986) — the original rave-futurist graphic language.
-- Consumer Aesthetics Research Institute (cari.institute) — taxonomy of Y2K futurism, Frutiger Aero and neighbors.
+- Webflow blog, "Y2K aesthetic for web design projects", ingredients and where it fails.
+- The Designers Republic (Sheffield, founded 1986), the original rave-futurist graphic language.
+- Consumer Aesthetics Research Institute (cari.institute), taxonomy of Y2K futurism, Frutiger Aero and neighbors.

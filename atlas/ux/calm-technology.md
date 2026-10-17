@@ -3,7 +3,7 @@ id: calm-technology
 name: Calm Technology
 type: principle
 discipline: [ux, product]
-era: 1991–present (term 1995; certification from 2024)
+era: 1991 to present (term 1995; certification from 2024)
 origin: Palo Alto, California, USA (Xerox PARC)
 lineage: []
 tags:
@@ -14,7 +14,7 @@ axes: {order: 5, density: 2, ornament: 1, warmth: 7, contrast: 2, geometry: 4, c
 
 # Calm Technology
 
-**Essence:** Technology should inform without demanding attention — living in the periphery, moving to the centre only when it matters, and settling back so that people stay in their own lives.
+**Essence:** Technology should inform without demanding attention, living in the periphery, moving to the centre only when it matters, and settling back so that people stay in their own lives.
 
 ## Genes
 
@@ -29,9 +29,9 @@ axes: {order: 5, density: 2, ornament: 1, warmth: 7, contrast: 2, geometry: 4, c
 
 ## Visual facts
 
-- **Color:** paper and stone neutrals — warm paper #F3EFE7, graphite #2E2E2C — with one soft status hue (sage ~#8FA88A or amber ~#D9A441); low contrast between surfaces.
+- **Color:** paper and stone neutrals, warm paper #F3EFE7, graphite #2E2E2C, with one soft status hue (sage ~#8FA88A or amber ~#D9A441); low contrast between surfaces.
 - **Type:** humanist text at medium weights → Source Serif 4, IBM Plex Sans; no shouty all-caps alerts.
-- **Form:** e-ink, fabric, wood and matte surfaces; glows and fades rather than pop-ups; motion slow (400–800ms) and rare.
+- **Form:** e-ink, fabric, wood and matte surfaces; glows and fades rather than pop-ups; motion slow (400 to 800ms) and rare.
 - **Composition:** large quiet fields with information at edges and corners; one thing visible at a time.
 
 ## Attitude
@@ -40,9 +40,9 @@ Mark Weiser, who coined "ubiquitous computing" at Xerox PARC, saw the goal of co
 
 ## Blends
 
-- **Amplifies:** `kenya-hara`, `kenya-hara`, `jef-raskin`, `dieter-rams` — emptiness, reduction and protected attention.
-- **Productive tension with:** `microinteractions` — expressive feedback forced into whisper-level signals gives precise, tiny, satisfying cues.
-- **Clashes with:** `persuasive-technology` — engagement loops and calm periphery are opposite theories of attention.
+- **Amplifies:** `kenya-hara`, `kenya-hara`, `jef-raskin`, `dieter-rams`, emptiness, reduction and protected attention.
+- **Productive tension with:** `microinteractions`, expressive feedback forced into whisper-level signals gives precise, tiny, satisfying cues.
+- **Clashes with:** `persuasive-technology`, engagement loops and calm periphery are opposite theories of attention.
 
 ## Don't copy
 

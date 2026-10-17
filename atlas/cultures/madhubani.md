@@ -23,7 +23,7 @@ axes: {order: 5, density: 9, ornament: 9, warmth: 8, contrast: 7, geometry: 4, c
 | G1 · Full fill inside, calm outside | Mithila painting leaves almost no empty ground inside its borders: fish scales, leaves, dots and hatching fill every gap. | Contain density: an illustration block may be completely filled, but it sits in generous whitespace (≥ 1.5x its padding) so the page stays readable. |
 | G2 · Double outline with hatched channel | Forms are outlined twice in parallel, and the channel between the lines is filled with fine strokes; a hallmark of the line-based styles. | Emphasis borders as double rules (1px + 3px gap + 1px) with optional hatch fill in the gap; icon outlines doubled at large sizes only. |
 | G3 · Line mode and fill mode | The Kachni style works in line alone (often black and red), Bharni fills forms with solid colour. | Two rendering modes in one illustration system: line mode for dense or data-heavy screens, fill mode for marketing and celebration; switchable by token. |
-| G4 · The border as a world | Paintings are framed by floral or geometric borders that are themselves miniature compositions. | Decorative frames only around the hero image; frame width 6–10% of image width; content never placed inside the frame band. |
+| G4 · The border as a world | Paintings are framed by floral or geometric borders that are themselves miniature compositions. | Decorative frames only around the hero image; frame width 6 to 10% of image width; content never placed inside the frame band. |
 | G5 · Earth-and-flower pigments | Traditional colours came from lamp black, turmeric, flowers, indigo and leaves on mud- or dung-washed walls. | Palette: lamp black #1C1A17, turmeric #E3A72F, safflower pink-red #D2405A, indigo #2E3F7F, leaf green #4F8A3A on handmade paper #EEE2C6. |
 
 ## Visual facts
@@ -39,9 +39,9 @@ Women of Mithila painted walls and floors for marriages and festivals. After a d
 
 ## Blends
 
-- **Amplifies:** `arts-and-crafts` — handwork, border-and-field, nature as pattern.
-- **Productive tension with:** `swiss-international` — the "full inside, empty outside" rule lets dense illustration live on a rational grid.
-- **Clashes with:** `minimalism-art` — the tradition's meaning lives in fullness; reduction strips it.
+- **Amplifies:** `arts-and-crafts`, handwork, border-and-field, nature as pattern.
+- **Productive tension with:** `swiss-international`, the "full inside, empty outside" rule lets dense illustration live on a rational grid.
+- **Clashes with:** `minimalism-art`, the tradition's meaning lives in fullness; reduction strips it.
 
 ## Don't copy
 

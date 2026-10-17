@@ -3,7 +3,7 @@ id: pop-art
 name: Pop Art (Hamilton, Warhol, Lichtenstein, Oldenburg, Ruscha)
 type: movement
 discipline: [art, graphic]
-era: 1956–1970s
+era: 1956 to 1970s
 origin: London, UK; New York, USA
 lineage: [dada]
 tags:
@@ -14,17 +14,17 @@ axes: {order: 5, density: 6, ornament: 5, warmth: 6, contrast: 8, geometry: 6, c
 
 # Pop Art (Hamilton, Warhol, Lichtenstein, Oldenburg, Ruscha)
 
-**Essence:** Supermarket, comic strip and advertisement turned into high art — flat, loud, serial and knowingly ironic. Covers Richard Hamilton, Andy Warhol, Roy Lichtenstein, Claes Oldenburg, James Rosenquist, Ed Ruscha, Robert Indiana.
+**Essence:** Supermarket, comic strip and advertisement turned into high art, flat, loud, serial and knowingly ironic. Covers Richard Hamilton, Andy Warhol, Roy Lichtenstein, Claes Oldenburg, James Rosenquist, Ed Ruscha, Robert Indiana.
 
 ## Genes
 
 | Gene | The idea | In UI / product terms |
 |---|---|---|
 | G1 · Commercial vernacular, elevated | Packaging, comics and ads became the subject matter itself | Borrow the product's own commercial artifacts as components: confirmations styled as receipts, prices as shelf tags, shipping as a stamped label |
-| G2 · Serial repetition with variation | Warhol's grids repeat one image in shifting color separations | Campaign or profile covers as 4–9 tiles of the same photo, each with a different duotone or flat-color treatment |
-| G3 · Visible printing dots | Lichtenstein enlarged Ben-Day dots and comic outlines to painting scale | Halftone overlays (4–8px dot pitch) as the only shading on flat illustrations; heavy black contour; speech-balloon tooltips for onboarding |
-| G4 · Silkscreen misregistration | Photo layer printed over flat color blocks, slightly off register | Photo treatment: high-contrast black photo layer over 1–2 flat color fills offset 2–6px |
-| G5 · The word as the picture | Ruscha's and Indiana's single words painted monumentally | One-word headlines at 20–30vw in a heavy face on flat color; type is the hero image |
+| G2 · Serial repetition with variation | Warhol's grids repeat one image in shifting color separations | Campaign or profile covers as 4 to 9 tiles of the same photo, each with a different duotone or flat-color treatment |
+| G3 · Visible printing dots | Lichtenstein enlarged Ben-Day dots and comic outlines to painting scale | Halftone overlays (4 to 8px dot pitch) as the only shading on flat illustrations; heavy black contour; speech-balloon tooltips for onboarding |
+| G4 · Silkscreen misregistration | Photo layer printed over flat color blocks, slightly off register | Photo treatment: high-contrast black photo layer over 1 to 2 flat color fills offset 2 to 6px |
+| G5 · The word as the picture | Ruscha's and Indiana's single words painted monumentally | One-word headlines at 20 to 30vw in a heavy face on flat color; type is the hero image |
 | G6 · Scale shift of the everyday | Oldenburg's giant soft versions of ordinary objects | Mundane objects or UI icons blown up to hero scale as illustration, slightly softened |
 
 ## Visual facts
@@ -36,13 +36,13 @@ axes: {order: 5, density: 6, ornament: 5, warmth: 6, contrast: 8, geometry: 6, c
 
 ## Attitude
 
-Pop embraced consumer culture with ambivalent irony: mass reproduction, celebrity and branding as material. Hamilton's 1956 collage for "This Is Tomorrow" at the Whitechapel and Warhol's Factory made art behave like a product. For designers it legitimises the commercial context — but irony needs a point, or it becomes noise.
+Pop embraced consumer culture with ambivalent irony: mass reproduction, celebrity and branding as material. Hamilton's 1956 collage for "This Is Tomorrow" at the Whitechapel and Warhol's Factory made art behave like a product. For designers it legitimises the commercial context, but irony needs a point, or it becomes noise.
 
 ## Blends
 
-- **Amplifies:** `push-pin-studios`, `keith-haring`, `memphis`, `psychedelic` — saturated, witty, popular.
-- **Productive tension with:** `minimalism-art` — serial consumer images set on silent, exact grids.
-- **Clashes with:** `mark-rothko` — irony and gloss against sincere, solemn color.
+- **Amplifies:** `push-pin-studios`, `keith-haring`, `memphis`, `psychedelic`, saturated, witty, popular.
+- **Productive tension with:** `minimalism-art`, serial consumer images set on silent, exact grids.
+- **Clashes with:** `mark-rothko`, irony and gloss against sincere, solemn color.
 
 ## Don't copy
 

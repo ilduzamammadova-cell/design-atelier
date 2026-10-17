@@ -10,14 +10,14 @@ Use when the person wants a live page, a coded prototype, components for an exis
 
 ## Build order
 
-1. **Tokens** — CSS custom properties, generated from the style spec (§ 11). Light and dark. These are the only place raw values live.
-2. **Base** — reset, root type (font loading with `font-display: swap`, real fallbacks), focus styles, selection color, reduced-motion handling.
-3. **Components** — each with every state. Components reference tokens only; a raw hex or px in a component is a bug.
-4. **Specimen** — the page from `method/blend.md` § 7. Get it right before any product page.
+1. **Tokens**: CSS custom properties, generated from the style spec (§ 11). Light and dark. These are the only place raw values live.
+2. **Base**: reset, root type (font loading with `font-display: swap`, real fallbacks), focus styles, selection color, reduced-motion handling.
+3. **Components**: each with every state. Components reference tokens only; a raw hex or px in a component is a bug.
+4. **Specimen**: the page from `method/blend.md` § 7. Get it right before any product page.
 5. **Pages / product screens.**
 
 ```css
-/* tokens.css — names match the Figma variables */
+/* tokens.css, names match the Figma variables */
 :root {
   --color-bg: …; --color-surface: …; --color-ink: …; --color-ink-muted: …;
   --color-accent: …; --color-on-accent: …; --color-line: …;
@@ -54,7 +54,7 @@ Verify in a browser (the built-in browser tools or a local preview), take screen
 Deployment is an outward-facing action: confirm with the person before publishing anything publicly.
 
 - **Already has hosting / CI?** Use their existing pipeline (and any deploy skill or tooling the person already uses).
-- **Static page or specimen:** any static host works — Vercel, Netlify, Cloudflare Pages, GitHub Pages. A single HTML file can also be published as an artifact when that tool is available.
+- **Static page or specimen:** any static host works, Vercel, Netlify, Cloudflare Pages, GitHub Pages. A single HTML file can also be published as an artifact when that tool is available.
 - **App builders** (e.g. Lovable) when the person works there: send the style spec's tokens and laws as part of the brief so the builder doesn't fall back to its defaults.
 
 After deploy, open the live URL, re-check mobile and desktop, and send the person the link plus a screenshot.

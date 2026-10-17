@@ -3,7 +3,7 @@ id: a-m-cassandre
 name: A. M. Cassandre (Adolphe Jean-Marie Mouron)
 type: designer
 discipline: [graphic]
-era: 1923–1968
+era: 1923 to 1968
 origin: Kharkiv, Ukraine → Paris, France
 lineage: [cubism, art-deco]
 tags:
@@ -12,9 +12,9 @@ tags:
 axes: {order: 7, density: 2, ornament: 3, warmth: 5, contrast: 9, geometry: 8, chroma: 6, typevoice: 9, energy: 7, hand: 2, play: 5, era: 7}
 ---
 
-# A. M. Cassandre (1901–1968)
+# A. M. Cassandre (1901 to 1968)
 
-**Essence:** The poster as a machine for announcing — monumental geometric images in which word and picture are built on one structure.
+**Essence:** The poster as a machine for announcing, monumental geometric images in which word and picture are built on one structure.
 
 From his first poster for the furniture store Au Bûcheron (1923) through railway and liner posters (*Étoile du Nord* and *Nord Express*, 1927; *L'Atlantique*, 1931; *Normandie*, 1935), he revitalised French advertising. For Deberny & Peignot he drew Bifur (1929), Acier Noir (1936) and Peignot (1937). MoMA gave him a solo show in 1936; he worked for *Harper's Bazaar* and the Container Corporation in the late 1930s before turning to theatre and painting.
 
@@ -31,7 +31,7 @@ From his first poster for the furniture store Au Bûcheron (1923) through railwa
 
 ## Visual facts
 
-- **Color:** deep blues and black with cream, red accents and metallic greys — approx. `#0D1B3D`, `#1E3F8F`, `#E8DFC8`, `#C1272D`, `#8A8F98`.
+- **Color:** deep blues and black with cream, red accents and metallic greys, approx. `#0D1B3D`, `#1E3F8F`, `#E8DFC8`, `#C1272D`, `#8A8F98`.
 - **Type:** Bifur, Acier Noir, Peignot; geometric hand-lettered capitals, often in a border band. Free: Big Shoulders Stencil Display, Poiret One, Cormorant Unicase.
 - **Form:** hard-edged planes, airbrushed gradients, pictographic silhouettes, converging lines.
 - **Composition:** one monumental image, strong diagonals or vanishing points, lettering framing the edges.
@@ -42,9 +42,9 @@ He saw the poster artist as a transmitter of messages, not a painter expressing 
 
 ## Blends
 
-- **Amplifies:** `art-deco`, `streamline-moderne` — shared machine-age glamour.
-- **Productive tension with:** `hendrik-werkman` — airbrushed precision meets ink grain: warm, tactile luxury travel brands.
-- **Clashes with:** `dada` — chance scatter destroys the single geometric armature his images depend on.
+- **Amplifies:** `art-deco`, `streamline-moderne`, shared machine-age glamour.
+- **Productive tension with:** `hendrik-werkman`, airbrushed precision meets ink grain: warm, tactile luxury travel brands.
+- **Clashes with:** `dada`, chance scatter destroys the single geometric armature his images depend on.
 
 ## Don't copy
 
@@ -52,6 +52,6 @@ He saw the poster artist as a transmitter of messages, not a painter expressing 
 
 ## Study
 
-- Posters 1923–39; Bifur specimen (Deberny & Peignot, 1929); MoMA exhibition (1936).
+- Posters 1923 to 39; Bifur specimen (Deberny & Peignot, 1929); MoMA exhibition (1936).
 - Henri Mouron, *A. M. Cassandre* (1985).
-- Musée des Arts Décoratifs, Paris (madparis.fr); Aynsley, *A Century of Graphic Design*, pp. 50–53; Meggs, ch. 14.
+- Musée des Arts Décoratifs, Paris (madparis.fr); Aynsley, *A Century of Graphic Design*, pp. 50 to 53; Meggs, ch. 14.

@@ -3,7 +3,7 @@ id: jean-michel-basquiat
 name: Jean-Michel Basquiat
 type: artist
 discipline: [art]
-era: 1977–1988
+era: 1977 to 1988
 origin: New York, USA
 lineage: [cy-twombly, pop-art]
 tags:
@@ -21,9 +21,9 @@ axes: {order: 1, density: 9, ornament: 6, warmth: 8, contrast: 8, geometry: 2, c
 | Gene | The idea | In UI / product terms |
 |---|---|---|
 | G1 · Crossing out to emphasise | Struck-through words draw more attention, not less | Editorial strikethrough as rhetoric ("~~cheap~~ fair"), revision visible as voice; never on functional labels or prices of record |
-| G2 · Text as image | Lists, names, anatomy labels and © or ™ symbols scattered as visual elements | An annotation layer of hand-lettered labels, arrows and symbols around content — marginalia as the brand layer |
+| G2 · Text as image | Lists, names, anatomy labels and © or ™ symbols scattered as visual elements | An annotation layer of hand-lettered labels, arrows and symbols around content, marginalia as the brand layer |
 | G3 · Painting over, showing through | Layers of paint cover earlier marks; fragments survive beneath | Surfaces with visible history: photocopy fragments under paint-like blocks; versioned content showing traces of the previous layer |
-| G4 · A personal signature mark | A small recurring glyph signs and crowns the work | Invent your own tiny recurring mark for corners, loading and favicon — never his crown |
+| G4 · A personal signature mark | A small recurring glyph signs and crowns the work | Invent your own tiny recurring mark for corners, loading and favicon, never his crown |
 | G5 · Encyclopedic diagrams | Skeletons, organs and historical lists drawn from reference books | Explainer pages as annotated diagrams: numbered parts, leader lines, hand-drawn callouts |
 | G6 · Exposed support | Paintings on doors and raw stretchers with visible crossbars | Show scaffolding in creative tools: visible guides, raw edges and grid lines as aesthetic |
 
@@ -40,9 +40,9 @@ Basquiat moved from the SAMO© street texts (with Al Diaz, late 1970s) into gall
 
 ## Blends
 
-- **Amplifies:** `cy-twombly`, `keith-haring`, `punk-graphics`, `dada` — handmade text as image.
-- **Productive tension with:** `massimo-vignelli` — a strict, neutral typographic system framing raw annotations gives potent editorial design.
-- **Clashes with:** `dieter-rams` — reduction and silence cannot coexist with maximal scrawl.
+- **Amplifies:** `cy-twombly`, `keith-haring`, `punk-graphics`, `dada`, handmade text as image.
+- **Productive tension with:** `massimo-vignelli`, a strict, neutral typographic system framing raw annotations gives potent editorial design.
+- **Clashes with:** `dieter-rams`, reduction and silence cannot coexist with maximal scrawl.
 
 ## Don't copy
 
@@ -51,5 +51,5 @@ The three-pointed crown, the SAMO© tags, Hollywood Africans (1983), the skull h
 ## Study
 
 - Whitney Museum (Hollywood Africans); The Broad, Los Angeles
-- Barbican, "Basquiat: Boom for Real" (2017); Fondation Louis Vuitton retrospective (2018–19)
+- Barbican, "Basquiat: Boom for Real" (2017); Fondation Louis Vuitton retrospective (2018 to 19)
 - "Jean-Michel Basquiat: King Pleasure" (2022), organised by his family

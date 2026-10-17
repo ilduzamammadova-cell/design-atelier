@@ -36,8 +36,8 @@ Art is a way of holding and passing on law, kinship and knowledge of Country; it
 
 ## Blends
 
-- **Amplifies:** `agnes-martin` — structurally, patient accumulation and grid-like stillness (never stylistically).
-- **Productive tension with:** `swiss-international` — rational information design that adds custodianship and permission layers.
+- **Amplifies:** `agnes-martin`, structurally, patient accumulation and grid-like stillness (never stylistically).
+- **Productive tension with:** `swiss-international`, rational information design that adds custodianship and permission layers.
 - **Clashes with:** any use of the surface look; "dot-style" graphics imitate and cause harm.
 
 ## Don't copy

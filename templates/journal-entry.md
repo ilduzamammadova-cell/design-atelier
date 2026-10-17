@@ -1,4 +1,4 @@
-## YYYY-MM-DD — [Project / piece name]
+## YYYY-MM-DD, [Project / piece name]
 
 - **Style:** [style-slug] · **Output:** Figma | web | spec
 - **Laws in play:** [numbers]

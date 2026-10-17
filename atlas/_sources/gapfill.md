@@ -1,4 +1,4 @@
-# Gap-fill — sources for study
+# Gap-fill, sources for study
 
 Resources behind the gap-fill cards (edward-johnston, beggarstaffs, willem-sandberg, ivan-sutherland, vannevar-bush, seymour-papert, constantin-brancusi, expressionism, gio-ponti, alexander-girard, louis-sullivan). One line each: what it is and why it is worth the time.
 
@@ -21,8 +21,8 @@ Resources behind the gap-fill cards (edward-johnston, beggarstaffs, willem-sandb
 17. **Brücke-Museum, Berlin** (bruecke-museum.de) and **Lenbachhaus, Munich** (lenbachhaus.de): the core collections of Die Brücke and Der Blaue Reiter respectively.
 18. **MoMA, 1910 KG Brücke catalogue** (moma.org/collection): a direct look at carved lettering set beside plain grotesk type.
 19. **Gio Ponti Archives** (gioponti.org) and **Domus archive** (domusweb.it): drawings, buildings and the magazine he edited for decades. Design as editorial culture.
-20. **Lisa Licitra Ponti, *Gio Ponti: The Complete Work 1923–1978*** (1990): the full catalogue, from Richard-Ginori porcelain to the Pirelli Tower.
+20. **Lisa Licitra Ponti, *Gio Ponti: The Complete Work 1923 to 1978*** (1990): the full catalogue, from Richard-Ginori porcelain to the Pirelli Tower.
 21. **Vitra Design Museum, Alexander Girard Estate** (design-museum.de) and *Alexander Girard: A Designer's Universe* (2016): the archive and the definitive exhibition catalogue.
 22. **Museum of International Folk Art, Santa Fe** (internationalfolkart.org): the Girard collection and *Multiple Visions*. A lesson in abundance, colour and display.
-23. **Art Institute of Chicago, Sullivan's *System of Architectural Ornament* drawings** (artic.edu): the 1922–23 plates that grow ornament from geometry, viewable online.
+23. **Art Institute of Chicago, Sullivan's *System of Architectural Ornament* drawings** (artic.edu): the 1922 to 23 plates that grow ornament from geometry, viewable online.
 24. **Louis Sullivan, "The Tall Office Building Artistically Considered"** (1896): the source of "form follows function", read in full rather than as a slogan.

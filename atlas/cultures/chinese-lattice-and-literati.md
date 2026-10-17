@@ -3,7 +3,7 @@ id: chinese-lattice-and-literati
 name: Chinese lattice, gardens and literati aesthetics
 type: tradition
 discipline: [architecture, craft, art, graphic]
-era: Song dynasty (960–1279) literati painting; Ming–Qing (1368–1912) gardens, lattice and furniture
+era: Song dynasty (960 to 1279) literati painting; Ming-Qing (1368 to 1912) gardens, lattice and furniture
 origin: China (Jiangnan gardens of Suzhou; lattice documented across West China and beyond)
 lineage: []
 tags:
@@ -21,7 +21,7 @@ axes: {order: 8, density: 5, ornament: 6, warmth: 5, contrast: 5, geometry: 8, c
 | Gene | The idea | In UI / product terms |
 |---|---|---|
 | G1 · Lattice as grammar | Daniel Sheets Dye catalogued over a thousand window lattices and grouped them by base figure (square, octagon, hexagon, key fret, ice-ray). Each is a rule applied to a frame, so variety never loses coherence. | Generate frames, dividers and backgrounds from rules: base cell + rotation + break. Publish the rule, not just the artwork; 1px lattice lines in a dark wood tone at panel edges only. |
-| G2 · Ice-ray subdivision | "Cracked ice" lattice splits a panel into irregular straight-edged polygons; every line ends on another line. Irregular but fully structured. | Gallery and collage layouts as straight-line crack subdivisions: recursive splits at angles constrained to 30–60°, all panels touching the frame; no floating cards. |
+| G2 · Ice-ray subdivision | "Cracked ice" lattice splits a panel into irregular straight-edged polygons; every line ends on another line. Irregular but fully structured. | Gallery and collage layouts as straight-line crack subdivisions: recursive splits at angles constrained to 30 to 60°, all panels touching the frame; no floating cards. |
 | G3 · The framed view | Garden walls are pierced with moon gates and leak windows that frame a chosen scene; "borrowed scenery" pulls distant views into the composition. | Images revealed through one framing shape (circle, octagon) cut from a flat wall colour; scrolling moves the "frame" across a larger scene instead of swapping images. |
 | G4 · Ink, emptiness and inscription | Literati painting uses monochrome ink, large empty silk, and integrates poem inscriptions and red seals into the picture. | Captions set inside the image block, not under it; one cinnabar seal colour (#B7322C) as the only accent, used for a single confirm action or a stamp-like status mark. |
 | G5 · The handscroll's paced reveal | Handscrolls are unrolled an arm's length at a time, right to left, so a landscape is read as a sequence. | Horizontal narrative sections revealed one viewport at a time with snap points; a progress rail that shows the whole scroll in miniature. |
@@ -41,8 +41,8 @@ Scholar-officials painted and wrote for themselves and for peers, prizing cultiv
 ## Blends
 
 - **Amplifies:** `japanese-wabi-sabi-and-ma` (shared roots in ink and void), `frank-lloyd-wright` (screens, framed views).
-- **Productive tension with:** `de-stijl` — orthogonal purity versus ice-ray irregularity within one straight-line language.
-- **Clashes with:** `psychedelic` — fluid saturated colour erases both ink restraint and lattice logic.
+- **Productive tension with:** `de-stijl`, orthogonal purity versus ice-ray irregularity within one straight-line language.
+- **Clashes with:** `psychedelic`, fluid saturated colour erases both ink restraint and lattice logic.
 
 ## Don't copy
 

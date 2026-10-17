@@ -3,7 +3,7 @@ id: papyrus
 name: Papyrus
 type: typeface
 discipline: [graphic, ui]
-era: 1982–1983 (cautionary card)
+era: 1982 to 1983 (cautionary card)
 origin: United States (designer); released by Letraset, UK
 lineage: []
 tags:

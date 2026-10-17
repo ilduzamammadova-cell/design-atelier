@@ -40,9 +40,9 @@ In the Inca state, fine cloth was made by specialists and given as gifts, tribut
 
 ## Blends
 
-- **Amplifies:** `anni-albers`, `bauhaus` (weaving workshop), `navajo-weaving` — structure-first textile thinking.
-- **Productive tension with:** `susan-kare` — pixel-grid icon craft meets thread-count geometry.
-- **Clashes with:** `art-nouveau` — free organic curves cannot live on a thread grid.
+- **Amplifies:** `anni-albers`, `bauhaus` (weaving workshop), `navajo-weaving`, structure-first textile thinking.
+- **Productive tension with:** `susan-kare`, pixel-grid icon craft meets thread-count geometry.
+- **Clashes with:** `art-nouveau`, free organic curves cannot live on a thread grid.
 
 ## Don't copy
 

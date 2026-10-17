@@ -3,7 +3,7 @@ id: bret-victor
 name: Bret Victor
 type: designer
 discipline: [ux, ui]
-era: 2005–present
+era: 2005 to present
 origin: San Francisco Bay Area (Oakland), California, USA
 lineage: [alan-kay, douglas-engelbart, seymour-papert]
 tags:
@@ -14,7 +14,7 @@ axes: {order: 6, density: 6, ornament: 1, warmth: 6, contrast: 5, geometry: 6, c
 
 # Bret Victor
 
-**Essence:** Creators need an immediate connection to what they create — every change visible as it is made, every hidden state shown, every abstraction reachable from a concrete example.
+**Essence:** Creators need an immediate connection to what they create, every change visible as it is made, every hidden state shown, every abstraction reachable from a concrete example.
 
 ## Genes
 
@@ -29,20 +29,20 @@ axes: {order: 6, density: 6, ornament: 1, warmth: 6, contrast: 5, geometry: 6, c
 
 ## Visual facts
 
-- **Color:** light, quiet grounds with a single bright highlight reserved for what can be manipulated; diagrams in restrained 2–3 colour palettes.
+- **Color:** light, quiet grounds with a single bright highlight reserved for what can be manipulated; diagrams in restrained 2 to 3 colour palettes.
 - **Type:** book-like essay typography with interactive figures inline → Source Serif 4 for text, IBM Plex Sans for labels, a mono for code.
 - **Form:** precise vector diagrams beside hand-drawn sketches; at Dynamicland, paper, coloured dots, projection and physical objects.
 - **Composition:** long-form essays where text and live models interleave; editor and output in adjacent panes.
 
 ## Attitude
 
-After prototyping future interfaces at Apple (2007–2010), Victor turned to independent research and then founded Dynamicland (from 2014), building Realtalk, a computing environment in physical rooms where paper and bodies are the interface. His "brief rant" (2011) objected to "pictures under glass" for ignoring human hands. The belief, inherited from Kay and Engelbart: the point of computing is to extend human thought, so the medium must make reasoning visible and tangible.
+After prototyping future interfaces at Apple (2007 to 2010), Victor turned to independent research and then founded Dynamicland (from 2014), building Realtalk, a computing environment in physical rooms where paper and bodies are the interface. His "brief rant" (2011) objected to "pictures under glass" for ignoring human hands. The belief, inherited from Kay and Engelbart: the point of computing is to extend human thought, so the medium must make reasoning visible and tangible.
 
 ## Blends
 
-- **Amplifies:** `alan-kay`, `edward-tufte`, `ben-shneiderman` — live, explorable, evidence-rich media.
-- **Productive tension with:** `conversational-and-ai-ux` — opaque generation against visible models; push AI output to arrive as manipulable, explorable structures rather than final prose.
-- **Clashes with:** `persuasive-technology` — tools for understanding and tools for nudging want opposite things from the user's attention.
+- **Amplifies:** `alan-kay`, `edward-tufte`, `ben-shneiderman`, live, explorable, evidence-rich media.
+- **Productive tension with:** `conversational-and-ai-ux`, opaque generation against visible models; push AI output to arrive as manipulable, explorable structures rather than final prose.
+- **Clashes with:** `persuasive-technology`, tools for understanding and tools for nudging want opposite things from the user's attention.
 
 ## Don't copy
 
@@ -50,7 +50,7 @@ His essay illustrations and interactive figures, the platformer game and demos f
 
 ## Study
 
-- *Magic Ink* (2005–06); *Up and Down the Ladder of Abstraction* (2011); *Explorable Explanations* (2011)
+- *Magic Ink* (2005 to 06); *Up and Down the Ladder of Abstraction* (2011); *Explorable Explanations* (2011)
 - *A Brief Rant on the Future of Interaction Design* (2011)
 - *Inventing on Principle*, CUSEC, 20 January 2012: https://worrydream.com/InventingOnPrinciple/
 - *Learnable Programming* (2012); *Media for Thinking the Unthinkable* (2013)

@@ -3,7 +3,7 @@ id: delftware
 name: Delftware and its Chinese blue-and-white source
 type: tradition
 discipline: [craft, graphic, product]
-era: Chinese blue-and-white from the 14th century (Yuan); kraak export ware c. 1570s–1640s; Delftware from c. 1620 to today
+era: Chinese blue-and-white from the 14th century (Yuan); kraak export ware c. 1570s to 1640s; Delftware from c. 1620 to today
 origin: Jingdezhen (China) → Delft and Haarlem (Dutch Republic)
 lineage: []
 tags:
@@ -20,11 +20,11 @@ axes: {order: 6, density: 5, ornament: 7, warmth: 5, contrast: 6, geometry: 4, c
 
 | Gene | The idea | In UI / product terms |
 |---|---|---|
-| G1 · One pigment, full range | Cobalt painted on white gives everything from pale wash to near black; no second colour is needed. | A single-hue system: one blue plus white with 6–8 tints; charts encode values by lightness only; accent colour forbidden. |
-| G2 · Panelled border | Chinese kraak porcelain of the Wanli period (1573–1620) divides the rim into radiating panels, alternating wide and narrow, around a central medallion; Delft copied it closely. | Radial and dial UIs (timers, donut charts, rotary menus) with alternating wide/narrow segments around a central value. |
+| G1 · One pigment, full range | Cobalt painted on white gives everything from pale wash to near black; no second colour is needed. | A single-hue system: one blue plus white with 6 to 8 tints; charts encode values by lightness only; accent colour forbidden. |
+| G2 · Panelled border | Chinese kraak porcelain of the Wanli period (1573 to 1620) divides the rim into radiating panels, alternating wide and narrow, around a central medallion; Delft copied it closely. | Radial and dial UIs (timers, donut charts, rotary menus) with alternating wide/narrow segments around a central value. |
 | G3 · Translate, then localise | Unable to make true porcelain without kaolin, Dutch potters imitated it with white tin glaze from about 1620, then replaced Chinese scenes with windmills, ships, Bible tiles and tulip vases. | A borrowing method: keep the structure (border, medallion, scale), replace the content with your own subject; document both what was borrowed and what was changed. |
 | G4 · Corner motifs that join | Delft wall tiles carry a central figure plus small corner ornaments that combine into a secondary pattern when tiles meet. | Card grids where each card's corner marks join with neighbours to form a lattice; the secondary pattern appears only in multiples. |
-| G5 · Brush outline plus wash | Quick fluid outlines, then a lighter wash fill. | Illustration style: one brush-weight outline in the darkest tone plus one flat wash at 30–40% tint. |
+| G5 · Brush outline plus wash | Quick fluid outlines, then a lighter wash fill. | Illustration style: one brush-weight outline in the darkest tone plus one flat wash at 30 to 40% tint. |
 
 ## Visual facts
 
@@ -39,9 +39,9 @@ Chinese blue-and-white was a global luxury and was imitated from the Ottoman Emp
 
 ## Blends
 
-- **Amplifies:** `portuguese-azulejo`, `iznik-tiles` — tin glaze, blue-and-white and Chinese influence run through all three.
-- **Productive tension with:** `pop-art` — mass reproduction and domestic kitsch, handled with irony or care.
-- **Clashes with:** `memphis` — clashing multicolour laminates erase the one-pigment discipline.
+- **Amplifies:** `portuguese-azulejo`, `iznik-tiles`, tin glaze, blue-and-white and Chinese influence run through all three.
+- **Productive tension with:** `pop-art`, mass reproduction and domestic kitsch, handled with irony or care.
+- **Clashes with:** `memphis`, clashing multicolour laminates erase the one-pigment discipline.
 
 ## Don't copy
 

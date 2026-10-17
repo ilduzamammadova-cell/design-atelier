@@ -8,14 +8,14 @@ Pick one primary personality. Read it from `energy`, `geometry`, `hand` and the 
 
 | Personality | Feels like | Durations | Easing | Fits DNA |
 |---|---|---|---|---|
-| **Still** | A printed page. Nothing moves except what must. | state feedback only, 80–120ms | linear or `ease-out` | energy ≤ 2, calm/quiet styles |
-| **Mechanical** | A well-made machine: precise, quantised, confident | 100–200ms | sharp `cubic-bezier(.2,0,0,1)`, or `steps()` for deliberate tick motion | order ≥ 8, geometry ≥ 8, hand ≤ 2 |
-| **Physical** | Objects with mass that settle | spring-based; settle ≈ 250–450ms | springs (stiffness/damping) rather than curves | product-led, tactile styles; warmth ≥ 6 |
-| **Editorial** | Turning pages, slow reveals, cuts between scenes | 300–600ms | gentle `ease-in-out` | typevoice ≥ 7, density ≤ 5 |
-| **Ink / organic** | Things that grow, bleed, unfurl | 400–900ms, staggered | asymmetric, long tails | hand ≥ 7, geometry ≤ 3 |
-| **Kinetic** | Type and shape as performers | varies; choreographed sequences | expressive, often custom per sequence | energy ≥ 8, play ≥ 7 — use sparingly; best for brand moments, not product chrome |
+| **Still** | A printed page. Nothing moves except what must. | state feedback only, 80 to 120ms | linear or `ease-out` | energy ≤ 2, calm/quiet styles |
+| **Mechanical** | A well-made machine: precise, quantised, confident | 100 to 200ms | sharp `cubic-bezier(.2,0,0,1)`, or `steps()` for deliberate tick motion | order ≥ 8, geometry ≥ 8, hand ≤ 2 |
+| **Physical** | Objects with mass that settle | spring-based; settle ≈ 250 to 450ms | springs (stiffness/damping) rather than curves | product-led, tactile styles; warmth ≥ 6 |
+| **Editorial** | Turning pages, slow reveals, cuts between scenes | 300 to 600ms | gentle `ease-in-out` | typevoice ≥ 7, density ≤ 5 |
+| **Ink / organic** | Things that grow, bleed, unfurl | 400 to 900ms, staggered | asymmetric, long tails | hand ≥ 7, geometry ≤ 3 |
+| **Kinetic** | Type and shape as performers | varies; choreographed sequences | expressive, often custom per sequence | energy ≥ 8, play ≥ 7, use sparingly; best for brand moments, not product chrome |
 
-A style may borrow a secondary personality for one moment (e.g. a Still product with one Kinetic hero) — name that moment explicitly in the spec.
+A style may borrow a secondary personality for one moment (e.g. a Still product with one Kinetic hero), name that moment explicitly in the spec.
 
 ## Tokens
 
@@ -43,10 +43,10 @@ Adjust values to the personality; keep the names stable.
 Motion should explain something: where an element came from, where it went, what changed, what is responding. Before adding any animation, finish the sentence "This moves so the user understands that…". If you can't, cut it.
 
 Good reasons:
-- **Feedback** — press, toggle, success, error.
-- **Continuity** — an element expands into its detail view instead of the screen jumping.
-- **Hierarchy over time** — the most important element arrives first.
-- **State** — loading, progress, completion.
+- **Feedback**: press, toggle, success, error.
+- **Continuity**: an element expands into its detail view instead of the screen jumping.
+- **Hierarchy over time**: the most important element arrives first.
+- **State**: loading, progress, completion.
 
 Usually bad reasons (and saturated trends): scroll-jacking, parallax for its own sake, cursor followers, magnetic buttons, marquee tickers, everything fading up on scroll, looping background blobs.
 

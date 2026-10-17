@@ -3,7 +3,7 @@ id: palm-os
 name: Palm OS
 type: system
 discipline: [ui, ux, product]
-era: 1996–2007
+era: 1996 to 2007
 origin: Silicon Valley, USA
 lineage: [classic-macintosh]
 tags:
@@ -14,7 +14,7 @@ axes: {order: 8, density: 5, ornament: 1, warmth: 5, contrast: 7, geometry: 8, c
 
 # Palm OS
 
-**Essence:** A 160×160-pixel pocket tool designed by subtraction — a few taps, no waiting, nothing that can't justify its pixels.
+**Essence:** A 160×160-pixel pocket tool designed by subtraction, a few taps, no waiting, nothing that can't justify its pixels.
 
 ## Genes
 
@@ -40,9 +40,9 @@ Jeff Hawkins treated the device as a paper replacement measured in seconds, and 
 
 ## Blends
 
-- **Amplifies:** `dieter-rams`, `ambient-and-e-ink-ui`, `susan-kare` — economy, frequency over features, clarity at small sizes.
-- **Productive tension with:** `flash-era-web` — expressive motion squeezed into a three-tap budget yields delightful micro-feedback rather than theatre.
-- **Clashes with:** `bloomberg-terminal` — the terminal's "show everything" density contradicts Palm's "show the frequent 20%".
+- **Amplifies:** `dieter-rams`, `ambient-and-e-ink-ui`, `susan-kare`, economy, frequency over features, clarity at small sizes.
+- **Productive tension with:** `flash-era-web`, expressive motion squeezed into a three-tap budget yields delightful micro-feedback rather than theatre.
+- **Clashes with:** `bloomberg-terminal`, the terminal's "show everything" density contradicts Palm's "show the frequent 20%".
 
 ## Don't copy
 
@@ -51,5 +51,5 @@ Jeff Hawkins treated the device as a paper replacement measured in seconds, and 
 ## Study
 
 - "Zen of Palm: Designing Products for Palm OS" (Palm OS developer guidance, early 2000s; widely mirrored as a PDF).
-- Computer History Museum — Palm Pilot (1996) and related prototypes.
+- Computer History Museum, Palm Pilot (1996) and related prototypes.
 - Andrea Butter & David Pogue, *Piloting Palm* (2002).

@@ -20,11 +20,11 @@ axes: {order: 7, density: 7, ornament: 8, warmth: 7, contrast: 6, geometry: 6, c
 
 | Gene | The idea | In UI / product terms |
 |---|---|---|
-| G1 · Light-to-dark layering | Wax drawn with a canting (or stamped with a copper cap) protects areas from each successive dye; colours stack from lightest to darkest. | A layering rule for illustration and theming: lightest tone first, each later tone darker and covering less area; maximum 3–4 tones (cream #EFE3C8 → soga brown #8A5A2B → indigo-black #1F2433). |
+| G1 · Light-to-dark layering | Wax drawn with a canting (or stamped with a copper cap) protects areas from each successive dye; colours stack from lightest to darkest. | A layering rule for illustration and theming: lightest tone first, each later tone darker and covering less area; maximum 3 to 4 tones (cream #EFE3C8 → soga brown #8A5A2B → indigo-black #1F2433). |
 | G2 · Scale as rank | In the parang family of diagonal bands, the largest version (parang rusak barong) was reserved for the ruler, smaller ones for lower ranks. | Hierarchy by pattern scale: one motif rendered at three scales; the largest only on the highest tier (premium plan, flagship page), smaller scales lower down. |
 | G3 · Diagonal band rhythm | Parang runs in steady parallel diagonals of S-shaped units; the two courts even ran the diagonal in opposite directions. | One diagonal pattern direction per product family as an identity cue; pattern bands at 45° behind headers, never behind text blocks. |
 | G4 · Four-around-one (kawung) | Kawung arranges four ovals around a central point in a continuous grid. | A 4-around-1 module for icon construction and for dashboard clusters (one key metric with four satellites). |
-| G5 · Court and coast palettes | Court batik keeps to browns, indigo and white; north-coast (pesisir) batik is bright and floral, absorbing Chinese, Arab, Indian and Dutch influences; Cirebon's megamendung clouds use stepped bands of blue. | Two palette modes from one structure: "kraton" (restrained) and "pesisir" (saturated). Gradients done as 5–7 stepped contour bands, megamendung-style, never smooth blends. |
+| G5 · Court and coast palettes | Court batik keeps to browns, indigo and white; north-coast (pesisir) batik is bright and floral, absorbing Chinese, Arab, Indian and Dutch influences; Cirebon's megamendung clouds use stepped bands of blue. | Two palette modes from one structure: "kraton" (restrained) and "pesisir" (saturated). Gradients done as 5 to 7 stepped contour bands, megamendung-style, never smooth blends. |
 | G6 · Background fill (isen) | Small dots and dashes fill the space between main motifs so the ground also vibrates. | A micro-texture token for quiet backgrounds: 1px dots on an 8px grid at 6% opacity. |
 
 ## Visual facts
@@ -40,9 +40,9 @@ UNESCO's inscription stresses that batik accompanies Indonesians from birth slin
 
 ## Blends
 
-- **Amplifies:** `art-nouveau` (via Dutch Nieuwe Kunst), `william-morris` — organic repeat and handwork.
-- **Productive tension with:** `swiss-international` — strict typographic grid over a scale-coded pattern system.
-- **Clashes with:** `op-art` — hard optical vibration turns the soft wax line into moiré noise.
+- **Amplifies:** `art-nouveau` (via Dutch Nieuwe Kunst), `william-morris`, organic repeat and handwork.
+- **Productive tension with:** `swiss-international`, strict typographic grid over a scale-coded pattern system.
+- **Clashes with:** `op-art`, hard optical vibration turns the soft wax line into moiré noise.
 
 ## Don't copy
 

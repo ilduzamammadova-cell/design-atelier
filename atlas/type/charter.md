@@ -20,9 +20,9 @@ axes: {order: 7, density: 6, ornament: 0, warmth: 5, contrast: 3, geometry: 6, c
 
 | Gene | The idea | In UI / product terms |
 |---|---|---|
-| G1 · Designed for the worst device | Carter drew it in 1987 for low-resolution output (300 dpi laser printers, fax), with simplified outlines that rasterize cleanly. | Choose body type by worst-case rendering: test at 15–17px on a 1× Windows screen, an e-ink reader and a phone at low brightness. Ship the face that survives all three, not the one that wins on a retina mockup. |
+| G1 · Designed for the worst device | Carter drew it in 1987 for low-resolution output (300 dpi laser printers, fax), with simplified outlines that rasterize cleanly. | Choose body type by worst-case rendering: test at 15 to 17px on a 1× Windows screen, an e-ink reader and a phone at low brightness. Ship the face that survives all three, not the one that wins on a retina mockup. |
 | G2 · Low contrast, square-ish serifs | Strong hairlines and flat, slightly slab-like serifs don't shimmer or break up. | Use it as the dark-mode-safe serif: regular weight on dark grounds without the usual weight bump; it suits light-on-dark long reads in documentation and reading apps. |
-| G3 · Compact with a large x-height | It fits many words per line while staying legible, an economical text face. | Dense documents (legal, specs, help centres): 16px at a 34–38em max width; it holds up in two-column layouts and narrow mobile measures without hyphenation. |
+| G3 · Compact with a large x-height | It fits many words per line while staying legible, an economical text face. | Dense documents (legal, specs, help centres): 16px at a 34 to 38em max width; it holds up in two-column layouts and narrow mobile measures without hyphenation. |
 | G4 · Open licence as distribution | Bitstream donated Charter to the X Consortium in 1992 under permissive terms. Free derivatives (XCharter, Charis SIL) followed, and Apple ships it with macOS. | For multi-platform products, prefer open or freely redistributable faces so web, native apps, generated PDFs and offline exports use one face without licence friction. |
 
 ## Visual facts

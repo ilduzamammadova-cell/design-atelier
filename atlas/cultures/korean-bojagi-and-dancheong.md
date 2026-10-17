@@ -3,7 +3,7 @@ id: korean-bojagi-and-dancheong
 name: Korean bojagi (wrapping cloths) and dancheong (architectural colour painting)
 type: tradition
 discipline: [craft, architecture, graphic]
-era: Dancheong from Three Kingdoms period tomb murals onward; bojagi flourishing in Joseon (1392–1910) to mid-20th century
+era: Dancheong from Three Kingdoms period tomb murals onward; bojagi flourishing in Joseon (1392 to 1910) to mid-20th century
 origin: Korea
 lineage: []
 tags:
@@ -21,9 +21,9 @@ axes: {order: 6, density: 5, ornament: 6, warmth: 7, contrast: 7, geometry: 7, c
 | Gene | The idea | In UI / product terms |
 |---|---|---|
 | G1 · Improvised patchwork grid (jogakbo) | Scraps are joined into irregular rectangles until the cloth reaches its size; the seams (gekki, a triple-stitched seam) draw a window-pane line network. | A "jogak" layout: recursive rectangle splits at random ratios between 1:1 and 1:3 filling a frame exactly; each tile one flat colour; 1px seam lines one step darker than the neighbours. |
-| G2 · Translucent overlap | Ramie and silk bojagi glow against light; seams and overlaps appear as darker lines. | Panels at 60–80% opacity with no shadows; depth shown only where layers overlap and darken. |
+| G2 · Translucent overlap | Ramie and silk bojagi glow against light; seams and overlaps appear as darker lines. | Panels at 60 to 80% opacity with no shadows; depth shown only where layers overlap and darken. |
 | G3 · Directional colour (obangsaek) | Five colours tied to directions and elements: blue east, red south, yellow centre, white west, black north. | Colour as wayfinding: five main sections each own one colour by meaning and position; the centre/home is yellow; colours are never used outside their role. |
-| G4 · Ornament at the joints (dancheong) | Brackets and beam ends get dense banded patterns with stepped tonal gradations, while longer members carry simpler bands; painting protects wood and marks a building's rank. | Concentrate ornament at structural joints (nav ends, card corners, table headers) and leave fields plain; outline components with 3–5 stepped tints, never a smooth gradient. |
+| G4 · Ornament at the joints (dancheong) | Brackets and beam ends get dense banded patterns with stepped tonal gradations, while longer members carry simpler bands; painting protects wood and marks a building's rank. | Concentrate ornament at structural joints (nav ends, card corners, table headers) and leave fields plain; outline components with 3 to 5 stepped tints, never a smooth gradient. |
 | G5 · Rainbow stripe (saekdong) | Multicoloured striped sleeves on festive and children's hanbok. | One thin five-band stripe as a brand or progress rule, used once per screen. |
 | G6 · Wrapping as gesture | Bojagi wrap, carry, cover food and present gifts; the knot is part of the giving. | Reveal interactions as unwrapping: a panel folds open from four corners on a gift, reward or onboarding step. |
 
@@ -40,9 +40,9 @@ Bojagi were mostly made by women, often anonymous, from fabric that would otherw
 
 ## Blends
 
-- **Amplifies:** `paul-klee`, `josef-albers` — colour squares and the interaction of adjacent hues.
-- **Productive tension with:** `de-stijl` — jogakbo is often compared to Mondrian, but improvised; mixing strict and improvised rectangles is fertile.
-- **Clashes with:** `art-nouveau` — whiplash curves fight the rectangle and band logic.
+- **Amplifies:** `paul-klee`, `josef-albers`, colour squares and the interaction of adjacent hues.
+- **Productive tension with:** `de-stijl`, jogakbo is often compared to Mondrian, but improvised; mixing strict and improvised rectangles is fertile.
+- **Clashes with:** `art-nouveau`, whiplash curves fight the rectangle and band logic.
 
 ## Don't copy
 

@@ -3,7 +3,7 @@ id: owen-jones
 name: Owen Jones
 type: designer
 discipline: [graphic, architecture, craft]
-era: 1834–1874
+era: 1834 to 1874
 origin: London, England
 lineage: []
 tags:
@@ -22,7 +22,7 @@ axes: {order: 8, density: 8, ornament: 10, warmth: 5, contrast: 5, geometry: 8, 
 |---|---|---|
 | G1 · Decorate the construction | Among the 37 principles that open *The Grammar of Ornament* (1856): structure should be decorated, but nothing should be built only so that it can carry decoration. | Ornament goes only where structure already is: header bands, section joints, card edges, separators, empty states. Audit rule: if removing an element leaves no functional gap, it was decoration pretending to be structure; delete it. |
 | G2 · Geometry under every pattern | He held that all ornament should rest on a geometric construction, and analysed Islamic, Egyptian, Greek and other patterns as lattices of squares, triangles and hexagons. | Generate patterns parametrically from declared lattices (square, triangular, hex) in SVG or canvas: motif + lattice + rotation rule. Store the lattice, not a bitmap, so the pattern rescales and recolours from tokens. |
-| G3 · Conventionalize nature | Natural forms should not be copied; they should be abstracted into flat, stylized representations that keep the idea without breaking the surface. | Botanical and natural illustration tokens: flat, symmetrical, 2–3 tones, no perspective or cast shadows, aligned to the pattern lattice. Applies to icons, empty states and packaging alike. |
+| G3 · Conventionalize nature | Natural forms should not be copied; they should be abstracted into flat, stylized representations that keep the idea without breaking the surface. | Botanical and natural illustration tokens: flat, symmetrical, 2 to 3 tones, no perspective or cast shadows, aligned to the pattern lattice. Applies to icons, empty states and packaging alike. |
 | G4 · Primaries small, secondaries large | His colour rules place strong primaries on small areas and supporting secondaries and tertiaries on the large masses, with neighbouring strong colours separated by thin lines of white, gold or black. | Colour proportion token rule: saturated primaries ≤ 10% of any screen area (accents, markers, small icons); large fields use muted secondaries or tertiaries. Where two saturated colours touch, insert a 1px divider (white or near-black). |
 | G5 · A grammar, not a scrapbook | The book's 100 colour plates arrange ornament by culture and period, each introduced with an analysis, so readers learn the logic behind it, not just the look. | Document the pattern library as a grammar: each motif page shows its source and credit, its construction lattice, permitted colour sets, scale limits and where it may and may not appear. |
 
@@ -51,7 +51,7 @@ Jones believed that the Victorian chaos of borrowed styles could be cured by pri
 ## Study
 
 - *The Grammar of Ornament* (1856): full digitization at Internet Archive and Heidelberg University Library
-- *Plans, Elevations, Sections and Details of the Alhambra* (1842–45)
+- *Plans, Elevations, Sections and Details of the Alhambra* (1842 to 45)
 - V&A collection: Owen Jones drawings and designs (vam.ac.uk)
 - Carol A. Hrvol Flores, *Owen Jones: Design, Ornament, Architecture and Theory* (2006)
 - Meggs, ch. 9

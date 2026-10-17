@@ -39,9 +39,9 @@ Kente developed under royal patronage; certain designs were reserved for the Asa
 
 ## Blends
 
-- **Amplifies:** `anni-albers` — woven structure as the generator of image.
-- **Productive tension with:** `de-stijl` — primary blocks on a strict grid versus a staggered, polychrome woven rhythm.
-- **Clashes with:** `japanese-wabi-sabi-and-ma` — muted austerity and celebratory chroma cancel each other.
+- **Amplifies:** `anni-albers`, woven structure as the generator of image.
+- **Productive tension with:** `de-stijl`, primary blocks on a strict grid versus a staggered, polychrome woven rhythm.
+- **Clashes with:** `japanese-wabi-sabi-and-ma`, muted austerity and celebratory chroma cancel each other.
 
 ## Don't copy
 

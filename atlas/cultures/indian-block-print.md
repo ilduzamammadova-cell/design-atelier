@@ -20,9 +20,9 @@ axes: {order: 8, density: 7, ornament: 8, warmth: 8, contrast: 5, geometry: 6, c
 
 | Gene | The idea | In UI / product terms |
 |---|---|---|
-| G1 · Outline-then-fill registration | An outline block is printed first, then separate fill blocks for each colour, aligned by eye; slight offsets are normal and give life. | Illustrations and icons built as separable layers: one outline layer plus 1–3 flat fill layers offset by 1–2px by design; outlines never move, fills do. |
+| G1 · Outline-then-fill registration | An outline block is printed first, then separate fill blocks for each colour, aligned by eye; slight offsets are normal and give life. | Illustrations and icons built as separable layers: one outline layer plus 1 to 3 flat fill layers offset by 1 to 2px by design; outlines never move, fills do. |
 | G2 · Buti and jaal repeats | Small dropped motifs (buti) set in a half-drop grid, or a trellis net (jaal) holding the motifs. | Background patterns on a half-drop repeat (alternate rows offset 50%); density as a token (sparse / regular / dense) so one motif serves many surfaces. |
-| G3 · Field, border, end panel | Saris and bedcovers separate a calm field, one or more borders, and a richer end panel (pallu). | Card anatomy: plain field, an 8–16px patterned border strip on one or two edges, a richer footer panel; hierarchy comes from where pattern sits. |
+| G3 · Field, border, end panel | Saris and bedcovers separate a calm field, one or more borders, and a richer end panel (pallu). | Card anatomy: plain field, an 8 to 16px patterned border strip on one or two edges, a richer footer panel; hierarchy comes from where pattern sits. |
 | G4 · Chemistry palette | Madder reds come from alum mordant, black from iron, blue from indigo; Ajrakh prints both faces with indigo and madder; dabu mud-resist leaves cracked pale lines. | Palette derived from one "dye bath" logic: madder #9E2A2B, indigo #22314E, iron black #2B2523, pomegranate yellow #C99A2E on unbleached #F2EADB; every tint a mix of these, no outside hues. |
 | G5 · Soft bleed, crisp type | Hand-printed edges bleed slightly into cotton; washing softens colour. | Allow texture and bleed only in illustration layers; text and controls stay pixel-crisp; never apply grain to type. |
 
@@ -39,9 +39,9 @@ Printing is the work of hereditary printing communities (Chhipa printers in Raja
 
 ## Blends
 
-- **Amplifies:** `william-morris`, `arts-and-crafts` — hand repeat, natural dyes, border-and-field thinking; `charles-and-ray-eames` (their 1958 India Report).
-- **Productive tension with:** `swiss-international` — grid discipline holding warm, misregistered pattern.
-- **Clashes with:** `futurism` — speed lines and machine aggression cancel the slow hand rhythm.
+- **Amplifies:** `william-morris`, `arts-and-crafts`, hand repeat, natural dyes, border-and-field thinking; `charles-and-ray-eames` (their 1958 India Report).
+- **Productive tension with:** `swiss-international`, grid discipline holding warm, misregistered pattern.
+- **Clashes with:** `futurism`, speed lines and machine aggression cancel the slow hand rhythm.
 
 ## Don't copy
 
@@ -49,7 +49,7 @@ Specific designs of Anokhi, Fabindia and other houses; historic chintz pieces in
 
 ## Respect
 
-The techniques are open to learn and the visual language is widely shared, but names are protected: Sanganeri hand block printing, Bagru hand block print and Kutch Ajrakh hold Geographical Indication status in India. Do not label screen or digital prints as "hand block" or "Ajrakh". Ajrakh carries community meaning on both sides of the India–Pakistan border; credit both Kutch and Sindh. Commission or license from printers. Caricature is "boho" paisley soup, elephants and the Taj Mahal, or henna patterns used as generic "Indian".
+The techniques are open to learn and the visual language is widely shared, but names are protected: Sanganeri hand block printing, Bagru hand block print and Kutch Ajrakh hold Geographical Indication status in India. Do not label screen or digital prints as "hand block" or "Ajrakh". Ajrakh carries community meaning on both sides of the India-Pakistan border; credit both Kutch and Sindh. Commission or license from printers. Caricature is "boho" paisley soup, elephants and the Taj Mahal, or henna patterns used as generic "Indian".
 
 ## Study
 

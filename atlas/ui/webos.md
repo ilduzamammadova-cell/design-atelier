@@ -3,7 +3,7 @@ id: webos
 name: webOS (Palm)
 type: system
 discipline: [ui, ux]
-era: 2009–2011
+era: 2009 to 2011
 origin: Sunnyvale, USA
 lineage: [palm-os, mac-os-x-aqua]
 tags:
@@ -14,7 +14,7 @@ axes: {order: 6, density: 4, ornament: 3, warmth: 6, contrast: 5, geometry: 4, c
 
 # webOS (Palm)
 
-**Essence:** A phone as a deck of live cards — fanned, shuffled and flicked away — with notifications that wait politely at the bottom edge.
+**Essence:** A phone as a deck of live cards, fanned, shuffled and flicked away, with notifications that wait politely at the bottom edge.
 
 ## Genes
 
@@ -36,13 +36,13 @@ axes: {order: 6, density: 4, ornament: 3, warmth: 6, contrast: 5, geometry: 4, c
 
 ## Attitude
 
-Matías Duarte led webOS's human interface (announced at CES in January 2009, launched on the Palm Pre that June). The belief: people live in many simultaneous activities, and a physical metaphor — cards on a table — makes that manageable without a manual. HP bought Palm in 2010 and halted devices in 2011, but the card idea spread through mobile multitasking, and Duarte carried it to Google (`material-design`).
+Matías Duarte led webOS's human interface (announced at CES in January 2009, launched on the Palm Pre that June). The belief: people live in many simultaneous activities, and a physical metaphor, cards on a table, makes that manageable without a manual. HP bought Palm in 2010 and halted devices in 2011, but the card idea spread through mobile multitasking, and Duarte carried it to Google (`material-design`).
 
 ## Blends
 
-- **Amplifies:** `material-design`, `palm-os`, `ambient-and-e-ink-ui` — cards, calm notifications, quiet presence.
-- **Productive tension with:** `classic-macintosh` — HyperCard's stack-of-cards authoring meeting webOS's live card deck suggests user-composable, stackable workspaces.
-- **Clashes with:** `windows-95` — a taskbar of labelled buttons and a spatial card deck are two incompatible models of "what is open".
+- **Amplifies:** `material-design`, `palm-os`, `ambient-and-e-ink-ui`, cards, calm notifications, quiet presence.
+- **Productive tension with:** `classic-macintosh`, HyperCard's stack-of-cards authoring meeting webOS's live card deck suggests user-composable, stackable workspaces.
+- **Clashes with:** `windows-95`, a taskbar of labelled buttons and a spatial card deck are two incompatible models of "what is open".
 
 ## Don't copy
 
@@ -50,6 +50,6 @@ Matías Duarte led webOS's human interface (announced at CES in January 2009, la
 
 ## Study
 
-- CES 2009 Palm keynote (video) — the first webOS demonstration.
-- Interviews with Matías Duarte on webOS and the card metaphor (2009–2011 tech press).
+- CES 2009 Palm keynote (video), the first webOS demonstration.
+- Interviews with Matías Duarte on webOS and the card metaphor (2009 to 2011 tech press).
 - webOS Archive and the LuneOS community project, which preserve the software and its documentation.

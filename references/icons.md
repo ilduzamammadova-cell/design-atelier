@@ -1,10 +1,10 @@
 # Icons
 
-Icons are where most interfaces quietly become generic: the same default outline set, at the same size, in every product. In a personal style the icon set must *belong* — its stroke, corners and terminals should look drawn by the same hand as the type.
+Icons are where most interfaces quietly become generic: the same default outline set, at the same size, in every product. In a personal style the icon set must *belong*, its stroke, corners and terminals should look drawn by the same hand as the type.
 
 ## House rule: monochrome and simple
 
-Icons are **one color, simple, and black by default** (`currentColor`, so they take the ink token and follow light/dark mode). No multicolor, no gradients, no duotone, no shadows, no opacity layers — unless the person explicitly asks for them. A personal style shows in an icon's construction (corners, terminals, stroke, proportion), never in added color.
+Icons are **one color, simple, and black by default** (`currentColor`, so they take the ink token and follow light/dark mode). No multicolor, no gradients, no duotone, no shadows, no opacity layers, unless the person explicitly asks for them. A personal style shows in an icon's construction (corners, terminals, stroke, proportion), never in added color.
 
 Two icon languages, pick one per set (per product, usually one; a solid variant of the outline set is allowed for selected/active states):
 
@@ -12,18 +12,18 @@ Two icon languages, pick one per set (per product, usually one; a solid variant 
 |---|---|---|
 | Looks like | Drawn with one even pen: e.g. a school-supplies set of books, pencils, flasks, globes | Filled silhouettes: e.g. a naval set of ships, anchors, lifebuoys |
 | Grid | 24×24, 2px padding (live area 20) | 24×24, 2px padding |
-| Construction | One stroke weight for every line, inner details included (1.5–2 at 24); caps and joins round or square — one choice for the whole set; small dots as filled circles allowed | Solid fill, no strokes; inner details are **cut-outs** (holes in the shape, `fill-rule="evenodd"` or path subtraction) — never white shapes on top, so the icon works on any background |
-| Detail | Only what identifies the object; 3–6 inner lines at most | Strong, recognisable silhouette first; details as 1.5–2px knockout gaps; no part thinner than 1.5px |
+| Construction | One stroke weight for every line, inner details included (1.5 to 2 at 24); caps and joins round or square, one choice for the whole set; small dots as filled circles allowed | Solid fill, no strokes; inner details are **cut-outs** (holes in the shape, `fill-rule="evenodd"` or path subtraction), never white shapes on top, so the icon works on any background |
+| Detail | Only what identifies the object; 3 to 6 inner lines at most | Strong, recognisable silhouette first; details as 1.5 to 2px knockout gaps; no part thinner than 1.5px |
 | Reads best | UI navigation, toolbars, dense product UI, airy styles | Small sizes, maps, signage, bold styles, active/selected states |
 
-Organise sets the way a professional library does: themed category groups of up to 20 icons (5 per row), named `<theme>-icons-<NN>-<category>` — e.g. `edu-icons-01-supplies`, `edu-icons-02-science`, `naval-icons-05-rigging`, `naval-icons-06-safety`. Each icon is named by meaning (`microscope`, `life-buoy`, `anchor`), never by appearance or number.
+Organise sets the way a professional library does: themed category groups of up to 20 icons (5 per row), named `<theme>-icons-<NN>-<category>`, e.g. `edu-icons-01-supplies`, `edu-icons-02-science`, `naval-icons-05-rigging`, `naval-icons-06-safety`. Each icon is named by meaning (`microscope`, `life-buoy`, `anchor`), never by appearance or number.
 
 ## Decide: library, adapted library, or custom
 
 | Situation | Choice |
 |---|---|
 | Product UI with many icons, small team, tight time | **Library**, chosen to match the style's type and geometry (table below) |
-| Style has a strong shape law (cut corners, pixel grid, ink edge, seams) | **Adapted library** — keep a library's metaphors, redraw or post-process to the law |
+| Style has a strong shape law (cut corners, pixel grid, ink edge, seams) | **Adapted library**, keep a library's metaphors, redraw or post-process to the law |
 | Brand-led piece, marketing site, small icon count (< 30), or a style whose Voice gene is about form | **Custom set** drawn from the style's laws |
 
 The default answer in the generic-AI look is Lucide at 24px, 2px stroke, everywhere. Choosing it is fine *when it is chosen*: say why it fits this style's type.
@@ -47,7 +47,7 @@ Verify licences on the project's terms before shipping; they change.
 
 | Library | Character | Fits styles that are… |
 |---|---|---|
-| **Lucide** (Feather lineage) | 24px grid, uniform stroke, rounded caps, very neutral | neutral-humanist; the safe default — and therefore the generic one |
+| **Lucide** (Feather lineage) | 24px grid, uniform stroke, rounded caps, very neutral | neutral-humanist; the safe default, and therefore the generic one |
 | **Phosphor** | Six weights (thin → bold, fill, duotone) from one family | styles needing weight variation; thin weight suits light, airy, editorial styles |
 | **Tabler** | Large set, 24px, 2px stroke, outline + filled | dense product UI with many concepts |
 | **Heroicons** | Outline, solid, mini, micro sizes; Tailwind-adjacent | utilitarian product UI; strongly associated with the default Tailwind look |
@@ -57,13 +57,13 @@ Verify licences on the project's terms before shipping; they change.
 | **IBM Carbon icons** | Rational, squared, engineered | technical, data-dense, institutional styles |
 | **Radix Icons** | 15×15, crisp, minimal | compact tool UI, small sizes |
 | **Pixelarticons** and other pixel sets | Hard pixel grid | retro-computing, game, terminal-gene styles |
-| **SF Symbols** | Apple platforms only, weight-matched to SF | native Apple apps only — not for web |
+| **SF Symbols** | Apple platforms only, weight-matched to SF | native Apple apps only, not for web |
 
 ## Drawing a custom set from the style
 
 1. **Grid:** choose the base (16/20/24) from the type size the icons sit beside. Define keylines (circle, square, portrait and landscape rectangles) on that grid.
 2. **Stroke:** equal to the text stem at that size; round or square caps per the type's terminals.
-3. **Laws apply — to shape only:** if the style says "joints are visible", icon strokes meet with a visible notch; if "cut corners", every corner is a 45° cut of the same size. Keep it subtle: an icon must stay simple and instantly readable. Laws never add color, texture or gradients to icons.
+3. **Laws apply, to shape only:** if the style says "joints are visible", icon strokes meet with a visible notch; if "cut corners", every corner is a 45° cut of the same size. Keep it subtle: an icon must stay simple and instantly readable. Laws never add color, texture or gradients to icons.
 4. **Metaphors:** one idea per icon, borrowed from the style's world when possible (a ledger style can use a tick in a box from bookkeeping rather than a generic check-circle).
 5. **Core set first:** navigation (home, search, menu, back, close), actions (add, edit, delete, share, download), states (success, warning, error, info, loading). Expand only as the product needs.
 6. **Deliver** as SVG with `currentColor`, consistent viewBox, no transforms; and as a Figma component set with size variants.
@@ -80,7 +80,7 @@ Draw icons as real SVG, not described in prose:
 </svg>
 ```
 
-- One file per icon, named by meaning in kebab-case (`search.svg`, `arrow-left.svg`, `shift-night.svg`) — never `icon-1` or `vector`.
+- One file per icon, named by meaning in kebab-case (`search.svg`, `arrow-left.svg`, `shift-night.svg`), never `icon-1` or `vector`.
 - Keep 2px of padding inside the viewBox (live area 20 on a 24 grid); align strokes so they land on whole or half pixels at 1×.
 - Put shared attributes (fill, stroke, width, caps, joins) on the root `<svg>` so the whole set changes together.
 - Run the checker with the set's language and fix every issue before delivery:

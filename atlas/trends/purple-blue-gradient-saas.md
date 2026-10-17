@@ -3,8 +3,8 @@ id: purple-blue-gradient-saas
 name: Purple-Blue Gradient SaaS
 type: trend
 discipline: [ui, graphic]
-era: 2016–2026
-origin: Global — SaaS marketing sites, Tailwind-era UI kits, AI site generators
+era: 2016 to 2026
+origin: Global, SaaS marketing sites, Tailwind-era UI kits, AI site generators
 lineage: [ios-7-flat, material-design]
 tags:
   mood: [optimistic, techy, glossy, interchangeable]
@@ -23,7 +23,7 @@ On a trend card, genes are the legitimate needs the cliché answers. Meet the ne
 
 | Gene | The idea | In UI / product terms |
 |---|---|---|
-| G1 · One ownable hue | The gradient is a shortcut to a memorable brand color field. The need is recognisability, not purple. | Choose one brand hue outside 235–290° (the indigo/violet band). Token it as `--brand-500` with 600/100 companions; use it on at most two element types (primary action + one data highlight) so it stays rare enough to own. |
+| G1 · One ownable hue | The gradient is a shortcut to a memorable brand color field. The need is recognisability, not purple. | Choose one brand hue outside 235 to 290° (the indigo/violet band). Token it as `--brand-500` with 600/100 companions; use it on at most two element types (primary action + one data highlight) so it stays rare enough to own. |
 | G2 · Implied direction | A left-to-right ramp reads as progress and momentum. | Carry direction in structure: an asymmetric hero whose content flows into a right-hand visual, a numbered sequence, or one diagonal crop. If a ramp is unavoidable, keep it inside one hue (brand-600 → brand-500, ≤8% lightness shift). |
 | G3 · The primary action pops | Saturated gradient buttons jump off white pages. | One solid primary per view at ≥4.5:1 label contrast; secondary actions as text or outline. Distinction comes from value contrast and position (end of the reading path), not hue novelty. |
 | G4 · Screen light as luxury | Light-emitting color looks expensive on displays. | Put the luminous moment in content, not chrome: one full-bleed photo, chart or product shot carries saturated color; UI surfaces stay neutral (paper #F4F1EA or ink #121212). |
@@ -34,15 +34,15 @@ Instagram's 2016 gradient logo and Stripe's animated gradients around 2020 made 
 
 ## Subvert
 
-- **Name the hue from the product's world.** Derive the brand color from the domain (soil brown for agritech, signal orange for logistics, ink blue-black for legal) and test the layout in grayscale first — if hierarchy survives, color is a voice you can afford.
+- **Name the hue from the product's world.** Derive the brand color from the domain (soil brown for agritech, signal orange for logistics, ink blue-black for legal) and test the layout in grayscale first, if hierarchy survives, color is a voice you can afford.
 - **Flat fields, hard edge.** Replace the ramp with two flat color blocks meeting at a hard edge (Albers-style interaction of adjacent colors); the tension at the edge does the "energy" work.
-- **Gradient as data, not mood.** Use a ramp only where it encodes something — a heat scale, time of day, a progress meter — so it means the same thing every time it appears.
+- **Gradient as data, not mood.** Use a ramp only where it encodes something, a heat scale, time of day, a progress meter, so it means the same thing every time it appears.
 
 ## Visual facts
 
 - **Color:** #6366F1 (indigo-500), #8B5CF6 (violet-500), #3B82F6 (blue-500), #EC4899 or #06B6D4 as end stops; white or near-black #0B0B12 grounds.
 - **Type:** Inter, Geist, Plus Jakarta Sans; gradient applied with `background-clip: text` to one or two keywords.
-- **Form:** 8–12px radius buttons, glossy gradient feature icons, blurred color orbs at 30–60% opacity.
+- **Form:** 8 to 12px radius buttons, glossy gradient feature icons, blurred color orbs at 30 to 60% opacity.
 - **Composition:** centered hero, gradient keyword, product screenshot below with a colored glow under it.
 
 ## Attitude
@@ -51,9 +51,9 @@ Color as mood signal rather than carrier of meaning: "we are new, we are tech, w
 
 ## Blends
 
-- **Amplifies:** `gradient-mesh-and-aurora`, `inter-and-geometric-sans-default`, `centered-hero-three-cards-template` — together they are the canonical AI-generated landing page; each makes the others more obviously default.
-- **Productive tension with:** `josef-albers`, `swiss-international` — strict flat-color logic forces a hue to earn its place.
-- **Clashes with:** `editorial-serif-revival` — a candy ramp undercuts the quiet, literate authority the serif is meant to buy.
+- **Amplifies:** `gradient-mesh-and-aurora`, `inter-and-geometric-sans-default`, `centered-hero-three-cards-template`, together they are the canonical AI-generated landing page; each makes the others more obviously default.
+- **Productive tension with:** `josef-albers`, `swiss-international`, strict flat-color logic forces a hue to earn its place.
+- **Clashes with:** `editorial-serif-revival`, a candy ramp undercuts the quiet, literate authority the serif is meant to buy.
 
 ## Don't copy
 
@@ -61,6 +61,6 @@ Stripe's animated WebGL gradient; Instagram's 2016 logo ramp; Tailwind UI's demo
 
 ## Study
 
-- Anthropic, "Improving frontend design through Skills" (Nov 12, 2025) — names the purple-on-white default and "distributional convergence": claude.com/blog/improving-frontend-design-through-skills
-- Tailwind CSS default color palette — where indigo-500 comes from: tailwindcss.com/docs/colors
-- Josef Albers, *Interaction of Color* (1963) — the antidote: color relationships with intent.
+- Anthropic, "Improving frontend design through Skills" (Nov 12, 2025), names the purple-on-white default and "distributional convergence": claude.com/blog/improving-frontend-design-through-skills
+- Tailwind CSS default color palette, where indigo-500 comes from: tailwindcss.com/docs/colors
+- Josef Albers, *Interaction of Color* (1963), the antidote: color relationships with intent.

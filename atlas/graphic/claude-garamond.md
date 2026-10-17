@@ -3,7 +3,7 @@ id: claude-garamond
 name: Claude Garamond
 type: designer
 discipline: [graphic]
-era: c. 1530–1561
+era: c. 1530 to 1561
 origin: Paris, France
 lineage: [aldus-manutius, geofroy-tory]
 tags:
@@ -22,7 +22,7 @@ axes: {order: 7, density: 5, ornament: 1, warmth: 6, contrast: 4, geometry: 5, c
 |---|---|---|
 | G1 · Type as an independent product | Around 1530 he became one of the first punchcutters to work apart from a printing firm, selling cast type to others. Production split into a type supplier and many consumers. | Ship the design system as its own versioned package (tokens, fonts, components) with semantic versioning, changelog and deprecation policy, consumed by several product teams. The system has its own roadmap and is not a folder inside one app. |
 | G2 · Tool-native letterforms | His romans moved away from imitating handwriting toward forms that came naturally from steel punches, metal casting and printing. | Draw for the actual medium: icons hinted to the pixel grid at 16/20/24, strokes on whole or half pixels, rendering checked on 1× and 2× screens. Never import print or paper textures to make a screen feel "crafted". |
-| G3 · Tight fit, even colour | His fonts of the 1540s fit closer, allowing tighter word spacing and an even grey across the page, with capitals, lowercase and italic in harmony. | Body text: letter-spacing 0, default word-spacing, line-height 1.45–1.55. Capitals in running text get small caps (`font-variant-caps: all-small-caps`) plus +5% tracking so acronyms don't punch holes in the paragraph colour. |
+| G3 · Tight fit, even colour | His fonts of the 1540s fit closer, allowing tighter word spacing and an even grey across the page, with capitals, lowercase and italic in harmony. | Body text: letter-spacing 0, default word-spacing, line-height 1.45 to 1.55. Capitals in running text get small caps (`font-variant-caps: all-small-caps`) plus +5% tracking so acronyms don't punch holes in the paragraph colour. |
 | G4 · Scripts designed to coexist | He cut the royal Greek types (Grecs du roi, 1540s) for Robert Estienne, and his romans were later paired with Robert Granjon's italics. One page could carry several scripts in harmony. | Plan multi-script typography from day one: choose a family whose Latin, Greek and Cyrillic (plus matched CJK or Arabic partners) share x-height and colour. Test UI strings in every supported script before freezing the type scale. |
 | G5 · Name by function, track provenance | After his death his punches were sold and dispersed, and "Garamond" later became a label for designs he never cut. Many revivals follow Jean Jannon's types of the 1610s. | Name tokens by role (`text-body`, `display-1`), never by heritage. Keep attribution metadata on every font, icon and image asset (source, licence, version) so history can't blur. |
 

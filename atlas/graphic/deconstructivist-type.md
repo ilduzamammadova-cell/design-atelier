@@ -3,7 +3,7 @@ id: deconstructivist-type
 name: Deconstructivist Typography (Cranbrook and CalArts)
 type: movement
 discipline: [graphic]
-era: 1978–1998
+era: 1978 to 1998
 origin: Cranbrook Academy of Art (Michigan) and CalArts (California), USA
 lineage: [postmodern-new-wave, wolfgang-weingart, dada]
 tags:
@@ -29,10 +29,10 @@ axes: {order: 3, density: 8, ornament: 5, warmth: 5, contrast: 6, geometry: 5, c
 ## Visual facts
 
 - **Color:** duotone gradients (red to blue), collage colour, printed photographs with flat process tints.
-- **Type:** everything at once — Univers, Franklin Gothic, Bodoni, typewriter, hand lettering, and new faces such as Keedy Sans and Template Gothic → free: Libre Franklin, Bodoni Moda, Courier Prime, Caveat for annotation.
+- **Type:** everything at once, Univers, Franklin Gothic, Bodoni, typewriter, hand lettering, and new faces such as Keedy Sans and Template Gothic → free: Libre Franklin, Bodoni Moda, Courier Prime, Caveat for annotation.
 - **Form:** diagrams, arrows, brackets, collaged student work, architectural photographs.
 - **Composition:** dense layers, multiple reading paths, text broken into fields.
-- **Key names:** Katherine and Michael McCoy (co-chairs at Cranbrook 1971–95), Edward Fella, Allen Hori, Andrew Blauvelt, Jeffery Keedy, P. Scott and Laurie Haycock Makela, Martin Venezky.
+- **Key names:** Katherine and Michael McCoy (co-chairs at Cranbrook 1971 to 95), Edward Fella, Allen Hori, Andrew Blauvelt, Jeffery Keedy, P. Scott and Laurie Haycock Makela, Martin Venezky.
 
 ## Attitude
 
@@ -40,9 +40,9 @@ The "Cranbrook discourse" drew on semiotics and French post-structuralism (Barth
 
 ## Blends
 
-- **Amplifies:** `emigre`, `jan-van-toorn` — the magazine that published the work and the Dutch critic of neutral design.
-- **Productive tension with:** `muriel-cooper` — her depth-as-hierarchy turns layered discourse into navigable layers.
-- **Clashes with:** `bruno-monguzzi` — enforced silence and layered discourse cannot share a page.
+- **Amplifies:** `emigre`, `jan-van-toorn`, the magazine that published the work and the Dutch critic of neutral design.
+- **Productive tension with:** `muriel-cooper`, her depth-as-hierarchy turns layered discourse into navigable layers.
+- **Clashes with:** `bruno-monguzzi`, enforced silence and layered discourse cannot share a page.
 
 ## Don't copy
 

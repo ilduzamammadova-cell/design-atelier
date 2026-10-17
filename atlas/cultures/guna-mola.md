@@ -20,8 +20,8 @@ axes: {order: 7, density: 8, ornament: 8, warmth: 8, contrast: 8, geometry: 5, c
 
 | Gene | The idea | In UI / product terms |
 |---|---|---|
-| G1 · Depth by subtraction | Several layers of coloured cloth are stacked; the maker cuts through upper layers and turns the edges under to expose colours beneath (reverse appliqué). | Layered UI built from 3–4 flat colour planes; elements "cut through" upper planes to reveal lower ones via masks. Depth comes from cut-outs, never drop shadows. |
-| G2 · Echo contours | Main motifs are outlined by repeated parallel channels that follow the shape outward. | Offset-path outlines (2–4 parallel strokes at 4px spacing) around a logo, focus state or key illustration; the echo count signals importance. |
+| G1 · Depth by subtraction | Several layers of coloured cloth are stacked; the maker cuts through upper layers and turns the edges under to expose colours beneath (reverse appliqué). | Layered UI built from 3 to 4 flat colour planes; elements "cut through" upper planes to reveal lower ones via masks. Depth comes from cut-outs, never drop shadows. |
+| G2 · Echo contours | Main motifs are outlined by repeated parallel channels that follow the shape outward. | Offset-path outlines (2 to 4 parallel strokes at 4px spacing) around a logo, focus state or key illustration; the echo count signals importance. |
 | G3 · No dead ground | Background areas are filled with slits, channels and small inserts, so the whole panel vibrates. | Dense patterned backgrounds allowed only inside a bounded panel (a card, a header); content areas outside stay plain for reading. |
 | G4 · Paired panels | A blouse carries a front and a back mola, usually related but not identical. | Paired views (before/after, front/back, light/dark) designed as variations on one composition, not mirrored duplicates. |
 
@@ -38,9 +38,9 @@ Molas are worn daily by Guna women as part of their blouses and are a central si
 
 ## Blends
 
-- **Amplifies:** `henri-matisse` — colour by cutting, flat bright shapes.
-- **Productive tension with:** `massimo-vignelli` — strict typographic order around one fully layered panel.
-- **Clashes with:** `japanese-wabi-sabi-and-ma` — total-coverage chroma versus quiet void.
+- **Amplifies:** `henri-matisse`, colour by cutting, flat bright shapes.
+- **Productive tension with:** `massimo-vignelli`, strict typographic order around one fully layered panel.
+- **Clashes with:** `japanese-wabi-sabi-and-ma`, total-coverage chroma versus quiet void.
 
 ## Don't copy
 

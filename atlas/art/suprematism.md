@@ -3,7 +3,7 @@ id: suprematism
 name: Suprematism (Malevich and circle)
 type: movement
 discipline: [art, graphic]
-era: 1915–1930s
+era: 1915 to 1930s
 origin: Petrograd and Vitebsk, Russia
 lineage: [cubism, futurism]
 tags:
@@ -14,7 +14,7 @@ axes: {order: 4, density: 3, ornament: 1, warmth: 3, contrast: 8, geometry: 9, c
 
 # Suprematism (Malevich and circle)
 
-**Essence:** Pure geometric planes floating in an infinite white void — feeling stripped of every object. Covers Kazimir Malevich and associates (Olga Rozanova, Ivan Kliun, Ilya Chashnik, Nikolai Suetin; El Lissitzky at Vitebsk).
+**Essence:** Pure geometric planes floating in an infinite white void, feeling stripped of every object. Covers Kazimir Malevich and associates (Olga Rozanova, Ivan Kliun, Ilya Chashnik, Nikolai Suetin; El Lissitzky at Vitebsk).
 
 ## Genes
 
@@ -22,9 +22,9 @@ axes: {order: 4, density: 3, ornament: 1, warmth: 3, contrast: 8, geometry: 9, c
 |---|---|---|
 | G1 · Zero point | Malevich's Black Square, shown in December 1915 at the 0,10 exhibition in Petrograd, reduced painting to one form | Reduce key moments (launch, splash, 404, success) to a single solid geometric mark on an empty field; nothing else |
 | G2 · Planes in infinite white | Forms float with no ground, horizon or gravity | Elements placed on a borderless canvas without cards or containers; relation by proximity and tension; scrolling feels like moving through space |
-| G3 · One tilt angle | Rectangles cluster along a diagonal, rotated 10–30° | Pick one off-axis angle (e.g. −12°) for every decorative bar and accent label; body text stays horizontal |
+| G3 · One tilt angle | Rectangles cluster along a diagonal, rotated 10 to 30° | Pick one off-axis angle (e.g. −12°) for every decorative bar and accent label; body text stays horizontal |
 | G4 · Scale as distance | One large plane, a few medium ones, many slivers; size implies depth | Three size classes of accents in roughly 1:4:16 ratio; depth with no shadow or blur |
-| G5 · White on white | Suprematist Composition: White on White (1918) uses nearly identical whites | Calm tonal states (hover, selected) using white vs warm white at about 3% luminance difference — always paired with an accessible indicator (border, icon or weight change) |
+| G5 · White on white | Suprematist Composition: White on White (1918) uses nearly identical whites | Calm tonal states (hover, selected) using white vs warm white at about 3% luminance difference, always paired with an accessible indicator (border, icon or weight change) |
 | G6 · Planes on objects | Suetin and Chashnik painted suprematist designs on porcelain; Malevich built architectural models | A reusable "plane kit" applied to packaging, app icons and merchandise, so the language extends beyond screens |
 
 ## Visual facts
@@ -40,9 +40,9 @@ Malevich claimed the supremacy of pure feeling: art freed from representing thin
 
 ## Blends
 
-- **Amplifies:** `constructivism`, `minimalism-art`, `el-lissitzky` — the same planes, put to work.
-- **Productive tension with:** `swiss-international` — a strict grid for text with floating diagonal planes around it gives dynamic yet legible layouts.
-- **Clashes with:** `arts-and-crafts` — dense natural ornament fills the void suprematism depends on.
+- **Amplifies:** `constructivism`, `minimalism-art`, `el-lissitzky`, the same planes, put to work.
+- **Productive tension with:** `swiss-international`, a strict grid for text with floating diagonal planes around it gives dynamic yet legible layouts.
+- **Clashes with:** `arts-and-crafts`, dense natural ornament fills the void suprematism depends on.
 
 ## Don't copy
 

@@ -1,24 +1,24 @@
-# Sources — trends (what to avoid or subvert, 2020–2026)
+# Sources, trends (what to avoid or subvert, 2020 to 2026)
 
-- Anthropic, "Improving frontend design through Skills" (Nov 12, 2025) — claude.com/blog/improving-frontend-design-through-skills — names the LLM defaults (Inter, purple-on-white gradients, minimal motion) and the idea of distributional convergence.
-- Paul Adams, "The Dribbblisation of Design" (Inside Intercom, Sept 2013) — intercom.com/blog/the-dribbblisation-of-design — the founding critique of designing for peers' feeds instead of problems.
-- Apple Newsroom, "Apple introduces a delightful and elegant new software design" (June 9, 2025) — Apple's own account of Liquid Glass and its intent.
-- Apple WWDC25 sessions "Meet Liquid Glass" and "Get to know the new design system" (developer.apple.com/videos) — the behavior behind the gloss: content-first chrome, adaptivity.
-- TechCrunch, "iOS 26.1 lets you turn down Liquid Glass transparency" (Nov 4, 2025) — the legibility backlash and Apple's Clear/Tinted fix.
-- Material Design blog, "Start building with Material 3 Expressive" (m3.material.io/blog, May 2025) — Google's research-backed counter-answer: 46 studies, 18,000+ participants.
-- Google Design, "All That Sparkles Is AI" (Rose Pozos, Lennard Schmidt) — design.google/library/ai-sparkle-icon-research-pozos-schmidt — history and comprehension problems of the AI sparkle.
-- Nielsen Norman Group, "Scrolljacking 101" (Sara Paul, Aug 2023) — nngroup.com/articles/scrolljacking-101 — usability evidence against hijacked scrolling.
-- Anthony Hobday, "A critique of the Linear website" (Jan 2023) — anthonyhobday.com/blog/20230119.html — early diagnosis of the dark SaaS look spreading where it doesn't fit.
-- Rectangle, "The Linear effect" — rectangle.substack.com/p/the-linear-effect — how one product's look became the dev-tool default.
-- AIGA Eye on Design, "What the think pieces about Corporate Memphis tell us about the state of illustration" — eyeondesign.aiga.org — balanced view of the Alegria-era backlash.
-- shadcn/ui changelog (ui.shadcn.com/docs/changelog), Dec 2025 "shadcn create" entry — maintainers acknowledging default sameness and shipping alternative styles.
-- Figma blog, "The birth of Inter" — figma.com/blog/the-birth-of-inter — why Inter exists and why it is good (and therefore everywhere).
-- UX Collective, "Aurora UI — new visual trend for 2021" — uxdesign.cc — the naming moment of blurred-gradient backgrounds.
-- Smashing Magazine, "Claymorphism: will it stick around?" (Mar 2022) — anatomy of the inflated-3D UI wave.
-- Webflow blog, "Glassmorphism: examples and best practices" and "Neumorphism: its rise and fall" — compact histories with lineage (iOS 7, Acrylic, Plyuto's shot).
-- SVGator blog, "What is neubrutalism" — the neo-brutalist web recipe and its spread from Gumroad.
-- Fast Company, "How the sparkle emoji took over AI" (2024) — fastcompany.com/91030156 — industry voices on the "magic" framing.
-- Aceternity UI (ui.aceternity.com) and Magic UI (magicui.design) — living catalogues of 2024–2026 effects (beams, glows, dot grids, marquees, bento); use as a checklist of what not to ship unmodified.
-- W3C, WCAG 2.2 (w3.org/TR/WCAG22) — contrast, motion, pause/stop/hide and target-size criteria that most of these trends fail.
-- Consumer Aesthetics Research Institute (cari.institute) — taxonomy of Y2K futurism, Frutiger Aero and related consumer aesthetics, with dated examples.
-- Josef Albers, *Interaction of Color* (1963) and Josef Müller-Brockmann, *Grid Systems in Graphic Design* (1981) — the two best antidotes: color with intent, size by hierarchy.
+- Anthropic, "Improving frontend design through Skills" (Nov 12, 2025), claude.com/blog/improving-frontend-design-through-skills, names the LLM defaults (Inter, purple-on-white gradients, minimal motion) and the idea of distributional convergence.
+- Paul Adams, "The Dribbblisation of Design" (Inside Intercom, Sept 2013), intercom.com/blog/the-dribbblisation-of-design, the founding critique of designing for peers' feeds instead of problems.
+- Apple Newsroom, "Apple introduces a delightful and elegant new software design" (June 9, 2025), Apple's own account of Liquid Glass and its intent.
+- Apple WWDC25 sessions "Meet Liquid Glass" and "Get to know the new design system" (developer.apple.com/videos), the behavior behind the gloss: content-first chrome, adaptivity.
+- TechCrunch, "iOS 26.1 lets you turn down Liquid Glass transparency" (Nov 4, 2025), the legibility backlash and Apple's Clear/Tinted fix.
+- Material Design blog, "Start building with Material 3 Expressive" (m3.material.io/blog, May 2025), Google's research-backed counter-answer: 46 studies, 18,000+ participants.
+- Google Design, "All That Sparkles Is AI" (Rose Pozos, Lennard Schmidt), design.google/library/ai-sparkle-icon-research-pozos-schmidt, history and comprehension problems of the AI sparkle.
+- Nielsen Norman Group, "Scrolljacking 101" (Sara Paul, Aug 2023), nngroup.com/articles/scrolljacking-101, usability evidence against hijacked scrolling.
+- Anthony Hobday, "A critique of the Linear website" (Jan 2023), anthonyhobday.com/blog/20230119.html, early diagnosis of the dark SaaS look spreading where it doesn't fit.
+- Rectangle, "The Linear effect", rectangle.substack.com/p/the-linear-effect, how one product's look became the dev-tool default.
+- AIGA Eye on Design, "What the think pieces about Corporate Memphis tell us about the state of illustration", eyeondesign.aiga.org, balanced view of the Alegria-era backlash.
+- shadcn/ui changelog (ui.shadcn.com/docs/changelog), Dec 2025 "shadcn create" entry, maintainers acknowledging default sameness and shipping alternative styles.
+- Figma blog, "The birth of Inter", figma.com/blog/the-birth-of-inter, why Inter exists and why it is good (and therefore everywhere).
+- UX Collective, "Aurora UI, new visual trend for 2021", uxdesign.cc, the naming moment of blurred-gradient backgrounds.
+- Smashing Magazine, "Claymorphism: will it stick around?" (Mar 2022), anatomy of the inflated-3D UI wave.
+- Webflow blog, "Glassmorphism: examples and best practices" and "Neumorphism: its rise and fall", compact histories with lineage (iOS 7, Acrylic, Plyuto's shot).
+- SVGator blog, "What is neubrutalism", the neo-brutalist web recipe and its spread from Gumroad.
+- Fast Company, "How the sparkle emoji took over AI" (2024), fastcompany.com/91030156, industry voices on the "magic" framing.
+- Aceternity UI (ui.aceternity.com) and Magic UI (magicui.design), living catalogues of 2024 to 2026 effects (beams, glows, dot grids, marquees, bento); use as a checklist of what not to ship unmodified.
+- W3C, WCAG 2.2 (w3.org/TR/WCAG22), contrast, motion, pause/stop/hide and target-size criteria that most of these trends fail.
+- Consumer Aesthetics Research Institute (cari.institute), taxonomy of Y2K futurism, Frutiger Aero and related consumer aesthetics, with dated examples.
+- Josef Albers, *Interaction of Color* (1963) and Josef Müller-Brockmann, *Grid Systems in Graphic Design* (1981), the two best antidotes: color with intent, size by hierarchy.

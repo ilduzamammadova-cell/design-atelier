@@ -1,6 +1,6 @@
 # Auto layout
 
-Load when building or reviewing any frame, component or screen in Figma. This file is the professional *what and why*. The Plugin API *how* (`figma.createAutoLayout()`, `layoutSizing*` value rules, `resize()` ordering, text auto-resize) lives in the `figma:figma-use` skill — `references/gotchas.md` and `references/plugin-api-patterns.md`. Do not restate it; follow it.
+Load when building or reviewing any frame, component or screen in Figma. This file is the professional *what and why*. The Plugin API *how* (`figma.createAutoLayout()`, `layoutSizing*` value rules, `resize()` ordering, text auto-resize) lives in the `figma:figma-use` skill, `references/gotchas.md` and `references/plugin-api-patterns.md`. Do not restate it; follow it.
 
 Related: [components.md](components.md) · [variables-and-tokens.md](variables-and-tokens.md) · [canvas-craft.md](canvas-craft.md) · [file-structure-and-naming.md](file-structure-and-naming.md).
 
@@ -8,7 +8,7 @@ Checked against help.figma.com, Figma forum product updates and the Plugin API t
 
 ## 1. Mental model: every frame is a CSS container
 
-A frame that holds related children is a flex or grid container. Decide the CSS first, then set the Figma control that produces it — the developer will read it back as CSS in Dev Mode.
+A frame that holds related children is a flex or grid container. Decide the CSS first, then set the Figma control that produces it, the developer will read it back as CSS in Dev Mode.
 
 | Figma control | CSS it means | Note |
 |---|---|---|
@@ -36,7 +36,7 @@ Figma shipped a new auto layout version. Since July 2026 it is the default for n
 
 | Changed behaviour (new version) | Consequence for you |
 |---|---|
-| Padding is always respected; a frame can never be narrower than its padding (overrides max width) | Old frames may grow after upgrade — reduce padding, don't fight it |
+| Padding is always respected; a frame can never be narrower than its padding (overrides max width) | Old frames may grow after upgrade, reduce padding, don't fight it |
 | Inside strokes count in layout by default; outside/center strokes never do | A 1→2 px border change between states shifts content; keep stroke width constant or use an outside stroke |
 | Fill children split space by content box (CSS border-box) | Use a grid with `1fr` tracks when columns must be exactly equal |
 | Auto gap never goes below 0 | No accidental overlap; overlap needs an explicit negative gap |
@@ -44,7 +44,7 @@ Figma shipped a new auto layout version. Since July 2026 it is the default for n
 
 Instances cannot override the layout version: upgrade the main component, review shifts, republish. Check an inherited library's version before editing it.
 
-## 3. Hug, Fill, Fixed — decide from content outward
+## 3. Hug, Fill, Fixed, decide from content outward
 
 Size flows from the innermost content: the label sizes the button, buttons size the toolbar, the viewport sizes the page.
 
@@ -53,10 +53,10 @@ Size flows from the innermost content: the label sizes the button, buttons size 
 | **Hug** | The container's size should come from its content | Button, chip, tag, badge, menu item label, tooltip |
 | **Fill** | The child should take the space its parent gives | Input in a form, card in a row, text block in a column, list row, divider |
 | **Fixed** | The size is a design decision, not a result | Icon (16/20/24), avatar, thumbnail, top-level frame width (device/breakpoint) |
-| **Hug + min** | Content-sized but must meet a floor | Button `min-width` 44–48 (touch target), tag min width |
-| **Fill + max** | Stretch, but readable or bounded | Text column max 640–720 px (~65 ch), dialog max 560, content container max 1200–1440 |
+| **Hug + min** | Content-sized but must meet a floor | Button `min-width` 44 to 48 (touch target), tag min width |
+| **Fill + max** | Stretch, but readable or bounded | Text column max 640 to 720 px (~65 ch), dialog max 560, content container max 1200 to 1440 |
 
-- A Hug parent with a Fill child becomes Fixed on that axis — Figma does this silently; check it was intended.
+- A Hug parent with a Fill child becomes Fixed on that axis, Figma does this silently; check it was intended.
 - Fill on the main axis divides free space; on the cross axis it stretches. Two Fill children = equal shares of what is left, not equal widths.
 - Heights: almost always Hug. A Fixed height on anything containing text is a clipping bug waiting for a translation.
 
@@ -70,14 +70,14 @@ Size flows from the innermost content: the label sizes the button, buttons size 
 | Equal distribution (tab bar, segmented control) | **Evenly** / **Around**, or Fill children | Matches CSS spacing vocabulary |
 | Overlap (avatar stack) | Explicit negative gap + canvas stacking set deliberately | The only legitimate negative gap |
 
-- Never use spacer rectangles, empty frames or transparent padding to make space — the developer gets meaningless DOM.
+- Never use spacer rectangles, empty frames or transparent padding to make space, the developer gets meaningless DOM.
 - Never put padding on children to fake a gap between siblings; it doubles at the edges and breaks when one child hides.
-- Bind gap and padding to **semantic** space variables (`space/inset-md`, `space/stack-lg`) or the scale (`space/4`) — never raw numbers. Scope those variables to `GAP` (covers gap and padding). See `variables-and-tokens.md`.
+- Bind gap and padding to **semantic** space variables (`space/inset-md`, `space/stack-lg`) or the scale (`space/4`), never raw numbers. Scope those variables to `GAP` (covers gap and padding). See `variables-and-tokens.md`.
 - Gaps follow a rhythm: related items closer than unrelated (proximity). If every gap in a card is the same, hierarchy is missing.
 
 ## 5. Wrap
 
-Use Wrap (horizontal flow) for collections that reflow: chips, tags, filter pills, card grids with a min width. Set the counter-axis spacing (row gap) separately — it often wants to be smaller or larger than the column gap. Give children a min width (or Fixed width) so the break point is predictable. Wrap is not masonry: items keep order and fill row by row. For true two-axis alignment (columns that line up across rows) use a grid.
+Use Wrap (horizontal flow) for collections that reflow: chips, tags, filter pills, card grids with a min width. Set the counter-axis spacing (row gap) separately, it often wants to be smaller or larger than the column gap. Give children a min width (or Fixed width) so the break point is predictable. Wrap is not masonry: items keep order and fill row by row. For true two-axis alignment (columns that line up across rows) use a grid.
 
 ## 6. Grid auto layout
 
@@ -100,16 +100,16 @@ Grid is the third flow: rows × columns of cells. Use it when items must align o
 
 Legitimate: notification dot on an avatar, close button in a dialog corner, focus ring that must not shift layout, decorative overlays, floating badges. The child stays in the frame, leaves the flow, and uses constraints (e.g. Top + Right).
 
-Not legitimate: positioning real content. More than one or two absolute children in a frame means the structure is wrong — rebuild it as nested flows.
+Not legitimate: positioning real content. More than one or two absolute children in a frame means the structure is wrong, rebuild it as nested flows.
 
 ## 8. Nesting: every frame must earn its place
 
 A frame exists only if it changes at least one of: direction, gap, padding, alignment, background/stroke/radius, clipping, or it is a semantic unit a developer will name (a `<header>`, a list item).
 
-- Typical depth inside a component: 2–4 levels. Screens: page → section → container → group → item. Deeper than ~6 is usually wrapper soup.
+- Typical depth inside a component: 2 to 4 levels. Screens: page → section → container → group → item. Deeper than ~6 is usually wrapper soup.
 - A frame with one child and no fill, padding or alignment change is a wrapper: remove it.
 - Two sibling frames with identical settings next to each other usually want to be one frame with a gap.
-- Name every frame for its role (`header`, `actions`, `body`, `meta`) — never `Frame 427`. Layer names feed Dev Mode, Code Connect and `get_design_context`.
+- Name every frame for its role (`header`, `actions`, `body`, `meta`), never `Frame 427`. Layer names feed Dev Mode, Code Connect and `get_design_context`.
 
 ## 9. Text resizing
 
@@ -117,7 +117,7 @@ A frame exists only if it changes at least one of: direction, gap, padding, alig
 |---|---|---|
 | Single-line label in a Hug container (button, chip) | Auto width | Never wraps; container hugs it |
 | Paragraph, description, any wrapping text | Fill width + Auto height | Bound text style; Hug parent height |
-| Title in a constrained card/row | Fill width + max lines (1–2) + truncate | Test with 2× length |
+| Title in a constrained card/row | Fill width + max lines (1 to 2) + truncate | Test with 2× length |
 | Fixed size | Almost never | Overlaps when content grows |
 
 - Use the style's text styles with line height bound to variables; never set a frame height to "fit" text by eye.
@@ -146,7 +146,7 @@ Figma Design has no media queries. Simulate them honestly:
 | Hug parent silently turned Fixed | Parent stops growing with content | Re-evaluate which child should Fill |
 | Wrapper soup | Depth > 6, single-child frames | Unwrap; one frame per real change |
 | Equal widths expected from Fill | Columns differ by content | Grid with `1fr` tracks |
-| State changes that shift layout | Hover/focus variant jumps by 1–2 px | Constant stroke width; outside stroke or absolute ring for focus |
+| State changes that shift layout | Hover/focus variant jumps by 1 to 2 px | Constant stroke width; outside stroke or absolute ring for focus |
 | Absolute-positioned content | Many "Ignore auto layout" children | Rebuild as nested flows |
 | Gaps all identical | No grouping by proximity | Smaller gaps inside groups, larger between |
 | Legacy layout version in a library | Layout version setting shows legacy | Upgrade main components, review, republish |

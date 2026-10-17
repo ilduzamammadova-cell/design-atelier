@@ -3,7 +3,7 @@ id: japanese-textile-patterns
 name: Japanese textile patterns (wagara, shibori, sashiko)
 type: tradition
 discipline: [craft, graphic]
-era: Edo period (1603–1868)–present; roots earlier
+era: Edo period (1603 to 1868), present; roots earlier
 origin: Japan (sashiko and boro strongest in the north; Arimatsu-Narumi shibori near Nagoya)
 lineage: []
 tags:
@@ -20,9 +20,9 @@ axes: {order: 8, density: 6, ornament: 7, warmth: 6, contrast: 5, geometry: 7, c
 
 | Gene | The idea | In UI / product terms |
 |---|---|---|
-| G1 · Named repeat library (wagara) | Seigaiha (overlapping waves), asanoha (six-point hemp leaf), shippō (interlocking circles), kikkō (hexagon), ichimatsu (checker), yagasuri (arrow fletching), uroko (scales): each a tileable unit with a name and a wish attached. | Ship patterns as named tokens: one SVG tile on a fixed 24 or 32px cell, used as surface texture at 4–8% opacity; never behind body text; each pattern documented with name and meaning. |
-| G2 · One-hue depth (aizome) | Indigo is built by repeated dips, giving a ladder of named blues from palest to near black. | Entire palette as a 7–9 step single-hue ladder (#E4ECF2 → #1B2A41); roles assigned by depth: surface, raised, border, text, heading. |
-| G3 · Resist as negative drawing (shibori) | Binding, stitching, folding or clamping keeps dye out; the pattern is what the dye failed to reach, with soft bleeding edges. Fold-and-clamp (itajime) yields mirrored grids. | Reveal transitions with 2–4px feathered mask edges; generative backgrounds from fold logic (tile, mirror, mirror again) rather than random noise. |
+| G1 · Named repeat library (wagara) | Seigaiha (overlapping waves), asanoha (six-point hemp leaf), shippō (interlocking circles), kikkō (hexagon), ichimatsu (checker), yagasuri (arrow fletching), uroko (scales): each a tileable unit with a name and a wish attached. | Ship patterns as named tokens: one SVG tile on a fixed 24 or 32px cell, used as surface texture at 4 to 8% opacity; never behind body text; each pattern documented with name and meaning. |
+| G2 · One-hue depth (aizome) | Indigo is built by repeated dips, giving a ladder of named blues from palest to near black. | Entire palette as a 7 to 9 step single-hue ladder (#E4ECF2 → #1B2A41); roles assigned by depth: surface, raised, border, text, heading. |
+| G3 · Resist as negative drawing (shibori) | Binding, stitching, folding or clamping keeps dye out; the pattern is what the dye failed to reach, with soft bleeding edges. Fold-and-clamp (itajime) yields mirrored grids. | Reveal transitions with 2 to 4px feathered mask edges; generative backgrounds from fold logic (tile, mirror, mirror again) rather than random noise. |
 | G4 · Stitch as line (sashiko) | Small, even running stitches in white thread reinforce indigo cotton and form geometric patterns; a dashed line becomes ornament. | Dashed rules (2px dash / 3px gap) as the only divider style; focus rings as dashed "stitches"; progress shown as stitches accumulating along a path. |
 | G5 · Mending made visible (boro) | Layered patched cloth, repaired over generations, is valued for its history. | Show repair: restored drafts or merged records display a patch marker; illustration of empty states built from layered rectangles of slightly different indigo tones. |
 
@@ -39,9 +39,9 @@ Patterns were common property, read by everyone: asanoha on a baby's clothes bec
 
 ## Blends
 
-- **Amplifies:** `william-morris`, `anni-albers` — repeat-making and woven or stitched structure as content.
-- **Productive tension with:** `swiss-international` — strict grid plus soft resist edges and dashed stitch lines.
-- **Clashes with:** `psychedelic` — saturated melting colour dissolves the counted repeat.
+- **Amplifies:** `william-morris`, `anni-albers`, repeat-making and woven or stitched structure as content.
+- **Productive tension with:** `swiss-international`, strict grid plus soft resist edges and dashed stitch lines.
+- **Clashes with:** `psychedelic`, saturated melting colour dissolves the counted repeat.
 
 ## Don't copy
 

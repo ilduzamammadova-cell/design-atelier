@@ -3,7 +3,7 @@ id: sonia-delaunay
 name: Sonia Delaunay
 type: artist
 discipline: [art, graphic, craft]
-era: 1910s–1970s
+era: 1910s to 1970s
 origin: Paris, France
 lineage: [cubism]
 tags:
@@ -14,7 +14,7 @@ axes: {order: 5, density: 7, ornament: 7, warmth: 8, contrast: 6, geometry: 6, c
 
 # Sonia Delaunay
 
-**Essence:** Color in motion — discs and bands placed edge to edge so each hue makes the next one vibrate, carried from canvas into dresses, fabric, books and cars.
+**Essence:** Color in motion, discs and bands placed edge to edge so each hue makes the next one vibrate, carried from canvas into dresses, fabric, books and cars.
 
 ## Genes
 
@@ -24,7 +24,7 @@ axes: {order: 5, density: 7, ornament: 7, warmth: 8, contrast: 6, geometry: 6, c
 | G2 · Discs and quarter-circles | Concentric and segmented circles build rhythm (Electric Prisms, 1914; Rhythm series, 1930s) | A modular kit of half- and quarter-circle tiles (e.g. 48px) that assembles into patterns, avatars, loaders and data glyphs |
 | G3 · One language, every surface | The same vocabulary ran through paintings, dresses, fabric, bindings, posters and a painted car | Design the motif library first, then deploy across app, packaging, merchandise and event signage; surfaces are applications of one system |
 | G4 · Text and color as one strip | La Prose du Transsibérien (1913, with Blaise Cendrars): a two-metre folding book where a color column runs beside a multicolored poem | Long-scroll storytelling with a continuous color column beside the text, shifting hue as the narrative moves (scroll-linked) |
-| G5 · Repeat logic | Her fabric designs for manufacturers were built as tiles with alternate colorways | Background patterns authored as seamless tiles with a stated repeat (e.g. 240×240) and 3–4 colorways that double as themes |
+| G5 · Repeat logic | Her fabric designs for manufacturers were built as tiles with alternate colorways | Background patterns authored as seamless tiles with a stated repeat (e.g. 240×240) and 3 to 4 colorways that double as themes |
 
 ## Visual facts
 
@@ -39,9 +39,9 @@ For Delaunay color was both subject and structure, and there was no hierarchy be
 
 ## Blends
 
-- **Amplifies:** `henri-matisse`, `wassily-kandinsky`, `art-deco` — saturated color as structure and pleasure.
-- **Productive tension with:** `dieter-rams` — vivid simultaneous color on rigorously plain product forms.
-- **Clashes with:** `op-art` — simultaneous contrast plus optical line patterns overloads the eye.
+- **Amplifies:** `henri-matisse`, `wassily-kandinsky`, `art-deco`, saturated color as structure and pleasure.
+- **Productive tension with:** `dieter-rams`, vivid simultaneous color on rigorously plain product forms.
+- **Clashes with:** `op-art`, simultaneous contrast plus optical line patterns overloads the eye.
 
 ## Don't copy
 
@@ -52,4 +52,4 @@ Bal Bullier (1913), Electric Prisms (1914), the pages of La Prose du Transsibér
 - Electric Prisms (1914) and Bal Bullier (1913), Centre Pompidou
 - Tate Modern, "Sonia Delaunay" (2015) catalogue
 - Cooper Hewitt, "Color Moves: Art and Fashion by Sonia Delaunay" (2011) and textile holdings (collection.cooperhewitt.org)
-- La Prose du Transsibérien (1913) — copies at MoMA and the Met
+- La Prose du Transsibérien (1913), copies at MoMA and the Met

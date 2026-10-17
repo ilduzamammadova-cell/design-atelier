@@ -3,7 +3,7 @@ id: richard-saul-wurman
 name: Richard Saul Wurman
 type: designer
 discipline: [ux, graphic, architecture]
-era: 1960s–2010s
+era: 1960s to 2010s
 origin: Philadelphia, USA
 lineage: [louis-kahn]
 tags:
@@ -14,17 +14,17 @@ axes: {order: 7, density: 7, ornament: 1, warmth: 6, contrast: 5, geometry: 6, c
 
 # Richard Saul Wurman
 
-**Essence:** Information becomes understanding only when it is organised around what the reader already knows — the information architect's job is to close the gap between data and comprehension.
+**Essence:** Information becomes understanding only when it is organised around what the reader already knows, the information architect's job is to close the gap between data and comprehension.
 
 ## Genes
 
 | Gene | The idea | In UI / product terms |
 |---|---|---|
-| G1 · Five hat racks (LATCH) | Any information can be organised by Location, Alphabet, Time, Category or Hierarchy — and each order reveals something different | Every collection view offers exactly the LATCH orders that fit its data as a segmented switch: Map · A–Z · Timeline · Topic · Ranked. Never invent a sixth arbitrary sort |
+| G1 · Five hat racks (LATCH) | Any information can be organised by Location, Alphabet, Time, Category or Hierarchy, and each order reveals something different | Every collection view offers exactly the LATCH orders that fit its data as a segmented switch: Map · A-Z · Timeline · Topic · Ranked. Never invent a sixth arbitrary sort |
 | G2 · Close the anxiety gap | "Information anxiety" (1989) is the gap between what we understand and what we think we should | Each page answers, above the fold: what this is, why it matters to me, what I can do. Summaries precede data; raw tables sit one click below the explanation |
 | G3 · Understand by comparison | We grasp new things only relative to known ones; same-scale comparisons make size legible | Show numbers with a familiar reference ("≈ 3 football pitches", "2× last month"); comparative charts always share scale; maps and floor plans at a consistent scale across items |
 | G4 · Organise by where you are | His ACCESS guides (from 1980) grouped a city by neighbourhood, not by type of venue | Location- or context-first grouping: in place-based apps group by area or floor; in software, group settings and help by the screen where the user meets them |
-| G5 · Start from not knowing | Wurman designs from his own ignorance — the questions a newcomer would ask | Information architecture built from real questions: section headings phrased as questions users ask ("How do I move my data?"), validated against search logs |
+| G5 · Start from not knowing | Wurman designs from his own ignorance, the questions a newcomer would ask | Information architecture built from real questions: section headings phrased as questions users ask ("How do I move my data?"), validated against search logs |
 
 ## Visual facts
 
@@ -39,9 +39,9 @@ An architect who worked for Louis Kahn, Wurman coined "information architect" ar
 
 ## Blends
 
-- **Amplifies:** `edward-tufte`, `isotype`, `progressive-disclosure` — clarity, comparison and layered depth.
-- **Productive tension with:** `kenya-hara` — emptiness against informative density; the hybrid is a sparse surface with a deep, well-indexed structure behind it.
-- **Clashes with:** `punk-graphics` — chaos as a message undermines the reader's orientation that Wurman's work exists to provide.
+- **Amplifies:** `edward-tufte`, `isotype`, `progressive-disclosure`, clarity, comparison and layered depth.
+- **Productive tension with:** `kenya-hara`, emptiness against informative density; the hybrid is a sparse surface with a deep, well-indexed structure behind it.
+- **Clashes with:** `punk-graphics`, chaos as a message undermines the reader's orientation that Wurman's work exists to provide.
 
 ## Don't copy
 

@@ -7,7 +7,7 @@ API mechanics live in the `figma:figma-use` skill (load it before any `use_figma
 ## 1. Frames and presets
 
 - **Every screen is a top-level frame**, never a group or a section, because prototypes, exports, constraints, scrolling and Dev Mode all key off frames.
-- **Start from the Frame tool's presets**, then rename per `file-structure-and-naming.md` (`Payment · Error · 375`). Presets are logical points (1x); never size a frame in physical pixels — a 3x phone screenshot is three times its frame. Sizes: `../dimensions.md`.
+- **Start from the Frame tool's presets**, then rename per `file-structure-and-naming.md` (`Payment · Error · 375`). Presets are logical points (1x); never size a frame in physical pixels, a 3x phone screenshot is three times its frame. Sizes: `../dimensions.md`.
 - **One width per breakpoint.** Height = the device height for fixed screens; let scrolling pages grow taller, since top-level frames taller than the device scroll in presentation without extra setup.
 - **Clip content on**, fill bound to the background variable (not the default white), so the frame previews and exports exactly as the build renders.
 - **Draw system chrome in**: status bar, home indicator, on-screen keyboard when an input has focus, as components on top. It keeps safe areas honest and catches content hiding under them.
@@ -26,17 +26,17 @@ Figma renamed layout grids to **layout guides** in May 2025; they are separate f
 
 Use constraints wherever auto layout doesn't position things: absolute children inside auto layout (`auto-layout.md` § 7), decorative layers, illustration internals, icon vectors and any frame without auto layout.
 
-- Options: Left / Right / Left & Right / Center / Scale horizontally; Top / Bottom / Top & Bottom / Center / Scale vertically. Default is Top + Left — usually wrong for anything pinned to the right or bottom.
+- Options: Left / Right / Left & Right / Center / Scale horizontally; Top / Bottom / Top & Bottom / Center / Scale vertically. Default is Top + Left, usually wrong for anything pinned to the right or bottom.
 - Groups can't hold constraints (their children get them), so wrap anything that must resize as a unit in a frame.
 - With a Stretch guide, constraints are computed against the nearest column.
 - **Test by resizing the parent** to the narrowest and widest breakpoint before calling a screen done.
 
 ## 4. Pixel precision
 
-- **Whole pixels for x, y, width, height.** Keep Snap to pixel grid on (Preferences). A half-pixel edge straddles two device pixels and renders as a soft two-pixel smear at 1x — dividers turn grey, icons go fuzzy. Inspect with Pixel preview (1x/2x, View options; Ctrl+P on Mac).
+- **Whole pixels for x, y, width, height.** Keep Snap to pixel grid on (Preferences). A half-pixel edge straddles two device pixels and renders as a soft two-pixel smear at 1x, dividers turn grey, icons go fuzzy. Inspect with Pixel preview (1x/2x, View options; Ctrl+P on Mac).
 - **Fractions come from**: the Scale tool (K), percentage resizing, centering an odd size in an even one, Center/Scale constraints, rotation (rotation doesn't snap), Fill children splitting an odd width, imported SVG/PDF, and scripts that compute positions. Round in every `use_figma` script.
 - **Sizes on the scale**: component heights, padding and radii come from spacing and radius tokens, not from eyeballing.
-- **Concentric corners**: inner radius = outer radius − padding, so nested shapes look parallel. Corner smoothing (squircle) only when the build platform renders it — SwiftUI `.continuous` does; plain CSS `border-radius` does not.
+- **Concentric corners**: inner radius = outer radius − padding, so nested shapes look parallel. Corner smoothing (squircle) only when the build platform renders it, SwiftUI `.continuous` does; plain CSS `border-radius` does not.
 
 | Stroke position | Visual bounds | Use for | Code equivalent |
 |---|---|---|---|
@@ -44,7 +44,7 @@ Use constraints wherever auto layout doesn't position things: absolute children 
 | **Center** (default for lines; the only option for open paths) | grows by half the weight per side | icon strokes, lines | SVG `stroke` (SVG supports only center strokes) |
 | **Outside** | grows by the full weight | focus rings, selection outlines that must not shift layout | `outline` or `box-shadow: 0 0 0 Npx` |
 
-- Center strokes with even weights (2px) stay crisp on whole-pixel paths; odd weights (1px) need the path on a half pixel — the one sanctioned half-pixel position.
+- Center strokes with even weights (2px) stay crisp on whole-pixel paths; odd weights (1px) need the path on a half pixel, the one sanctioned half-pixel position.
 - **Per-side stroke weights** for dividers and table rows instead of extra line layers, because they map to `border-bottom` and keep auto layout clean.
 
 ## 5. Vectors and icon construction
@@ -75,15 +75,15 @@ Grid, keylines, stroke weight and naming come from `../icons.md`. In Figma:
 Sourcing, art direction and placeholders: `../imagery.md`. In Figma:
 
 - **Fill** for photos that may crop (cards, heroes); **Fit** for logos and product shots that must never crop; **Crop** to choose the focal area (non-destructive); **Tile** for patterns (size in % of the original).
-- **Lock aspect ratios** to the style's 2–3 ratios, so code can use `aspect-ratio` and nothing stretches.
+- **Lock aspect ratios** to the style's 2 to 3 ratios, so code can use `aspect-ratio` and nothing stretches.
 - **Resolution:** source at least 2× the largest display size. Figma scales down any image over 4096 px on its longest side; oversized images cost memory, so downscale before import.
 - **Adjustments** (exposure, contrast, temperature…) live only in Figma. Export the adjusted raster for the build, or the original asset in the repo won't match.
-- **Placeholders say what's missing**: a tinted field labelled `[photo: courier at the door, 4:5, client to supply]`, listed in the delivery note — never a grey box, never a stand-in presented as real.
+- **Placeholders say what's missing**: a tinted field labelled `[photo: courier at the door, 4:5, client to supply]`, listed in the delivery note, never a grey box, never a stand-in presented as real.
 
 ## 8. Effects
 
-- **Shadows only as effect styles**, named by role (`elevation/raised`, `elevation/overlay`), 3–4 levels at most, with X, Y, blur, spread and color bound to variables (`variables-and-tokens.md` § 7), so Dark mode can swap shadow color and opacity.
-- **Spread renders only** on rectangles, ellipses and frames with a visible fill and clip content on — check before relying on it.
+- **Shadows only as effect styles**, named by role (`elevation/raised`, `elevation/overlay`), 3 to 4 levels at most, with X, Y, blur, spread and color bound to variables (`variables-and-tokens.md` § 7), so Dark mode can swap shadow color and opacity.
+- **Spread renders only** on rectangles, ellipses and frames with a visible fill and clip content on, check before relying on it.
 - **Smart Animate does not animate drop or inner shadows** (it falls back to dissolve), so elevation changes crossfade in prototypes.
 - **Blur is expensive twice**: stacked blurs and masks are among the heaviest things in a Figma file, and `backdrop-filter` is costly on scroll and on low-end devices. One blurred layer per screen at most (e.g. a fixed nav bar), with a solid fallback.
 - **Progressive blur, noise, texture and the Glass effect (beta)** exist. Glass, blur-over-gradient and grain are saturated surface tells (`../anti-slop.md`); use them only when a style law calls for them. Glass reportedly exports to PNG only (verify).
@@ -114,7 +114,7 @@ Sourcing, art direction and placeholders: `../imagery.md`. In Figma:
 
 ## 11. File performance
 
-- A browser tab has roughly 2 GB of memory for a file (Figma staff, forum — verify the current limit). Watch the memory meter (Manage memory; it can show memory per layer — verify labels).
+- A browser tab has roughly 2 GB of memory for a file (Figma staff, forum, verify the current limit). Watch the memory meter (Manage memory; it can show memory per layer, verify labels).
 - **Hidden layers still load.** Delete abandoned alternatives instead of hiding them; in components prefer boolean properties to hidden-layer variants (`components.md`).
 - **Downscale images before import**; don't park twenty hidden hero candidates on a screen.
 - **Stacked masks, shadows and blurs** cost memory: flatten decorative stacks; simplify imported SVGs with thousands of nodes.
@@ -137,9 +137,9 @@ return out.slice(0, 100)
 
 ## 12. Shipping as a Figma Site
 
-If the deliverable is a live site built in Figma Sites (launched in open beta at Config 2025; current status — verify): create the breakpoints first (presets Desktop 1280, Tablet 800, Mobile 375, Desktop primary). Use responsive text styles per breakpoint (breakpoint customizations on library styles stay in the file and can't be published). Let responsive components switch variants by breakpoint name. Set HTML tags and alt text on every element. Treat Figma Make output as code: hold it to `../web.md`.
+If the deliverable is a live site built in Figma Sites (launched in open beta at Config 2025; current status, verify): create the breakpoints first (presets Desktop 1280, Tablet 800, Mobile 375, Desktop primary). Use responsive text styles per breakpoint (breakpoint customizations on library styles stay in the file and can't be published). Let responsive components switch variants by breakpoint name. Set HTML tags and alt text on every element. Treat Figma Make output as code: hold it to `../web.md`.
 
-## QA — canvas craft
+## QA, canvas craft
 
 - [ ] Every screen is a top-level frame at a preset width from `../dimensions.md`, clip on, background bound to a variable.
 - [ ] System chrome (status bar, home indicator, keyboard where relevant) drawn; nothing hides under it.

@@ -1,12 +1,12 @@
-# Saturation map — slop check
+# Saturation map, slop check
 
-Load this to check a design (or generated code) for the visual defaults of 2020–2026. Saturation is scored as of **October 2026**: 0 = fresh, 10 = everywhere. Each row links to a card in `atlas/trends/<id>.md` with the full "Why it reads as slop now" and "Subvert" sections.
+Load this to check a design (or generated code) for the visual defaults of 2020 to 2026. Saturation is scored as of **October 2026**: 0 = fresh, 10 = everywhere. Each row links to a card in `atlas/trends/<id>.md` with the full "Why it reads as slop now" and "Subvert" sections.
 
 **How to use**
-- Any match at **9–10** → replace that element; keep the need, change the surface (see the card's Subvert).
-- Any match at **6–8** → allowed only if it is a deliberate, transformed choice the style spec can justify in one sentence.
+- Any match at **9 to 10** → replace that element; keep the need, change the surface (see the card's Subvert).
+- Any match at **6 to 8** → allowed only if it is a deliberate, transformed choice the style spec can justify in one sentence.
 - **3+ matches at ≥8 on one screen** → the design reads as generic / AI-generated; redesign from the style DNA, not by patching.
-- A low score (≤5) is not an endorsement — it means "dated" more than "fresh".
+- A low score (≤5) is not an endorsement, it means "dated" more than "fresh".
 
 ## Table
 
@@ -30,7 +30,7 @@ Load this to check a design (or generated code) for the visual defaults of 2020�
 | `emoji-as-icons` | 8 | 🚀 ⚡ 🔒 heading feature cards and H2s | Quick visual anchors; friendliness |
 | `marquee-tickers` | 8 | Tilted band of looping words or an endless logo carousel | Liveness; abundance; a break in vertical rhythm |
 | `editorial-serif-revival` | 7 | Light condensed serif H1 with one italic word on cream #F5F1EA | Human, literate voice; reading-first rhythm |
-| `grain-and-noise-overlay` | 7 | Full-page noise at 8–15% over gradients and text | Tactility; analog warmth; de-banding gradients |
+| `grain-and-noise-overlay` | 7 | Full-page noise at 8 to 15% over gradients and text | Tactility; analog warmth; de-banding gradients |
 | `kinetic-type-everywhere` | 7 | Every heading splits and flies in; rotating-word hero | Time-based hierarchy; voice through motion |
 | `corporate-memphis-illustration` | 6 | Flat purple-skinned figures with tiny heads and bendy limbs | Representation without stereotype; humanise abstract services |
 | `3d-clay-and-blob-renders` | 6 | Pastel inflated padlock/rocket/coin floating above a card | Friendly tactility; object metaphor; delight moments |
@@ -49,7 +49,7 @@ Load this to check a design (or generated code) for the visual defaults of 2020�
 | `bg-indigo-500`, `from-purple-500 to-blue-500`, `bg-clip-text text-transparent` | `purple-blue-gradient-saas` |
 | `font-family: Inter`, `font-sans` with Inter/Geist only, `Space Grotesk` | `inter-and-geometric-sans-default` |
 | `lucide-react`, `rounded-md border shadow-sm`, zinc/slate tokens untouched | `shadcn-tailwind-default-look` |
-| `backdrop-filter: blur(...)` + `rgba(255,255,255,.1–.25)` | `glassmorphism` |
+| `backdrop-filter: blur(...)` + `rgba(255,255,255,.1, .25)` | `glassmorphism` |
 | `feDisplacementMap`, "liquid-glass" component names | `liquid-glass-imitation` |
 | `filter: blur(80px+)` on absolutely positioned circles | `gradient-mesh-and-aurora` |
 | `radial-gradient(... 1px, transparent 1px)` + `mask-image: radial-gradient` | `dot-grid-and-line-grid-backgrounds` |
@@ -62,7 +62,7 @@ Load this to check a design (or generated code) for the visual defaults of 2020�
 | `@splinetool/react-spline`, `<Canvas>` with a lone mesh in the hero | `spline-3d-hero` |
 | Lenis / Locomotive Scroll, `ScrollTrigger` `pin: true` everywhere | `scroll-jacking-and-parallax` |
 | `SplitText`, per-character stagger on every heading | `kinetic-type-everywhere` |
-| `4px 4px 0 #000` + 2–3px black borders on every card | `neo-brutalism-web` |
+| `4px 4px 0 #000` + 2 to 3px black borders on every card | `neo-brutalism-web` |
 | Paired shadows like `9px 9px 16px #a3b1c6, -9px -9px 16px #fff` | `neumorphism` |
 | `feTurbulence` / noise PNG fixed over the whole body | `grain-and-noise-overlay` |
 | Emoji as the first character of headings and card titles | `emoji-as-icons` |
@@ -73,4 +73,4 @@ Load this to check a design (or generated code) for the visual defaults of 2020�
 - **The dev-tool default:** `linear-style-dark-ui` + `dot-grid-and-line-grid-backgrounds` + `dark-mode-neon-glow` + `bento-grid` + `shadcn-tailwind-default-look`.
 - **The "futuristic" dashboard:** `glassmorphism` / `liquid-glass-imitation` + `gradient-mesh-and-aurora` + `grain-and-noise-overlay`.
 - **The agency portfolio:** `oversized-grotesk-hero` + `kinetic-type-everywhere` + `marquee-tickers` + `cursor-followers-and-magnetic-buttons` + `scroll-jacking-and-parallax`.
-- **The friendly startup (2018–2022):** `corporate-memphis-illustration` + `isometric-illustration` + `3d-clay-and-blob-renders` + `emoji-as-icons`.
+- **The friendly startup (2018 to 2022):** `corporate-memphis-illustration` + `isometric-illustration` + `3d-clay-and-blob-renders` + `emoji-as-icons`.

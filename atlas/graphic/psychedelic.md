@@ -3,7 +3,7 @@ id: psychedelic
 name: Psychedelic Posters
 type: movement
 discipline: [graphic]
-era: 1965–1972
+era: 1965 to 1972
 origin: San Francisco, USA / London, UK
 lineage: [art-nouveau, vienna-secession, op-art, pop-art]
 tags:
@@ -14,7 +14,7 @@ axes: {order: 2, density: 9, ornament: 9, warmth: 7, contrast: 6, geometry: 1, c
 
 # Psychedelic Posters
 
-**Essence:** Lettering melted into ornament and colours set to vibrate — a poster to be deciphered by insiders, not read by everyone.
+**Essence:** Lettering melted into ornament and colours set to vibrate, a poster to be deciphered by insiders, not read by everyone.
 
 ## Genes
 
@@ -36,13 +36,13 @@ axes: {order: 2, density: 9, ornament: 9, warmth: 7, contrast: 6, geometry: 1, c
 
 ## Attitude
 
-The San Francisco artists — Wes Wilson, Victor Moscoso, Rick Griffin, Stanley Mouse and Alton Kelley — made posters for dance concerts at the Fillmore and Avalon ballrooms, mostly self-taught and outside the profession. The work celebrated altered perception, community and rejection of corporate modernism; in London, Martin Sharp and Hapshash and the Coloured Coat carried it into the underground press.
+The San Francisco artists, Wes Wilson, Victor Moscoso, Rick Griffin, Stanley Mouse and Alton Kelley, made posters for dance concerts at the Fillmore and Avalon ballrooms, mostly self-taught and outside the profession. The work celebrated altered perception, community and rejection of corporate modernism; in London, Martin Sharp and Hapshash and the Coloured Coat carried it into the underground press.
 
 ## Blends
 
-- **Amplifies:** `art-nouveau`, `op-art`, `push-pin-studios` — ornament, optical colour and illustration.
-- **Productive tension with:** `swiss-international` — vibrating colour and warped type locked into a strict grid gives contemporary club and festival identities.
-- **Clashes with:** `corporate-identity` — uniform, legible brand systems and tribal decipherment negate each other.
+- **Amplifies:** `art-nouveau`, `op-art`, `push-pin-studios`, ornament, optical colour and illustration.
+- **Productive tension with:** `swiss-international`, vibrating colour and warped type locked into a strict grid gives contemporary club and festival identities.
+- **Clashes with:** `corporate-identity`, uniform, legible brand systems and tribal decipherment negate each other.
 
 ## Don't copy
 

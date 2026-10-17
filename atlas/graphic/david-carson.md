@@ -3,7 +3,7 @@ id: david-carson
 name: David Carson
 type: designer
 discipline: [graphic]
-era: 1983–present
+era: 1983 to present
 origin: California, USA
 lineage: [postmodern-new-wave, deconstructivist-type, wolfgang-weingart]
 tags:
@@ -39,9 +39,9 @@ A former sociology teacher and professional surfer, Carson trusted intuition ove
 
 ## Blends
 
-- **Amplifies:** `punk-graphics`, `emigre` — DIY energy and experimental digital type.
-- **Productive tension with:** `swiss-international` — one Carson spread per issue inside a strict Swiss grid gives controlled shock.
-- **Clashes with:** `wim-crouwel` — zero order meets total order; the result is noise, not tension.
+- **Amplifies:** `punk-graphics`, `emigre`, DIY energy and experimental digital type.
+- **Productive tension with:** `swiss-international`, one Carson spread per issue inside a strict Swiss grid gives controlled shock.
+- **Clashes with:** `wim-crouwel`, zero order meets total order; the result is noise, not tension.
 
 ## Don't copy
 
@@ -51,4 +51,4 @@ A former sociology teacher and professional surfer, Carson trusted intuition ove
 
 - David Carson & Lewis Blackwell, *The End of Print* (1995); *2nd Sight* (1997)
 - *Beach Culture* (from 1989) and *Ray Gun* (from 1992) issues
-- Aynsley, *A Century of Graphic Design*, pp. 232–233; Meggs, ch. 24
+- Aynsley, *A Century of Graphic Design*, pp. 232 to 233; Meggs, ch. 24

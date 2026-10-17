@@ -20,10 +20,10 @@ axes: {order: 7, density: 5, ornament: 1, warmth: 4, contrast: 3, geometry: 9, c
 
 | Gene | The idea | In UI / product terms |
 |---|---|---|
-| G1 · Monoline geometric slab | The strokes keep nearly one width, rounds approach perfect circles, and slab serifs meet stems without brackets. It is the slab version of 1930s geometric modernism. | Headline and brand face ≥ 20px, weights 600–800. Match icons to it: 2px uniform strokes, square line caps, 90° joins. Type and pictograms come from one geometry. |
+| G1 · Monoline geometric slab | The strokes keep nearly one width, rounds approach perfect circles, and slab serifs meet stems without brackets. It is the slab version of 1930s geometric modernism. | Headline and brand face ≥ 20px, weights 600 to 800. Match icons to it: 2px uniform strokes, square line caps, 90° joins. Type and pictograms come from one geometry. |
 | G2 · One odd detail | A serif sits on the apex of the capital *A*, an unexpected flag in an otherwise rational system. | Allow exactly one quirky detail in a geometric brand system: one glyph feature echoed in the logo or one icon terminal. Everything else stays strictly regular. |
 | G3 · Even texture, flat paragraphs | Monoline weight gives an even, strong colour in a line, but little stroke variation to guide the eye through long text. | Rockwell runs at most 3 lines: headlines, labels, prices, scoreboards. Paragraphs switch to a text serif or humanist sans. |
-| G4 · Numbers as hardware | Square slabs and even strokes make figures that look stamped or stencilled: robust at a glance. | Timers, scores, prices and counters in Rockwell bold at 32–96px with tabular spacing (or fixed-width boxes if the font lacks `tnum`). Units and labels sit beside them in a lighter sans. |
+| G4 · Numbers as hardware | Square slabs and even strokes make figures that look stamped or stencilled: robust at a glance. | Timers, scores, prices and counters in Rockwell bold at 32 to 96px with tabular spacing (or fixed-width boxes if the font lacks `tnum`). Units and labels sit beside them in a lighter sans. |
 
 ## Visual facts
 

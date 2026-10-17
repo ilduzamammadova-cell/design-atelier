@@ -3,7 +3,7 @@ id: armin-hofmann
 name: Armin Hofmann
 type: designer
 discipline: [graphic]
-era: 1940s–1980s
+era: 1940s to 1980s
 origin: Basel, Switzerland
 lineage: [swiss-international, new-typography]
 tags:
@@ -12,9 +12,9 @@ tags:
 axes: {order: 8, density: 3, ornament: 1, warmth: 3, contrast: 9, geometry: 7, chroma: 2, typevoice: 7, energy: 6, hand: 3, play: 3, era: 6}
 ---
 
-# Armin Hofmann (1920–2020)
+# Armin Hofmann (1920 to 2020)
 
-**Essence:** A harmony built from opposites — soft against hard, organic against geometric, black against white — resolved into one taut whole.
+**Essence:** A harmony built from opposites, soft against hard, organic against geometric, black against white, resolved into one taut whole.
 
 ## Genes
 
@@ -39,9 +39,9 @@ For Hofmann design was taught and learned through fundamentals; a designer earns
 
 ## Blends
 
-- **Amplifies:** `emil-ruder` — Basel's typography and form courses were two halves of one curriculum.
-- **Productive tension with:** `bradbury-thompson` — process-colour exuberance disciplined by Hofmann's black-and-white rigour gives bold but controlled colour systems.
-- **Clashes with:** `memphis` — pattern-on-pattern chroma removes the single contrast that his compositions depend on.
+- **Amplifies:** `emil-ruder`, Basel's typography and form courses were two halves of one curriculum.
+- **Productive tension with:** `bradbury-thompson`, process-colour exuberance disciplined by Hofmann's black-and-white rigour gives bold but controlled colour systems.
+- **Clashes with:** `memphis`, pattern-on-pattern chroma removes the single contrast that his compositions depend on.
 
 ## Don't copy
 

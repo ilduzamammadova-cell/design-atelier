@@ -3,7 +3,7 @@ id: pierre-simon-fournier
 name: Pierre-Simon Fournier le Jeune
 type: designer
 discipline: [graphic]
-era: 1736–1768
+era: 1736 to 1768
 origin: Paris, France
 lineage: [claude-garamond]
 tags:
@@ -22,7 +22,7 @@ axes: {order: 8, density: 7, ornament: 8, warmth: 6, contrast: 4, geometry: 6, c
 |---|---|---|
 | G1 · One base unit for everything | In 1737 he published a table of proportions that tied every type size to a fixed scale of lines and points, replacing chaotic, foundry-specific sizes. His 1764 *Manuel* moved to a pure point. | Define a single base unit (4px) and derive every size, space and radius from it: type 12/14/16/20/24/32/40/48, spacing 4/8/12/16/24/32/48/64. Name tokens by number, never by vibe ("space-16", not "medium"). |
 | G2 · The type family | His specimen offered romans and italics in varied weights and widths designed to mix, an early version of the idea that faces should come as compatible families. | Pick one superfamily that covers every need (text, display, condensed, mono) instead of pairing unrelated fonts. Each role maps to a family member, so contrast comes from weight and width, not from clashing designs. |
-| G3 · Fleurons as a construction kit | He cut small ornament sorts that could be used singly or multiplied and rotated into borders, rules and frames of any size, without hand-engraving. | A 3–5 glyph ornament kit (corner, link, terminal, dot) delivered as an SVG sprite or icon font. Dividers, frames and empty states are composed from it with `border-image` or repeated backgrounds. New ornaments are assembled, never drawn ad hoc. |
+| G3 · Fleurons as a construction kit | He cut small ornament sorts that could be used singly or multiplied and rotated into borders, rules and frames of any size, without hand-engraving. | A 3 to 5 glyph ornament kit (corner, link, terminal, dot) delivered as an SVG sprite or icon font. Dividers, frames and empty states are composed from it with `border-image` or repeated backgrounds. New ornaments are assembled, never drawn ad hoc. |
 | G4 · Everything snaps to the same measure | Roman, italic, script, decorative types, rules up to about 35cm long, and ornaments all fit the same measurement, so they locked together visually and physically. | Icons, illustration frames, rules and type all align to the 4px grid and the same baseline. A visual-regression check flags any element whose box isn't a multiple of the base unit. |
 | G5 · The specimen is the manifesto | His *Modèles des caractères* (1742) showed 4,600 characters he had cut himself, and the specimen pages were showpieces of rococo design. | Publish a living specimen page for the design system: every type role, ornament and colour at real size, composed into beautiful pages (not just tables), so the system sells itself to the people using it. |
 
@@ -46,7 +46,7 @@ Fournier saw the printing house as a place that needed standards, not only beaut
 ## Don't copy
 
 - Specific Fournier fleuron designs and his specimen-book compositions.
-- His title pages for *Manuel typographique* (1764–68).
+- His title pages for *Manuel typographique* (1764 to 68).
 
 ## Study
 

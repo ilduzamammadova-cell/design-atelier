@@ -3,7 +3,7 @@ id: sanaa
 name: SANAA (Kazuyo Sejima and Ryue Nishizawa)
 type: studio
 discipline: [architecture]
-era: 1995–present
+era: 1995 to present
 origin: Tokyo, Japan
 lineage: []
 tags:
@@ -14,7 +14,7 @@ axes: {order: 5, density: 1, ornament: 0, warmth: 4, contrast: 2, geometry: 6, c
 
 # SANAA
 
-**Essence:** Architecture thinned almost to nothing — hairline structure, white surfaces, layered glass — arranged without a front, a back or a main room.
+**Essence:** Architecture thinned almost to nothing, hairline structure, white surfaces, layered glass, arranged without a front, a back or a main room.
 
 ## Genes
 
@@ -22,7 +22,7 @@ axes: {order: 5, density: 1, ornament: 0, warmth: 4, contrast: 2, geometry: 6, c
 |---|---|---|
 | G1 · Non-hierarchical plan | The 21st Century Museum of Contemporary Art, Kanazawa (2004) is a round glass building with entrances on all sides and no front or back; its galleries are separate boxes scattered like islands, and visitors choose their own route. | Entry-agnostic navigation: every main section is one step from every other, there is no "home" funnel, and landing on any deep link shows the same frame and orientation cues. Sections differ in size by need, but none is crowned as the main one. |
 | G2 · Extreme thinness | Columns and roof slabs so slim the structure nearly disappears; walls drawn as single lines. | Hairline everything: 1 px rules (0.5 px on high-density screens), thin weights for structural labels, slim borders. No thick bars or heavy fills; structure is felt rather than seen. |
-| G3 · Layered transparency | The curved glass walls of the Glass Pavilion at the Toledo Museum of Art (2006) set up overlapping reflections and soft views through several layers at once. | Panels in near-opaque white (85–92%) without blur or gradient, so the content behind shows faintly; overlapping large-radius edges create depth by layering, not shadow. Text always sits on a fully opaque core to keep contrast. |
+| G3 · Layered transparency | The curved glass walls of the Glass Pavilion at the Toledo Museum of Art (2006) set up overlapping reflections and soft views through several layers at once. | Panels in near-opaque white (85 to 92%) without blur or gradient, so the content behind shows faintly; overlapping large-radius edges create depth by layering, not shadow. Text always sits on a fully opaque core to keep contrast. |
 | G4 · One continuous landscape floor | The Rolex Learning Center at EPFL, Lausanne (2010) is a single undulating floor with patios cut through it; slopes and plateaus replace walls and storeys. | One continuous canvas where zones are made by gentle shifts (a small step in tone or scale) and by empty "patios", instead of borders and tabs. |
 | G5 · Openings placed by inside use | The Zollverein School cube in Essen (2006) has windows of several sizes scattered across its walls according to what happens inside. | Place and size image slots and actions by what lies behind them, not by a fixed grid: a deliberately irregular arrangement of different-sized frames on a plain white surface, each justified by its content. |
 
@@ -35,13 +35,13 @@ axes: {order: 5, density: 1, ornament: 0, warmth: 4, contrast: 2, geometry: 6, c
 
 ## Attitude
 
-SANAA tries to dissolve barriers — between inside and outside, between rooms, between people — and to make open, ambiguous, light spaces in which people meet freely and choose their own path. Sejima titled the 2010 Venice Architecture Biennale, which she directed, *People Meet in Architecture*. Pritzker Prize 2010.
+SANAA tries to dissolve barriers, between inside and outside, between rooms, between people, and to make open, ambiguous, light spaces in which people meet freely and choose their own path. Sejima titled the 2010 Venice Architecture Biennale, which she directed, *People Meet in Architecture*. Pritzker Prize 2010.
 
 ## Blends
 
-- **Amplifies:** `kenya-hara`, `minimalism-art` — emptiness, whiteness, restraint.
-- **Productive tension with:** `brutalism` — hairline, weightless structure next to heavy mass gives a system that is airy for content and solid for infrastructure.
-- **Clashes with:** `postmodern-new-wave` — dense layering and visual noise fill the openness the work depends on.
+- **Amplifies:** `kenya-hara`, `minimalism-art`, emptiness, whiteness, restraint.
+- **Productive tension with:** `brutalism`, hairline, weightless structure next to heavy mass gives a system that is airy for content and solid for infrastructure.
+- **Clashes with:** `postmodern-new-wave`, dense layering and visual noise fill the openness the work depends on.
 
 ## Don't copy
 

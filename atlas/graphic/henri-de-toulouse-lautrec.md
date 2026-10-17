@@ -3,7 +3,7 @@ id: henri-de-toulouse-lautrec
 name: Henri de Toulouse-Lautrec
 type: artist
 discipline: [graphic, art]
-era: 1891–1901
+era: 1891 to 1901
 origin: Paris, France
 lineage: [jules-cheret, ukiyo-e]
 tags:
@@ -20,10 +20,10 @@ axes: {order: 3, density: 4, ornament: 2, warmth: 7, contrast: 8, geometry: 2, c
 
 | Gene | The idea | In UI / product terms |
 |---|---|---|
-| G1 · The silhouette as symbol | In *La Goulue au Moulin Rouge* (1891) the crowd is a frieze of flat black shapes and the lamps are yellow ovals: shapes become symbols for a place and an event. | Reduce hero imagery to 2–3 flat silhouette shapes plus one detailed focal element. Test at 48px: the silhouette must still identify the subject (performer, venue, product). Works for event tickets, playlists, venue pages. |
-| G2 · The bold crop | Influenced by Japanese prints, he cut figures with the frame edge, letting an instrument, hat or leg enter from outside the picture. | Crop photos off-canvas deliberately: subject cut by the top or side edge by 15–30%, with one strong diagonal element entering from a corner and pointing toward the headline. Use `object-position` presets rather than centred crops. |
+| G1 · The silhouette as symbol | In *La Goulue au Moulin Rouge* (1891) the crowd is a frieze of flat black shapes and the lamps are yellow ovals: shapes become symbols for a place and an event. | Reduce hero imagery to 2 to 3 flat silhouette shapes plus one detailed focal element. Test at 48px: the silhouette must still identify the subject (performer, venue, product). Works for event tickets, playlists, venue pages. |
+| G2 · The bold crop | Influenced by Japanese prints, he cut figures with the frame edge, letting an instrument, hat or leg enter from outside the picture. | Crop photos off-canvas deliberately: subject cut by the top or side edge by 15 to 30%, with one strong diagonal element entering from a corner and pointing toward the headline. Use `object-position` presets rather than centred crops. |
 | G3 · Foreground cut-out | A dark profile or figure in the immediate foreground (a dancer, a bass neck) sits in front of the scene, creating depth with no perspective drawing. | Three-plane layering: foreground cut-out (PNG/SVG mask) overlapping the headline with `z-index`, a flat middle scene, a solid background colour. Parallax ≤ 8px on scroll if motion is used. |
-| G4 · Spatter as tone | He spattered ink from a toothbrush to create tone across flat areas. | A texture token: sparse spatter noise (SVG turbulence or scanned spatter at 3–6% opacity) over flat fills only, never over text. It gives warmth to flat illustration without gradients. |
+| G4 · Spatter as tone | He spattered ink from a toothbrush to create tone across flat areas. | A texture token: sparse spatter noise (SVG turbulence or scanned spatter at 3 to 6% opacity) over flat fills only, never over text. It gives warmth to flat illustration without gradients. |
 | G5 · Few words, drawn with the picture | His lettering is minimal (often a name and a venue), drawn with the image and placed where the composition leaves room. | Headline ≤ 3 words, positioned in negative space left by the image (not in a separate text band). Name + place + date is the whole message for event surfaces. |
 
 ## Visual facts
@@ -45,7 +45,7 @@ A painter and printmaker who drew nightlife from the inside, Lautrec made only a
 
 ## Don't copy
 
-- *Moulin Rouge – La Goulue* (1891), *Divan Japonais* (1893), *Aristide Bruant* (1892–93), *Jane Avril* (1893) and his portraits of named performers.
+- *Moulin Rouge, La Goulue* (1891), *Divan Japonais* (1893), *Aristide Bruant* (1892 to 93), *Jane Avril* (1893) and his portraits of named performers.
 - His signature monogram.
 
 ## Study

@@ -3,7 +3,7 @@ id: muriel-cooper
 name: Muriel Cooper
 type: designer
 discipline: [graphic, ui]
-era: 1952–1994
+era: 1952 to 1994
 origin: Cambridge, Massachusetts, USA
 lineage: [bauhaus, swiss-international]
 tags:
@@ -39,9 +39,9 @@ Cooper saw the information revolution as the Bauhaus saw the industrial one: a r
 
 ## Blends
 
-- **Amplifies:** `april-greiman`, `bauhaus` — digital depth and a pedagogy of experiment.
-- **Productive tension with:** `irma-boom` — physical depth of the book against dematerialised depth of the screen; borrow book-like edges for a zoomable interface.
-- **Clashes with:** `punk-graphics` — degraded photocopy textures destroy the legibility that layered depth depends on.
+- **Amplifies:** `april-greiman`, `bauhaus`, digital depth and a pedagogy of experiment.
+- **Productive tension with:** `irma-boom`, physical depth of the book against dematerialised depth of the screen; borrow book-like edges for a zoomable interface.
+- **Clashes with:** `punk-graphics`, degraded photocopy textures destroy the legibility that layered depth depends on.
 
 ## Don't copy
 
@@ -52,4 +52,4 @@ The MIT Press logo, the *Bauhaus* (1969) cover, the *Learning from Las Vegas* la
 - David Reinfurt & Robert Wiesenberger, *Muriel Cooper* (MIT Press, 2017)
 - MoMA, "Inbox: Muriel Cooper's Information Landscapes": https://www.moma.org/calendar/exhibitions/1654
 - MIT Media Lab, "Muriel Cooper: lasting imprint": https://www.media.mit.edu/posts/muriel-cooper-lasting-imprint/
-- Aynsley, *A Century of Graphic Design*, pp. 188–189; Meggs, ch. 20
+- Aynsley, *A Century of Graphic Design*, pp. 188 to 189; Meggs, ch. 20

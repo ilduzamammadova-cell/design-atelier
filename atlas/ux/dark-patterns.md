@@ -1,9 +1,9 @@
 ---
 id: dark-patterns
-name: Dark Patterns (Deceptive Patterns) — anti-gene card
+name: Dark Patterns (Deceptive Patterns), anti-gene card
 type: principle
 discipline: [ux]
-era: 2010–present
+era: 2010 to present
 origin: London, UK
 lineage: []
 tags:
@@ -14,7 +14,7 @@ axes: {order: 4, density: 7, ornament: 4, warmth: 3, contrast: 7, geometry: 5, c
 
 # Dark Patterns (Deceptive Patterns)
 
-**Essence:** ANTI-GENE CARD — never blend. Interfaces deliberately designed to trick or pressure people into choices they would not otherwise make. Use this card as a checklist of what a personal style must never contain, and adopt the inverse rules below. (The axis vector describes how these products feel, only so the matcher can warn when a style drifts toward it.)
+**Essence:** ANTI-GENE CARD, never blend. Interfaces deliberately designed to trick or pressure people into choices they would not otherwise make. Use this card as a checklist of what a personal style must never contain, and adopt the inverse rules below. (The axis vector describes how these products feel, only so the matcher can warn when a style drifts toward it.)
 
 ## Genes
 
@@ -31,7 +31,7 @@ Each row is an *anti-gene*: the pattern, why it harms, and the inverse rule to a
 
 ## Visual facts
 
-- **Color:** the tell is asymmetry — saturated accept vs. grey decline, red countdowns, tiny low-contrast close buttons.
+- **Color:** the tell is asymmetry, saturated accept vs. grey decline, red countdowns, tiny low-contrast close buttons.
 - **Type:** fine print for the important parts, huge type for the bait.
 - **Form:** interstitials, fake system dialogs, disguised ads styled as content or navigation.
 - **Composition:** the "right" choice placed where Fitts and habit make it hard to reach. The inverse style: symmetric, honest, calm.
@@ -42,9 +42,9 @@ Harry Brignull, a UK user-experience consultant, coined "dark patterns" in 2010 
 
 ## Blends
 
-- **Amplifies:** (the cure) `don-norman`, `inclusive-design`, `calm-technology` — honest signifiers, respect for all users, protected attention.
-- **Productive tension with:** `persuasive-technology` — the same mechanics; the line is the user's own goal, transparency and easy exit.
-- **Clashes with:** every card in the atlas — never blend; only invert.
+- **Amplifies:** (the cure) `don-norman`, `inclusive-design`, `calm-technology`, honest signifiers, respect for all users, protected attention.
+- **Productive tension with:** `persuasive-technology`, the same mechanics; the line is the user's own goal, transparency and easy exit.
+- **Clashes with:** every card in the atlas, never blend; only invert.
 
 ## Don't copy
 

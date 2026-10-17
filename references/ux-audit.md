@@ -10,7 +10,7 @@ Most audits stop at a list of small visual nits. Lead with the problems that sto
 ## Inputs
 
 - What is being audited: URL, screenshots, Figma link, or code.
-- The product's main jobs — ask, or infer and state the assumption: "I'm assuming the key job is booking a table."
+- The product's main jobs, ask, or infer and state the assumption: "I'm assuming the key job is booking a table."
 - **Key job unknown and real users reachable?** Find it before auditing (after *The Mom Test*, `atlas/ux/the-mom-test.md`). Ask about past behaviour, never opinions: "The last time you opened it, what were you trying to get done?" / "What did you use before or alongside it, and what does that cost you?" / "What happened the last time it went wrong?" The key job is the one people already spend time or money on. Record it with its evidence; if no one can be reached, state the assumption and mark that task's findings provisional.
 - The style spec, if the work belongs to a profile in `~/.design-atelier/profiles/`.
 
@@ -22,13 +22,13 @@ For a live URL, use the browser tools to walk the real flows (including mobile w
 For each main job, go step by step as a first-time user. Record every point of hesitation, confusion, dead end, or extra step. This finds the problems that matter most.
 
 At each step, apply the Norman lenses (`atlas/ux/don-norman.md`):
-- **Discoverability:** in a still screenshot — no hover, no tutorial — can a newcomer point to every available action and say how to do it? Hover-only, gesture-only and unlabeled-icon actions fail.
+- **Discoverability:** in a still screenshot, no hover, no tutorial, can a newcomer point to every available action and say how to do it? Hover-only, gesture-only and unlabeled-icon actions fail.
 - **Mapping:** is each control on or next to what it changes, laid out like its effect?
 - **Feedback:** is every action acknowledged within ~100ms, with the resulting state in the user's terms (not "Success")? Can a slow action be submitted twice?
 - **Conceptual model:** from the screen alone, could the user say where their data is, what is saved, and what happens next? Does any cue suggest a wrong model?
-- **Gulfs:** name the step where the user can't tell what to do (execution) or whether it worked (evaluation). These are usually the severity 3–4 findings.
+- **Gulfs:** name the step where the user can't tell what to do (execution) or whether it worked (evaluation). These are usually the severity 3 to 4 findings.
 
-Classify every error before proposing a fix. A **slip** (right goal, wrong action — look-alike targets, hidden mode, habit) is fixed by making targets differ, separating them, showing the mode, making it reversible. A **mistake** (wrong goal or model) is fixed by a clearer system image, a preview before commit, or the missing information at the point of decision. A confirmation dialog fixes neither: people confirm the action, not the object.
+Classify every error before proposing a fix. A **slip** (right goal, wrong action, look-alike targets, hidden mode, habit) is fixed by making targets differ, separating them, showing the mode, making it reversible. A **mistake** (wrong goal or model) is fixed by a clearer system image, a preview before commit, or the missing information at the point of decision. A confirmation dialog fixes neither: people confirm the action, not the object.
 
 ### 2. Heuristic pass
 Check against these ten questions (adapted from Nielsen's usability heuristics, in our words):
@@ -47,8 +47,8 @@ Check against these ten questions (adapted from Nielsen's usability heuristics, 
 Contrast of every text/UI pair; visible focus; keyboard-only completion of key tasks; labels and error text; headings and landmarks; target sizes; zoom to 200%; reduced-motion behavior. (`references/principles.md` § Accessibility minimums.)
 
 ### 4. Style consistency pass
-With a style spec: check each law, token use, component variants, icon set, motion tokens. List every place the work breaks a law — and whether the break looks intentional (a candidate for evolving the style) or accidental.
-Without a spec: check internal consistency — how many type sizes, colors, radii, shadow styles and button variants exist versus how many are needed.
+With a style spec: check each law, token use, component variants, icon set, motion tokens. List every place the work breaks a law, and whether the break looks intentional (a candidate for evolving the style) or accidental.
+Without a spec: check internal consistency, how many type sizes, colors, radii, shadow styles and button variants exist versus how many are needed.
 
 ### 5. Originality pass
 Compare against `atlas/trends/_saturation-map.md` and `references/anti-slop.md`. Name each generic pattern found and its saturation. Then answer honestly: if the logo were removed, could this be mistaken for a thousand other products? What is the one thing only this product does visually?
@@ -66,9 +66,9 @@ Compare against `atlas/trends/_saturation-map.md` and `references/anti-slop.md`.
 ## Report template
 
 ```markdown
-# UX Audit — [Product], [date]
+# UX Audit, [Product], [date]
 
-**Scope:** [what was reviewed, devices, flows] · **Assumed key jobs:** [1–3]
+**Scope:** [what was reviewed, devices, flows] · **Assumed key jobs:** [1 to 3]
 
 ## Summary
 Three sentences: overall state, the biggest risk, the biggest opportunity.
@@ -79,7 +79,7 @@ Three sentences: overall state, the biggest risk, the biggest opportunity.
 
 ## Findings by task
 ### [Task name]
-- [Step] — issue — severity — evidence (screenshot / selector) — recommended fix
+- [Step], issue, severity, evidence (screenshot / selector), recommended fix
 
 ## Accessibility
 [findings, each with the WCAG criterion]
@@ -91,7 +91,7 @@ Three sentences: overall state, the biggest risk, the biggest opportunity.
 [generic patterns with saturation; what is distinctive and should be protected; one concrete move that would make it unmistakable]
 
 ## What works
-[things to keep — an audit that only criticises is not trusted]
+[things to keep, an audit that only criticises is not trusted]
 ```
 
 Every finding needs evidence (where exactly) and a concrete fix. "Improve the hierarchy" is not a fix; "make the price the largest element on the card and move the SKU under the title in `ink-muted`" is.

@@ -20,7 +20,7 @@ axes: {order: 8, density: 2, ornament: 2, warmth: 4, contrast: 4, geometry: 6, c
 
 | Gene | The idea | In UI / product terms |
 |---|---|---|
-| G1 · Capitals only | Monumental Roman inscriptions had no lowercase, so Trajan offers capitals and small caps and nothing else. | Titles ≤ 5 words, letterspaced +8–15%; never sentences or paragraphs. Pair with a full lowercase text face for everything readable. |
+| G1 · Capitals only | Monumental Roman inscriptions had no lowercase, so Trajan offers capitals and small caps and nothing else. | Titles ≤ 5 words, letterspaced +8 to 15%; never sentences or paragraphs. Pair with a full lowercase text face for everything readable. |
 | G2 · Proportion classes | Roman capitals vary in width by design: round and wide letters (*O, C, D, M*) beside narrow ones (*E, F, L, S*), so spacing has to be judged by eye. | In letterspaced caps, kern optically: start from `font-kerning: normal`, then hand-tune pairs like *LA, AV, TO* in wordmarks and hero titles. Equal tracking alone is never enough. |
 | G3 · Lettering as architecture | The source inscription is part of a building; letters, margins and the stone plane form one composition. | Ceremony surfaces (memorial pages, awards, certificates, donor walls): caps centred on a vertical axis, line spacing ≥ 1.6× cap height, margins ≥ 15% of width, and a single flat plane behind with no gradients. |
 | G4 · Monument becomes cliché | From 1992, film posters adopted it so widely that by the 2000s it was the default "prestige drama" voice. | Run a cliché test before shipping: if the title looks like a 1990s movie poster, change one variable, such as a different weight (Trajan Pro 3 light) or Roman proportions carried by another face. |

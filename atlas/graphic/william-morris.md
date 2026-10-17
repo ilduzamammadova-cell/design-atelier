@@ -3,7 +3,7 @@ id: william-morris
 name: William Morris
 type: designer
 discipline: [graphic, craft, product]
-era: 1861–1896
+era: 1861 to 1896
 origin: London, England
 lineage: [arts-and-crafts, illuminated-manuscripts, johannes-gutenberg, owen-jones]
 tags:
@@ -20,7 +20,7 @@ axes: {order: 7, density: 9, ornament: 10, warmth: 9, contrast: 5, geometry: 3, 
 
 | Gene | The idea | In UI / product terms |
 |---|---|---|
-| G1 · One even tone across the whole | Kelmscott pages (1891–98) balance dense type, white-line woodcut borders and initials so that text and ornament reach the same overall darkness. Nothing jumps out except what should. | Tonal balance check: blur a screenshot (8–12px Gaussian). Text blocks, pattern panels and imagery should read as near-equal greys, and any unintended dark or light hole gets fixed. Decorative backgrounds behind text never exceed text contrast. |
+| G1 · One even tone across the whole | Kelmscott pages (1891 to 98) balance dense type, white-line woodcut borders and initials so that text and ornament reach the same overall darkness. Nothing jumps out except what should. | Tonal balance check: blur a screenshot (8 to 12px Gaussian). Text blocks, pattern panels and imagery should read as near-equal greys, and any unintended dark or light hole gets fixed. Decorative backgrounds behind text never exceed text contrast. |
 | G2 · Hidden structure in the repeat | His 500-plus wallpaper and textile patterns hide strict repeats (turnovers, half-drops) under meandering stems, so the eye follows growth, not the tile. | Seamless pattern tiles built on a half-drop repeat (e.g. 400×400 tile offset by 200px), with stems crossing tile edges so the seam is invisible. Generated as SVG `<pattern>`, recoloured by 3 tokens (ground, mid, accent). |
 | G3 · Modular decorative parts | He designed 644 woodblocks for the press: initials, borders, frames, reused across books. The handicraft revival quietly ran on interchangeable, repeatable parts. | A drop-cap and frame component library: initials spanning exactly 3 or 4 text lines, frame sets in 3 sizes, all drawn to the body text's line-height so they snap into any article template. |
 | G4 · Margins that grow outward | His book pages follow the classical progression: inner margin smallest, then top, then outer, with the bottom largest, so the facing pages sit together as one block. | Reading-view margins in a rising ratio around 2:3:4:6 (inner:top:outer:bottom). On single-pane mobile, keep top < bottom and generous side margins (≥ 20px). |

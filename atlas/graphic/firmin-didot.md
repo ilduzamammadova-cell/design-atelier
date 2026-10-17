@@ -3,7 +3,7 @@ id: firmin-didot
 name: Firmin Didot (and the Didot family)
 type: designer
 discipline: [graphic]
-era: c. 1780–1836
+era: c. 1780 to 1836
 origin: Paris, France
 lineage: [pierre-simon-fournier, john-baskerville]
 tags:
@@ -50,7 +50,7 @@ The Didots joined scholarship to manufacturing: correct texts, standard measures
 
 ## Study
 
-- Virgil and Racine, Éditions du Louvre (1798–1801): Gallica, BnF (gallica.bnf.fr)
+- Virgil and Racine, Éditions du Louvre (1798 to 1801): Gallica, BnF (gallica.bnf.fr)
 - André Jammes, *La Réforme de la typographie royale sous Louis XIV* (context for the Romain du Roi lineage)
 - Musée de l'Imprimerie et de la Communication graphique, Lyon (imprimerie.lyon.fr)
 - Meggs, ch. 8, "The modern style"

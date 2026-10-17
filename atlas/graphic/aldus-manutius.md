@@ -3,7 +3,7 @@ id: aldus-manutius
 name: Aldus Manutius (Aldine Press, with Francesco Griffo)
 type: designer
 discipline: [graphic]
-era: 1494–1515
+era: 1494 to 1515
 origin: Venice, Italy
 lineage: [johannes-gutenberg]
 tags:
@@ -20,7 +20,7 @@ axes: {order: 7, density: 5, ornament: 3, warmth: 6, contrast: 4, geometry: 5, c
 
 | Gene | The idea | In UI / product terms |
 |---|---|---|
-| G1 · Design the small format first | In 1501 he issued Vergil in a small octavo, set in Griffo's new italic, so the classics could travel in a pocket. The narrow italic fitted about half again as many characters per line as earlier romans. | Design reading views mobile-first at 360px: body 17/26, measure about 38–45 characters. Where data is dense (tables, timelines), use a condensed or narrow companion face to fit more per line rather than shrinking the size. |
+| G1 · Design the small format first | In 1501 he issued Vergil in a small octavo, set in Griffo's new italic, so the classics could travel in a pocket. The narrow italic fitted about half again as many characters per line as earlier romans. | Design reading views mobile-first at 360px: body 17/26, measure about 38 to 45 characters. Where data is dense (tables, timelines), use a condensed or narrow companion face to fit more per line rather than shrinking the size. |
 | G2 · Italic as its own voice | The first italic was a complete face for whole books, modelled on the quick, informal chancery hand, not an emphasis style. | Give the italic a job: captions, metadata, epigraphs and UI hints set entirely in italic as a second "voice", while emphasis inside body text uses weight. Choose a family whose italic is a true cursive, not a slanted roman. |
 | G3 · Image and type at one weight | In the *Hypnerotomachia Poliphili* (1499) the woodcuts' open line weight matches the grey of the text, so pictures and words read as one surface. | Tie illustration and icon stroke to body text stem weight: at 16px Regular, icons and spot drawings use 1.5px strokes. Check by blurring a screenshot: image and text blocks should reach the same grey. |
 | G4 · Shaped text endings | The *Hypnerotomachia* sometimes narrows paragraphs into tapering shapes, goblets and inverted triangles, to close a section with a visual cadence. | End-of-section cadence: the last paragraph of a chapter or article closes on centred lines of decreasing length, or a small centred ornament, signalling "section ends" without a heading. Use `text-align: center` with a max-width step-down, once per section. |
@@ -30,7 +30,7 @@ axes: {order: 7, density: 5, ornament: 3, warmth: 6, contrast: 4, geometry: 5, c
 ## Visual facts
 
 - **Color:** black ink on warm laid paper #F2EBDB; occasional hand-coloured initials.
-- **Type:** Griffo's roman for Bembo's *De Aetna* (1495–96; revived as Bembo) and the first italic (1501). Free stand-ins: Cardo (Aldine roman), EB Garamond Italic or Cormorant Garamond Italic.
+- **Type:** Griffo's roman for Bembo's *De Aetna* (1495 to 96; revived as Bembo) and the first italic (1501). Free stand-ins: Cardo (Aldine roman), EB Garamond Italic or Cormorant Garamond Italic.
 - **Form:** fine outline initials with light floral ground; open contour woodcuts; no heavy black masses.
 - **Composition:** generous margins; headings in capitals the same size as the text; asymmetrical image placement in the *Hypnerotomachia*; text blocks shaped for cadence.
 
@@ -53,7 +53,7 @@ Aldus published to save and spread the classical texts, and editorial authority 
 ## Study
 
 - *Hypnerotomachia Poliphili* (1499): digitized copies at Library of Congress and Biblioteca Nazionale Marciana
-- Pietro Bembo, *De Aetna* (1495–96)
+- Pietro Bembo, *De Aetna* (1495 to 96)
 - Vergil, *Opera* (1501), the first italic and small-format book
 - Grolier Club and Morgan Library Aldine holdings (themorgan.org)
 - Meggs, ch. 7, "Renaissance Graphic Design"

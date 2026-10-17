@@ -3,7 +3,7 @@ id: chromolithography
 name: Victorian Chromolithography
 type: tradition
 discipline: [graphic]
-era: c. 1837–1900 (heyday 1860–1900)
+era: c. 1837 to 1900 (heyday 1860 to 1900)
 origin: Germany, France, Boston and New York
 lineage: [owen-jones]
 tags:
@@ -20,7 +20,7 @@ axes: {order: 4, density: 9, ornament: 9, warmth: 8, contrast: 5, geometry: 3, c
 
 | Gene | The idea | In UI / product terms |
 |---|---|---|
-| G1 · Design in separations | A printer analysed the original into component colours and drew each on its own stone. Overprinting rebuilt the image, sometimes from 20–40 stones. | Build illustrations as stacks of 4–8 flat colour layers (SVG groups, `mix-blend-mode: multiply`) instead of gradients. Each layer is a token colour, so themes can be recoloured by swapping layer tokens. |
+| G1 · Design in separations | A printer analysed the original into component colours and drew each on its own stone. Overprinting rebuilt the image, sometimes from 20 to 40 stones. | Build illustrations as stacks of 4 to 8 flat colour layers (SVG groups, `mix-blend-mode: multiply`) instead of gradients. Each layer is a token colour, so themes can be recoloured by swapping layer tokens. |
 | G2 · Key-line vs. built-up | Some firms anchored the image with a master black plate (John Bufford). Louis Prang often dropped the black and built the image from many subtle colour plates. | Offer two illustration modes as a system setting: `keyline` (2px dark contour + flat fills, crisp and legible) and `tonal` (no outline, 6+ close tints, soft and lush). Pick one per product, never mix in one view. |
 | G3 · The blank band | Trade cards and carnival posters were printed in bulk with an empty area where a local merchant or the dates and town could be added later. | White-label templates: a designed card, poster or email with typed, size-limited slots (merchant name ≤ 24 chars, date, location) filled by props or a CMS. The art is finished; only the slot changes. |
 | G4 · Elastic lettering | Free from metal type, lettering ran in arcs and angles, overlapped pictures and carried blended colour. | One curved or angled lettering element per composition (SVG `textPath` on an arc for badges, seals, labels). Body and UI text stay straight; the elastic line is the single flourish. |

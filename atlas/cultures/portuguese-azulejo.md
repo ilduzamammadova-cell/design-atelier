@@ -3,7 +3,7 @@ id: portuguese-azulejo
 name: Portuguese azulejo (tin-glazed tilework)
 type: tradition
 discipline: [architecture, craft, graphic]
-era: late 15th century–present (pattern "carpets" 17th c.; blue-and-white narrative panels late 17th–18th c.; façade tiling 19th c.; modernist tiles 20th c.)
+era: late 15th century-present (pattern "carpets" 17th c.; blue-and-white narrative panels late 17th to 18th c.; façade tiling 19th c.; modernist tiles 20th c.)
 origin: Portugal (Lisbon, Porto, Coimbra), with roots in Seville's Hispano-Moresque tiles and Italian/Flemish majolica
 lineage: [islamic-geometric-pattern]
 tags:
@@ -39,9 +39,9 @@ Tiles were affordable, washable and suited to the climate, so they moved from ch
 
 ## Blends
 
-- **Amplifies:** `delftware`, `iznik-tiles` — tin glaze, blue-and-white, the tile as unit.
-- **Productive tension with:** `bauhaus` — rational grid and abstraction meet hand-painted narrative.
-- **Clashes with:** `psychedelic` — melting forms ignore the tile grid that gives azulejo its order.
+- **Amplifies:** `delftware`, `iznik-tiles`, tin glaze, blue-and-white, the tile as unit.
+- **Productive tension with:** `bauhaus`, rational grid and abstraction meet hand-painted narrative.
+- **Clashes with:** `psychedelic`, melting forms ignore the tile grid that gives azulejo its order.
 
 ## Don't copy
 

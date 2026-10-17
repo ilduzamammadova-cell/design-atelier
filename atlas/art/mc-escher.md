@@ -3,8 +3,8 @@ id: mc-escher
 name: M. C. Escher
 type: artist
 discipline: [art, graphic]
-era: 1922–1972
-origin: Netherlands (Baarn); Italy in the 1920s–30s
+era: 1922 to 1972
+origin: Netherlands (Baarn); Italy in the 1920s to 30s
 lineage: []
 tags:
   mood: [puzzling, precise, mathematical, wondrous]
@@ -14,16 +14,16 @@ axes: {order: 9, density: 7, ornament: 7, warmth: 4, contrast: 8, geometry: 6, c
 
 # M. C. Escher
 
-**Essence:** Figures that interlock without a gap, morph into one another and inhabit impossible spaces — mathematics turned into wonder.
+**Essence:** Figures that interlock without a gap, morph into one another and inhabit impossible spaces, mathematics turned into wonder.
 
 ## Genes
 
 | Gene | The idea | In UI / product terms |
 |---|---|---|
 | G1 · Tessellation | Regular division of the plane: shapes that tile with no gaps, developed after studying Moorish tilework at the Alhambra (1922, 1936) | Pattern and icon tiles where figure and leftover space are both meaningful and repeat seamlessly on a square or hex lattice |
-| G2 · Metamorphosis | Long strips where one shape gradually becomes another (Metamorphosis II, 1939–40) | Morphing transitions between icon states through intermediate shapes; long scrolling bands in which a pattern evolves step by step |
-| G3 · Figure–ground reversal | Birds turn into fish, day into night, as foreground and background trade places | Design illustrations and marks so light and dark modes are a meaningful figure–ground swap, legible in both polarities |
-| G4 · Locally logical, globally impossible | Staircases and waterfalls that make sense at each step but loop impossibly (Relativity, 1953; Ascending and Descending, 1960) | Playful loops for games, puzzles and brand moments (an endless staircase carousel) — never for core navigation |
+| G2 · Metamorphosis | Long strips where one shape gradually becomes another (Metamorphosis II, 1939 to 40) | Morphing transitions between icon states through intermediate shapes; long scrolling bands in which a pattern evolves step by step |
+| G3 · Figure-ground reversal | Birds turn into fish, day into night, as foreground and background trade places | Design illustrations and marks so light and dark modes are a meaningful figure-ground swap, legible in both polarities |
+| G4 · Locally logical, globally impossible | Staircases and waterfalls that make sense at each step but loop impossibly (Relativity, 1953; Ascending and Descending, 1960) | Playful loops for games, puzzles and brand moments (an endless staircase carousel), never for core navigation |
 | G5 · Recursion | Images containing themselves (Drawing Hands, 1948; Print Gallery, 1956) | Recursive zoom reveals; tutorials that show the app inside itself |
 
 ## Visual facts
@@ -39,16 +39,16 @@ Escher had no formal mathematical training yet corresponded with mathematicians,
 
 ## Blends
 
-- **Amplifies:** `op-art`, `sol-lewitt` — systematic pattern and perceptual play.
-- **Productive tension with:** `henri-matisse` — hand-cut organic shapes made to tessellate: warmth with logic.
-- **Clashes with:** `cy-twombly` — exact interlocking geometry and loose scrawl defeat each other.
+- **Amplifies:** `op-art`, `sol-lewitt`, systematic pattern and perceptual play.
+- **Productive tension with:** `henri-matisse`, hand-cut organic shapes made to tessellate: warmth with logic.
+- **Clashes with:** `cy-twombly`, exact interlocking geometry and loose scrawl defeat each other.
 
 ## Don't copy
 
-Relativity (1953), Ascending and Descending (1960), Waterfall (1961), Drawing Hands (1948), Sky and Water I (1938), Day and Night (1938), Metamorphosis I–III, and his specific tessellation motifs. Rights are actively enforced by the M.C. Escher Company.
+Relativity (1953), Ascending and Descending (1960), Waterfall (1961), Drawing Hands (1948), Sky and Water I (1938), Day and Night (1938), Metamorphosis I-III, and his specific tessellation motifs. Rights are actively enforced by the M.C. Escher Company.
 
 ## Study
 
 - Escher in Het Paleis, The Hague (escherinhetpaleis.nl); official site mcescher.com
-- National Gallery of Art, Washington — Escher collection and online feature (nga.gov)
+- National Gallery of Art, Washington, Escher collection and online feature (nga.gov)
 - Doris Schattschneider, Visions of Symmetry (1990); Bruno Ernst, The Magic Mirror of M. C. Escher (1976)

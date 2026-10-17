@@ -3,7 +3,7 @@ id: push-pin-studios
 name: Push Pin Studios (Milton Glaser, Seymour Chwast)
 type: studio
 discipline: [graphic]
-era: 1954–1980s
+era: 1954 to 1980s
 origin: New York, USA
 lineage: [new-york-school, art-nouveau, art-deco, victorian-wood-type]
 tags:
@@ -14,7 +14,7 @@ axes: {order: 4, density: 6, ornament: 7, warmth: 8, contrast: 6, geometry: 4, c
 
 # Push Pin Studios (Milton Glaser, Seymour Chwast)
 
-**Essence:** The whole history of art and printing as a data bank — reshuffled with wit into warm, illustrated, total communications.
+**Essence:** The whole history of art and printing as a data bank, reshuffled with wit into warm, illustrated, total communications.
 
 ## Genes
 
@@ -25,11 +25,11 @@ axes: {order: 4, density: 6, ornament: 7, warmth: 8, contrast: 6, geometry: 4, c
 | G3 · Illustrator as designer | They united image-making and layout so one vision carried the whole page. | Illustrators design the full composition, including lettering inside the image; no stock imagery dropped into a template. |
 | G4 · Job-born display alphabets | Lettering drawn for one assignment grew into full typefaces (e.g. Chwast's Blimp, Glaser's stencil and geometric faces). | A custom display alphabet derived from one campaign's hand lettering, digitised as a small display font for headings only. |
 | G5 · Absolute flatness | Chwast kept images flat and frontal, echoing children's art, folk art and woodcuts. | Characters and scenes drawn frontal, no perspective, saturated primaries; depth expressed only by overlap. |
-| G6 · Letters with personalities | Chwast's Elektra moving announcement sends each letter across the page on its own vehicle. | Animated wordmarks where each letter has its own motion and timing (stagger 40–80ms, distinct easing), used once per session. |
+| G6 · Letters with personalities | Chwast's Elektra moving announcement sends each letter across the page on its own vehicle. | Animated wordmarks where each letter has its own motion and timing (stagger 40 to 80ms, distinct easing), used once per session. |
 
 ## Visual facts
 
-- **Color:** warm saturated flats — tomato red, mustard, teal, violet, pink — with black line; psychedelic hair patterns in the Dylan poster era.
+- **Color:** warm saturated flats, tomato red, mustard, teal, violet, pink, with black line; psychedelic hair patterns in the Dylan poster era.
 - **Type:** Victorian and wood-type revivals, Art Nouveau and Deco display faces, their own novelty alphabets → Bricolage Grotesque, Fraunces (soft, wonky), Limelight sparingly, Alfa Slab One.
 - **Form:** contour drawings, silhouettes, woodcut textures, comic iconography, surreal objects.
 - **Composition:** central illustrated image with integrated lettering; symmetrical playbill structures; decorative borders.
@@ -40,13 +40,13 @@ Founded by Cooper Union graduates in 1954 (Glaser and Chwast were partners for t
 
 ## Blends
 
-- **Amplifies:** `new-york-school`, `psychedelic`, `art-nouveau` — illustrative, decorative, music-culture graphics.
-- **Productive tension with:** `swiss-international` — warm illustration inside a strict grid: modern editorial and food-brand design.
-- **Clashes with:** `ulm-school` — methodical anti-decoration leaves no room for historical pastiche.
+- **Amplifies:** `new-york-school`, `psychedelic`, `art-nouveau`, illustrative, decorative, music-culture graphics.
+- **Productive tension with:** `swiss-international`, warm illustration inside a strict grid: modern editorial and food-brand design.
+- **Clashes with:** `ulm-school`, methodical anti-decoration leaves no room for historical pastiche.
 
 ## Don't copy
 
-Glaser's *Dylan* poster (1966–67), *I ♥ NY* (1977), *Art Is…* (1996); Chwast's *End Bad Breath* (1968), the Elektra announcement, *Push Pin Graphic* covers; the Baby Teeth, Blimp and Glaser Stencil alphabets.
+Glaser's *Dylan* poster (1966 to 67), *I ♥ NY* (1977), *Art Is…* (1996); Chwast's *End Bad Breath* (1968), the Elektra announcement, *Push Pin Graphic* covers; the Baby Teeth, Blimp and Glaser Stencil alphabets.
 
 ## Study
 

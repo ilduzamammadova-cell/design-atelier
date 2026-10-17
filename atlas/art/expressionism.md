@@ -3,7 +3,7 @@ id: expressionism
 name: German Expressionism (Die Brücke, Der Blaue Reiter, expressionist woodcut)
 type: movement
 discipline: [art, graphic]
-era: 1905–1920s (Die Brücke 1905–1913; Der Blaue Reiter 1911–1914)
+era: 1905 to 1920s (Die Brücke 1905 to 1913; Der Blaue Reiter 1911 to 1914)
 origin: Dresden, Munich and Berlin, Germany
 lineage: []
 tags:
@@ -14,17 +14,17 @@ axes: {order: 2, density: 6, ornament: 3, warmth: 7, contrast: 9, geometry: 4, c
 
 # German Expressionism
 
-**Essence:** Show what it feels like, not what it looks like — distorted form, non-descriptive colour and the raw cut of the gouge, in the service of an inner state.
+**Essence:** Show what it feels like, not what it looks like, distorted form, non-descriptive colour and the raw cut of the gouge, in the service of an inner state.
 
 ## Genes
 
 | Gene | The idea | In UI / product terms |
 |---|---|---|
-| G1 · The gouge mark | Die Brücke (founded in Dresden in 1905 by Kirchner, Heckel, Schmidt-Rottluff and Bleyl) revived the woodcut: big black masses, white carved out, angular splintered edges that record the tool. Käthe Kollwitz carried the method into social protest (*War* series, 1921–22). | Editorial illustration and empty states made as carved positive/negative: solid ink fields with white cut lines, straight-faceted edges, strokes tapering like a gouge. One ink on a paper ground; no gradients, no smooth Béziers. |
-| G2 · Carved type beside a plain grotesk | The 1910 Brücke catalogue for Galerie Arnold set its text in a sturdy grotesk while Kirchner carved the list of supporters by hand into the block — two voices, clearly separated. | Two typographic voices with fixed jobs: a rough, hand-cut display face only for titles and names (≤ 5 words), a sober grotesk for every piece of information. Body text is never set in the rough face. |
+| G1 · The gouge mark | Die Brücke (founded in Dresden in 1905 by Kirchner, Heckel, Schmidt-Rottluff and Bleyl) revived the woodcut: big black masses, white carved out, angular splintered edges that record the tool. Käthe Kollwitz carried the method into social protest (*War* series, 1921 to 22). | Editorial illustration and empty states made as carved positive/negative: solid ink fields with white cut lines, straight-faceted edges, strokes tapering like a gouge. One ink on a paper ground; no gradients, no smooth Béziers. |
+| G2 · Carved type beside a plain grotesk | The 1910 Brücke catalogue for Galerie Arnold set its text in a sturdy grotesk while Kirchner carved the list of supporters by hand into the block, two voices, clearly separated. | Two typographic voices with fixed jobs: a rough, hand-cut display face only for titles and names (≤ 5 words), a sober grotesk for every piece of information. Body text is never set in the rough face. |
 | G3 · Colour as emotion, not description | Franz Marc painted blue and red horses; Kandinsky wrote of colour acting directly on the soul. Colour states a feeling, not the object's real hue. | Name colour tokens by affect (`--calm`, `--alarm`, `--grief`, `--joy`) and map them to saturated, non-naturalistic hues; a night scene is deep ultramarine, not grey. Semantic UI colours (error, success) stay conventional; affect colours live only in content and illustration. |
-| G4 · Distortion at the climax | Proportion, perspective and scale are bent to intensify feeling — tilted streets, stretched figures, the painted sets of *The Cabinet of Dr. Caligari* (1920). | In narrative products (stories, campaigns, onboarding), allow layout to deform only at the emotional peak: columns skew 3–7°, headline scale jumps 4×, crops become uncomfortable. Navigation and forms are never distorted. |
-| G5 · The almanac: everything side by side | The *Blaue Reiter* almanac (1912) placed children's drawings, folk and glass painting and non-European art next to new painting and music, refusing a hierarchy of prestige. | Feeds and galleries that juxtapose very different sources at equal size and equal typographic weight — a child's drawing beside a museum piece — with clear credits for each. Sort by idea, not by status. |
+| G4 · Distortion at the climax | Proportion, perspective and scale are bent to intensify feeling, tilted streets, stretched figures, the painted sets of *The Cabinet of Dr. Caligari* (1920). | In narrative products (stories, campaigns, onboarding), allow layout to deform only at the emotional peak: columns skew 3 to 7°, headline scale jumps 4×, crops become uncomfortable. Navigation and forms are never distorted. |
+| G5 · The almanac: everything side by side | The *Blaue Reiter* almanac (1912) placed children's drawings, folk and glass painting and non-European art next to new painting and music, refusing a hierarchy of prestige. | Feeds and galleries that juxtapose very different sources at equal size and equal typographic weight, a child's drawing beside a museum piece, with clear credits for each. Sort by idea, not by status. |
 | G6 · Prints for supporters | Die Brücke's "passive members" paid a yearly fee and received an annual portfolio of original prints and a membership card. | Membership tiers that give an editioned, artist-made object each year (numbered digital print, poster PDF, wallpaper set) instead of discounts; the membership card itself is designed as a print. |
 
 ## Visual facts
@@ -40,9 +40,9 @@ The expressionists felt modern life as a crisis and art as a way to reach an inn
 
 ## Blends
 
-- **Amplifies:** `wassily-kandinsky`, `paul-klee`, `hendrik-werkman` — colour as inner sound, and the hand-printed, urgent page.
-- **Productive tension with:** `swiss-international` — woodcut images and an affect palette held inside a strict grid and neutral grotesk: raw feeling with legible structure.
-- **Clashes with:** `dieter-rams` — expressionism amplifies the maker's emotion; Rams designs the maker out of the object.
+- **Amplifies:** `wassily-kandinsky`, `paul-klee`, `hendrik-werkman`, colour as inner sound, and the hand-printed, urgent page.
+- **Productive tension with:** `swiss-international`, woodcut images and an affect palette held inside a strict grid and neutral grotesk: raw feeling with legible structure.
+- **Clashes with:** `dieter-rams`, expressionism amplifies the maker's emotion; Rams designs the maker out of the object.
 
 ## Don't copy
 

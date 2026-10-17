@@ -3,7 +3,7 @@ id: sol-lewitt
 name: Sol LeWitt
 type: artist
 discipline: [art]
-era: 1960s–2007
+era: 1960s to 2007
 origin: New York, USA
 lineage: [minimalism-art]
 tags:
@@ -25,7 +25,7 @@ axes: {order: 9, density: 6, ornament: 3, warmth: 4, contrast: 6, geometry: 9, c
 | G3 · Four directions, four colors | Early wall drawings layer vertical, horizontal and two diagonal lines in yellow, red, blue and black | A pattern system of 4 line orientations × 4 colors; overlaying orientations encodes combined states (e.g. two active filters) |
 | G4 · Open modular lattice | Cube structures keep a fixed ratio between bar and gap; the empty cells matter | Layout lattices with a fixed gutter-to-column ratio where empty cells are intentional and visible, never filled just because they exist |
 | G5 · No exceptions | Once the rules exist, execution should be routine | After the system is set, ban one-off overrides: any exception becomes a new documented rule or is rejected |
-| G6 · Layered washes | Later wall drawings overlay translucent ink washes to produce new mixed colors | Large background areas built by overlapping 2–3 translucent fills, deriving mixed hues instead of adding new tokens |
+| G6 · Layered washes | Later wall drawings overlay translucent ink washes to produce new mixed colors | Large background areas built by overlapping 2 to 3 translucent fills, deriving mixed hues instead of adding new tokens |
 
 ## Visual facts
 
@@ -40,9 +40,9 @@ In "Paragraphs on Conceptual Art" (Artforum, 1967) LeWitt argued that planning a
 
 ## Blends
 
-- **Amplifies:** `swiss-international`, `minimalism-art`, `gerhard-richter` — systems and chance replacing taste.
-- **Productive tension with:** `henri-matisse` — rule-based placement of hand-cut shapes gives organic warmth inside a generative system.
-- **Clashes with:** `psychedelic` — arbitrary ornament obscures the legible rule.
+- **Amplifies:** `swiss-international`, `minimalism-art`, `gerhard-richter`, systems and chance replacing taste.
+- **Productive tension with:** `henri-matisse`, rule-based placement of hand-cut shapes gives organic warmth inside a generative system.
+- **Clashes with:** `psychedelic`, arbitrary ornament obscures the legible rule.
 
 ## Don't copy
 
@@ -52,5 +52,5 @@ Specific wall drawings and their instruction texts reproduced as artwork, the In
 
 - "Paragraphs on Conceptual Art" (Artforum, 1967); "Sentences on Conceptual Art" (1969)
 - MASS MoCA long-term wall-drawing installation (opened 2008; massmoca.org)
-- Incomplete Open Cubes (1974) — SFMOMA and Walker Art Center records; Serial Project #1 (MoMA)
+- Incomplete Open Cubes (1974), SFMOMA and Walker Art Center records; Serial Project #1 (MoMA)
 - Yale University Art Gallery; Dia Beacon

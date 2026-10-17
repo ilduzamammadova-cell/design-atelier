@@ -3,7 +3,7 @@ id: gestalt-principles
 name: Gestalt Principles of Perception
 type: principle
 discipline: [ux, ui, graphic]
-era: 1910s–1930s (Berlin school); extended 1990s
+era: 1910s to 1930s (Berlin school); extended 1990s
 origin: Berlin and Frankfurt, Germany
 lineage: []
 tags:
@@ -20,11 +20,11 @@ axes: {order: 7, density: 5, ornament: 1, warmth: 4, contrast: 5, geometry: 6, c
 
 | Gene | The idea | In UI / product terms |
 |---|---|---|
-| G1 · Space is the divider | Proximity: items close together read as one unit, faster and more reliably than boxes or rules | Two spacing tokens do the grouping: inside a group 8px, between groups at least 24px (ratio ≥ 3:1). Label sits 4–6px above its field. Delete dividers and card borders wherever the gap already separates |
+| G1 · Space is the divider | Proximity: items close together read as one unit, faster and more reliably than boxes or rules | Two spacing tokens do the grouping: inside a group 8px, between groups at least 24px (ratio ≥ 3:1). Label sits 4 to 6px above its field. Delete dividers and card borders wherever the gap already separates |
 | G2 · One shared plane | Common region (Palmer, 1992): a shared background binds items even when spacing is equal | When space is not enough, use a single tinted surface (one tonal step off the page). Never border + shadow + tint together; never nest regions more than two deep |
 | G3 · Likeness means sameness | Similarity: things that look alike are assumed to act alike | One visual treatment per interactive role. Link colour is reserved for things that navigate and never used for emphasis; every destructive action shares one red; non-interactive text never borrows a control style |
-| G4 · One figure per moment | Figure–ground: perception settles on one figure and lets the rest recede | Each screen state has exactly one focal layer. Sheets and dialogs dim the ground to ~50% and stop it from moving; selected rows rise by value, not by adding a border |
-| G5 · Lines of travel | Continuity and alignment: elements on a common path read as a sequence | Max 2–3 vertical alignment axes per screen. Steppers, timelines and breadcrumbs sit on one baseline; a card peeking 16–24px past the viewport edge signals "more this way" |
+| G4 · One figure per moment | Figure-ground: perception settles on one figure and lets the rest recede | Each screen state has exactly one focal layer. Sheets and dialogs dim the ground to ~50% and stop it from moving; selected rows rise by value, not by adding a border |
+| G5 · Lines of travel | Continuity and alignment: elements on a common path read as a sequence | Max 2 to 3 vertical alignment axes per screen. Steppers, timelines and breadcrumbs sit on one baseline; a card peeking 16 to 24px past the viewport edge signals "more this way" |
 | G6 · Move together, belong together | Common fate: elements sharing direction and timing are seen as a group | Grouped items animate with the same easing, duration and direction; multi-selected items lift together; unrelated elements never animate in the same beat |
 
 ## Visual facts
@@ -40,9 +40,9 @@ The Berlin school (Wertheimer, Koffka, Köhler) argued that we perceive organise
 
 ## Blends
 
-- **Amplifies:** `swiss-international`, `josef-muller-brockmann`, `edward-tufte` — grid discipline and data-ink thinking are applied Gestalt.
-- **Productive tension with:** `deconstructivist-type` — deliberately breaking grouping in one hero zone, while the working UI obeys it, creates designed friction instead of noise.
-- **Clashes with:** `brutalism` (web brutalism) — raw stacking that ignores grouping mixed with careful grouping reads as neither rigorous nor raw.
+- **Amplifies:** `swiss-international`, `josef-muller-brockmann`, `edward-tufte`, grid discipline and data-ink thinking are applied Gestalt.
+- **Productive tension with:** `deconstructivist-type`, deliberately breaking grouping in one hero zone, while the working UI obeys it, creates designed friction instead of noise.
+- **Clashes with:** `brutalism` (web brutalism), raw stacking that ignores grouping mixed with careful grouping reads as neither rigorous nor raw.
 
 ## Don't copy
 

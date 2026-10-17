@@ -3,7 +3,7 @@ id: zaha-hadid
 name: Zaha Hadid
 type: designer
 discipline: [architecture, product, art]
-era: 1980s–2010s
+era: 1980s to 2010s
 origin: London, UK (born Baghdad, Iraq)
 lineage: [suprematism, constructivism]
 tags:
@@ -20,11 +20,11 @@ axes: {order: 3, density: 4, ornament: 3, warmth: 3, contrast: 7, geometry: 3, c
 
 | Gene | The idea | In UI / product terms |
 |---|---|---|
-| G1 · Painting as design method | She developed projects through large exploded paintings indebted to Malevich and Suprematism, because ordinary architectural drawing felt too limiting (The Peak, Hong Kong, competition won 1983). | Explore layouts as motion sketches before wireframes: compose the screen as layered planes flying apart along 2–3 dominant vectors, then let them settle. Keep those vectors as the final alignment axes (e.g. every element aligned to one 12° diagonal). |
+| G1 · Painting as design method | She developed projects through large exploded paintings indebted to Malevich and Suprematism, because ordinary architectural drawing felt too limiting (The Peak, Hong Kong, competition won 1983). | Explore layouts as motion sketches before wireframes: compose the screen as layered planes flying apart along 2 to 3 dominant vectors, then let them settle. Keep those vectors as the final alignment axes (e.g. every element aligned to one 12° diagonal). |
 | G2 · Continuous surface | Floor turns into ramp, wall folds into ceiling, with no hard break between planes (MAXXI, Rome, 2010; Phaeno Science Center, Wolfsburg, 2005). | Containers morph instead of switching: navigation stretches into a panel, a card flows into a full page through a shared-element transition. Where two surfaces meet they join with a large curve (≥ 24 px radius), not a right angle. |
-| G3 · Lines of force | Circulation is drawn as flowing streams, and walls follow the lines of movement (MAXXI's ribbons of galleries; the wave roof of the London Aquatics Centre, 2011). | Lay out content along the streamlines of the user's movement: list items, connectors and section edges follow one or two smooth curves that lead to the goal. Motion eases along the same paths (long-tailed cubic-bezier, 400–600 ms). |
-| G4 · Angular fragments | Her first built work, the Vitra Fire Station (Weil am Rhein, 1993), is a set of sharp, leaning concrete planes frozen mid-movement. | For alert or high-energy moments only: acute wedges and leaning panels (skew 6–10°), monochrome. Reserve for one or two moments in a product, or it becomes noise. |
-| G5 · Monochrome so form can speak | Mostly white, grey and black surfaces; shape, light and movement carry the drama. | Keep the palette achromatic (white, 2–3 greys, black) whenever forms are fluid or angular. Shape, light and motion are the expressive layer, never color. |
+| G3 · Lines of force | Circulation is drawn as flowing streams, and walls follow the lines of movement (MAXXI's ribbons of galleries; the wave roof of the London Aquatics Centre, 2011). | Lay out content along the streamlines of the user's movement: list items, connectors and section edges follow one or two smooth curves that lead to the goal. Motion eases along the same paths (long-tailed cubic-bezier, 400 to 600 ms). |
+| G4 · Angular fragments | Her first built work, the Vitra Fire Station (Weil am Rhein, 1993), is a set of sharp, leaning concrete planes frozen mid-movement. | For alert or high-energy moments only: acute wedges and leaning panels (skew 6 to 10°), monochrome. Reserve for one or two moments in a product, or it becomes noise. |
+| G5 · Monochrome so form can speak | Mostly white, grey and black surfaces; shape, light and movement carry the drama. | Keep the palette achromatic (white, 2 to 3 greys, black) whenever forms are fluid or angular. Shape, light and motion are the expressive layer, never color. |
 
 ## Visual facts
 
@@ -39,9 +39,9 @@ Hadid wanted architecture freed from the right angle and the stacked box, a new 
 
 ## Blends
 
-- **Amplifies:** `suprematism`, `constructivism`, `futurism` — dynamic diagonals, planes in space, belief in the new.
-- **Productive tension with:** `swiss-international` — a rigid typographic grid set inside a flowing field gives legible information carried by a sense of motion.
-- **Clashes with:** `arts-and-crafts` — handmade, rooted craft and frictionless digital fluidity pull in opposite directions.
+- **Amplifies:** `suprematism`, `constructivism`, `futurism`, dynamic diagonals, planes in space, belief in the new.
+- **Productive tension with:** `swiss-international`, a rigid typographic grid set inside a flowing field gives legible information carried by a sense of motion.
+- **Clashes with:** `arts-and-crafts`, handmade, rooted craft and frictionless digital fluidity pull in opposite directions.
 
 ## Don't copy
 
@@ -49,7 +49,7 @@ The Vitra Fire Station silhouette; the Zaha Hadid Architects logo; the London Aq
 
 ## Study
 
-- The Peak, Hong Kong (competition 1982–83, unbuilt); Vitra Fire Station, Weil am Rhein (1993); Bergisel Ski Jump, Innsbruck (2002); Rosenthal Center for Contemporary Art, Cincinnati (2003); Phaeno Science Center, Wolfsburg (2005); MAXXI, Rome (2010); London Aquatics Centre (2011).
+- The Peak, Hong Kong (competition 1982 to 83, unbuilt); Vitra Fire Station, Weil am Rhein (1993); Bergisel Ski Jump, Innsbruck (2002); Rosenthal Center for Contemporary Art, Cincinnati (2003); Phaeno Science Center, Wolfsburg (2005); MAXXI, Rome (2010); London Aquatics Centre (2011).
 - Pritzker Prize 2004: https://www.pritzkerprize.com
 - Zaha Hadid Architects: https://www.zaha-hadid.com
 - Vitra Campus, Fire Station: https://www.vitra.com (Campus › Architecture)

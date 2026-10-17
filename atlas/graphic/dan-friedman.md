@@ -3,7 +3,7 @@ id: dan-friedman
 name: Dan Friedman
 type: designer
 discipline: [graphic, product]
-era: 1970–1995
+era: 1970 to 1995
 origin: New York, USA
 lineage: [ulm-school, wolfgang-weingart, armin-hofmann, memphis]
 tags:
@@ -27,7 +27,7 @@ axes: {order: 5, density: 5, ornament: 6, warmth: 6, contrast: 6, geometry: 6, c
 
 ## Visual facts
 
-- **Color:** Memphis-adjacent brights — cadmium red `#D7262B`, cobalt `#1F4FB5`, yellow `#F6C915`, black — alongside very plain white typographic work.
+- **Color:** Memphis-adjacent brights, cadmium red `#D7262B`, cobalt `#1F4FB5`, yellow `#F6C915`, black, alongside very plain white typographic work.
 - **Type:** Univers 55 and 65 for exercises, Franklin Gothic white on black, bold geometric logos → free: Libre Franklin, Familjen Grotesk.
 - **Form:** squiggles, chevrons, stripes and spots; painted cut-out furniture shapes.
 - **Composition:** structured base with spontaneous gestures crossing it; his own apartment was a full-scale test of the idea.
@@ -38,9 +38,9 @@ Friedman rejected the claim that modernism was dead; he wanted it widened to inc
 
 ## Blends
 
-- **Amplifies:** `memphis`, `pop-art` — shared delight in laminate pattern and popular imagery.
-- **Productive tension with:** `massimo-vignelli` — the same corporate discipline, opposite views on decoration; a Vignelli grid with one Friedman layer stays orderly but alive.
-- **Clashes with:** `dieter-rams` — a decorative layer next to "less but better" products reads as costume.
+- **Amplifies:** `memphis`, `pop-art`, shared delight in laminate pattern and popular imagery.
+- **Productive tension with:** `massimo-vignelli`, the same corporate discipline, opposite views on decoration; a Vignelli grid with one Friedman layer stays orderly but alive.
+- **Clashes with:** `dieter-rams`, a decorative layer next to "less but better" products reads as costume.
 
 ## Don't copy
 
@@ -50,4 +50,4 @@ The 1971 Typografische Monatsblätter cover, the Citibank logo, the Driade foldi
 
 - Dan Friedman, *Radical Modernism* (Yale University Press, 1994)
 - Friedman's student work published in *Visible Language* (1973)
-- Meggs' History of Graphic Design, ch. 22; Aynsley, *A Century of Graphic Design*, pp. 192–193
+- Meggs' History of Graphic Design, ch. 22; Aynsley, *A Century of Graphic Design*, pp. 192 to 193

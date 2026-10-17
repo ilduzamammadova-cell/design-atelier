@@ -3,7 +3,7 @@ id: pentagram
 name: Pentagram
 type: studio
 discipline: [graphic, product, architecture]
-era: 1972–present
+era: 1972 to present
 origin: London, UK (offices in New York, Austin, Berlin and elsewhere)
 lineage: [corporate-identity, new-york-school, swiss-international]
 tags:
@@ -29,7 +29,7 @@ axes: {order: 7, density: 4, ornament: 2, warmth: 5, contrast: 6, geometry: 6, c
 ## Visual facts
 
 - **Color:** no fixed palette; typically white space, black, and one decisive colour chosen per client.
-- **Type:** whatever the idea needs — Bodoni-style didones (V&A), dot-matrix letters (Reuters), serif–sans pairings (The Guardian masthead by David Hillman) → free: Bodoni Moda, Libre Caslon, Instrument Sans.
+- **Type:** whatever the idea needs, Bodoni-style didones (V&A), dot-matrix letters (Reuters), serif-sans pairings (The Guardian masthead by David Hillman) → free: Bodoni Moda, Libre Caslon, Instrument Sans.
 - **Form:** simple symbols, letter combinations, found objects photographed straight.
 - **Composition:** calm, centred on the idea; little ornament around it.
 
@@ -39,9 +39,9 @@ Pentagram treats design as problem solving with a sense of humour: analyse the b
 
 ## Blends
 
-- **Amplifies:** `paula-scher`, `michael-bierut`, `push-pin-studios` — partners and cousins in idea-driven American wit.
-- **Productive tension with:** `studio-dumbar` — idea discipline holding Dutch staged chaos gives energy with a point.
-- **Clashes with:** `david-carson` — intuition without a concept and concept without intuition cancel; the result is cleverness nobody can read.
+- **Amplifies:** `paula-scher`, `michael-bierut`, `push-pin-studios`, partners and cousins in idea-driven American wit.
+- **Productive tension with:** `studio-dumbar`, idea discipline holding Dutch staged chaos gives energy with a point.
+- **Clashes with:** `david-carson`, intuition without a concept and concept without intuition cancel; the result is cleverness nobody can read.
 
 ## Don't copy
 
@@ -51,4 +51,4 @@ The V&A logo, the Reuters dot logo, the Star Alliance mark, the Citi logo, the S
 
 - Pentagram, *Living by Design* (1978) and later Pentagram books and *Pentagram Papers*
 - Studio archive: https://www.pentagram.com
-- Aynsley, *A Century of Graphic Design*, pp. 176–179; Meggs, ch. 23
+- Aynsley, *A Century of Graphic Design*, pp. 176 to 179; Meggs, ch. 23

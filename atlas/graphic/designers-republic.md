@@ -3,7 +3,7 @@ id: designers-republic
 name: The Designers Republic
 type: studio
 discipline: [graphic, ui]
-era: 1986–present
+era: 1986 to present
 origin: Sheffield, UK
 lineage: [pop-art, constructivism, swiss-international, punk-graphics]
 tags:
@@ -20,7 +20,7 @@ axes: {order: 7, density: 7, ornament: 4, warmth: 2, contrast: 7, geometry: 9, c
 
 | Gene | The idea | In UI / product terms |
 |---|---|---|
-| G1 · Fake-corporate microcopy | Sleeves and posters carry invented sub-brands, product codes, warning labels and slogans as decoration. | Decorative micro-labels (part numbers, build codes, warning glyphs) in 8–10px monospace scattered on hero art — but every code is real product data (version, build, date). |
+| G1 · Fake-corporate microcopy | Sleeves and posters carry invented sub-brands, product codes, warning labels and slogans as decoration. | Decorative micro-labels (part numbers, build codes, warning glyphs) in 8 to 10px monospace scattered on hero art, but every code is real product data (version, build, date). |
 | G2 · Maximum-minimal vector | Flat, hard-edged shapes, heavy logos and pictograms; no texture, no gradient. | Illustration rules: vector only, one uniform 2px stroke or none, four flat colours maximum per illustration, pictogram construction on a square grid. |
 | G3 · A whole world of brands | For the game *Wipeout* (1995) tDR created team logos, packaging, interface and manual as one fictional brand universe. | Each subsystem or "team" in a product gets its own badge, drawn on the same construction grid and palette, so the product reads as a coherent league of brands. |
 | G4 · Acid palette on black | Candy and acid brights against black or white, as in the Warp Records electronic-music sleeves. | Palette: black base, two acid accents (lime `#C6FF00`, cyan `#00E0FF` or pink `#FF2E88`) used as flat fills only; text is always pure black or white for contrast. |
@@ -39,9 +39,9 @@ Founded in 1986 by Ian Anderson (with Nick Phillips), tDR embraced the uniform l
 
 ## Blends
 
-- **Amplifies:** `neville-brody`, `erik-spiekermann` — emblematic type and serious information systems underneath the irony.
-- **Productive tension with:** `metahaven` — crisp corporate pastiche against foggy political poetics.
-- **Clashes with:** `vaughan-oliver` — synthetic irony and organic mystery muddy each other.
+- **Amplifies:** `neville-brody`, `erik-spiekermann`, emblematic type and serious information systems underneath the irony.
+- **Productive tension with:** `metahaven`, crisp corporate pastiche against foggy political poetics.
+- **Clashes with:** `vaughan-oliver`, synthetic irony and organic mystery muddy each other.
 
 ## Don't copy
 

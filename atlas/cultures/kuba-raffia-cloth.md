@@ -38,9 +38,9 @@ Kuba textiles were prestige goods, diplomatic gifts, burial wealth and even curr
 
 ## Blends
 
-- **Amplifies:** `henri-matisse`, `paul-klee` — both learned from Kuba rhythm and improvised geometry.
-- **Productive tension with:** `islamic-geometric-pattern` — perfect infinite order against deliberate interruption.
-- **Clashes with:** `corporate-identity` — strict consistency dogma rejects the very deviation that makes Kuba work.
+- **Amplifies:** `henri-matisse`, `paul-klee`, both learned from Kuba rhythm and improvised geometry.
+- **Productive tension with:** `islamic-geometric-pattern`, perfect infinite order against deliberate interruption.
+- **Clashes with:** `corporate-identity`, strict consistency dogma rejects the very deviation that makes Kuba work.
 
 ## Don't copy
 

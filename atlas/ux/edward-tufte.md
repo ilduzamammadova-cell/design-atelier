@@ -3,7 +3,7 @@ id: edward-tufte
 name: Edward Tufte
 type: designer
 discipline: [graphic, ux]
-era: 1983–present
+era: 1983 to present
 origin: New Haven, Connecticut, USA
 lineage: []
 tags:
@@ -14,18 +14,18 @@ axes: {order: 7, density: 9, ornament: 0, warmth: 5, contrast: 3, geometry: 5, c
 
 # Edward Tufte
 
-**Essence:** Show the evidence and nothing but the evidence — maximum information per square centimetre, minimum ink that is not data, words and numbers and images integrated so the reader can reason.
+**Essence:** Show the evidence and nothing but the evidence, maximum information per square centimetre, minimum ink that is not data, words and numbers and images integrated so the reader can reason.
 
 ## Genes
 
 | Gene | The idea | In UI / product terms |
 |---|---|---|
 | G1 · Erase non-data ink | The data-ink ratio: every mark should carry information; remove what does not | Charts without background fills, borders, 3D or shadows; gridlines at ≤ 12% contrast or removed; axis lines only where they aid reading; no legend boxes |
-| G2 · Small multiples | The same small chart repeated across a variable, with identical scales, lets the eye compare instantly | A grid of 12–30 small charts sharing one y-axis instead of one big chart with a dropdown; same size, same scale, same order in every cell |
+| G2 · Small multiples | The same small chart repeated across a variable, with identical scales, lets the eye compare instantly | A grid of 12 to 30 small charts sharing one y-axis instead of one big chart with a dropdown; same size, same scale, same order in every cell |
 | G3 · Word-sized graphics | Sparklines: intense, simple, data lines the height of a line of text | 1em-high trend lines inside table cells, KPI rows and sentences; end-point value and min/max marked with a 2px dot; no axes |
-| G4 · Smallest effective difference | Make distinctions with the lightest visible means so that strong marks keep their power | Separators 1px at 8–12% contrast; everything in greys except the single series or value that matters, which gets the one accent (often a muted red) |
-| G5 · Micro/macro readings | A dense display can read as a whole from afar and reward close inspection | High-density tables with typographic hierarchy instead of pagination; 13–14px tabular figures; whole dataset on one scrollable surface |
-| G6 · Integrate, don't separate | Labels on the data, notes beside the claim, images beside the numbers | Direct labels at line ends instead of legends; sidenotes in a wide right margin (text column ~55–60% of width); captions adjacent, never on a separate slide |
+| G4 · Smallest effective difference | Make distinctions with the lightest visible means so that strong marks keep their power | Separators 1px at 8 to 12% contrast; everything in greys except the single series or value that matters, which gets the one accent (often a muted red) |
+| G5 · Micro/macro readings | A dense display can read as a whole from afar and reward close inspection | High-density tables with typographic hierarchy instead of pagination; 13 to 14px tabular figures; whole dataset on one scrollable surface |
+| G6 · Integrate, don't separate | Labels on the data, notes beside the claim, images beside the numbers | Direct labels at line ends instead of legends; sidenotes in a wide right margin (text column ~55 to 60% of width); captions adjacent, never on a separate slide |
 
 ## Visual facts
 
@@ -40,9 +40,9 @@ For Tufte, clear thinking and clear display are the same act, and graphics carry
 
 ## Blends
 
-- **Amplifies:** `ben-shneiderman`, `josef-muller-brockmann`, `richard-saul-wurman` — information-first order and clarity.
-- **Productive tension with:** `calm-technology` — maximum density with minimum visual noise can produce ambient, peripheral data surfaces that stay quiet until read.
-- **Clashes with:** `psychedelic` — vibrating colour and ornament are exactly the "chartjunk" his method removes.
+- **Amplifies:** `ben-shneiderman`, `josef-muller-brockmann`, `richard-saul-wurman`, information-first order and clarity.
+- **Productive tension with:** `calm-technology`, maximum density with minimum visual noise can produce ambient, peripheral data surfaces that stay quiet until read.
+- **Clashes with:** `psychedelic`, vibrating colour and ornament are exactly the "chartjunk" his method removes.
 
 ## Don't copy
 

@@ -3,7 +3,7 @@ id: stefan-sagmeister
 name: Stefan Sagmeister
 type: designer
 discipline: [graphic, art]
-era: 1993–present
+era: 1993 to present
 origin: New York, USA (born Bregenz, Austria, 1962)
 lineage: [dada, pop-art]
 tags:
@@ -28,20 +28,20 @@ axes: {order: 3, density: 5, ornament: 5, warmth: 8, contrast: 7, geometry: 4, c
 
 ## Visual facts
 
-- **Color:** whatever the material gives — skin, fruit yellow, coin copper — plus bright exhibition colours.
+- **Color:** whatever the material gives, skin, fruit yellow, coin copper, plus bright exhibition colours.
 - **Type:** handwriting, material-built letters, inflatable and projected words beside a plain sans → free: Caveat or Reenie Beanie for handwriting accents, Familjen Grotesk for text.
 - **Form:** photographs of objects and bodies, installations, packaging with hidden layers.
 - **Composition:** idea-driven, often a single striking photograph with type inside the scene.
 
 ## Attitude
 
-Sagmeister wants design that touches the heart as well as informing. He mixes personal content with commissions, treats his own life as a field of experiments (happiness, beauty, time off) and argues that beauty is functional, not decoration. He worked with Jessica Walsh as Sagmeister & Walsh (2011–2019).
+Sagmeister wants design that touches the heart as well as informing. He mixes personal content with commissions, treats his own life as a field of experiments (happiness, beauty, time off) and argues that beauty is functional, not decoration. He worked with Jessica Walsh as Sagmeister & Walsh (2011 to 2019).
 
 ## Blends
 
-- **Amplifies:** `m-m-paris`, `studio-dumbar` — hand-made images and staged physical scenes.
-- **Productive tension with:** `experimental-jetset` — a dry Helvetica system holding one handmade, emotional element gives structured warmth.
-- **Clashes with:** `erik-spiekermann` — handmade lettering in wayfinding or data fails legibility where it matters most.
+- **Amplifies:** `m-m-paris`, `studio-dumbar`, hand-made images and staged physical scenes.
+- **Productive tension with:** `experimental-jetset`, a dry Helvetica system holding one handmade, emotional element gives structured warmth.
+- **Clashes with:** `erik-spiekermann`, handmade lettering in wayfinding or data fails legibility where it matters most.
 
 ## Don't copy
 
@@ -50,6 +50,6 @@ The AIGA Detroit poster, the Lou Reed *Set the Twilight Reeling* poster, the Cas
 ## Study
 
 - Stefan Sagmeister, *Made You Look* (2001); *Things I have learned in my life so far* (2008)
-- Sagmeister & Walsh, *Beauty* (2018) and the exhibition (Vienna, 2018–19)
+- Sagmeister & Walsh, *Beauty* (2018) and the exhibition (Vienna, 2018 to 19)
 - *The Happy Show* (Institute of Contemporary Art, Philadelphia, 2012, then touring)
 - Meggs, ch. 23

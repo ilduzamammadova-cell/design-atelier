@@ -3,7 +3,7 @@ id: hard-werken
 name: Hard Werken
 type: studio
 discipline: [graphic, product]
-era: 1979–1994
+era: 1979 to 1994
 origin: Rotterdam, Netherlands
 lineage: [punk-graphics, pop-art, postmodern-new-wave]
 tags:
@@ -22,7 +22,7 @@ axes: {order: 3, density: 7, ornament: 6, warmth: 6, contrast: 6, geometry: 4, c
 |---|---|---|
 | G1 · Style per client, not per studio | The group argued that a museum, an opera and a fringe theatre should not be smothered in one uniform look; eclecticism was the principle. | Multi-brand platform where each tenant gets genuinely different type and colour tokens on shared components. The default theme is forbidden in production. |
 | G2 · Rehabilitated letters | Rick Vermeulen brought back 1950s display letters that phototypesetting had weakened, plus vernacular and pop-culture type. | One display face from a vernacular source (sign painting, old catalogues, packaging) paired with a plain grotesque; the display face only at 32px and above. |
-| G3 · Cut-paper jagged frame | The *Hard Werken* magazine covers (1979–82) framed an all-caps title with a ring of torn, coloured paper shapes. | Promo banner with an irregular SVG edge (6–10 jagged teeth) generated once per campaign and reused; content inside stays on the grid. |
+| G3 · Cut-paper jagged frame | The *Hard Werken* magazine covers (1979 to 82) framed an all-caps title with a ring of torn, coloured paper shapes. | Promo banner with an irregular SVG edge (6 to 10 jagged teeth) generated once per campaign and reused; content inside stays on the grid. |
 | G4 · One idea across every medium | The same people designed posters, books, furniture, lamps, exhibitions and audiovisual shows for the same cultural clients. | For each digital campaign, specify at least one physical artefact (sticker, signage, merchandise) as part of the system, using the same tokens. |
 
 ## Visual facts
@@ -39,9 +39,9 @@ Hard Werken compared itself to the "young wild" expressionist painters of the ea
 
 ## Blends
 
-- **Amplifies:** `emigre`, `punk-graphics` — Emigre took early inspiration from the group; punk shared its cut-and-paste freedom.
-- **Productive tension with:** `pentagram` — an idea-first discipline gives Hard Werken's eclecticism a reason for each choice.
-- **Clashes with:** `experimental-jetset` — radical consistency and radical eclecticism cancel each other.
+- **Amplifies:** `emigre`, `punk-graphics`, Emigre took early inspiration from the group; punk shared its cut-and-paste freedom.
+- **Productive tension with:** `pentagram`, an idea-first discipline gives Hard Werken's eclecticism a reason for each choice.
+- **Clashes with:** `experimental-jetset`, radical consistency and radical eclecticism cancel each other.
 
 ## Don't copy
 
@@ -49,7 +49,7 @@ The *Hard Werken* magazine covers, the *Loewy Universal Design* poster (Gerard H
 
 ## Study
 
-- Aynsley, *A Century of Graphic Design*, pp. 186–187; Meggs, ch. 23
+- Aynsley, *A Century of Graphic Design*, pp. 186 to 187; Meggs, ch. 23
 - *Emigre* no. 11 (1989) features the group among designers discussing the Macintosh
 - Exhibition "From Hard Werken to Inízio" (Frankfurt and Rotterdam, 1995)
 - Stedelijk Museum Amsterdam poster collection: https://www.stedelijk.nl

@@ -3,7 +3,7 @@ id: didot
 name: Didot
 type: typeface
 discipline: [graphic, ui]
-era: 1784–1811; revivals 1991–2023
+era: 1784 to 1811; revivals 1991 to 2023
 origin: Paris, France
 lineage: [firmin-didot, baskerville]
 tags:
@@ -20,10 +20,10 @@ axes: {order: 8, density: 2, ornament: 1, warmth: 2, contrast: 10, geometry: 8, 
 
 | Gene | The idea | In UI / product terms |
 |---|---|---|
-| G1 · Dazzle management | Thick verticals beside near-invisible hairlines make text shimmer ("dazzle") and pull the eye away from the thin strokes that tell letters apart. | Wherever Didot runs to more than one line: tracking +2–4%, line-height ≥ 1.3, never justified, ≤ 6 words per headline. Body and anything ≥ 2 sentences go to the companion face. |
+| G1 · Dazzle management | Thick verticals beside near-invisible hairlines make text shimmer ("dazzle") and pull the eye away from the thin strokes that tell letters apart. | Wherever Didot runs to more than one line: tracking +2 to 4%, line-height ≥ 1.3, never justified, ≤ 6 words per headline. Body and anything ≥ 2 sentences go to the companion face. |
 | G2 · Scale contrast is the layout | Magazine covers set a huge Didot masthead against small text and photography. The gap between sizes carries the drama. | Three sizes only per screen: e.g. 96 / 18 / 12px. Display steps jump by ≥ 1.5×; no intermediate sizes allowed. The masthead or hero word takes ≥ 60% of viewport width. |
 | G3 · Larger means lighter | HTF Didot was drawn as a set of optical sizes: the bigger the setting, the finer the hairline can be. | A rule in the type tokens: as display size rises, choose the finer optical cut (or higher `opsz`), never the reverse. At 2× density, hairlines may go to 0.5 CSS px; at 1× they must stay ≥ 1px. |
-| G4 · Monumental capitals | Didone capitals letterspaced become an engraved title line. | Caps in Didot only at ≥ 24px with +10–15% tracking. Small all-caps labels (nav, eyebrows) switch to a sans; Didot hairlines vanish at 11–13px. |
+| G4 · Monumental capitals | Didone capitals letterspaced become an engraved title line. | Caps in Didot only at ≥ 24px with +10 to 15% tracking. Small all-caps labels (nav, eyebrows) switch to a sans; Didot hairlines vanish at 11 to 13px. |
 | G5 · A multilingual Didone | Didot-style faces became central to Greek printing, and that tradition continues in GFS Didot and Theano Didot. | For multilingual luxury brands, pick a Didone with real Greek and Cyrillic, and check that each script's hairlines and x-height match the Latin before launch. |
 
 ## Visual facts

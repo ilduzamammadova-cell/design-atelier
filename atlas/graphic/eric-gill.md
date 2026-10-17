@@ -3,7 +3,7 @@ id: eric-gill
 name: Eric Gill
 type: designer
 discipline: [graphic, craft, art]
-era: 1903–1940
+era: 1903 to 1940
 origin: Ditchling, Capel-y-ffin and High Wycombe, England
 lineage: [arts-and-crafts, edward-johnston]
 tags:
@@ -29,7 +29,7 @@ axes: {order: 7, density: 4, ornament: 2, warmth: 6, contrast: 5, geometry: 5, c
 ## Visual facts
 
 - **Color:** black #111111 on warm white #F5F0E6; red #A8322A for initials and headings in books; stone grey #8E8A82 for carved work.
-- **Type:** Perpetua (designed from 1925), Gill Sans (1928), Joanna (1930–31), Golden Cockerel type. Free stand-ins: Cabin or Alegreya Sans for Gill Sans warmth; Cormorant or Crimson Pro for a Perpetua-like text roman.
+- **Type:** Perpetua (designed from 1925), Gill Sans (1928), Joanna (1930 to 31), Golden Cockerel type. Free stand-ins: Cabin or Alegreya Sans for Gill Sans warmth; Cormorant or Crimson Pro for a Perpetua-like text roman.
 - **Form:** wood engraving with clean white line, simplified figures with elongated faces and flowing drapery, V-cut inscriptional letters.
 - **Composition:** classical book pages; unjustified text; descending type sizes on opening lines; illustrations integrated into initials.
 

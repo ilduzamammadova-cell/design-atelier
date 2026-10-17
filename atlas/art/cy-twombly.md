@@ -3,7 +3,7 @@ id: cy-twombly
 name: Cy Twombly
 type: artist
 discipline: [art]
-era: 1950s–2011
+era: 1950s to 2011
 origin: Lexington, Virginia, USA; Rome, Italy
 lineage: []
 tags:
@@ -14,14 +14,14 @@ axes: {order: 1, density: 5, ornament: 3, warmth: 7, contrast: 4, geometry: 1, c
 
 # Cy Twombly
 
-**Essence:** The gesture of writing without its content — loops, scrawls, erasures and classical names drifting across creamy grounds.
+**Essence:** The gesture of writing without its content, loops, scrawls, erasures and classical names drifting across creamy grounds.
 
 ## Genes
 
 | Gene | The idea | In UI / product terms |
 |---|---|---|
-| G1 · Writing as mark | Half-legible scrawl: handwriting's rhythm more than its meaning | Real handwritten strokes as a texture layer behind headlines (8–12% opacity) plus one legible scrawled word as accent; never a script font imitation |
-| G2 · Blackboard loops | The "blackboard" paintings (1966–71): continuous white crayon loops on grey grounds | Chalk-white looping strokes on dark grey for loading states and section transitions, drawn progressively with stroke animation |
+| G1 · Writing as mark | Half-legible scrawl: handwriting's rhythm more than its meaning | Real handwritten strokes as a texture layer behind headlines (8 to 12% opacity) plus one legible scrawled word as accent; never a script font imitation |
+| G2 · Blackboard loops | The "blackboard" paintings (1966 to 71): continuous white crayon loops on grey grounds | Chalk-white looping strokes on dark grey for loading states and section transitions, drawn progressively with stroke animation |
 | G3 · Classical names | Greek and Roman names and lines of poetry written into the work | Editorial headlines pairing a classical serif name with a hand-scrawled annotation, for culture and luxury brands |
 | G4 · Erasure as history | Rubbed-out marks and white paint over writing leave ghosts | Transitions leave a 5% ghost of the previous content; smudge-to-erase interactions in drawing tools; visible revision trails |
 | G5 · Sparse marks on a wide ground | Large cream fields with a few marks clustered near an edge | Generous cream canvas with content clustered off-center (e.g. upper left) and marks touching the edges; the rest stays empty |
@@ -39,9 +39,9 @@ Living mostly in Italy, Twombly fused American gestural painting with the myths 
 
 ## Blends
 
-- **Amplifies:** `jean-michel-basquiat`, `japanese-wabi-sabi-and-ma`, `agnes-martin` — the hand, time and quiet grounds.
-- **Productive tension with:** `swiss-international` — a strict grid and grotesque type framing one gestural scrawl.
-- **Clashes with:** `mc-escher` — exact interlocking order and loose scrawl defeat each other.
+- **Amplifies:** `jean-michel-basquiat`, `japanese-wabi-sabi-and-ma`, `agnes-martin`, the hand, time and quiet grounds.
+- **Productive tension with:** `swiss-international`, a strict grid and grotesque type framing one gestural scrawl.
+- **Clashes with:** `mc-escher`, exact interlocking order and loose scrawl defeat each other.
 
 ## Don't copy
 
@@ -51,4 +51,4 @@ The blackboard paintings, Fifty Days at Iliam (1978), Leda and the Swan (1962), 
 
 - Cy Twombly Gallery, Menil Collection, Houston (Renzo Piano, 1995; menil.org)
 - Philadelphia Museum of Art (Fifty Days at Iliam); MoMA (Leda and the Swan); Whitney Museum
-- Centre Pompidou retrospective (2016–17); Roland Barthes's essays on Twombly (1979)
+- Centre Pompidou retrospective (2016 to 17); Roland Barthes's essays on Twombly (1979)

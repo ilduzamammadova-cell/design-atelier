@@ -3,7 +3,7 @@ id: johannes-gutenberg
 name: Johannes Gutenberg
 type: designer
 discipline: [graphic, product]
-era: c. 1440–1468
+era: c. 1440 to 1468
 origin: Mainz, Germany
 lineage: [illuminated-manuscripts]
 tags:

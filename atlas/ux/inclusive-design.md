@@ -3,7 +3,7 @@ id: inclusive-design
 name: Inclusive Design
 type: principle
 discipline: [ux, ui, product]
-era: 1990s–present (Microsoft toolkit mid-2010s)
+era: 1990s to present (Microsoft toolkit mid-2010s)
 origin: Toronto, Canada / Redmond, Washington, USA
 lineage: [universal-design]
 tags:
@@ -14,7 +14,7 @@ axes: {order: 6, density: 4, ornament: 1, warmth: 8, contrast: 7, geometry: 5, c
 
 # Inclusive Design
 
-**Essence:** Exclusion is a mismatch between a person and a design, not a property of the person — so design with people at the margins, solve for one, and the result works better for many.
+**Essence:** Exclusion is a mismatch between a person and a design, not a property of the person, so design with people at the margins, solve for one, and the result works better for many.
 
 ## Genes
 
@@ -30,8 +30,8 @@ axes: {order: 6, density: 4, ornament: 1, warmth: 8, contrast: 7, geometry: 5, c
 ## Visual facts
 
 - **Color:** text contrast ≥ 4.5:1 (WCAG AA), UI components ≥ 3:1; state never carried by colour alone. Example: text #1B1B1F on #FFFFFF, accent #0B57D0.
-- **Type:** body 16–18px minimum, generous line height (1.5); Atkinson Hyperlegible (Braille Institute, free) or Lexend; clear distinction of I/l/1 and O/0.
-- **Form:** visible 2–3px focus rings with offset; large, clearly bounded targets; icons always paired with text labels.
+- **Type:** body 16 to 18px minimum, generous line height (1.5); Atkinson Hyperlegible (Braille Institute, free) or Lexend; clear distinction of I/l/1 and O/0.
+- **Form:** visible 2 to 3px focus rings with offset; large, clearly bounded targets; icons always paired with text labels.
 - **Composition:** single-column flows that reflow; predictable placement; no hover-only content.
 
 ## Attitude
@@ -40,9 +40,9 @@ The Inclusive Design Research Centre (Jutta Treviranus, Toronto, from 1993) fram
 
 ## Blends
 
-- **Amplifies:** `universal-design`, `calm-technology`, `jakob-nielsen` — fit for all, low strain, convention.
-- **Productive tension with:** `edward-tufte` — high density against large, scalable type; the result is dense layouts that reflow and zoom without breaking.
-- **Clashes with:** `deconstructivist-type` — illegibility as an aesthetic excludes by design.
+- **Amplifies:** `universal-design`, `calm-technology`, `jakob-nielsen`, fit for all, low strain, convention.
+- **Productive tension with:** `edward-tufte`, high density against large, scalable type; the result is dense layouts that reflow and zoom without breaking.
+- **Clashes with:** `deconstructivist-type`, illegibility as an aesthetic excludes by design.
 
 ## Don't copy
 

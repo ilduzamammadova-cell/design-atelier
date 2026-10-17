@@ -3,7 +3,7 @@ id: bogolan-mudcloth
 name: Bògòlanfini (Bamana mud cloth, Mali)
 type: tradition
 discipline: [craft, graphic]
-era: long-standing; contemporary revival and fashion use since the 1970s–80s
+era: long-standing; contemporary revival and fashion use since the 1970s to 80s
 origin: Mali (Bamana / Bambara communities; Bamako as a modern centre)
 lineage: []
 tags:
@@ -22,7 +22,7 @@ axes: {order: 6, density: 7, ornament: 6, warmth: 8, contrast: 8, geometry: 6, c
 |---|---|---|
 | G1 · Paint the negative | Cloth is dyed in a leaf bath (n'gallama and related leaves), then mud is painted around the motifs; the motifs are the parts left untouched and later bleached pale. | Knockout graphics: draw the background shape and let the motif be the remaining light area; icons and illustrations specified as dark fields with carved light forms. |
 | G2 · Earth binary | Iron in the mud reacts with tannins to give near-black brown against off-white, with the leaf-dye ochre as a middle tone. | Two-value palette (#2B1E16 and #EDE3D1) plus ochre #B8862E as the only third tone; a dark theme as the primary theme, not an afterthought. |
-| G3 · Strip grid with per-cell variation | Narrow woven cotton strips are sewn together; patterns sit in grid cells, each a little different, framed by dotted and zigzag borders. | Grid cells with intentional variation: 6–8 motif variants assigned by seed so no two adjacent cells match; borders as dotted lines (2px dots on 6px pitch). |
+| G3 · Strip grid with per-cell variation | Narrow woven cotton strips are sewn together; patterns sit in grid cells, each a little different, framed by dotted and zigzag borders. | Grid cells with intentional variation: 6 to 8 motif variants assigned by seed so no two adjacent cells match; borders as dotted lines (2px dots on 6px pitch). |
 | G4 · Motif as text | The marks carry names that refer to events, proverbs, objects and stories; the cloth can be read. | Every graphic motif in the system gets a name and alt text describing its meaning; illustration legends are part of the UI. |
 
 ## Visual facts
@@ -30,7 +30,7 @@ axes: {order: 6, density: 7, ornament: 6, warmth: 8, contrast: 8, geometry: 6, c
 - **Color:** iron black-brown #2B1E16, leaf ochre #B8862E, rust #8C4A2F, bleached cream #EDE3D1.
 - **Type:** none intrinsic; for UI a sturdy sans with good dark-mode rendering.
 - **Form:** dots, zigzags, crosses, concentric rectangles, lines and hand-drawn lozenges; slightly irregular edges.
-- **Composition:** grids of cells within borders; strong figure–ground reversal.
+- **Composition:** grids of cells within borders; strong figure-ground reversal.
 
 ## Attitude
 
@@ -38,9 +38,9 @@ Traditionally men weave the cotton strips and women dye and paint, learning thro
 
 ## Blends
 
-- **Amplifies:** `japanese-textile-patterns` — resist logic, one dark against undyed cloth.
-- **Productive tension with:** `swiss-international` — rational grid holding hand-drawn, varied cells.
-- **Clashes with:** `streamline-moderne` — chrome speed and sheen fight earth, hand and slowness.
+- **Amplifies:** `japanese-textile-patterns`, resist logic, one dark against undyed cloth.
+- **Productive tension with:** `swiss-international`, rational grid holding hand-drawn, varied cells.
+- **Clashes with:** `streamline-moderne`, chrome speed and sheen fight earth, hand and slowness.
 
 ## Don't copy
 

@@ -3,7 +3,7 @@ id: jules-cheret
 name: Jules Chéret
 type: designer
 discipline: [graphic]
-era: 1866–c. 1900
+era: 1866-c. 1900
 origin: Paris, France
 lineage: [chromolithography]
 tags:

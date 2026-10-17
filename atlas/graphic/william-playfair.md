@@ -3,7 +3,7 @@ id: william-playfair
 name: William Playfair
 type: designer
 discipline: [graphic, ui, ux]
-era: 1786–1823
+era: 1786 to 1823
 origin: London, England (born Scotland)
 lineage: []
 tags:
@@ -20,7 +20,7 @@ axes: {order: 8, density: 6, ornament: 1, warmth: 4, contrast: 5, geometry: 8, c
 
 | Gene | The idea | In UI / product terms |
 |---|---|---|
-| G1 · Chart type follows the question | In *The Commercial and Political Atlas* (1786) he introduced the line graph for change over time and the bar chart for comparison. The *Statistical Breviary* (1801) added the pie chart for parts of a whole. | A chart-selection rule in the data-viz kit: time series → line; comparison across categories → horizontal bar, sorted; share of whole → pie or donut only for 2–4 parts, otherwise a stacked bar. Components refuse configurations that break the rule. |
+| G1 · Chart type follows the question | In *The Commercial and Political Atlas* (1786) he introduced the line graph for change over time and the bar chart for comparison. The *Statistical Breviary* (1801) added the pie chart for parts of a whole. | A chart-selection rule in the data-viz kit: time series → line; comparison across categories → horizontal bar, sorted; share of whole → pie or donut only for 2 to 4 parts, otherwise a stacked bar. Components refuse configurations that break the rule. |
 | G2 · Shade the gap that matters | His trade charts plot imports and exports as two lines and colour the area between them, labelling it as the balance in favour of one side. | When two series are compared, fill the area between them (20% opacity, colour by which side leads) and label the fill directly with its meaning ("surplus", "deficit"). The difference becomes the visual subject. |
 | G3 · Label on the mark | His lines carry their names written along them, so the reader never has to consult a key. | No legends by default: label each series at its line end in the series colour, 12px, with collision-avoidance. Put the value callout next to the latest point. |
 | G4 · Headline the finding | He made charts to argue positions on trade, debt and prices, and the title states the claim. | Every chart title is a sentence stating the insight ("Exports overtook imports in 2024"), with the metric name as a subtitle. Dashboard cards follow the same rule. |
@@ -50,7 +50,7 @@ Playfair was an engineer, pamphleteer and speculator rather than an artist. He w
 
 ## Study
 
-- *The Commercial and Political Atlas* (1786); *Statistical Breviary* (1801); *A Letter on Our Agricultural Distresses* (1821–22): digitized at Internet Archive and Library of Congress
+- *The Commercial and Political Atlas* (1786); *Statistical Breviary* (1801); *A Letter on Our Agricultural Distresses* (1821 to 22): digitized at Internet Archive and Library of Congress
 - Playfair, *The Commercial and Political Atlas and Statistical Breviary*, ed. Howard Wainer and Ian Spence (Cambridge University Press, 2005)
 - Edward Tufte, *The Visual Display of Quantitative Information* (1983)
 - Meggs, ch. 8, "The origins of information graphics"

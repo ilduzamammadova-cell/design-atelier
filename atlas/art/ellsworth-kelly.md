@@ -3,7 +3,7 @@ id: ellsworth-kelly
 name: Ellsworth Kelly
 type: artist
 discipline: [art]
-era: 1949–2015
+era: 1949 to 2015
 origin: Paris, France; New York and Spencertown, USA
 lineage: [henri-matisse]
 tags:
@@ -20,12 +20,12 @@ axes: {order: 6, density: 1, ornament: 0, warmth: 5, contrast: 8, geometry: 8, c
 
 | Gene | The idea | In UI / product terms |
 |---|---|---|
-| G1 · Found shapes | Forms came from things he observed — shadows on steps, a window frame, the gap between buildings — then flattened | Derive brand shapes and icons from photographed details of the product's own world (a handle's shadow, a doorway) reduced to a single flat silhouette |
+| G1 · Found shapes | Forms came from things he observed, shadows on steps, a window frame, the gap between buildings, then flattened | Derive brand shapes and icons from photographed details of the product's own world (a handle's shadow, a doorway) reduced to a single flat silhouette |
 | G2 · The shape is the work | Shaped canvases: the outline itself is the composition, nothing inside | Buttons, cards or app icons whose silhouette (a tilted trapezoid, one curved edge) carries identity; contents stay plain |
 | G3 · Color as a whole panel | Colors for a Large Wall (1951) joins 64 single-color panels | Assign color to whole tiles, not accents: a grid of solid tiles, one entity or category each, no borders; text on color only when contrast passes |
-| G4 · Chance distribution | Spectrum Colors Arranged by Chance (1951) used self-devised systems to place colors | Seeded pseudo-random color assignment (hashed from an ID) for avatars, tags and covers from a fixed palette — variety without manual picking |
+| G4 · Chance distribution | Spectrum Colors Arranged by Chance (1951) used self-devised systems to place colors | Seeded pseudo-random color assignment (hashed from an ID) for avatars, tags and covers from a fixed palette, variety without manual picking |
 | G5 · The edge activates the wall | A form meeting the wall's edge makes the surrounding space a second figure | Place shapes tight against the viewport edge or another shape so negative space reads as a deliberate form |
-| G6 · Pure contour drawing | His plant drawings are single-weight outlines with no shading | Editorial illustrations as single continuous contour strokes (1–1.5px), no fills |
+| G6 · Pure contour drawing | His plant drawings are single-weight outlines with no shading | Editorial illustrations as single continuous contour strokes (1 to 1.5px), no fills |
 
 ## Visual facts
 
@@ -36,13 +36,13 @@ axes: {order: 6, density: 1, ornament: 0, warmth: 5, contrast: 8, geometry: 8, c
 
 ## Attitude
 
-Kelly wanted to remove the personal "I" from painting by using chance and borrowed shapes, so that seeing came first. Paris (1948–54) gave him the vocabulary; architecture gave him scale, culminating in the chapel-like Austin at the Blanton Museum (designed 1986, built 2018).
+Kelly wanted to remove the personal "I" from painting by using chance and borrowed shapes, so that seeing came first. Paris (1948 to 54) gave him the vocabulary; architecture gave him scale, culminating in the chapel-like Austin at the Blanton Museum (designed 1986, built 2018).
 
 ## Blends
 
 - **Amplifies:** `henri-matisse` (cut shapes), `swiss-international`, `minimalism-art`.
-- **Productive tension with:** `cy-twombly` — one exact color shape plus one gestural mark; precision made human.
-- **Clashes with:** `op-art` — optical vibration ruins the calm, flat certainty of the color plane.
+- **Productive tension with:** `cy-twombly`, one exact color shape plus one gestural mark; precision made human.
+- **Clashes with:** `op-art`, optical vibration ruins the calm, flat certainty of the color plane.
 
 ## Don't copy
 

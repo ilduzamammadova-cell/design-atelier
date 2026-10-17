@@ -3,8 +3,8 @@ id: spline-3d-hero
 name: Spline 3D Hero
 type: trend
 discipline: [ui]
-era: 2021–2026
-origin: Global — Spline (browser 3D design tool, launched Dec 2020), Three.js / React Three Fiber, Framer and Webflow embeds
+era: 2021 to 2026
+origin: Global, Spline (browser 3D design tool, launched Dec 2020), Three.js / React Three Fiber, Framer and Webflow embeds
 lineage: [3d-clay-and-blob-renders, y2k-chrome-and-acid, flash-era-web]
 tags:
   mood: [futuristic, glossy, playful, heavy]
@@ -15,7 +15,7 @@ saturation: 6
 
 # Spline 3D Hero
 
-**Essence:** A floating interactive 3D object — iridescent blob, glass torus, abstract crystal, keyboard key, cute robot — rotating in the hero and tilting toward the cursor.
+**Essence:** A floating interactive 3D object, iridescent blob, glass torus, abstract crystal, keyboard key, cute robot, rotating in the hero and tilting toward the cursor.
 
 ## Genes
 
@@ -23,7 +23,7 @@ saturation: 6
 |---|---|---|
 | G1 · Tangible product metaphor | 3D makes an intangible product feel like something you could hold. | If 3D is used, model the actual product or a real object from its domain, with one interaction that teaches something (rotate to see ports, explode to see layers). |
 | G2 · Interactivity as proof of craft | A responsive scene signals technical competence. | Prove craft in the product itself: a real, working component in the hero (an editor sample, a live API response) instead of an abstract shape. |
-| G3 · Depth and light | Real-time lighting gives richness without photography. | Ship a lit still or short loop instead (AVIF/WebM, <300KB) — same depth, no runtime cost — with a static poster frame first. |
+| G3 · Depth and light | Real-time lighting gives richness without photography. | Ship a lit still or short loop instead (AVIF/WebM, <300KB), same depth, no runtime cost, with a static poster frame first. |
 
 ## Why it reads as slop now
 
@@ -31,9 +31,9 @@ Spline launched as a browser-based 3D design tool in December 2020 and made inte
 
 ## Subvert
 
-- **Model the real thing.** 3D of the actual device, building, object or dataset — specific, explanatory, worth touching.
+- **Model the real thing.** 3D of the actual device, building, object or dataset, specific, explanatory, worth touching.
 - **Pre-render and art-direct.** A carefully lit still or loop beats a generic live scene and loads instantly.
-- **Low-poly honesty.** Visible geometry, wireframe or paper-craft 3D — deliberately limited, so the craft shows and the file stays small.
+- **Low-poly honesty.** Visible geometry, wireframe or paper-craft 3D, deliberately limited, so the craft shows and the file stays small.
 
 ## Visual facts
 
@@ -44,13 +44,13 @@ Spline launched as a browser-based 3D design tool in December 2020 and made inte
 
 ## Attitude
 
-The web as a 3D playground — immersion as proof of being modern. Spectacle without a subject is still empty.
+The web as a 3D playground, immersion as proof of being modern. Spectacle without a subject is still empty.
 
 ## Blends
 
 - **Amplifies:** `liquid-glass-imitation`, `dark-mode-neon-glow`, `y2k-chrome-and-acid`.
-- **Productive tension with:** `dieter-rams`, `richard-sapper` — real objects designed with restraint, shown honestly in 3D.
-- **Clashes with:** `editorial-serif-revival` — a heavy spinning blob over a reading page.
+- **Productive tension with:** `dieter-rams`, `richard-sapper`, real objects designed with restraint, shown honestly in 3D.
+- **Clashes with:** `editorial-serif-revival`, a heavy spinning blob over a reading page.
 
 ## Don't copy
 
@@ -58,6 +58,6 @@ Spline community scenes used as-is; other companies' 3D mascots and product mode
 
 ## Study
 
-- Spline docs (spline.design) — export and performance options.
-- three.js documentation and examples (threejs.org) — understand the real cost of live 3D.
-- web.dev, "Largest Contentful Paint" — the metric 3D heros usually fail.
+- Spline docs (spline.design), export and performance options.
+- three.js documentation and examples (threejs.org), understand the real cost of live 3D.
+- web.dev, "Largest Contentful Paint", the metric 3D heros usually fail.

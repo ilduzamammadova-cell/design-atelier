@@ -3,7 +3,7 @@ id: corita-kent
 name: Corita Kent
 type: designer
 discipline: [graphic, art]
-era: 1950s–1980s
+era: 1950s to 1980s
 origin: Los Angeles, USA
 lineage: [pop-art, new-york-school]
 tags:
@@ -12,9 +12,9 @@ tags:
 axes: {order: 3, density: 6, ornament: 4, warmth: 10, contrast: 6, geometry: 3, chroma: 9, typevoice: 9, energy: 7, hand: 8, play: 9, era: 6}
 ---
 
-# Corita Kent (1918–1986)
+# Corita Kent (1918 to 1986)
 
-**Essence:** The supermarket and the street re-read as sources of hope — found words, huge cropped letters, handwriting and fluorescent ink.
+**Essence:** The supermarket and the street re-read as sources of hope, found words, huge cropped letters, handwriting and fluorescent ink.
 
 ## Genes
 
@@ -22,7 +22,7 @@ axes: {order: 3, density: 6, ornament: 4, warmth: 10, contrast: 6, geometry: 3, 
 |---|---|---|
 | G1 · Found text reframed | She lifted advertising slogans, packaging copy, song lyrics and newspaper words and recombined them with scripture and poetry, so ordinary phrases gained new meaning. | A copy system that quotes the user's own everyday language (their notes, receipts, messages) and reframes it as encouragement or reflection; always with consent and attribution. |
 | G2 · Giant cropped letters + small handwriting | Huge fragments of commercial lettering run off the edges while a small handwritten quotation sits on top. | Hero type cropped beyond the viewport (letters ≥ 2× viewport height, partly off-canvas) with a small handwritten line overlaid; the cropped word stays guessable. |
-| G3 · Serigraph colour | Her screen prints use saturated, often fluorescent inks in overlapping translucent layers. | Wide-gamut (Display P3) high-chroma palette — hot pink, orange, lemon, sky blue — in overlapping translucent shapes (multiply/screen); provide sRGB fallbacks. |
+| G3 · Serigraph colour | Her screen prints use saturated, often fluorescent inks in overlapping translucent layers. | Wide-gamut (Display P3) high-chroma palette, hot pink, orange, lemon, sky blue, in overlapping translucent shapes (multiply/screen); provide sRGB fallbacks. |
 | G4 · The finder frame | Her teaching used a cardboard viewfinder to crop the world and see it fresh. | Cropping as a creative tool: users or editors frame images through fixed aspect "finders"; crops are part of storytelling, not just fitting. |
 | G5 · Joy as a civic voice | Social justice expressed through celebration and affirmation rather than anger. | Tone for community and nonprofit products: affirming, vivid, plain-spoken; no guilt-driven dark patterns. |
 
@@ -39,9 +39,9 @@ A Sister of the Immaculate Heart community until 1968 and chair of its art depar
 
 ## Blends
 
-- **Amplifies:** `pop-art`, `bruno-munari`, `push-pin-studios` — playful, colourful, people-centred graphics.
-- **Productive tension with:** `swiss-international` — her found words and colour inside a disciplined grid gives warm, legible community products.
-- **Clashes with:** `brutalism` — cold, raw surfaces drain the hope from her language.
+- **Amplifies:** `pop-art`, `bruno-munari`, `push-pin-studios`, playful, colourful, people-centred graphics.
+- **Productive tension with:** `swiss-international`, her found words and colour inside a disciplined grid gives warm, legible community products.
+- **Clashes with:** `brutalism`, cold, raw surfaces drain the hope from her language.
 
 ## Don't copy
 

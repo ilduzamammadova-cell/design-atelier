@@ -3,7 +3,7 @@ id: m-m-paris
 name: M/M (Paris)
 type: studio
 discipline: [graphic, art]
-era: 1992–present
+era: 1992 to present
 origin: Paris, France
 lineage: [postmodern-new-wave, pop-art]
 tags:
@@ -23,7 +23,7 @@ axes: {order: 3, density: 6, ornament: 7, warmth: 6, contrast: 6, geometry: 3, c
 | G1 · An alphabet made of people | *The Alphabet* (V magazine, 2001, with Inez van Lamsweerde and Vinoodh Matadin) cast 26 models, each standing for the letter of their name. | Initial avatars and section letters built from the community's own photos cut into letter shapes, with permission; fall back to plain initials when no photo exists. |
 | G2 · Drawing over the photograph | Marker and pencil lines drawn straight onto glossy fashion and music photography. | Editorial images carry a hand-drawn SVG overlay layer (lines, letters, arrows) that draws itself on reveal (stroke animation ≤600ms); it never covers eyes or key product detail. |
 | G3 · A bespoke alphabet per collaborator | Each long-term partner (Björk, fashion houses, artists) gets its own lettering system. | Each campaign or collection receives its own drawn display alphabet of at least 26 glyphs; product UI text stays in the system face. |
-| G4 · The edition as object | Packaging becomes an art edition — the *Biophilia* box for Björk held tuning forks tied to the songs and won a Grammy for recording package. | Premium deliverables designed as objects whose structure mirrors the content (one item per chapter or track), whether physical boxes or downloadable kits. |
+| G4 · The edition as object | Packaging becomes an art edition, the *Biophilia* box for Björk held tuning forks tied to the songs and won a Grammy for recording package. | Premium deliverables designed as objects whose structure mirrors the content (one item per chapter or track), whether physical boxes or downloadable kits. |
 
 ## Visual facts
 
@@ -38,13 +38,13 @@ Founded in 1992 by Michael Amzalag and Mathias Augustyniak, M/M treats graphic d
 
 ## Blends
 
-- **Amplifies:** `stefan-sagmeister`, `eiko-ishioka` — handmade images and fashion-world art direction.
-- **Productive tension with:** `experimental-jetset` — Dutch rational structure carrying Parisian hand-drawing gives intimacy with order.
-- **Clashes with:** `designers-republic` — synthetic corporate vectors and intimate drawing each make the other look fake.
+- **Amplifies:** `stefan-sagmeister`, `eiko-ishioka`, handmade images and fashion-world art direction.
+- **Productive tension with:** `experimental-jetset`, Dutch rational structure carrying Parisian hand-drawing gives intimacy with order.
+- **Clashes with:** `designers-republic`, synthetic corporate vectors and intimate drawing each make the other look fake.
 
 ## Don't copy
 
-*The Alphabet* and *The Alphamen*, the Björk sleeves and *Biophilia* box, their *Vogue Paris* work (2001–2003), their Yohji Yamamoto catalogues.
+*The Alphabet* and *The Alphamen*, the Björk sleeves and *Biophilia* box, their *Vogue Paris* work (2001 to 2003), their Yohji Yamamoto catalogues.
 
 ## Study
 

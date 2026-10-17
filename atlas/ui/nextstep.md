@@ -3,7 +3,7 @@ id: nextstep
 name: NeXTSTEP
 type: system
 discipline: [ui]
-era: 1988–1997
+era: 1988 to 1997
 origin: Redwood City, USA
 lineage: [classic-macintosh, xerox-alto-and-star]
 tags:
@@ -14,7 +14,7 @@ axes: {order: 9, density: 6, ornament: 2, warmth: 2, contrast: 7, geometry: 9, c
 
 # NeXTSTEP
 
-**Essence:** An engineering workstation rendered in four greys — every control chiselled by one light from the top left, every icon lit like a product photograph.
+**Essence:** An engineering workstation rendered in four greys, every control chiselled by one light from the top left, every icon lit like a product photograph.
 
 ## Genes
 
@@ -25,7 +25,7 @@ axes: {order: 9, density: 6, ornament: 2, warmth: 2, contrast: 7, geometry: 9, c
 | G3 · Column browser | The File Viewer navigated hierarchies as side-by-side columns: choosing in one column fills the next (the ancestor of the Finder's column view). | Hierarchies render as scrolling columns left→right; selecting in column *n* populates *n+1*; the full path is always visible as the column sequence. |
 | G4 · Tear-off vertical menus | Application menus were vertical floating panels in the top-left corner; submenus cascaded right and could be torn off and pinned as palettes. | Any menu can be detached into a persistent floating palette. Menu headers are black bars with white titles; items are full-width rows. |
 | G5 · Inverted key window | The key (focused) window had a black title bar with white text; others were grey. | Focus = title bar inversion (black ↔ mid-grey), not an accent colour, so focus survives colour-blind and monochrome modes. |
-| G6 · Lit, three-quarter icons | Icons were rendered with real perspective and a consistent light source — tonal, detailed, product-like even in greyscale. | Icon family in ¾ view, one lamp position for all, tonal greys and a crisp dark outline; size 48–64 px so detail can carry. |
+| G6 · Lit, three-quarter icons | Icons were rendered with real perspective and a consistent light source, tonal, detailed, product-like even in greyscale. | Icon family in ¾ view, one lamp position for all, tonal greys and a crisp dark outline; size 48 to 64 px so detail can carry. |
 
 ## Visual facts
 
@@ -36,13 +36,13 @@ axes: {order: 9, density: 6, ornament: 2, warmth: 2, contrast: 7, geometry: 9, c
 
 ## Attitude
 
-NeXT was built for universities and scientists after Jobs left Apple: an object-oriented developer platform first, a look second — but the look advertised the seriousness. The same machine hosted Tim Berners-Lee's first web browser (1990). Borrow it when software should feel like a precision instrument rather than a toy: sculpted, quiet, entirely legible without colour.
+NeXT was built for universities and scientists after Jobs left Apple: an object-oriented developer platform first, a look second, but the look advertised the seriousness. The same machine hosted Tim Berners-Lee's first web browser (1990). Borrow it when software should feel like a precision instrument rather than a toy: sculpted, quiet, entirely legible without colour.
 
 ## Blends
 
-- **Amplifies:** `dieter-rams`, `ulm-school`, `swiss-international` — grey rationalism, instruments over ornaments.
-- **Productive tension with:** `art-deco` — bevel logic pushed into stepped, symmetrical relief gives an elegant "machine-age" chrome.
-- **Clashes with:** `memphis` — random confetti colour breaks the single-light tonal logic that holds the system together.
+- **Amplifies:** `dieter-rams`, `ulm-school`, `swiss-international`, grey rationalism, instruments over ornaments.
+- **Productive tension with:** `art-deco`, bevel logic pushed into stepped, symmetrical relief gives an elegant "machine-age" chrome.
+- **Clashes with:** `memphis`, random confetti colour breaks the single-light tonal logic that holds the system together.
 
 ## Don't copy
 
@@ -50,7 +50,7 @@ NeXT was built for universities and scientists after Jobs left Apple: an object-
 
 ## Study
 
-- GUIdebook gallery — NeXTSTEP 1.0–3.3 and OPENSTEP screenshots (guidebookgallery.org).
+- GUIdebook gallery, NeXTSTEP 1.0 to 3.3 and OPENSTEP screenshots (guidebookgallery.org).
 - NeXT, *NeXTSTEP User Interface Guidelines* (developer documentation, early 1990s).
-- Computer History Museum — NeXT Computer (1988) collection and oral histories.
+- Computer History Museum, NeXT Computer (1988) collection and oral histories.
 - The Previous emulator (NeXT hardware emulation) for hands-on study.

@@ -3,7 +3,7 @@ id: lance-wyman
 name: Lance Wyman
 type: designer
 discipline: [graphic, ux]
-era: 1960s–1980s
+era: 1960s to 1980s
 origin: Mexico City, Mexico / New York, USA
 lineage: [corporate-identity, op-art, swiss-international]
 tags:
@@ -14,13 +14,13 @@ axes: {order: 8, density: 6, ornament: 6, warmth: 7, contrast: 7, geometry: 8, c
 
 # Lance Wyman (b. 1937)
 
-**Essence:** Wayfinding as hospitality — a system rooted in its place, built from rhythmic parallel lines, saturated colour and an icon for everything.
+**Essence:** Wayfinding as hospitality, a system rooted in its place, built from rhythmic parallel lines, saturated colour and an icon for everything.
 
 ## Genes
 
 | Gene | The idea | In UI / product terms |
 |---|---|---|
-| G1 · Pattern-born lettering | For Mexico 1968 the logotype and display alphabet were built from multiple parallel lines echoing the numeral 68 and the Olympic rings, drawing on Mexican craft traditions and the optical art of the time. | A display alphabet for numerals and headings derived from 3–5 concentric outlines of a base letter (stroke 2px, gap 2px); used for big numbers, event titles and dates only. |
+| G1 · Pattern-born lettering | For Mexico 1968 the logotype and display alphabet were built from multiple parallel lines echoing the numeral 68 and the Olympic rings, drawing on Mexican craft traditions and the optical art of the time. | A display alphabet for numerals and headings derived from 3 to 5 concentric outlines of a base letter (stroke 2px, gap 2px); used for big numbers, event titles and dates only. |
 | G2 · An icon for every place | After the Games he designed the Mexico City Metro graphics, where stations are identified by pictograms as well as names, so riders can navigate without reading. | Each location, section or project gets a unique pictogram + colour pair; navigation works when labels are hidden. Keep a registry so no two places share an icon. |
 | G3 · Colour as address | Venues, routes and even balloons over the arenas were colour-coded so the city became a legend. | Colour maps 1:1 to place or category across the product; a persistent legend; colour never used decoratively elsewhere. |
 | G4 · Modular signage kit | With Peter Murdoch he built signage from interchangeable modular components deployable across a huge city. | Component library organised as a physical kit (frame, icon slot, text strip, arrow) whose parts combine without custom work. |
@@ -35,13 +35,13 @@ axes: {order: 8, density: 6, ornament: 6, warmth: 7, contrast: 7, geometry: 8, c
 
 ## Attitude
 
-Wyman designs for people moving through unfamiliar places in several languages. He believes identity should grow from the culture of the place it serves while remaining universally legible — and that a public system can be joyful as well as efficient.
+Wyman designs for people moving through unfamiliar places in several languages. He believes identity should grow from the culture of the place it serves while remaining universally legible, and that a public system can be joyful as well as efficient.
 
 ## Blends
 
-- **Amplifies:** `otl-aicher`, `op-art`, `corporate-identity` — systematic pictograms and optical rhythm.
-- **Productive tension with:** `swiss-international` — neutral Swiss structure filled with locally rooted colour and pattern.
-- **Clashes with:** `minimalism-art` — his rhythmic line patterns and festive colour cannot be reduced to silence without losing their function.
+- **Amplifies:** `otl-aicher`, `op-art`, `corporate-identity`, systematic pictograms and optical rhythm.
+- **Productive tension with:** `swiss-international`, neutral Swiss structure filled with locally rooted colour and pattern.
+- **Clashes with:** `minimalism-art`, his rhythmic line patterns and festive colour cannot be reduced to silence without losing their function.
 
 ## Don't copy
 
@@ -50,5 +50,5 @@ The Mexico 68 logotype and alphabet, Mexico City Metro station icons, the Washin
 ## Study
 
 - Meggs' History of Graphic Design, ch. 20 ("Design systems for the Olympic Games").
-- *Lance Wyman: Urban Icons* retrospective, MUAC Mexico City (2014–15).
+- *Lance Wyman: Urban Icons* retrospective, MUAC Mexico City (2014 to 15).
 - AIGA medalists (2017): https://www.aiga.org/medalists ; Lance Wyman studio: https://www.lancewyman.com

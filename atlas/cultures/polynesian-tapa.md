@@ -23,7 +23,7 @@ axes: {order: 7, density: 6, ornament: 7, warmth: 8, contrast: 7, geometry: 7, c
 | G1 · Rub, then strengthen | In Tonga, cloth is laid over raised design tablets (kupesi) and rubbed with dye, then key lines are overpainted by hand; Samoans use carved boards in a similar way, or paint freehand. | Two-pass rendering: a soft, low-contrast base pattern (rubbed look, ~15% opacity) plus crisp hand-drawn emphasis lines only where meaning is needed. |
 | G2 · Large modular grid | Big cloths are divided into squares and rectangles filled with alternating motifs; Fijian masi uses stencils for bold black geometry. | Macro grid (e.g. 4×4 blocks) alternating dense and plain cells; stencil-style hard edges, no anti-aliased softness on the pattern layer. |
 | G3 · Earth binary | Browns and black from plant dyes, soot and clays on pale bark. | Palette of dark brown-black, red-brown and bark cream; no saturated hues; dark tones carry structure. |
-| G4 · Beaten surface | Bark is beaten thin with grooved beaters; in Hawaiʻi, carved beaters leave watermarks in the cloth. | A subtle embossed watermark texture as the surface layer, carrying brand pattern at 3–5% contrast. |
+| G4 · Beaten surface | Bark is beaten thin with grooved beaters; in Hawaiʻi, carved beaters leave watermarks in the cloth. | A subtle embossed watermark texture as the surface layer, carrying brand pattern at 3 to 5% contrast. |
 | G5 · Many makers, one cloth | Groups of women work together to produce very large cloths for ceremonies. | Collaborative canvases where many contributors fill cells in one large shared grid, unified by a common palette and stroke rule. |
 
 ## Visual facts
@@ -39,9 +39,9 @@ Barkcloth is wealth and ceremony: presented at weddings, funerals, births and ti
 
 ## Blends
 
-- **Amplifies:** `bogolan-mudcloth` — earth binary, hand pattern on natural ground (keep each tradition credited separately).
-- **Productive tension with:** `dieter-rams` — quiet, precise product surfaces carrying one embossed, crafted watermark.
-- **Clashes with:** `psychedelic` — saturated fluid colour erases the earth-binary order.
+- **Amplifies:** `bogolan-mudcloth`, earth binary, hand pattern on natural ground (keep each tradition credited separately).
+- **Productive tension with:** `dieter-rams`, quiet, precise product surfaces carrying one embossed, crafted watermark.
+- **Clashes with:** `psychedelic`, saturated fluid colour erases the earth-binary order.
 
 ## Don't copy
 

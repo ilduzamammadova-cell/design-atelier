@@ -3,23 +3,23 @@ id: kebab-case-id                # unique across the whole atlas; file is <id>.m
 name: Full Name or Movement Name
 type: designer                   # designer | movement | studio | artist | tradition | object | system | principle | trend
 discipline: [graphic]            # any of: graphic, product, ui, ux, art, architecture, craft
-era: 1950s–1970s
+era: 1950s to 1970s
 origin: City, Country
 lineage: []                      # ids of parent movements / teachers in this atlas
 tags:
-  mood: [rational, calm]         # 2–5 adjectives
+  mood: [rational, calm]         # 2 to 5 adjectives
   topics: [transport, culture]   # product/subject areas this suits well
 axes: {order: 5, density: 5, ornament: 5, warmth: 5, contrast: 5, geometry: 5, chroma: 5, typevoice: 5, energy: 5, hand: 5, play: 5, era: 5}
-# saturation: 0                  # trend cards only — how overused in 2026 (0 fresh … 10 everywhere)
+# saturation: 0                  # trend cards only, how overused in 2026 (0 fresh … 10 everywhere)
 ---
 
 # Name
 
-**Essence:** One sentence — the sensibility, not the biography.
+**Essence:** One sentence, the sensibility, not the biography.
 
 ## Genes
 
-Portable ideas. Each must be usable *alone*, transplanted into a different style, without the rest of this master's look. 3–6 genes. Order by how distinctive they are.
+Portable ideas. Each must be usable *alone*, transplanted into a different style, without the rest of this master's look. 3 to 6 genes. Order by how distinctive they are.
 
 | Gene | The idea | In UI / product terms |
 |---|---|---|
@@ -35,13 +35,13 @@ Portable ideas. Each must be usable *alone*, transplanted into a different style
 
 ## Attitude
 
-2–4 lines on the belief behind the work — what this master thought design was *for*. This is what lets a later designer extend the idea instead of imitating the surface.
+2 to 4 lines on the belief behind the work, what this master thought design was *for*. This is what lets a later designer extend the idea instead of imitating the surface.
 
 ## Blends
 
-- **Amplifies:** `id`, `id` — why they reinforce each other
-- **Productive tension with:** `id` — what new thing the friction can create
-- **Clashes with:** `id` — why the mix tends to fail
+- **Amplifies:** `id`, `id`, why they reinforce each other
+- **Productive tension with:** `id`, what new thing the friction can create
+- **Clashes with:** `id`, why the mix tends to fail
 
 ## Don't copy
 
@@ -58,7 +58,7 @@ The identifiable artifacts (specific posters, logos, typefaces' exact drawings, 
 What made it fresh, how it became a default, the tell-tale cheap version.
 
 ## Subvert
-2–3 ways to use the underlying need without the overused surface.
+2 to 3 ways to use the underlying need without the overused surface.
 
 Culture cards (type: tradition, folder cultures/) add:
 

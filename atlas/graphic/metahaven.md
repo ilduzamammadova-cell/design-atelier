@@ -3,7 +3,7 @@ id: metahaven
 name: Metahaven
 type: studio
 discipline: [graphic, art]
-era: 2007–present
+era: 2007 to present
 origin: Amsterdam, Netherlands
 lineage: [jan-van-toorn, corporate-identity]
 tags:
@@ -20,8 +20,8 @@ axes: {order: 4, density: 6, ornament: 5, warmth: 3, contrast: 6, geometry: 5, c
 
 | Gene | The idea | In UI / product terms |
 |---|---|---|
-| G1 · Identity as speculation | Their identity for the micronation Sealand (begun by Daniel van der Velden in the 2000s) and their WikiLeaks work proposed scenarios rather than finished brand books. | Deliver a brand as 3–5 speculative scenarios (what the system becomes under different futures or audiences) alongside the core tokens, so decisions are argued, not decreed. |
-| G2 · Merchandise as solidarity | Scarves and T-shirts designed for WikiLeaks (around 2010–11) worked as fundraising and as wearable statements. | Supporter goods and digital badges treated as participation tools: each states what it funds or supports, in one sentence on the item itself. |
+| G1 · Identity as speculation | Their identity for the micronation Sealand (begun by Daniel van der Velden in the 2000s) and their WikiLeaks work proposed scenarios rather than finished brand books. | Deliver a brand as 3 to 5 speculative scenarios (what the system becomes under different futures or audiences) alongside the core tokens, so decisions are argued, not decreed. |
+| G2 · Merchandise as solidarity | Scarves and T-shirts designed for WikiLeaks (around 2010 to 11) worked as fundraising and as wearable statements. | Supporter goods and digital badges treated as participation tools: each states what it funds or supports, in one sentence on the item itself. |
 | G3 · Interface as imagery | Their films and prints compose with notifications, captions, emoji and screen fragments, the visual noise of networks. | Campaign art may layer UI-like fragments (alerts, captions, timestamps) as decoration, marked `aria-hidden` and visually distinct from real controls so users never confuse them. |
 | G4 · Atmosphere behind text | Glossy type floats over clouds, gradients and translucent, dreamy imagery. | Background as a soft atmospheric field (sky photo or noise gradient); text panels on translucent surfaces with `backdrop-filter: blur(20px)` and a solid fallback for contrast. |
 | G5 · Design as essay | Books such as *Uncorporate Identity* (2010) and *Black Transparency* (2015) mix argument and image. | Product documentation and launches published as illustrated essays with a thesis, not feature lists; images and text argue together. |
@@ -39,9 +39,9 @@ Founded in 2007 by Vinca Kruk and Daniel van der Velden, Metahaven treats visual
 
 ## Blends
 
-- **Amplifies:** `jan-van-toorn`, `jonathan-barnbrook`, `adbusters` — critical design about media and power.
-- **Productive tension with:** `designers-republic` — both ironise branding; crisp corporate pastiche plus foggy poetics gives a new strangeness.
-- **Clashes with:** `why-not-associates` — entertainment typography trivialises political research.
+- **Amplifies:** `jan-van-toorn`, `jonathan-barnbrook`, `adbusters`, critical design about media and power.
+- **Productive tension with:** `designers-republic`, both ironise branding; crisp corporate pastiche plus foggy poetics gives a new strangeness.
+- **Clashes with:** `why-not-associates`, entertainment typography trivialises political research.
 
 ## Don't copy
 

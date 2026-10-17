@@ -3,7 +3,7 @@ id: peter-saville
 name: Peter Saville
 type: designer
 discipline: [graphic]
-era: 1978–present
+era: 1978 to present
 origin: Manchester and London, UK
 lineage: [new-typography, pop-art, punk-graphics]
 tags:
@@ -39,9 +39,9 @@ Saville found in Tschichold's New Typography a parallel to the new wave coming o
 
 ## Blends
 
-- **Amplifies:** `experimental-jetset`, `new-typography` — cool modernist restraint used as attitude.
-- **Productive tension with:** `neville-brody` — one hot emblem inside a cool, nameless layout.
-- **Clashes with:** `paula-scher` — shouting typographic crowds and nameless covers cancel each other.
+- **Amplifies:** `experimental-jetset`, `new-typography`, cool modernist restraint used as attitude.
+- **Productive tension with:** `neville-brody`, one hot emblem inside a cool, nameless layout.
+- **Clashes with:** `paula-scher`, shouting typographic crowds and nameless covers cancel each other.
 
 ## Don't copy
 
@@ -52,4 +52,4 @@ The *Unknown Pleasures* pulsar plot, the *Power, Corruption & Lies* roses and co
 - Emily King, *Designed by Peter Saville* (2003)
 - Matthew Robertson, *Factory Records: The Complete Graphic Album* (2006)
 - V&A and Design Museum London collections; Factory Records catalogue (FAC numbers)
-- Aynsley, *A Century of Graphic Design*, pp. 198, 212–213
+- Aynsley, *A Century of Graphic Design*, pp. 198, 212 to 213

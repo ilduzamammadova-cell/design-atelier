@@ -3,7 +3,7 @@ id: will-bradley
 name: Will H. Bradley
 type: designer
 discipline: [graphic]
-era: 1894–1915
+era: 1894 to 1915
 origin: Chicago and Springfield, Massachusetts, USA (born Boston)
 lineage: [william-morris, aubrey-beardsley, william-caslon]
 tags:
@@ -24,7 +24,7 @@ axes: {order: 6, density: 5, ornament: 6, warmth: 6, contrast: 8, geometry: 3, c
 | G2 · Echo at two scales | In the *Chap-Book* Thanksgiving poster (1895) a figure is repeated smaller, overlapping the larger one, building rhythm out of one motif. | Echo motif: the hero illustration repeated once at about 40% scale, overlapping the original (offset, same colours). It creates depth and rhythm from a single asset in banners and covers. |
 | G3 · The chapbook kit | After studying colonial chapbooks (1895) he built a style from Caslon type, wide letterspacing, a mix of roman, italic and capitals, plain rules and sturdy woodcut-like cuts. | Editorial kit: one serif family (Libre Caslon), caps tracked +12%, italic for deck and bylines, plain 1px rules full-measure, spot illustrations in a woodcut style (solid black, white-line detail). |
 | G4 · Fixed frame, changing cover | His *Inland Printer* covers (from 1894) changed every month inside a constant format, which he later claimed was a first for an American magazine. | Issue templates: masthead, grid and typography fixed; the art and one accent colour change each issue, season or campaign. Store the frame as a component and the issue art as a swappable slot. |
-| G5 · Flat colour, black silhouettes | His posters use flat, contrasting colour areas and black silhouette masses with curvilinear contours. | Poster-style illustrations with 3 flat colours plus black, contours 2–3px, a large black mass for weight, and no shading. Ideal for promotional tiles that must read small. |
+| G5 · Flat colour, black silhouettes | His posters use flat, contrasting colour areas and black silhouette masses with curvilinear contours. | Poster-style illustrations with 3 flat colours plus black, contours 2 to 3px, a large black mass for weight, and no shading. Ideal for promotional tiles that must read small. |
 
 ## Visual facts
 
@@ -45,7 +45,7 @@ Bradley learned design in print shops and libraries, not schools. He absorbed Mo
 
 ## Don't copy
 
-- *The Chap-Book* posters (*Thanksgiving*, *The Twins*, 1894–95), *Inland Printer* covers, *Bradley: His Book* poster.
+- *The Chap-Book* posters (*Thanksgiving*, *The Twins*, 1894 to 95), *Inland Printer* covers, *Bradley: His Book* poster.
 - Bradley type and his ATF ornaments as exact outlines.
 
 ## Study

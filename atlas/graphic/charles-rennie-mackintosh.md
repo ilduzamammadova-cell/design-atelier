@@ -3,7 +3,7 @@ id: charles-rennie-mackintosh
 name: Charles Rennie Mackintosh (and the Glasgow Four)
 type: designer
 discipline: [graphic, architecture, product]
-era: 1893–1914
+era: 1893 to 1914
 origin: Glasgow, Scotland
 lineage: [arts-and-crafts, art-nouveau]
 tags:

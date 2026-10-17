@@ -3,7 +3,7 @@ id: chinese-calligraphy-and-seal
 name: Chinese Calligraphy and the Seal (Chop)
 type: tradition
 discipline: [graphic, art, craft]
-era: c. 1200 BCE – present (major scripts settled by c. 400 CE)
+era: c. 1200 BCE, present (major scripts settled by c. 400 CE)
 origin: China
 lineage: []
 tags:
@@ -21,11 +21,11 @@ axes: {order: 6, density: 4, ornament: 2, warmth: 7, contrast: 8, geometry: 3, c
 | Gene | The idea | In UI / product terms |
 |---|---|---|
 | G1 · The invisible square | Whether a character has two strokes or twenty, it is composed to fill and balance the same imaginary square; a column reads as an even rhythm of equal cells. Learners practise on gridded squares. | Give every icon, avatar initial and glyph-like mark a square cell (24×24, 2px inner margin) and balance *optical* weight to the cell centre, not the bounding box. In dense tables, fixed-width cells set the rhythm, so labels of different lengths don't push the grid around. |
-| G2 · One pass, no retouching | Ink on absorbent paper records speed, pressure and hesitation and can't be painted over. A stroke is judged by the commitment in it. | Stroke-reveal motion plays once, in stroke order, and never loops (SVG `stroke-dashoffset`, 400–700ms, ease-out). Signature and sketch inputs keep the raw pressure variation, with no auto-smoothing on first render. |
+| G2 · One pass, no retouching | Ink on absorbent paper records speed, pressure and hesitation and can't be painted over. A stroke is judged by the commitment in it. | Stroke-reveal motion plays once, in stroke order, and never loops (SVG `stroke-dashoffset`, 400 to 700ms, ease-out). Signature and sketch inputs keep the raw pressure variation, with no auto-smoothing on first render. |
 | G3 · The seal as a single accent | A square seal pressed in cinnabar paste certifies authorship or ownership. It is cut either as red characters (relief) or white characters reversed out of red (intaglio), and it is often the only colour on the sheet. | Reserve one saturated red (#B23A2E) for identity and verification only: signed, verified, issued-by. It never goes on buttons or errors. Filled variant (white glyph on red) means "issued by"; outlined variant (red glyph) means "approved by". |
 | G4 · Provenance that accumulates | Later owners and connoisseurs added their own seals and inscriptions, so a scroll's margins hold a visible history of who held and valued it. | A provenance gutter: each approval, fork or edit leaves a small square stamp in a side column (16px, date on hover). History stays visible on the artifact instead of disappearing into a log. Show up to 5 stamps, then collapse to "+n". |
 | G5 · Script registers | The same text can be written in seal, clerical, regular, running or cursive script, each a step more formal or faster than the next. | A register token on text components: `formal` (upright, tight, no italics), `standard`, `informal` (handwritten accent face for one line at most). A receipt, a greeting and a note use the same component at different registers. |
-| G6 · A four-part critique | Traditional criticism judged writing by its bones (structure), flesh (proportion), blood (ink texture) and sinew (vitality). | Design-review rubric with four scored rows: structure (grid, alignment), proportion (scale ratios), surface (colour, texture), vitality (motion, voice). Each row is scored 1–5 in the critique template. |
+| G6 · A four-part critique | Traditional criticism judged writing by its bones (structure), flesh (proportion), blood (ink texture) and sinew (vitality). | Design-review rubric with four scored rows: structure (grid, alignment), proportion (scale ratios), surface (colour, texture), vitality (motion, voice). Each row is scored 1 to 5 in the critique template. |
 
 ## Visual facts
 

@@ -3,7 +3,7 @@ id: april-greiman
 name: April Greiman
 type: designer
 discipline: [graphic, ui]
-era: 1976–present
+era: 1976 to present
 origin: Los Angeles, USA
 lineage: [wolfgang-weingart, armin-hofmann, postmodern-new-wave]
 tags:
@@ -21,10 +21,10 @@ axes: {order: 3, density: 6, ornament: 4, warmth: 6, contrast: 6, geometry: 5, c
 | Gene | The idea | In UI / product terms |
 |---|---|---|
 | G1 · Depth on a flat surface | Overlaps, cast shadows and perspective diagonals make printed type seem to float in front of and behind other forms. | Three elevation planes only: back (image or colour field), middle (shapes with a soft 8px offset shadow), front (type). Elements may overlap across planes, never inside one plane. |
-| G2 · The pixel as material | She used bitmap type, video captures and low-resolution output as legitimate texture rather than a defect to hide. | One deliberately low-res element per screen (`image-rendering: pixelated`, scaled 4–8×) beside crisp vector type. Never on faces of real people or on body text. |
-| G3 · Point–counterpoint | Dispersed elements stay readable because one dominant form leads the eye to the next in a chain. | In scattered or dashboard-like layouts, one focal element at least 3× the area of the next; secondary elements line up along a diagonal leading away from it. |
+| G2 · The pixel as material | She used bitmap type, video captures and low-resolution output as legitimate texture rather than a defect to hide. | One deliberately low-res element per screen (`image-rendering: pixelated`, scaled 4 to 8×) beside crisp vector type. Never on faces of real people or on body text. |
+| G3 · Point-counterpoint | Dispersed elements stay readable because one dominant form leads the eye to the next in a chain. | In scattered or dashboard-like layouts, one focal element at least 3× the area of the next; secondary elements line up along a diagonal leading away from it. |
 | G4 · Colour from place | Hollywood colour, desert vegetation and Pacific light replaced corporate primaries. | Derive the palette from photographs of the product's actual place and time of day; name tokens by light condition (`dawn-peach`, `noon-cobalt`, `dusk-violet`). |
-| G5 · Gesture behind geometry | Hand-drawn strokes pass behind one geometric shape and in front of another, proving the space is real. | One SVG brush stroke per composition, 2–3% of viewport width, weaving under one shape and over another; static in reduced-motion mode. |
+| G5 · Gesture behind geometry | Hand-drawn strokes pass behind one geometric shape and in front of another, proving the space is real. | One SVG brush stroke per composition, 2 to 3% of viewport width, weaving under one shape and over another; static in reduced-motion mode. |
 
 ## Visual facts
 
@@ -39,9 +39,9 @@ Greiman treated new technology as a medium with its own character, not a faster 
 
 ## Blends
 
-- **Amplifies:** `muriel-cooper`, `emigre` — both treated the screen's depth and roughness as a new grammar.
-- **Productive tension with:** `wim-crouwel` — a flat machine grid holding Greiman's deep layered space gives order with atmosphere.
-- **Clashes with:** `punk-graphics` — her luminous calm and punk's photocopied grime both reject polish but in opposite moods; together they look muddy.
+- **Amplifies:** `muriel-cooper`, `emigre`, both treated the screen's depth and roughness as a new grammar.
+- **Productive tension with:** `wim-crouwel`, a flat machine grid holding Greiman's deep layered space gives order with atmosphere.
+- **Clashes with:** `punk-graphics`, her luminous calm and punk's photocopied grime both reject polish but in opposite moods; together they look muddy.
 
 ## Don't copy
 

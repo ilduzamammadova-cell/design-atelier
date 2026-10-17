@@ -1,8 +1,8 @@
 # Style DNA Axes
 
-Twelve axes describe any visual sensibility — a designer's taste, a master's work, a movement, a trend, or a finished style. The same vector format is used everywhere, so a person's profile can be matched against the atlas numerically (`scripts/atlas_match.py`).
+Twelve axes describe any visual sensibility, a designer's taste, a master's work, a movement, a trend, or a finished style. The same vector format is used everywhere, so a person's profile can be matched against the atlas numerically (`scripts/atlas_match.py`).
 
-Each axis runs 0–10. Score what the work *feels like*, not what it is made of. A 5 means "balanced / not a defining trait", not "unknown". If an axis truly does not apply (rare — mostly UX cards), use 5.
+Each axis runs 0 to 10. Score what the work *feels like*, not what it is made of. A 5 means "balanced / not a defining trait", not "unknown". If an axis truly does not apply (rare, mostly UX cards), use 5.
 
 | # | Axis | 0 means | 10 means | Anchors (0 · 5 · 10) |
 |---|---|---|---|---|
@@ -22,7 +22,7 @@ Each axis runs 0–10. Score what the work *feels like*, not what it is made of.
 ## How to score
 
 - Score against the anchors, not against personal preference. Two people scoring the same master should land within ±1.
-- Extremes (0–1, 9–10) are rare and meaningful — use them only for defining traits.
+- Extremes (0 to 1, 9 to 10) are rare and meaningful, use them only for defining traits.
 - A movement's vector is its center of gravity; individual members may deviate.
 
 ## Vector notation
@@ -36,4 +36,4 @@ axes: {order: 9, density: 5, ornament: 1, warmth: 3, contrast: 7, geometry: 9, c
 ## Reading a vector
 
 - **Distance** between two vectors (Euclidean) = how different two sensibilities are. Close masters reinforce each other; distant masters create tension.
-- **Novelty** comes from combining genes whose sources are far apart on 2–3 axes while agreeing on the rest. Total disagreement produces noise; total agreement produces a copy.
+- **Novelty** comes from combining genes whose sources are far apart on 2 to 3 axes while agreeing on the rest. Total disagreement produces noise; total agreement produces a copy.

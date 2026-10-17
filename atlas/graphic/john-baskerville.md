@@ -3,7 +3,7 @@ id: john-baskerville
 name: John Baskerville
 type: designer
 discipline: [graphic, product]
-era: c. 1750–1775
+era: c. 1750 to 1775
 origin: Birmingham, England
 lineage: [william-caslon]
 tags:

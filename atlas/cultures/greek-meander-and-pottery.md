@@ -3,7 +3,7 @@ id: greek-meander-and-pottery
 name: Ancient Greek vase painting and the meander
 type: tradition
 discipline: [craft, art, graphic]
-era: Geometric period c. 900–700 BCE; black-figure from c. 700 BCE (Corinth, then Athens); red-figure from c. 530 BCE (Athens)
+era: Geometric period c. 900 to 700 BCE; black-figure from c. 700 BCE (Corinth, then Athens); red-figure from c. 530 BCE (Athens)
 origin: Ancient Greece (Athens, Corinth and the wider Greek world)
 lineage: []
 tags:
@@ -39,9 +39,9 @@ Potters and painters treated decoration as an articulation of the object's struc
 
 ## Blends
 
-- **Amplifies:** `art-deco`, `bauhaus` — right-angled ornament and structural honesty.
-- **Productive tension with:** `postmodern-new-wave` — classical fragments quoted against contemporary layering, if done with intent.
-- **Clashes with:** `art-nouveau` — whiplash organic line fights the right-angled register.
+- **Amplifies:** `art-deco`, `bauhaus`, right-angled ornament and structural honesty.
+- **Productive tension with:** `postmodern-new-wave`, classical fragments quoted against contemporary layering, if done with intent.
+- **Clashes with:** `art-nouveau`, whiplash organic line fights the right-angled register.
 
 ## Don't copy
 

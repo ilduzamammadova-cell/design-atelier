@@ -6,11 +6,11 @@ Use when a named style (`templates/style-spec.md`) becomes a reusable Figma libr
 
 | Situation | Build | Skip for now |
 |---|---|---|
-| Personal style, one product | One library file: foundations, 8–12 core components, specimen, Getting started with the laws | Separate libraries, analytics, formal contribution flow |
+| Personal style, one product | One library file: foundations, 8 to 12 core components, specimen, Getting started with the laws | Separate libraries, analytics, formal contribution flow |
 | Team product, several designers | Foundations + Components libraries, documentation per component, changelog, Code Connect | Multi-brand theming |
-| Several brands or platforms | Above + theme modes; extended collections for brand overrides (Enterprise plan) | — |
+| Several brands or platforms | Above + theme modes; extended collections for brand overrides (Enterprise plan) | none |
 
-Agree the v1 inventory with the person before the first write — `figma:figma-generate-library` treats an unagreed full library as scope creep, and so should you.
+Agree the v1 inventory with the person before the first write, `figma:figma-generate-library` treats an unagreed full library as scope creep, and so should you.
 
 ## 2. Mapping the style spec onto the system
 
@@ -35,7 +35,7 @@ Every section of the person's style spec has one home in Figma. Nothing in the s
 
 ## 3. Foundations: what each page must show
 
-Document with **instances and bound swatches, never pasted values** — documentation then updates itself when a token changes.
+Document with **instances and bound swatches, never pasted values**, documentation then updates itself when a token changes.
 
 | Foundation | Figma asset | The page shows | Why |
 |---|---|---|---|
@@ -57,24 +57,24 @@ Every component page uses the same frames, top to bottom. Main components live o
 | Header | Name, status (`Stable`/`Beta`/`Deprecated`), version added, one-line purpose, links to code and Storybook | The first five seconds answer "can I use this?" |
 | Anatomy | Numbered parts mapped to named layers and sub-components | Shared vocabulary for design reviews and code |
 | Properties | Table of variant/boolean/text/instance-swap/slot properties and their code prop names | Proves Figma API = code API |
-| States | Default, hover, pressed, focus, disabled, loading, error, selected — as instances | No state is invented during build |
+| States | Default, hover, pressed, focus, disabled, loading, error, selected, as instances | No state is invented during build |
 | Usage | Do/don't pairs side by side, one reason each | Rules stick when the wrong version is visible |
 | Content | Label length, truncation, wrapping, pluralisation, long-text example, RTL if supported | Copy breaks components more often than pixels do |
 | Accessibility | Role, accessible name source, keyboard map, focus order, contrast pairs, min target size | Accessibility is specified once, inherited everywhere |
 | Specs | Spacing, sizing and tokens per part (the EightShapes *Specs* plugin can generate anatomy and layout frames) | Developers measure tokens, not pixels |
 | Code | Code Connect status, code component name and path | Shows how far design and code are in sync |
 
-Also put a short version on the component itself: **description** (first line = purpose and status) and a **documentation link** — they appear in Dev Mode Inspect, the Assets panel and search.
+Also put a short version on the component itself: **description** (first line = purpose and status) and a **documentation link**, they appear in Dev Mode Inspect, the Assets panel and search.
 
 ## 5. Patterns and templates
 
-- **Patterns** solve a recurring problem with several components: form with validation, empty → loading → populated, list/detail, filter and sort, destructive confirmation. Document the rule ("errors appear under the field after blur, summary on submit"), not only the picture — the rule is what product designers reuse.
+- **Patterns** solve a recurring problem with several components: form with validation, empty → loading → populated, list/detail, filter and sort, destructive confirmation. Document the rule ("errors appear under the field after blur, summary on submit"), not only the picture, the rule is what product designers reuse.
 - **Templates** are page skeletons per breakpoint (app shell, settings, dashboard, article) built only from instances, with `[bracketed]` content. Publish them as components so product files start from them instead of copying frames.
 - **Specimen** stays separate: it proves the style ([../../method/blend.md](../../method/blend.md) § 7); templates prove the system.
 
 ## 6. Governance
 
-Even a one-person system needs a written process — it is how a style survives its second contributor.
+Even a one-person system needs a written process, it is how a style survives its second contributor.
 
 | Change | Path | Version bump |
 |---|---|---|
@@ -83,9 +83,9 @@ Even a one-person system needs a written process — it is how a style survives 
 | New component or pattern | Proposal → design review with engineering → build in branch → documentation page → Code Connect → publish | MINOR |
 | Removal, rename, restructure | Deprecation path ([file-structure-and-naming.md](file-structure-and-naming.md) § 8) | MAJOR |
 
-- **One owner (DRI) per library** who reviews branches and publishes — Primer runs its Figma library exactly like a protected `main`: contributors branch, the DRI reviews, a maintainer merges and publishes.
+- **One owner (DRI) per library** who reviews branches and publishes, Primer runs its Figma library exactly like a protected `main`: contributors branch, the DRI reviews, a maintainer merges and publishes.
 - **Contribution review checklist**: built from foundations only (no raw values), every state present, properties match code names, layers named, description and link set, accessible, light and dark checked, documentation page updated.
-- **A style law outranks a contribution.** If a request breaks a law, change the law deliberately (journal entry, [../../method/evolve.md](../../method/evolve.md)) or decline — never let it drift in.
+- **A style law outranks a contribution.** If a request breaks a law, change the law deliberately (journal entry, [../../method/evolve.md](../../method/evolve.md)) or decline, never let it drift in.
 
 ## 7. Adoption metrics
 
@@ -121,7 +121,7 @@ One connection type per component; both kinds coexist in one system and both fee
 
 Newer Figma features worth adopting when available (status as of Oct 2026):
 
-- **Guidelines files for libraries** (open beta; Professional+): up to 200 KB of `.md`/`.txt`/`.json` rules the Figma agent reads whenever the library is enabled (file menu → *Library → Manage guidelines*). Export the style laws, signature moves and slop tells here — it keeps AI-generated screens inside the style.
+- **Guidelines files for libraries** (open beta; Professional+): up to 200 KB of `.md`/`.txt`/`.json` rules the Figma agent reads whenever the library is enabled (file menu → *Library → Manage guidelines*). Export the style laws, signature moves and slop tells here, it keeps AI-generated screens inside the style.
 - **Slots** (open beta per help center): flexible content areas in instances; reduce variant explosion and detaches. Details in [components.md](components.md).
 - **Extended collections** (Enterprise): brand themes that inherit the parent system and override selected variables.
 - **Check designs** linter that flags raw values before hand-off (announced Schema 2025 as early access; verify availability).
@@ -131,7 +131,7 @@ Newer Figma features worth adopting when available (status as of Oct 2026):
 
 - [ ] Scope and v1 inventory agreed; nothing outside it built
 - [ ] Every style-spec section has a Figma home (§ 2 table); laws on Getting started and in a guidelines file if available
-- [ ] Foundations documented with bound swatches and instances — no pasted hex or px
+- [ ] Foundations documented with bound swatches and instances, no pasted hex or px
 - [ ] Contrast pairs pass WCAG 2.2 AA in Light and Dark ([../principles.md](../principles.md))
 - [ ] Every component page has Header, Anatomy, Properties, States, Usage, Content, Accessibility, Specs, Code
 - [ ] Every published component has a description (purpose + status) and a documentation link

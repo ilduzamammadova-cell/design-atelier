@@ -3,7 +3,7 @@ id: experimental-jetset
 name: Experimental Jetset
 type: studio
 discipline: [graphic]
-era: 1997–present
+era: 1997 to present
 origin: Amsterdam, Netherlands
 lineage: [wim-crouwel, swiss-international, punk-graphics]
 tags:
@@ -39,9 +39,9 @@ Founded in 1997 by Marieke Stolk, Erwin Brinkers and Danny van den Dungen, the s
 
 ## Blends
 
-- **Amplifies:** `wim-crouwel`, `michael-bierut` — systematic modernism with dry wit.
-- **Productive tension with:** `stefan-sagmeister` — one handmade, personal element in a rigorous grid.
-- **Clashes with:** `hard-werken` — radical consistency and radical eclecticism cancel each other.
+- **Amplifies:** `wim-crouwel`, `michael-bierut`, systematic modernism with dry wit.
+- **Productive tension with:** `stefan-sagmeister`, one handmade, personal element in a rigorous grid.
+- **Clashes with:** `hard-werken`, radical consistency and radical eclecticism cancel each other.
 
 ## Don't copy
 

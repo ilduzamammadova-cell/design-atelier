@@ -3,7 +3,7 @@ id: japanese-wabi-sabi-and-ma
 name: Wabi-sabi and Ma (Japanese aesthetics of imperfection and interval)
 type: tradition
 discipline: [architecture, craft, product, ui]
-era: 15th century–present (wabi tea c. 1500s; ma theorised for the West 1978)
+era: 15th century-present (wabi tea c. 1500s; ma theorised for the West 1978)
 origin: Japan (Kyoto tea culture, Zen-influenced arts)
 lineage: []
 tags:
@@ -20,7 +20,7 @@ axes: {order: 5, density: 1, ornament: 1, warmth: 7, contrast: 3, geometry: 4, c
 
 | Gene | The idea | In UI / product terms |
 |---|---|---|
-| G1 · Ma, the charged interval | Ma is the meaningful gap in space or time: the pause in Noh, the spacing of stepping stones. The empty part is structural, not leftover. | Section gaps 2–3x larger than any content block; one deliberately held blank zone (40–60vh) before the key statement; multi-step motion uses 300–600 ms holds between steps instead of continuous easing. |
+| G1 · Ma, the charged interval | Ma is the meaningful gap in space or time: the pause in Noh, the spacing of stepping stones. The empty part is structural, not leftover. | Section gaps 2 to 3x larger than any content block; one deliberately held blank zone (40 to 60vh) before the key statement; multi-step motion uses 300 to 600 ms holds between steps instead of continuous easing. |
 | G2 · Asymmetric balance (fukinsei) | Tea rooms, ikebana and dry gardens avoid central symmetry; balance comes from weight against void. | Hero on a 5/7 or 3/9 column split, never centred; the single focal element sits off-axis near 38% width; no mirrored card pairs. |
 | G3 · Honest wear | Wabi values patina; kintsugi repairs a broken bowl with lacquer and gold instead of hiding the crack. | Keep visible history: edited items show a faint revision mark; error and empty states name the break plainly and offer one calm repair action; product photos keep true grain, no gloss filters. |
 | G4 · Reduction to the necessary (kanso) | The tiny tea room strips space to what the ritual needs. | Maximum one primary action per view; navigation of four items or fewer; dividers removed, separation by spacing alone. |
@@ -35,13 +35,13 @@ axes: {order: 5, density: 1, ornament: 1, warmth: 7, contrast: 3, geometry: 4, c
 
 ## Attitude
 
-Tea practitioners from the late 15th century to Sen no Rikyū (1522–1591) moved away from flawless imported wares towards humble local ones; the point was attention, not poverty. Ma is not "minimalism as style" but the time and space in which meaning happens. A designer extends this by asking what can be withheld so the remaining thing is felt.
+Tea practitioners from the late 15th century to Sen no Rikyū (1522 to 1591) moved away from flawless imported wares towards humble local ones; the point was attention, not poverty. Ma is not "minimalism as style" but the time and space in which meaning happens. A designer extends this by asking what can be withheld so the remaining thing is felt.
 
 ## Blends
 
-- **Amplifies:** `kenya-hara`, `kenya-hara`, `tadao-ando` — shared conviction that emptiness carries content.
-- **Productive tension with:** `swiss-international` — a strict grid holding deliberately unbalanced voids gives rigour a pulse.
-- **Clashes with:** `memphis` — additive, glossy, loud; the void gets filled and both lose their point.
+- **Amplifies:** `kenya-hara`, `kenya-hara`, `tadao-ando`, shared conviction that emptiness carries content.
+- **Productive tension with:** `swiss-international`, a strict grid holding deliberately unbalanced voids gives rigour a pulse.
+- **Clashes with:** `memphis`, additive, glossy, loud; the void gets filled and both lose their point.
 
 ## Don't copy
 

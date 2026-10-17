@@ -3,7 +3,7 @@ id: navajo-weaving
 name: Navajo (Diné) weaving
 type: tradition
 discipline: [craft]
-era: 18th century–present (chief blankets 19th c.; trading-post rug styles from the late 19th c.; contemporary weavers)
+era: 18th century-present (chief blankets 19th c.; trading-post rug styles from the late 19th c.; contemporary weavers)
 origin: Diné Bikéyah (Navajo Nation), Arizona, New Mexico and Utah, USA
 lineage: []
 tags:
@@ -39,9 +39,9 @@ In Diné teaching, Spider Woman taught weaving; the work is tied to hózhó, bal
 
 ## Blends
 
-- **Amplifies:** `anni-albers`, `andean-textiles` — weave structure dictating stepped geometry.
-- **Productive tension with:** `op-art` — the Eye Dazzler already anticipated optical vibration; pairing tests where vibration serves meaning.
-- **Clashes with:** `art-nouveau` — fluid organic line cannot live on the terraced loom grid.
+- **Amplifies:** `anni-albers`, `andean-textiles`, weave structure dictating stepped geometry.
+- **Productive tension with:** `op-art`, the Eye Dazzler already anticipated optical vibration; pairing tests where vibration serves meaning.
+- **Clashes with:** `art-nouveau`, fluid organic line cannot live on the terraced loom grid.
 
 ## Don't copy
 

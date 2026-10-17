@@ -3,7 +3,7 @@ id: erik-spiekermann
 name: Erik Spiekermann
 type: designer
 discipline: [graphic, ux]
-era: 1979–present
+era: 1979 to present
 origin: Berlin, Germany
 lineage: [swiss-international, new-typography, corporate-identity]
 tags:
@@ -39,9 +39,9 @@ Trained in art history and self-taught in type, Spiekermann argues that typograp
 
 ## Blends
 
-- **Amplifies:** `swiss-international`, `otl-aicher` — German and Swiss information traditions.
-- **Productive tension with:** `designers-republic` — rigorous information design dressed in techno irony gives data-rich interfaces with personality.
-- **Clashes with:** `david-carson` — expressive illegibility in wayfinding simply fails people.
+- **Amplifies:** `swiss-international`, `otl-aicher`, German and Swiss information traditions.
+- **Productive tension with:** `designers-republic`, rigorous information design dressed in techno irony gives data-rich interfaces with personality.
+- **Clashes with:** `david-carson`, expressive illegibility in wayfinding simply fails people.
 
 ## Don't copy
 
@@ -52,4 +52,4 @@ The FF Meta, ITC Officina and DB Type outlines; the BVG Berlin network map; the 
 - Erik Spiekermann & E. M. Ginger, *Stop Stealing Sheep & Find Out How Type Works* (1993; revised 2023)
 - Erik Spiekermann, *Rhyme & Reason: A Typographic Novel* (1987)
 - *Helvetica* (documentary, 2007)
-- Aynsley, *A Century of Graphic Design*, pp. 220–221; Meggs, ch. 24
+- Aynsley, *A Century of Graphic Design*, pp. 220 to 221; Meggs, ch. 24

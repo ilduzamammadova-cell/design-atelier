@@ -3,7 +3,7 @@ id: iznik-tiles
 name: Iznik ceramics and Ottoman tilework
 type: tradition
 discipline: [craft, architecture, graphic]
-era: late 15th–17th century (peak c. 1550–1600); modern revival
+era: late 15th to 17th century (peak c. 1550 to 1600); modern revival
 origin: İznik (Anatolia) kilns, designs from the imperial court studio in Istanbul, Ottoman Empire
 lineage: [islamic-geometric-pattern]
 tags:
@@ -36,17 +36,17 @@ axes: {order: 7, density: 7, ornament: 9, warmth: 7, contrast: 7, geometry: 3, c
 
 ## Attitude
 
-Imperial patronage, renewed during the building of the Süleymaniye mosque (1550–57), turned Iznik into a court-directed industry. Designers pushed towards naturalism while keeping every flower obedient to a decorative order. The work shows how a centrally authored visual language can scale across architecture and objects.
+Imperial patronage, renewed during the building of the Süleymaniye mosque (1550 to 57), turned Iznik into a court-directed industry. Designers pushed towards naturalism while keeping every flower obedient to a decorative order. The work shows how a centrally authored visual language can scale across architecture and objects.
 
 ## Blends
 
-- **Amplifies:** `william-morris`, `arts-and-crafts` — William De Morgan and Morris admired and echoed Iznik colour and flowers.
-- **Productive tension with:** `scandinavian-modern` — cool restraint and lots of white space holding one rich floral moment.
-- **Clashes with:** `brutalism` — raw grey mass extinguishes the white-ground glow.
+- **Amplifies:** `william-morris`, `arts-and-crafts`, William De Morgan and Morris admired and echoed Iznik colour and flowers.
+- **Productive tension with:** `scandinavian-modern`, cool restraint and lots of white space holding one rich floral moment.
+- **Clashes with:** `brutalism`, raw grey mass extinguishes the white-ground glow.
 
 ## Don't copy
 
-Tile panels of the Rüstem Pasha Mosque (Sinan, 1561–63) and the Topkapı Palace; specific museum dishes (British Museum Godman Collection, V&A, Met); current designs of revival workshops.
+Tile panels of the Rüstem Pasha Mosque (Sinan, 1561 to 63) and the Topkapı Palace; specific museum dishes (British Museum Godman Collection, V&A, Met); current designs of revival workshops.
 
 ## Respect
 

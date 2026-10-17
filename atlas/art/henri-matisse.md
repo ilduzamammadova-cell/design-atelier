@@ -3,7 +3,7 @@ id: henri-matisse
 name: Henri Matisse
 type: artist
 discipline: [art]
-era: 1900s–1954 (paper cut-outs 1940s–1954)
+era: 1900s to 1954 (paper cut-outs 1940s to 1954)
 origin: Nice, France
 lineage: []
 tags:
@@ -20,12 +20,12 @@ axes: {order: 3, density: 4, ornament: 6, warmth: 10, contrast: 6, geometry: 2, 
 
 | Gene | The idea | In UI / product terms |
 |---|---|---|
-| G1 · Drawing with scissors | In the late cut-outs he cut straight into painted paper; edges keep the small hesitations of the scissors | SVG shapes drawn by hand or given a 1–3px path jitter; flat saturated fills, no stroke; curves asymmetric, corners never a perfect radius |
-| G2 · Color exists before shape | Assistants painted sheets with gouache in chosen colors; shapes were then cut from those sheets | Fix 6–8 saturated "sheet" color tokens; every illustration, chip and badge is cut from them — no tints, no opacity, no gradients |
+| G1 · Drawing with scissors | In the late cut-outs he cut straight into painted paper; edges keep the small hesitations of the scissors | SVG shapes drawn by hand or given a 1 to 3px path jitter; flat saturated fills, no stroke; curves asymmetric, corners never a perfect radius |
+| G2 · Color exists before shape | Assistants painted sheets with gouache in chosen colors; shapes were then cut from those sheets | Fix 6 to 8 saturated "sheet" color tokens; every illustration, chip and badge is cut from them, no tints, no opacity, no gradients |
 | G3 · Pinned, not placed | Forms were pinned to studio walls and moved until the arrangement breathed | Decorative shapes float in margins around a content column, overlapping its edge by no more than 10%, each rotated between −8° and +8°; rearrange per breakpoint instead of scaling |
 | G4 · Offcut as figure | The leftover sheet with a shape-shaped hole is as usable as the cut piece | Use one shape twice: filled as an object on one screen, as a mask revealing photo or color on another; marks designed to work as figure and as void |
 | G5 · Pattern as total field | In interiors like The Red Studio, wall, cloth and window merge into one decorative plane | One bold organic pattern at low density can carry a whole section background; content sits on it as solid opaque blocks |
-| G6 · A small vocabulary of motifs | Algae, leaves, stars and coral recur in different colors and scales | An illustration kit of 5–7 organic glyphs reused at varied scale and color as a brand signature, rather than new artwork per screen |
+| G6 · A small vocabulary of motifs | Algae, leaves, stars and coral recur in different colors and scales | An illustration kit of 5 to 7 organic glyphs reused at varied scale and color as a brand signature, rather than new artwork per screen |
 
 ## Visual facts
 
@@ -36,21 +36,21 @@ axes: {order: 3, density: 4, ornament: 6, warmth: 10, contrast: 6, geometry: 2, 
 
 ## Attitude
 
-Matisse wanted art to restore and calm, a counterweight to anxiety rather than an expression of it. Confined after major surgery in 1941, he rebuilt his practice around scissors and assistants. Constraint produced the freest work of his life — the right lesson for any designer facing limits.
+Matisse wanted art to restore and calm, a counterweight to anxiety rather than an expression of it. Confined after major surgery in 1941, he rebuilt his practice around scissors and assistants. Constraint produced the freest work of his life, the right lesson for any designer facing limits.
 
 ## Blends
 
-- **Amplifies:** `sonia-delaunay`, `alexander-calder`, `ukiyo-e` — flat, saturated, organic shapes floating on open ground.
-- **Productive tension with:** `swiss-international` — strict grid typography beside free hand-cut shapes gives warmth without chaos.
-- **Clashes with:** `giorgio-morandi` — dusty mid-tones drain the saturated sheets; the mix is neither calm nor joyful.
+- **Amplifies:** `sonia-delaunay`, `alexander-calder`, `ukiyo-e`, flat, saturated, organic shapes floating on open ground.
+- **Productive tension with:** `swiss-international`, strict grid typography beside free hand-cut shapes gives warmth without chaos.
+- **Clashes with:** `giorgio-morandi`, dusty mid-tones drain the saturated sheets; the mix is neither calm nor joyful.
 
 ## Don't copy
 
-The Snail (1953), the Blue Nude series (1952), the Icarus plate from Jazz (1947), the windows of the Chapel of the Rosary in Vence, Dance (1909–10). Avoid the clichéd blue-nude silhouette and seaweed leaf as stock motifs.
+The Snail (1953), the Blue Nude series (1952), the Icarus plate from Jazz (1947), the windows of the Chapel of the Rosary in Vence, Dance (1909 to 10). Avoid the clichéd blue-nude silhouette and seaweed leaf as stock motifs.
 
 ## Study
 
 - Jazz (1947); The Snail (1953, Tate); Blue Nude II (1952, Centre Pompidou); The Red Studio (1911, MoMA)
-- Chapel of the Rosary, Vence (1949–51) — a total design: windows, tiles, vestments
+- Chapel of the Rosary, Vence (1949 to 51), a total design: windows, tiles, vestments
 - Tate / MoMA, "Henri Matisse: The Cut-Outs" (2014) catalogue
 - Musée Matisse, Nice (musee-matisse-nice.org)

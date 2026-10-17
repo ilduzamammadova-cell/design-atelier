@@ -3,7 +3,7 @@ id: dieter-rams
 name: Dieter Rams
 type: designer
 discipline: [product]
-era: 1955–1995 (Braun), Vitsœ ongoing
+era: 1955 to 1995 (Braun), Vitsœ ongoing
 origin: Wiesbaden / Kronberg, Germany
 lineage: [ulm-school, bauhaus, deutscher-werkbund]
 tags:
@@ -14,18 +14,18 @@ axes: {order: 9, density: 3, ornament: 0, warmth: 3, contrast: 4, geometry: 8, c
 
 # Dieter Rams
 
-**Essence:** Less, but better — objects so ordered and quiet that they feel like the neutral tools of a life, not its decoration.
+**Essence:** Less, but better, objects so ordered and quiet that they feel like the neutral tools of a life, not its decoration.
 
 ## Genes
 
 | Gene | The idea | In UI / product terms |
 |---|---|---|
-| G1 · Recessive controls | On Braun devices controls are flush, small, grey-on-grey, grouped and silent; the object steps back until you need it. | **Product:** controls sit flush with the housing, same colour family, minimal protrusion. **UI:** chrome that disappears — toolbars in the background colour with icons at 60% contrast that rise to 100% on hover/focus; no borders around toolbars; content gets all the contrast. |
-| G2 · One accent for the primary act | Most of the object is white, grey or black; a single colour marks the key control — e.g. the coloured keys on the Braun ET 66 calculator (with Dietrich Lubs, 1987) or a green on/off switch. | **Product:** one coloured control per object, for the most important act. **UI:** one accent token used only for the primary action or active state per view (e.g. #E5A100 or #2E7D32), never for decoration; secondary actions are neutral. |
+| G1 · Recessive controls | On Braun devices controls are flush, small, grey-on-grey, grouped and silent; the object steps back until you need it. | **Product:** controls sit flush with the housing, same colour family, minimal protrusion. **UI:** chrome that disappears, toolbars in the background colour with icons at 60% contrast that rise to 100% on hover/focus; no borders around toolbars; content gets all the contrast. |
+| G2 · One accent for the primary act | Most of the object is white, grey or black; a single colour marks the key control, e.g. the coloured keys on the Braun ET 66 calculator (with Dietrich Lubs, 1987) or a green on/off switch. | **Product:** one coloured control per object, for the most important act. **UI:** one accent token used only for the primary action or active state per view (e.g. #E5A100 or #2E7D32), never for decoration; secondary actions are neutral. |
 | G3 · Ordered grid of controls | Knobs, sliders and buttons align on a strict grid; labels align under them in small sans; spacing repeats. | **Product:** control layout snapped to one module, aligned labels. **UI:** settings panels on a two-column grid (label column 160px, control column fluid), all controls sharing the same height (32px), labels 12/16 in a neutral sans, numeric values tabular. |
 | G4 · The system, not the object | The Vitsœ 606 Universal Shelving System (1960) is a set of rails, shelves and cabinets that grows and moves with its owner over decades. | **Product:** design the system that outlives individual pieces; parts stay compatible across generations. **UI:** components built for composition and backward compatibility; layout primitives (rails, slots) that let users add and remove modules without redesign. |
 | G5 · Honest and long-lasting | His ten principles (formulated in the late 1970s) argue that good design is unobtrusive, honest, durable and as little design as possible. | **Product:** remove anything that does not support use; no fake materials. **UI:** no skeuomorphic textures, no decorative gradients, no animation without function; each element must justify its presence in a review checklist. |
-| G6 · Grilles as texture | Perforated and slotted speaker grilles (T 3 pocket radio, 1958; L 2 speaker) give the only "pattern" on the object, and it is functional. | **Product:** let a functional perforation be the sole surface texture. **UI:** if texture is needed, derive it from function — a dot grid on a canvas, a ruled background for a notebook — never purely decorative patterns. |
+| G6 · Grilles as texture | Perforated and slotted speaker grilles (T 3 pocket radio, 1958; L 2 speaker) give the only "pattern" on the object, and it is functional. | **Product:** let a functional perforation be the sole surface texture. **UI:** if texture is needed, derive it from function, a dot grid on a canvas, a ruled background for a notebook, never purely decorative patterns. |
 
 ## Visual facts
 
@@ -41,8 +41,8 @@ Rams believed designers share responsibility for a world cluttered with things; 
 ## Blends
 
 - **Amplifies:** `ulm-school`, `jonathan-ive`, `jasper-morrison`, `naoto-fukasawa`.
-- **Productive tension with:** `ettore-sottsass` — Rams' order with Sottsass' colour and ritual creates disciplined systems with expressive moments.
-- **Clashes with:** `memphis` — Memphis was conceived partly against this exact neutrality.
+- **Productive tension with:** `ettore-sottsass`, Rams' order with Sottsass' colour and ritual creates disciplined systems with expressive moments.
+- **Clashes with:** `memphis`, Memphis was conceived partly against this exact neutrality.
 
 ## Don't copy
 

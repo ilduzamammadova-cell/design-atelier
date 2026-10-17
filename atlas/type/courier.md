@@ -3,7 +3,7 @@ id: courier
 name: Courier
 type: typeface
 discipline: [graphic, ui]
-era: 1955–1956; digital 1990s–2013
+era: 1955 to 1956; digital 1990s to 2013
 origin: United States (IBM)
 lineage: []
 tags:
@@ -23,7 +23,7 @@ axes: {order: 8, density: 6, ornament: 0, warmth: 4, contrast: 1, geometry: 7, c
 | G1 · One width for every character | Monospacing makes columns align and page length predictable. Screenplays are kept in 12pt Courier partly so page count can stand in for screen time. | Character-grid layouts (logs, terminals, receipts, diff views, code): size containers in `ch` units, align columns by character count, and keep tables free of proportional figures. |
 | G2 · Typewriter means draft | Courier carries the look of an unfinished, unofficial or raw document: the manuscript before typesetting. | Use type to show state: drafts, AI first passes, redline proposals and raw transcripts render in a slab mono; accepted or published text switches to the proportional face. |
 | G3 · Slabs fill the cell | In a fixed-width cell, narrow letters (*i, l, j*) get long slab serifs so their visual weight matches the wide ones. | When building fixed-width controls (segmented buttons, tabs, keypad keys), give narrow content extra visual mass (padding, icons, rules) so every cell carries equal weight; never centre a tiny glyph in an empty cell. |
-| G4 · Thin digital ghosts | Courier New was digitized from an IBM Selectric type element without the weight added by ink spread, so it looks spindly on screen and paper. | Specify mono weight for the medium: Courier Prime (heavier, crisper) or a mono at 450–500 weight. Never Courier New below 15px on 1× screens. |
+| G4 · Thin digital ghosts | Courier New was digitized from an IBM Selectric type element without the weight added by ink spread, so it looks spindly on screen and paper. | Specify mono weight for the medium: Courier Prime (heavier, crisper) or a mono at 450 to 500 weight. Never Courier New below 15px on 1× screens. |
 
 ## Visual facts
 

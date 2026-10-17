@@ -1,6 +1,6 @@
 # Components
 
-Load before creating, changing or reviewing any component, variant set or instance in Figma. This file is the professional *what and why*. The Plugin API *how* (`combineAsVariants`, grid-laying variants, `addComponentProperty`, `componentPropertyReferences`, `preferredValues`) lives in the `figma:figma-generate-library` skill — `references/component-creation.md` and `references/naming-conventions.md` — and in `figma:figma-use` → `references/component-patterns.md`. Map finished components to code with `figma:figma-code-connect`.
+Load before creating, changing or reviewing any component, variant set or instance in Figma. This file is the professional *what and why*. The Plugin API *how* (`combineAsVariants`, grid-laying variants, `addComponentProperty`, `componentPropertyReferences`, `preferredValues`) lives in the `figma:figma-generate-library` skill, `references/component-creation.md` and `references/naming-conventions.md`, and in `figma:figma-use` → `references/component-patterns.md`. Map finished components to code with `figma:figma-code-connect`.
 
 Related: [auto-layout.md](auto-layout.md) · [variables-and-tokens.md](variables-and-tokens.md) · state wiring in [prototyping.md](prototyping.md) § 9 · publishing and component deprecation in [file-structure-and-naming.md](file-structure-and-naming.md).
 
@@ -23,26 +23,26 @@ Brad Frost's vocabulary sorts the rest: **components** live in the core library 
 |---|---|---|
 | 0 · parts | Icons, spinner, focus ring, `_Button/Base`, `_Tabs/Tab` | Private unless designers place them directly |
 | 1 · controls | Button, IconButton, Checkbox, Radio, Switch, Input, Select, Avatar, Badge | One component set each |
-| 2 · composites | Field (label + input + help), ListItem, Card, Menu, Tabs, Toast | Built from tier 0–1 instances only |
+| 2 · composites | Field (label + input + help), ListItem, Card, Menu, Tabs, Toast | Built from tier 0 to 1 instances only |
 | 3 · patterns | Dialog, Navigation, Table, Empty/Loading/Error states | Slots for the parts that vary |
 
-Never build a parent before its children exist; never redraw a child inside a parent — nest the instance, so one fix propagates everywhere. Every component is auto layout (see `auto-layout.md`) with every fill, stroke, gap, padding and radius bound to a variable (see `variables-and-tokens.md`).
+Never build a parent before its children exist; never redraw a child inside a parent, nest the instance, so one fix propagates everywhere. Every component is auto layout (see `auto-layout.md`) with every fill, stroke, gap, padding and radius bound to a variable (see `variables-and-tokens.md`).
 
 ## 3. Naming
 
 | Thing | Convention | Example |
 |---|---|---|
 | Published component / set | Same name as the code component, PascalCase | `Button`, `TextField`, `ListItem` |
-| Internal part (base, sub-part) | `_` prefix **plus** right-click → Hide when publishing. `_` tells designers "don't place this"; the explicit hide makes exclusion reliable — a 2025 forum report says `_` alone no longer hides components (verify) | `_Button/Base`, `_Parts/FocusRing` |
-| Documentation helper | `.` prefix — the prefix Figma's help documents for keeping a component out of the library | `.Doc/SpecLabel` |
+| Internal part (base, sub-part) | `_` prefix **plus** right-click → Hide when publishing. `_` tells designers "don't place this"; the explicit hide makes exclusion reliable, a 2025 forum report says `_` alone no longer hides components (verify) | `_Button/Base`, `_Parts/FocusRing` |
+| Documentation helper | `.` prefix, the prefix Figma's help documents for keeping a component out of the library | `.Doc/SpecLabel` |
 | Layers inside | lowercase kebab, named after the code part | `container`, `icon-leading`, `label`, `icon-trailing`, `focus-ring` |
-| Variant layer | Generated `Property=Value, Property=Value` — never rename by hand | `Type=Primary, Size=Md, State=Hover` |
+| Variant layer | Generated `Property=Value, Property=Value`, never rename by hand | `Type=Primary, Size=Md, State=Hover` |
 
 Private parts still work nested inside published components: edit `_Button/Base`, republish, and every published parent that contains it updates. Layer names are read by Dev Mode, Code Connect and `get_design_context`; `Frame 12` is a defect.
 
 ## 4. Pick the right property for each difference
 
-Figma has five property types: **Variant, Boolean, Text, Instance swap, Slot** (slots GA June 2026, all plans). Use one property per named difference — never one "Style" property that changes three things.
+Figma has five property types: **Variant, Boolean, Text, Instance swap, Slot** (slots GA June 2026, all plans). Use one property per named difference, never one "Style" property that changes three things.
 
 | The difference is… | Use | Why |
 |---|---|---|
@@ -54,15 +54,15 @@ Figma has five property types: **Variant, Boolean, Text, Instance swap, Slot** (
 | A region holding variable content (dialog body, card content, menu items) | **Slot** | Designers add, reorder and resize without detaching |
 | A nested component's own options | **Expose nested instances** | Reuses the child's API instead of re-declaring it |
 | Density or size that follows context (compact tables) | Variable **modes** on number variables | Only when code also switches it by context, not by prop |
-| Light/dark, brand, locale | Variable **modes** — never variants | A `Theme=Dark` variant doubles every set and drifts |
+| Light/dark, brand, locale | Variable **modes**, never variants | A `Theme=Dark` variant doubles every set and drifts |
 
 ## 5. Variant matrix conventions
 
 - **Property names:** Title Case nouns, named after the code prop: `Type` (or `Variant` if code says `variant`), `Size`, `State`, `Tone`. One vocabulary across the whole library.
-- **Values:** one style library-wide — Title Case words, or the code's literal values. Never `Variant 7`, never an empty value.
-- **Order in the panel:** most impactful first — `Type` → `Size` → `State` → toggles.
+- **Values:** one style library-wide, Title Case words, or the code's literal values. Never `Variant 7`, never an empty value.
+- **Order in the panel:** most impactful first, `Type` → `Size` → `State` → toggles.
 - **Two-state variants:** values `true` / `false` (lowercase). Figma shows them as a toggle and boolean variables can bind to them; `Yes/No` reportedly breaks boolean-variable binding.
-- Every variant carries every property. Figma does not need impossible combinations — omit them only when code forbids them too.
+- Every variant carries every property. Figma does not need impossible combinations, omit them only when code forbids them too.
 - Lay the set out as a labelled grid (rows = Type × Size, columns = State) so a reviewer reads it like a spec sheet.
 
 | Property | Default value set |
@@ -80,12 +80,12 @@ Figma has five property types: **Variant, Boolean, Text, Instance swap, Slot** (
 | Button, IconButton | Default, Hover, Pressed, Focus, Disabled, Loading | Loading keeps the width: hide label, centre an absolute spinner |
 | Input, Select, Textarea | Default, Hover, Focus, Filled, Disabled, Read-only, Error | Error = border + icon + message text, never colour alone |
 | Checkbox, Radio, Switch | `Checked` × (Default, Hover, Pressed, Focus, Disabled); Checkbox also `Indeterminate` | Label is part of the hit area |
-| Tab, Nav item, Segment | `Selected` × (Default, Hover, Pressed, Focus, Disabled) | Selected is persistent, Pressed is transient — never merge them |
+| Tab, Nav item, Segment | `Selected` × (Default, Hover, Pressed, Focus, Disabled) | Selected is persistent, Pressed is transient, never merge them |
 | ListItem, Menu item | Default, Hover, Pressed, Focus, Selected, Disabled | Destructive items use the danger tone, not a new layout |
 | Link | Default, Hover, Focus, Visited (if the product shows it) | Underline or equivalent, not colour only |
 
 - **Focus** is the one most often missing. Draw it as an outside stroke or an absolute `focus-ring` layer so it never shifts layout; ring ≥ 3:1 against adjacent colours (WCAG 1.4.11).
-- **Disabled** uses `opacity/disabled` or dedicated disabled colours from tokens — not ad-hoc greys.
+- **Disabled** uses `opacity/disabled` or dedicated disabled colours from tokens, not ad-hoc greys.
 - Hover does not exist on touch; still draw it for pointer platforms, and never hide information behind it.
 - Wire states for prototypes on the set: While hovering → `State=Hover`, While pressing → `State=Pressed`, Smart Animate with the motion tokens' duration and easing (`../motion.md`).
 
@@ -115,15 +115,15 @@ Slot facts (help.figma.com, Plugin API June 2026):
 - Create by right-click → Convert to slot (⌘/Ctrl + ⇧ + S) on a nested frame, Wrap in new slot on other layers, or Create property → Slot. Apply across variants with multi-edit.
 - Settings: name, description, documentation, preferred instances, only-allow-preferred, min/max layers (guidance, not a hard block), display empty slots by default, fill items on the counter axis.
 - The slot's flow, position and constraints come from the main component; instances cannot change them. Design the slot's auto layout carefully.
-- A slot cannot be the component's top-level layer. Moving a layer that carries a component property into a slot removes that property. Deleting a slot property resets every instance's slot content — do it on a branch.
-- Code Connect supports slot content; Figma MCP support for slots was "coming soon" in the help article — check what `get_design_context` returns before relying on it (verify).
+- A slot cannot be the component's top-level layer. Moving a layer that carries a component property into a slot removes that property. Deleting a slot property resets every instance's slot content, do it on a branch.
+- Code Connect supports slot content; Figma MCP support for slots was "coming soon" in the help article, check what `get_design_context` returns before relying on it (verify).
 - Older libraries that faked slots with placeholder "Slot" components should migrate (help: "Migrate a library to using slots").
 
 "Simplified instances" was deprecated from 23 March 2026; instances now show all properties and layers. Design a clean property panel instead of hiding layers.
 
 ## 9. Descriptions and documentation
 
-Set the description on the component set (or the single component) — never on variants or instances. Three short sentences:
+Set the description on the component set (or the single component), never on variants or instances. Three short sentences:
 
 > Primary action button. Use for the single most important action in a view; use Secondary for the rest. Enter/Space activates; Loading keeps width and blocks repeat clicks.
 
@@ -135,7 +135,7 @@ Set the description on the component set (or the single component) — never on 
 
 - Never detach a library instance in product work: it cuts off every future fix, and Check designs (Organization/Enterprise) flags detached instances (verify).
 - A wish to detach means the component lacks a property, variant or slot. Add it to the component, or propose it.
-- Allowed only in labelled exploration files, or to start a snowflake — then rename it so nobody mistakes it for the component.
+- Allowed only in labelled exploration files, or to start a snowflake, then rename it so nobody mistakes it for the component.
 - Override through the API the component offers (text, booleans, swaps, slot content, variable modes). Manual fill/stroke overrides on instances block future updates of that property; do not use them.
 
 ## 11. QA checklist

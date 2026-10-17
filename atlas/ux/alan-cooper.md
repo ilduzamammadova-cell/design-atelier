@@ -3,7 +3,7 @@ id: alan-cooper
 name: Alan Cooper
 type: designer
 discipline: [ux]
-era: 1990s–present
+era: 1990s to present
 origin: San Francisco Bay Area, California, USA
 lineage: [don-norman]
 tags:
@@ -14,7 +14,7 @@ axes: {order: 6, density: 5, ornament: 1, warmth: 6, contrast: 4, geometry: 5, c
 
 # Alan Cooper
 
-**Essence:** Software should behave like a considerate human assistant serving one clearly imagined person's goals — never making them do the computer's work, never making them feel stupid.
+**Essence:** Software should behave like a considerate human assistant serving one clearly imagined person's goals, never making them do the computer's work, never making them feel stupid.
 
 ## Genes
 
@@ -24,15 +24,15 @@ axes: {order: 6, density: 5, ornament: 1, warmth: 6, contrast: 4, geometry: 5, c
 | G2 · Goals over tasks | Tasks change with technology; goals (end goals, experience goals, life goals) persist | Navigation and headings named by outcomes ("Get paid", "Plan the week"), not by system objects ("Invoices module", "Calendar settings") |
 | G3 · Eliminate excise | Excise is work that serves the computer, not the user: mandatory saves, re-entering known data, needless dialogs | Prefill everything already known; remember last choices, folders and window sizes; never ask a question the system could infer; no "Are you sure?" for reversible actions |
 | G4 · Perpetual intermediates | Most people quickly stop being beginners but never become experts | Onboarding is short and skippable; tooltips on hover; shortcuts printed next to menu items so intermediates can level up; avoid both wizard-only and expert-only paths |
-| G5 · Match the posture | Sovereign apps are used all day; transient apps are used briefly and occasionally | Sovereign: full-window, dense, muted colour, small type (13–14px), persistent panels. Transient: bigger type, bright single purpose, one screen, dismissable in one action |
-| G6 · Polite software | Considerate software is forthcoming, deferential, anticipates needs, keeps you informed and does not burden you with its own problems | System errors never blame the user ("We couldn't reach the server — your draft is safe"); background problems fixed silently when possible; proactive hints never block work |
+| G5 · Match the posture | Sovereign apps are used all day; transient apps are used briefly and occasionally | Sovereign: full-window, dense, muted colour, small type (13 to 14px), persistent panels. Transient: bigger type, bright single purpose, one screen, dismissable in one action |
+| G6 · Polite software | Considerate software is forthcoming, deferential, anticipates needs, keeps you informed and does not burden you with its own problems | System errors never blame the user ("We couldn't reach the server, your draft is safe"); background problems fixed silently when possible; proactive hints never block work |
 
 ## Visual facts
 
 - **Color:** no personal palette; goal-directed products tend toward calm, low-chroma working surfaces with colour reserved for state.
 - **Type:** functional sans, sized by posture (G5) → Source Sans 3, Public Sans.
 - **Form:** panels, inspectors and well-labelled controls rather than decoration.
-- **Composition:** layout derived from persona workflows and scenarios — the most frequent goal on the shortest path.
+- **Composition:** layout derived from persona workflows and scenarios, the most frequent goal on the shortest path.
 
 ## Attitude
 
@@ -40,9 +40,9 @@ Cooper, credited as the "father of Visual Basic" for the visual programming conc
 
 ## Blends
 
-- **Amplifies:** `don-norman`, `jobs-to-be-done`, `progressive-disclosure` — goals, outcomes and staged complexity.
-- **Productive tension with:** `jef-raskin` — persona-specific behaviour against universal cognitive rules; a modeless core with persona-tuned defaults.
-- **Clashes with:** `persuasive-technology` used for engagement — considerate software does not nag, badge or guilt.
+- **Amplifies:** `don-norman`, `jobs-to-be-done`, `progressive-disclosure`, goals, outcomes and staged complexity.
+- **Productive tension with:** `jef-raskin`, persona-specific behaviour against universal cognitive rules; a modeless core with persona-tuned defaults.
+- **Clashes with:** `persuasive-technology` used for engagement, considerate software does not nag, badge or guilt.
 
 ## Don't copy
 

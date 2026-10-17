@@ -3,7 +3,7 @@ id: hilma-af-klint
 name: Hilma af Klint
 type: artist
 discipline: [art]
-era: 1906–1944
+era: 1906 to 1944
 origin: Stockholm, Sweden
 lineage: []
 tags:
@@ -14,14 +14,14 @@ axes: {order: 6, density: 5, ornament: 6, warmth: 7, contrast: 5, geometry: 5, c
 
 # Hilma af Klint
 
-**Essence:** Abstraction as a diagram of invisible knowledge — spirals, petals, symmetrical pairs and letter codes at monumental scale in soft, radiant color.
+**Essence:** Abstraction as a diagram of invisible knowledge, spirals, petals, symmetrical pairs and letter codes at monumental scale in soft, radiant color.
 
 ## Genes
 
 | Gene | The idea | In UI / product terms |
 |---|---|---|
 | G1 · Diagram as image | Her paintings read like scientific charts: spirals, concentric discs, mirrored halves, letters as labels | Illustrations and onboarding visuals drawn as annotated diagrams (thin leader lines, letter callouts, symmetric pairs) rather than scenes; data viz in a botanical palette |
-| G2 · Monumental pastel | The Ten Largest (1907) are roughly three metres tall, in salmon, lilac, pink and pale blue | Hero sections dominated by 1–2 pastel shapes scaled to 120–200% of the viewport, with small precise text on top |
+| G2 · Monumental pastel | The Ten Largest (1907) are roughly three metres tall, in salmon, lilac, pink and pale blue | Hero sections dominated by 1 to 2 pastel shapes scaled to 120 to 200% of the viewport, with small precise text on top |
 | G3 · Duality on an axis | Paired opposites (yellow/blue, light/dark) meet at a central line | Comparison screens (before/after, plan A/plan B) as mirrored halves on a central axis, each side owning one hue of a complementary pair |
 | G4 · Series as program | Work grouped into numbered series and subseries with titles (Primordial Chaos, The Ten Largest, Swan) | Content organised as numbered series, each with its own hue family and motif; index pages show a grid of series |
 | G5 · Spiral growth | Shell spirals and life stages (childhood to old age in The Ten Largest) | Progress shown as a spiral or growth sequence rather than a linear bar, for habit, learning or wellbeing products |
@@ -35,20 +35,20 @@ axes: {order: 6, density: 5, ornament: 6, warmth: 7, contrast: 5, geometry: 5, c
 
 ## Attitude
 
-Af Klint believed she was transmitting knowledge from beyond the visible. She worked privately within a group of women who held séances, and asked that the work stay unseen for decades after her death. The Paintings for the Temple (1906–15) now read as an early abstraction. For designers: build a private symbolic system first, then let it speak publicly.
+Af Klint believed she was transmitting knowledge from beyond the visible. She worked privately within a group of women who held séances, and asked that the work stay unseen for decades after her death. The Paintings for the Temple (1906 to 15) now read as an early abstraction. For designers: build a private symbolic system first, then let it speak publicly.
 
 ## Blends
 
-- **Amplifies:** `wassily-kandinsky`, `art-nouveau` — spiritual color and botanical line.
-- **Productive tension with:** `agnes-martin` — esoteric diagram meets empty grid; shared sincerity, opposite density.
-- **Clashes with:** `memphis` — ironic squiggles cheapen the sincerity the diagrams need.
+- **Amplifies:** `wassily-kandinsky`, `art-nouveau`, spiritual color and botanical line.
+- **Productive tension with:** `agnes-martin`, esoteric diagram meets empty grid; shared sincerity, opposite density.
+- **Clashes with:** `memphis`, ironic squiggles cheapen the sincerity the diagrams need.
 
 ## Don't copy
 
-The Ten Largest (1907), the Altarpieces (1915), the Swan series, Primordial Chaos, the Tree of Knowledge watercolors — or a pastiche of her pastel spirals.
+The Ten Largest (1907), the Altarpieces (1915), the Swan series, Primordial Chaos, the Tree of Knowledge watercolors, or a pastiche of her pastel spirals.
 
 ## Study
 
 - Hilma af Klint Foundation (hilmaafklint.se); catalogue raisonné (Stolpe Publishing, completed 2022)
-- Solomon R. Guggenheim Museum, "Hilma af Klint: Paintings for the Future" (2018–19), its most visited show
+- Solomon R. Guggenheim Museum, "Hilma af Klint: Paintings for the Future" (2018 to 19), its most visited show
 - Moderna Museet, Stockholm (2013 exhibition); documentary Beyond the Visible (Halina Dyrschka, 2019)

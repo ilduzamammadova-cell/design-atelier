@@ -3,7 +3,7 @@ id: scandinavian-folk-rosemaling
 name: Scandinavian folk painting (Norwegian rosemaling, Swedish dalmålning)
 type: tradition
 discipline: [craft, art]
-era: c. 1750–1850 golden age; 20th-century revivals in Norway and Norwegian-American communities
+era: c. 1750 to 1850 golden age; 20th-century revivals in Norway and Norwegian-American communities
 origin: rural Norway (Telemark, Hallingdal, Rogaland and other valleys); Dalarna, Sweden
 lineage: []
 tags:
@@ -39,9 +39,9 @@ Rural, often travelling, painters adapted court and church ornament for farmhous
 
 ## Blends
 
-- **Amplifies:** `william-morris`, `arts-and-crafts` — love of hand-decorated domestic objects.
-- **Productive tension with:** `scandinavian-modern` — the same region's later restraint; one painted object in a calm modern room.
-- **Clashes with:** `swiss-international` — free scrolls fight the neutral grid unless strictly confined to frames.
+- **Amplifies:** `william-morris`, `arts-and-crafts`, love of hand-decorated domestic objects.
+- **Productive tension with:** `scandinavian-modern`, the same region's later restraint; one painted object in a calm modern room.
+- **Clashes with:** `swiss-international`, free scrolls fight the neutral grid unless strictly confined to frames.
 
 ## Don't copy
 

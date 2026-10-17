@@ -3,7 +3,7 @@ id: minimalism-art
 name: Minimalism (Judd, Flavin, Andre, Morris)
 type: movement
 discipline: [art]
-era: 1960s–1970s
+era: 1960s to 1970s
 origin: New York, USA; Marfa, Texas
 lineage: [constructivism, suprematism]
 tags:
@@ -14,7 +14,7 @@ axes: {order: 9, density: 1, ornament: 0, warmth: 2, contrast: 5, geometry: 9, c
 
 # Minimalism (Judd, Flavin, Andre, Morris)
 
-**Essence:** Objects that are exactly what they are — industrial materials, serial units and measured intervals, with no composition, illusion or hand. Covers Donald Judd, Dan Flavin, Carl Andre, Robert Morris, Anne Truitt, Frank Stella's black paintings.
+**Essence:** Objects that are exactly what they are, industrial materials, serial units and measured intervals, with no composition, illusion or hand. Covers Donald Judd, Dan Flavin, Carl Andre, Robert Morris, Anne Truitt, Frank Stella's black paintings.
 
 ## Genes
 
@@ -22,9 +22,9 @@ axes: {order: 9, density: 1, ornament: 0, warmth: 2, contrast: 5, geometry: 9, c
 |---|---|---|
 | G1 · Specific object | Judd's essay "Specific Objects" (1965) rejected illusion and relational composition | Components without simulated depth: no fake gloss or shadow; a button is a flat rectangle of exact size; state changes material (fill vs outline), never illusion |
 | G2 · Seriality with equal intervals | Judd's wall stacks repeat identical boxes with the gap equal to the box height | Lists and grids where the gap is a fixed fraction or multiple of item height, applied without exception; repetition itself is the rhythm |
-| G3 · Industrial material palette | Mill aluminum, plywood, steel plate, colored Plexiglas; fabricated by workshops | Palette drawn from materials — aluminum grey, plywood tan, one translucent acrylic color; corner radii 0–2px; no decorative illustration |
+| G3 · Industrial material palette | Mill aluminum, plywood, steel plate, colored Plexiglas; fabricated by workshops | Palette drawn from materials, aluminum grey, plywood tan, one translucent acrylic color; corner radii 0 to 2px; no decorative illustration |
 | G4 · Light as material | Flavin used off-the-shelf fluorescent tubes in standard lengths and colors; the glow tints the room | On dark surfaces, color is emitted not painted: edge glows in a few standard hues and standard lengths (4/8/16 units), placed at panel edges and corners |
-| G5 · Same outside, different inside | Judd's 100 untitled works in mill aluminum (1982–86) share outer dimensions; every interior differs | One fixed outer card size with 5–10 internal layouts; the container never changes, the subdivision does |
+| G5 · Same outside, different inside | Judd's 100 untitled works in mill aluminum (1982 to 86) share outer dimensions; every interior differs | One fixed outer card size with 5 to 10 internal layouts; the container never changes, the subdivision does |
 | G6 · Floor as plane | Andre's metal plates lie flat on the floor and can be walked on | Content laid out as a horizontal field of equal tiles the user moves across (timelines, catalogues) instead of a vertical hero stack |
 
 ## Visual facts
@@ -40,9 +40,9 @@ Minimalists rejected European composition, illusion and the artist's touch in fa
 
 ## Blends
 
-- **Amplifies:** `dieter-rams`, `swiss-international`, `agnes-martin`, `kenya-hara` — reduction and exact measure.
-- **Productive tension with:** `pop-art` — both serial and industrial; consumer imagery on silent grids gives crisp, ironic catalogues.
-- **Clashes with:** `memphis` — decorative irony contradicts literal objects.
+- **Amplifies:** `dieter-rams`, `swiss-international`, `agnes-martin`, `kenya-hara`, reduction and exact measure.
+- **Productive tension with:** `pop-art`, both serial and industrial; consumer imagery on silent grids gives crisp, ironic catalogues.
+- **Clashes with:** `memphis`, decorative irony contradicts literal objects.
 
 ## Don't copy
 

@@ -3,7 +3,7 @@ id: peter-zumthor
 name: Peter Zumthor
 type: designer
 discipline: [architecture, craft]
-era: 1980s–present
+era: 1980s to present
 origin: Haldenstein, Switzerland (born Basel)
 lineage: []
 tags:
@@ -14,17 +14,17 @@ axes: {order: 6, density: 3, ornament: 1, warmth: 8, contrast: 5, geometry: 7, c
 
 # Peter Zumthor
 
-**Essence:** Design begins with atmosphere — sound, temperature, the weight of material — and the form is whatever makes that feeling physically present.
+**Essence:** Design begins with atmosphere, sound, temperature, the weight of material, and the form is whatever makes that feeling physically present.
 
 ## Genes
 
 | Gene | The idea | In UI / product terms |
 |---|---|---|
-| G1 · Atmosphere first | He starts from mood: how a space sounds, how warm it is, how materials feel on the skin, how light falls on things (*Atmospheres*, 2006). | Write an atmosphere brief before any wireframe: five sensory lines per key screen (sound, temperature, light, pace, touch), each mapped to tokens — sound set, color temperature of neutrals, motion speed, surface texture. Every design review checks the screen against its brief. |
-| G2 · One material, many layings | At Therme Vals (1996) thin slabs of local quartzite are stacked into massive layered walls; one stone becomes rich through the way it is laid. | One neutral hue rendered in 4–6 surface treatments (matte, fine grain, polished, thin horizontal strata of 2 px lines in three close tones). Richness comes from treatment, never from adding colors. |
+| G1 · Atmosphere first | He starts from mood: how a space sounds, how warm it is, how materials feel on the skin, how light falls on things (*Atmospheres*, 2006). | Write an atmosphere brief before any wireframe: five sensory lines per key screen (sound, temperature, light, pace, touch), each mapped to tokens, sound set, color temperature of neutrals, motion speed, surface texture. Every design review checks the screen against its brief. |
+| G2 · One material, many layings | At Therme Vals (1996) thin slabs of local quartzite are stacked into massive layered walls; one stone becomes rich through the way it is laid. | One neutral hue rendered in 4 to 6 surface treatments (matte, fine grain, polished, thin horizontal strata of 2 px lines in three close tones). Richness comes from treatment, never from adding colors. |
 | G3 · The sound of the room | He treats acoustics as architecture; his Swiss Sound Box pavilion for Expo 2000 in Hannover was conceived as a resonating instrument of stacked timber. | Design an acoustic layer: each main space or state has its own soft sound and haptic signature from one family (a low wooden click to confirm, a muffled tap to dismiss). Silence is the default in focus modes. |
 | G4 · Traces of making | Bruder Klaus Field Chapel (Mechernich, 2007): concrete rammed in layers around 112 spruce trunks, which were then burned out, leaving charred, rippled walls and an opening to the sky. | Keep a quiet negative of what was removed: deleted items leave an embossed outline for a few seconds, the previous state ghosts faintly under the new one during transitions. History becomes surface texture, never a pop-up. |
-| G5 · Invitation to wander | Vals has no prescribed route; partial views of the next pool or light draw bathers from space to space. | Partial reveals instead of arrows: let the next card or section show a sliver (10–15%) at the edge of the viewport, and open views diagonally, so people explore by curiosity. No "next" buttons in browsing contexts. |
+| G5 · Invitation to wander | Vals has no prescribed route; partial views of the next pool or light draw bathers from space to space. | Partial reveals instead of arrows: let the next card or section show a sliver (10 to 15%) at the edge of the viewport, and open views diagonally, so people explore by curiosity. No "next" buttons in browsing contexts. |
 
 ## Visual facts
 
@@ -39,9 +39,9 @@ Trained first as a cabinetmaker, Zumthor works slowly and takes few commissions.
 
 ## Blends
 
-- **Amplifies:** `tadao-ando`, `japanese-wabi-sabi-and-ma` — material presence, quiet, imperfection and time.
-- **Productive tension with:** `swiss-international` — a cool, exact typographic system holding a warm, sensory material atmosphere.
-- **Clashes with:** `pop-art` — loud mass-media imagery overwhelms slow, material presence.
+- **Amplifies:** `tadao-ando`, `japanese-wabi-sabi-and-ma`, material presence, quiet, imperfection and time.
+- **Productive tension with:** `swiss-international`, a cool, exact typographic system holding a warm, sensory material atmosphere.
+- **Clashes with:** `pop-art`, loud mass-media imagery overwhelms slow, material presence.
 
 ## Don't copy
 

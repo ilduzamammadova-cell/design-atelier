@@ -1,6 +1,6 @@
 # design-atelier
 
-A Claude skill that helps a designer discover, invent and grow their own original visual style — the way a painter's style emerges — instead of following trends.
+A Claude skill that helps a designer discover, invent and grow their own original visual style, the way a painter's style emerges, instead of following trends.
 
 It keeps an atlas of masters, movements, typefaces and traditions across graphic, product, UI and UX design, art, architecture and world crafts. Each entry is broken into transplantable "genes". The skill blends genes from distant sources through a person's taste profile into a new, named style, then builds it in Figma or as live web code.
 
@@ -19,7 +19,7 @@ It keeps an atlas of masters, movements, typefaces and traditions across graphic
 
 ## Install
 
-**Claude Code** — put the folder in your skills directory:
+**Claude Code**: put the folder in your skills directory:
 
 ```bash
 git clone https://github.com/ilduzamammadova-cell/design-atelier.git ~/.claude/skills/design-atelier
@@ -27,7 +27,7 @@ git clone https://github.com/ilduzamammadova-cell/design-atelier.git ~/.claude/s
 
 Then call it with `/design-atelier`, or just ask for help finding a design style.
 
-**Claude.ai** — zip the folder (or package it as a `.skill` file) and upload it under Settings → Capabilities → Skills.
+**Claude.ai**: zip the folder (or package it as a `.skill` file) and upload it under Settings → Capabilities → Skills.
 
 ## Notes
 

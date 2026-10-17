@@ -45,8 +45,8 @@ Distance check: nearest atlas card `[id]` at d=[x]; nearest trend `[id]` at d=[x
 ### Color
 | Token | Light | Dark | Use | Contrast |
 |---|---|---|---|---|
-| `bg` | | | page | — |
-| `surface` | | | cards, panels | — |
+| `bg` | | | page | none |
+| `surface` | | | cards, panels | none |
 | `ink` | | | body text | x:1 on bg |
 | `ink-muted` | | | secondary text | x:1 on bg |
 | `accent` | | | [where exactly] | x:1 |
@@ -57,8 +57,8 @@ Distance check: nearest atlas card `[id]` at d=[x]; nearest trend `[id]` at d=[x
 Rules: [how much accent per view, forbidden combinations, how color behaves]
 
 ### Typography
-- **Display:** [family] — weights, tracking, case
-- **Text:** [family] — weights, size/line-height
+- **Display:** [family], weights, tracking, case
+- **Text:** [family], weights, size/line-height
 - **Mono / utility (opt.):** [family]
 - **Scale:** [steps in px/rem and the logic behind them]
 - **Licensing / free alternative:** [Google Fonts or open fallback]
@@ -66,7 +66,7 @@ Rules: [how much accent per view, forbidden combinations, how color behaves]
 ### Shape, depth, space
 - **Radius:** [values + where]
 - **Border / seam:** [width, color, where]
-- **Depth:** [shadow values, or "none — depth comes from …"]
+- **Depth:** [shadow values, or "none, depth comes from …"]
 - **Spacing scale:** [base unit and steps]
 - **Grid:** [columns, gutters, margins per breakpoint]
 
@@ -86,7 +86,7 @@ For each: what makes it *this style's* version, not the default.
 
 ## 7. Icons
 
-- **Library or custom:** [choice] — why (see `references/icons.md`)
+- **Library or custom:** [choice], why (see `references/icons.md`)
 - **Grid / stroke / corners / fill:** [values matched to the type]
 
 ## 8. Motion
@@ -105,7 +105,7 @@ For each: what makes it *this style's* version, not the default.
 
 ## 9. Signature moves
 
-The 3–5 details that make this style recognisable. Without them it collapses into generic UI.
+The 3 to 5 details that make this style recognisable. Without them it collapses into generic UI.
 
 ## 10. Slop tells for this style
 
@@ -115,7 +115,7 @@ How this particular style would look if done cheaply. Check every output against
 
 ### Figma variables
 ```
-Collection: [style-slug]/primitives   modes: —
+Collection: [style-slug]/primitives   modes: 
 Collection: [style-slug]/semantic     modes: light, dark
   color/bg, color/surface, color/ink, …
   space/1…n, radius/…, type/…

@@ -20,9 +20,9 @@ This file is the route. The practice lives in `references/figma/`:
 ## Before any write
 
 - The Figma MCP server provides the tools (`use_figma`, `get_design_context`, `get_metadata`, `get_screenshot`, `get_variable_defs`, `search_design_system`, `create_new_file`, Code Connect tools).
-- **Load the `figma:figma-use` skill before any `use_figma` call** — it carries the Plugin API rules. Also: `figma:figma-generate-library` for building variables and components as a library, `figma:figma-generate-design` for full screens, `figma:figma-create-new-file` before `create_new_file`, `figma:figma-code-connect` for mapping components to code.
+- **Load the `figma:figma-use` skill before any `use_figma` call**: it carries the Plugin API rules. Also: `figma:figma-generate-library` for building variables and components as a library, `figma:figma-generate-design` for full screens, `figma:figma-create-new-file` before `create_new_file`, `figma:figma-code-connect` for mapping components to code.
 - Writing into someone's Figma account is outward-facing: confirm which file (or that a new file is wanted) before the first write.
-- Some settings can't be changed through the Plugin API (for example the file's color profile and some prototype overlay settings — see `figma/canvas-craft.md`). Tell the person exactly what to set by hand.
+- Some settings can't be changed through the Plugin API (for example the file's color profile and some prototype overlay settings, see `figma/canvas-craft.md`). Tell the person exactly what to set by hand.
 - If the Figma tools aren't connected, say so and offer the web route (`references/web.md`) or a spec-only deliverable.
 
 ## Read first
@@ -36,17 +36,17 @@ If the person shares an existing file:
 
 Each step depends on the previous one.
 
-1. **File structure** — pages and sections (`figma/file-structure-and-naming.md`), plus a Cover and a *Laws & lineage* page that explains why the style looks the way it does.
-2. **Variables** — primitives, then semantic tokens with Light/Dark modes (and density or brand modes if needed), scoped and given code syntax (`figma/variables-and-tokens.md`). Values come from the style spec § 11.
+1. **File structure**: pages and sections (`figma/file-structure-and-naming.md`), plus a Cover and a *Laws & lineage* page that explains why the style looks the way it does.
+2. **Variables**: primitives, then semantic tokens with Light/Dark modes (and density or brand modes if needed), scoped and given code syntax (`figma/variables-and-tokens.md`). Values come from the style spec § 11.
 3. **Text styles** for every step of the type scale; **effect styles** only if the style uses depth.
 4. **Layout guides** per breakpoint frame, sized from `references/dimensions.md`.
-5. **Icons** — the style's monochrome set as components with size variants (`references/icons.md`, `figma/canvas-craft.md`).
-6. **Components** — atoms to patterns, every state, auto layout throughout, every fill/stroke/gap/padding/radius bound to a variable (`figma/components.md`, `figma/auto-layout.md`).
-7. **Imagery** — real photographs and illustrations placed with the style's art direction; spot illustrations as components (`references/imagery.md`).
-8. **Specimen** — one page built only from the components and variables (`method/blend.md` § 7).
+5. **Icons**: the style's monochrome set as components with size variants (`references/icons.md`, `figma/canvas-craft.md`).
+6. **Components**: atoms to patterns, every state, auto layout throughout, every fill/stroke/gap/padding/radius bound to a variable (`figma/components.md`, `figma/auto-layout.md`).
+7. **Imagery**: real photographs and illustrations placed with the style's art direction; spot illustrations as components (`references/imagery.md`).
+8. **Specimen**: one page built only from the components and variables (`method/blend.md` § 7).
 9. **Screens** at the stated frame sizes, checked at the smallest and largest targets.
 10. **Prototype** key flows with motion matched to the motion tokens (`figma/prototyping.md`).
-11. **Hand-off** — mark ready for dev, annotate, link code (`figma/handoff.md`).
+11. **Hand-off**: mark ready for dev, annotate, link code (`figma/handoff.md`).
 
 Take a `get_screenshot` after each major step and compare it with the style laws; fix before moving on.
 

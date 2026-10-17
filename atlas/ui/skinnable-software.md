@@ -3,8 +3,8 @@ id: skinnable-software
 name: Skinnable Software & Expressive Chrome
 type: movement
 discipline: [ui, graphic]
-era: 1992–2006
-origin: Worldwide — Nullsoft (USA), MetaTools/HSC (California), fan communities online
+era: 1992 to 2006
+origin: Worldwide, Nullsoft (USA), MetaTools/HSC (California), fan communities online
 lineage: [postmodern-new-wave, mac-os-x-aqua]
 tags:
   mood: [personal, gadgety, organic, mischievous]
@@ -14,7 +14,7 @@ axes: {order: 4, density: 6, ornament: 8, warmth: 5, contrast: 7, geometry: 4, c
 
 # Skinnable Software & Expressive Chrome
 
-**Essence:** Software as a personal object — media players and creative tools whose whole skin could be swapped, moulded into organic shapes and lit like gadgets.
+**Essence:** Software as a personal object, media players and creative tools whose whole skin could be swapped, moulded into organic shapes and lit like gadgets.
 
 ## Genes
 
@@ -22,7 +22,7 @@ axes: {order: 4, density: 6, ornament: 8, warmth: 5, contrast: 7, geometry: 4, c
 |---|---|---|
 | G1 · Skin over a fixed skeleton | Winamp's classic skins (documented from version 2.0, 1998) were image sheets mapped onto fixed regions: any look, same controls in the same places. | Separate a fixed functional layout map (hit areas, positions) from a swappable visual sheet (sprite atlas or token set). Themes may change every pixel but never the positions or sizes of targets. |
 | G2 · Break the rectangle once | Players like Sonique (1998) and Windows Media Player 7 skins (2000) took non-rectangular, organic or object-like shapes. | Allow one hero component to have an irregular silhouette (`clip-path`/SVG mask) while every control inside keeps a standard rectangular hit area and focus ring. |
-| G3 · Interface as landscape | Kai Krause's tools (Kai's Power Tools, 1992; Bryce, 1994) used dark, textured, softly lit panels, spherical buttons and controls that appeared only when the pointer came near. | Dark textured stage; controls fade in by pointer proximity (100–150 px) and fade out when idle; round, lit "pebble" buttons. Provide a keyboard path and a "show all controls" toggle. |
+| G3 · Interface as landscape | Kai Krause's tools (Kai's Power Tools, 1992; Bryce, 1994) used dark, textured, softly lit panels, spherical buttons and controls that appeared only when the pointer came near. | Dark textured stage; controls fade in by pointer proximity (100 to 150 px) and fade out when idle; round, lit "pebble" buttons. Provide a keyboard path and a "show all controls" toggle. |
 | G4 · Gadget readouts | Green LCD digits, segmented displays and spectrum analysers imported hardware hi-fi into software. | Key numeric readouts in a seven-segment style (`#00E000` on `#000`) and a live visualiser used as both ornament and status (it moves only when audio or data flows). |
 | G5 · Community-made looks | Thousands of fan-made skins circulated in public galleries; users became designers. | Ship theming as a documented open format (JSON tokens + image atlas), host a public gallery, credit theme authors inside the app. |
 
@@ -39,9 +39,9 @@ This was personal computing as self-expression: the user, not the platform guide
 
 ## Blends
 
-- **Amplifies:** `flash-era-web`, `mac-os-x-aqua`, `web-1-vernacular` — personal, gadgety, expressive chrome.
-- **Productive tension with:** `material-design` — tokenised theming plus true skin freedom: user-made looks that still pass contrast and target-size rules.
-- **Clashes with:** `xerox-alto-and-star` — one consistent model everywhere vs. every app in its own costume.
+- **Amplifies:** `flash-era-web`, `mac-os-x-aqua`, `web-1-vernacular`, personal, gadgety, expressive chrome.
+- **Productive tension with:** `material-design`, tokenised theming plus true skin freedom: user-made looks that still pass contrast and target-size rules.
+- **Clashes with:** `xerox-alto-and-star`, one consistent model everywhere vs. every app in its own costume.
 
 ## Don't copy
 
@@ -49,6 +49,6 @@ This was personal computing as self-expression: the user, not the platform guide
 
 ## Study
 
-- Winamp Skin Museum (skins.webamp.org) and Webamp (webamp.org) by Jordan Eldredge — tens of thousands of classic skins, browsable in the browser.
+- Winamp Skin Museum (skins.webamp.org) and Webamp (webamp.org) by Jordan Eldredge, tens of thousands of classic skins, browsable in the browser.
 - Internet Archive collections of Winamp skins and period software.
 - Interviews and retrospectives on Kai Krause's interface design (MetaTools/MetaCreations era).

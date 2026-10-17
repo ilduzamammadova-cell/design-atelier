@@ -3,7 +3,7 @@ id: harry-beck
 name: Harry Beck
 type: designer
 discipline: [graphic, ux]
-era: 1931–1960
+era: 1931 to 1960
 origin: London, UK
 lineage: [edward-johnston]
 tags:
@@ -12,9 +12,9 @@ tags:
 axes: {order: 10, density: 6, ornament: 0, warmth: 4, contrast: 6, geometry: 9, chroma: 7, typevoice: 4, energy: 3, hand: 1, play: 2, era: 6}
 ---
 
-# Harry Beck (1902–1974)
+# Harry Beck (1902 to 1974)
 
-**Essence:** Topology over topography — a map that shows how to get there, not where things are.
+**Essence:** Topology over topography, a map that shows how to get there, not where things are.
 
 Henry C. Beck, an engineering draughtsman at the London Underground, submitted an unsolicited diagram that dropped geographic accuracy; after a cautious trial printing in 1933 the public embraced it, and he kept revising it for decades. It became the template for transit diagrams worldwide.
 
@@ -42,9 +42,9 @@ Clarity for the rider over fidelity to the land: a passenger underground needs o
 
 ## Blends
 
-- **Amplifies:** `isotype`, `massimo-vignelli` — information made legible by abstraction.
-- **Productive tension with:** `dada` — relabelling a rigid diagram with unexpected content is a classic artistic subversion; use it for playful brand maps of features or teams.
-- **Clashes with:** `deconstructivist-type` — distortion and layering destroy the schematic's single job.
+- **Amplifies:** `isotype`, `massimo-vignelli`, information made legible by abstraction.
+- **Productive tension with:** `dada`, relabelling a rigid diagram with unexpected content is a classic artistic subversion; use it for playful brand maps of features or teams.
+- **Clashes with:** `deconstructivist-type`, distortion and layering destroy the schematic's single job.
 
 ## Don't copy
 

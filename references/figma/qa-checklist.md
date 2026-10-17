@@ -38,7 +38,7 @@ Run this on every Figma deliverable (screen, flow, library or prototype) before 
 - [ ] Each typeface choice is recorded with the gene it came from.
 
 ## Color & contrast, both modes → [canvas-craft.md § 9](canvas-craft.md), [../principles.md](../principles.md)
-- [ ] Body text ≥ 4.5:1; large text, icons, input borders and focus indicators ≥ 3:1 — checked in Light *and* Dark.
+- [ ] Body text ≥ 4.5:1; large text, icons, input borders and focus indicators ≥ 3:1, checked in Light *and* Dark.
 - [ ] Contrast measured on real pairs (text on its actual surface, icon on its fill), not on swatches.
 - [ ] Color is never the only signal: errors and statuses also carry text or an icon.
 - [ ] Elevation still reads in Dark (surface steps or mode-bound shadow variables).

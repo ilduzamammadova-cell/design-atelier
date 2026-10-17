@@ -3,7 +3,7 @@ id: mies-van-der-rohe
 name: Ludwig Mies van der Rohe
 type: designer
 discipline: [architecture, product]
-era: 1920s–1960s
+era: 1920s to 1960s
 origin: Berlin, Germany / Chicago, USA
 lineage: [peter-behrens, de-stijl]
 tags:
@@ -39,9 +39,9 @@ Mies believed architecture should express the technology of its time and then be
 
 ## Blends
 
-- **Amplifies:** `dieter-rams`, `swiss-international` — fewer, better details on a strict system; they share Mies's trust in the grid.
-- **Productive tension with:** `alvar-aalto` — Mies's cool, perfect frame warmed by Aalto's tactile touch points; gives a precise system where every interactive surface feels human.
-- **Clashes with:** `postmodern-new-wave` — layered collage and noise fill the open space Mies keeps empty; both lose their point.
+- **Amplifies:** `dieter-rams`, `swiss-international`, fewer, better details on a strict system; they share Mies's trust in the grid.
+- **Productive tension with:** `alvar-aalto`, Mies's cool, perfect frame warmed by Aalto's tactile touch points; gives a precise system where every interactive surface feels human.
+- **Clashes with:** `postmodern-new-wave`, layered collage and noise fill the open space Mies keeps empty; both lose their point.
 
 ## Don't copy
 
@@ -49,7 +49,7 @@ The Barcelona chair and stool, the MR cantilever chairs and Brno chair (all stil
 
 ## Study
 
-- Barcelona Pavilion (1929; rebuilt on site 1983–86), Tugendhat House, Brno (1928–30), Farnsworth House, Plano (1945–51), Crown Hall, IIT (1950–56), Seagram Building, New York (1954–58, with Philip Johnson), Neue Nationalgalerie, Berlin (1962–68).
+- Barcelona Pavilion (1929; rebuilt on site 1983 to 86), Tugendhat House, Brno (1928 to 30), Farnsworth House, Plano (1945 to 51), Crown Hall, IIT (1950 to 56), Seagram Building, New York (1954 to 58, with Philip Johnson), Neue Nationalgalerie, Berlin (1962 to 68).
 - Credit Lilly Reich as co-author of the Barcelona Pavilion interiors and the 1929 furniture.
 - Mies van der Rohe Archive, MoMA: https://www.moma.org (Architecture & Design collection)
 - Fundació Mies van der Rohe, Barcelona: https://miesbcn.com

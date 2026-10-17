@@ -11,7 +11,7 @@ Checked against help.figma.com, Figma's Schema 2025 recap, the plugin changelog,
 | Tier | Holds | Example | Bound to layers? | Scope | Publish |
 |---|---|---|---|---|---|
 | **Primitive** | Raw values: palettes, scales, font families | `color/blue/500 = #2963ED`, `space/4 = 16` | Never | `[]` (hidden from pickers) | Hide from publishing, or publish unscoped |
-| **Semantic** | Decisions by role; carries the modes | `color/accent → color/blue/500` (Light), `→ color/blue/300` (Dark) | Yes — the default | Specific | Yes |
+| **Semantic** | Decisions by role; carries the modes | `color/accent → color/blue/500` (Light), `→ color/blue/300` (Dark) | Yes, the default | Specific | Yes |
 | **Component** (optional) | One component's decision | `button/bg/primary/rest → color/accent` | Only inside that component | Specific | Yes |
 
 - Semantic tokens never hold raw values; every value in every mode is an alias. A raw value there survives a mode switch but cannot follow a palette change.
@@ -27,17 +27,17 @@ One collection per **independent mode axis**: a frame sets one mode per collecti
 | `[style]/primitives` | one (`Value`) | Color ramps, the space/radius/size scales, font families and sizes |
 | `[style]/color` | `Light`, `Dark` (+ `High contrast` if required) | Semantic colors |
 | `[style]/dimension` | one, or `Compact` / `Default`, or `Mobile` / `Desktop` | Semantic space, radius, size, border widths |
-| `[style]/type` | one, or `Mobile` / `Desktop` | Font sizes, line heights, tracking — bound inside text styles |
+| `[style]/type` | one, or `Mobile` / `Desktop` | Font sizes, line heights, tracking, bound inside text styles |
 | `[style]/motion` | one, or `Standard` / `Reduced` | Durations (TIMING) and easings (EASING) |
 
 This refines the two-collection layout in `../figma.md`: a single `[style]/semantic` collection with Light/Dark is fine while color is the only thing that changes; split it the moment a second axis (density, viewport) appears.
 
-- **Limits:** modes per collection — Professional 10, Organization 20 (Schema 2025); Enterprise higher (verify); Starter has no modes. Up to 5,000 variables per collection.
+- **Limits:** modes per collection, Professional 10, Organization 20 (Schema 2025); Enterprise higher (verify); Starter has no modes. Up to 5,000 variables per collection.
 - **Inheritance:** layers default to Auto and take the nearest parent's explicit mode; with none set, the collection's default (leftmost) mode applies. Set modes on top-level frames or pages, never layer by layer.
-- **Brands:** on Enterprise, use **extended collections** — a brand extends the base collection, inherits its variables and modes, and overrides only the values it changes; untouched values keep following the parent. Extensions override values; per the Plugin API type they cannot add modes of their own (verify). Elsewhere: brand modes in the color collection, or one library file per brand.
+- **Brands:** on Enterprise, use **extended collections**, a brand extends the base collection, inherits its variables and modes, and overrides only the values it changes; untouched values keep following the parent. Extensions override values; per the Plugin API type they cannot add modes of their own (verify). Elsewhere: brand modes in the color collection, or one library file per brand.
 - **Variants driven by modes:** a string (or number) variable bound to an instance's variant property switches the variant when the mode changes; values must match the variant values exactly.
 - Mode names are labels, so Title Case is fine. Never create a mode per screen or per component.
-- **Prototype variables** (cart count, signed-in, selected tab) go in their own `_prototype` collection, hidden from publishing and never aliased into design tokens — they are app state, not design decisions.
+- **Prototype variables** (cart count, signed-in, selected tab) go in their own `_prototype` collection, hidden from publishing and never aliased into design tokens, they are app state, not design decisions.
 
 ## 3. Aliasing rules
 
@@ -73,7 +73,7 @@ Never leave `ALL_SCOPES` (the default). Scopes filter the UI pickers; they do no
 | Localised copy (string) | `TEXT_CONTENT` |
 | Boolean | no scopes exist |
 
-`ALL_FILLS` covers frame, shape and text fills at once and excludes the individual fill scopes — prefer the individual ones.
+`ALL_FILLS` covers frame, shape and text fills at once and excludes the individual fill scopes, prefer the individual ones.
 
 ## 5. Code syntax
 
@@ -84,18 +84,18 @@ Set Web, iOS and Android code syntax explicitly on every semantic and component 
 | `color/ink-muted` | `var(--color-ink-muted)` | `Color.inkMuted` | `colorInkMuted` |
 | `space/inset-md` | `var(--space-inset-md)` | `Spacing.insetMd` | `spaceInsetMd` |
 
-Web syntax includes the `var()` wrapper (figma-generate-library rule). Renaming a variable does not change its code syntax — update both deliberately.
+Web syntax includes the `var()` wrapper (figma-generate-library rule). Renaming a variable does not change its code syntax, update both deliberately.
 
 ## 6. Naming grammar
 
-- `/` makes a group in the Variables panel; segments are lowercase kebab-case. `.`, `{`, `}` and `$` are rejected by Figma and forbidden by DTCG — write `space/half`, not `space/0.5`.
+- `/` makes a group in the Variables panel; segments are lowercase kebab-case. `.`, `{`, `}` and `$` are rejected by Figma and forbidden by DTCG, write `space/half`, not `space/0.5`.
 - Order from broad to narrow: **category / property / variant / state**. Omit slots you do not need; never reorder them.
 - A name is never both a token and a group (`color/accent` *and* `color/accent/hover`): DTCG would need `$root` and most tools break.
 - One name, mechanically transformed everywhere: Figma `color/ink-muted` ↔ CSS `--color-ink-muted` ↔ DTCG `color.ink-muted` ↔ alias `{color.ink-muted}`.
 - No values or brand names in semantic names (`color/blue-text` ✗); primitives use scale steps (`space/4`), not pixels, so the scale can be retuned without renames. Prefer full words; keep short forms (`bg`, `md`) only where code already uses them.
 - Kebab-case in Figma and CSS; camelCase only in iOS/Android code syntax, or where the codebase is camel (Primer's `bgColor`).
 
-Two grammars — pick one per file:
+Two grammars, pick one per file:
 - **Compact** (a personal style, under ~100 tokens): `category/role[-variant][-state]`. It is the style-spec vocabulary and produces exactly the CSS names in `../web.md`.
 - **Full** (multi-product system): `category/property/variant/state`, with an explicit `rest` state on anything stateful (as Primer does): `color/bg/accent/rest`, `color/bg/accent/hover`.
 
@@ -107,8 +107,8 @@ Two grammars — pick one per file:
 | Size | `size/4` … `size/12` | `size/icon-sm`, `size/icon-md`, `size/control-md`, `size/touch-min` | `avatar/size/lg` |
 | Border | `border/sm`, `border/md`, `border/lg` | `border/hairline`, `border/focus` | `input/border/error` |
 | Typography | `font/family/display`, `font/size/1` … `font/size/8`, `font/weight/regular` | text styles `display/lg`, `heading/md`, `body/md`, `label/sm`, `mono/sm` (fields bound to variables) | `button/label/size` |
-| Motion | — | `duration/fast`, `duration/base`, `ease/standard`, `ease/enter`, `ease/exit` | `dialog/duration/enter` |
-| Opacity | — | `opacity/disabled`, `opacity/scrim` | — |
+| Motion | none | `duration/fast`, `duration/base`, `ease/standard`, `ease/enter`, `ease/exit` | `dialog/duration/enter` |
+| Opacity | none | `opacity/disabled`, `opacity/scrim` | none |
 
 ## 7. Styles or variables
 
@@ -120,17 +120,17 @@ Two grammars — pick one per file:
 | Gradient | Paint style; each stop bound to a color variable | Variables cannot hold gradients |
 | Several fills, image fills | Paint style | Composite value |
 | Layout guides | Grid style; count, gutter, offset bound to variables | Composite value |
-| Duration and easing | TIMING (seconds) and EASING variables — Plugin API since Aug 2026; check the Variables UI and prototype binding in your account (verify) | Matches the motion tokens in `../motion.md` |
+| Duration and easing | TIMING (seconds) and EASING variables, Plugin API since Aug 2026; check the Variables UI and prototype binding in your account (verify) | Matches the motion tokens in `../motion.md` |
 
-Styles have no modes, scopes or code syntax of their own. Line-height variables are absolute numbers, not percentages — store a value per size and per mode (verify).
+Styles have no modes, scopes or code syntax of their own. Line-height variables are absolute numbers, not percentages, store a value per size and per mode (verify).
 
 ## 8. One vocabulary in Figma and code (DTCG)
 
-The W3C Design Tokens Format Module **2025.10** (28 Oct 2025) is the first stable version of the format; theming lives in the companion **Resolver Module 2025.10**. Neither is a W3C Standard, but tools converge on them, and Figma's native variable export follows DTCG (announced at Schema 2025, rolled out per account from Nov 2025 — check availability; early exports dropped descriptions) (verify).
+The W3C Design Tokens Format Module **2025.10** (28 Oct 2025) is the first stable version of the format; theming lives in the companion **Resolver Module 2025.10**. Neither is a W3C Standard, but tools converge on them, and Figma's native variable export follows DTCG (announced at Schema 2025, rolled out per account from Nov 2025, check availability; early exports dropped descriptions) (verify).
 
 | Figma | DTCG | CSS |
 |---|---|---|
-| Collection | File or top-level group | — |
+| Collection | File or top-level group | none |
 | Mode | Resolver modifier context (`theme`: `light` / `dark`) | `:root`, `@media (prefers-color-scheme: dark)`, `[data-theme="dark"]` |
 | Group `color/` | Group `"color": {}`, `$type` inherited by children | Name prefix |
 | Variable `color/blue/500` | Token `color.blue.500` with `$value` | `--color-blue-500` |
@@ -156,13 +156,13 @@ The W3C Design Tokens Format Module **2025.10** (28 Oct 2025) is the first stabl
 :root { --color-blue-500: #2963ed; --color-accent: var(--color-blue-500); --space-4: 16px; --duration-fast: 120ms; }
 ```
 
-DTCG details to respect: dimensions are objects with `px` or `rem`; colors carry `colorSpace` + `components` with optional `alpha` and `hex` fallback; `$type` is never inferred from the value; names are case-sensitive; files use `.tokens.json`. Figma TIMING stores seconds — convert to `ms` on export. The Variables REST API is Enterprise-only (verify); export through `use_figma` (Plugin API) works on every plan.
+DTCG details to respect: dimensions are objects with `px` or `rem`; colors carry `colorSpace` + `components` with optional `alpha` and `hex` fallback; `$type` is never inferred from the value; names are case-sensitive; files use `.tokens.json`. Figma TIMING stores seconds, convert to `ms` on export. The Variables REST API is Enterprise-only (verify); export through `use_figma` (Plugin API) works on every plan.
 
 ## 9. Versioning and deprecation
 
 - Version the token set with semver and say it in the library publish message: **major** = rename, removal or change of meaning; **minor** = new tokens or modes; **patch** = value tuning within the same meaning.
-- Renaming a Figma variable keeps layer bindings (they are by ID) but breaks code names and DTCG paths — treat it as major and update code syntax on purpose.
-- Deprecate before deleting (unlike components, do not move variables into a `Deprecated/` group — that is a rename): keep the name, start the description with `Deprecated v2.0 — use color/ink-muted`, set scopes to `[]` so it leaves the pickers while existing bindings still resolve, and emit `"$deprecated": "Use {color.ink-muted}"` in DTCG.
+- Renaming a Figma variable keeps layer bindings (they are by ID) but breaks code names and DTCG paths, treat it as major and update code syntax on purpose.
+- Deprecate before deleting (unlike components, do not move variables into a `Deprecated/` group, that is a rename): keep the name, start the description with `Deprecated v2.0, use color/ink-muted`, set scopes to `[]` so it leaves the pickers while existing bindings still resolve, and emit `"$deprecated": "Use {color.ink-muted}"` in DTCG.
 - Delete at the next major only when usage is zero (scan bindings with `use_figma`; spot-check screens with `get_variable_defs`; Check designs / library analytics on Organization and Enterprise (verify)).
 - Make large token changes on a branch where the plan allows it, and never change a token's meaning while keeping its name.
 
@@ -174,7 +174,7 @@ DTCG details to respect: dimensions are objects with `px` or `rem`; colors carry
 - [ ] Web/iOS/Android code syntax set on every semantic and component variable, matching code names.
 - [ ] Names follow one grammar; no `.` `{` `}` `$`; no name is both a token and a group; no values or brand names in semantic names.
 - [ ] Text styles, effect styles and gradients bind their fields to variables; no raw hex or px inside them.
-- [ ] `get_variable_defs` on representative nodes shows only semantic or component variables — no raw values, no primitives.
+- [ ] `get_variable_defs` on representative nodes shows only semantic or component variables, no raw values, no primitives.
 - [ ] Both modes contrast-checked: text ≥ 4.5:1, large text and UI parts ≥ 3:1.
 - [ ] DTCG export (or CSS) round-trips with the same names; motion converted from seconds to ms.
 - [ ] Deprecated tokens described, unscoped and listed in the changelog; no meaning changed under an old name.

@@ -3,7 +3,7 @@ id: karel-martens
 name: Karel Martens
 type: designer
 discipline: [graphic, art]
-era: 1961–present
+era: 1961 to present
 origin: Arnhem, Netherlands (born 1939)
 lineage: [de-stijl, hendrik-werkman]
 tags:
@@ -39,9 +39,9 @@ Martens works modestly and constantly, treating making as a form of thinking; mu
 
 ## Blends
 
-- **Amplifies:** `irma-boom`, `experimental-jetset` — Dutch book craft and modernist rigour with wit.
-- **Productive tension with:** `wim-crouwel` — the same module, but loosened by chance and colour mixing.
-- **Clashes with:** `david-carson` — both play, but Carson discards the rule that makes Martens' chance meaningful; together the play loses its point.
+- **Amplifies:** `irma-boom`, `experimental-jetset`, Dutch book craft and modernist rigour with wit.
+- **Productive tension with:** `wim-crouwel`, the same module, but loosened by chance and colour mixing.
+- **Clashes with:** `david-carson`, both play, but Carson discards the rule that makes Martens' chance meaningful; together the play loses its point.
 
 ## Don't copy
 

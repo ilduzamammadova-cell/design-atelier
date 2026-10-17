@@ -3,7 +3,7 @@ id: islamic-calligraphy
 name: Arabic-script calligraphy in the Islamic world
 type: tradition
 discipline: [graphic, art, architecture]
-era: 7th century–present; proportioned scripts systematised 10th century (Ibn Muqla, refined by Ibn al-Bawwab and Yaqut al-Musta'simi)
+era: 7th century-present; proportioned scripts systematised 10th century (Ibn Muqla, refined by Ibn al-Bawwab and Yaqut al-Musta'simi)
 origin: cross-regional: Arabian Peninsula, Iraq, Egypt, Maghreb, Anatolia, Iran, South Asia
 lineage: []
 tags:
@@ -40,13 +40,13 @@ Calligraphy carried revelation, so its craft was held in the highest esteem; mas
 
 ## Blends
 
-- **Amplifies:** `islamic-geometric-pattern` — script bands and geometric fields belong together.
-- **Productive tension with:** `swiss-international` — bilingual Arabic–Latin systems where a modulated reed stroke meets a rational grotesk grid.
-- **Clashes with:** `punk-graphics` — ransom-note cutting breaks letter joining and reads as disrespect.
+- **Amplifies:** `islamic-geometric-pattern`, script bands and geometric fields belong together.
+- **Productive tension with:** `swiss-international`, bilingual Arabic-Latin systems where a modulated reed stroke meets a rational grotesk grid.
+- **Clashes with:** `punk-graphics`, ransom-note cutting breaks letter joining and reads as disrespect.
 
 ## Don't copy
 
-The Blue Qur'an (9th–10th century); the tughra of Süleyman the Magnificent (Met); compositions by named calligraphers past and present (e.g. Hassan Massoudy, eL Seed).
+The Blue Qur'an (9th to 10th century); the tughra of Süleyman the Magnificent (Met); compositions by named calligraphers past and present (e.g. Hassan Massoudy, eL Seed).
 
 ## Respect
 

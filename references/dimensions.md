@@ -11,7 +11,7 @@ Design in logical units at 1x, never in device pixels. In Figma, 1 unit = 1 pt =
 | **pt** | iOS, iPadOS | Logical point. @2x screens draw 1 pt with 2×2 px, @3x with 3×3 px | All iOS layout and type |
 | **dp** | Android | ≈ 1 px on a 160 dpi screen; `px = dp × (dpi / 160)` | Android layout |
 | **sp** | Android | Same as dp by default, but scales with the user's text size | Text only, never layout |
-| **CSS px** | Web | 1/96 in; not a device pixel — one CSS px can span several physical pixels | Web layout |
+| **CSS px** | Web | 1/96 in; not a device pixel, one CSS px can span several physical pixels | Web layout |
 | **rem** | Web | Root (`html`) font size; browser default is usually 16px | Type, spacing, breakpoints |
 
 | Platform | Export multipliers |
@@ -35,7 +35,7 @@ Design one frame per breakpoint, not one per device. Test at the extremes.
 | Target | Design at | Test at (smallest / largest) | Notes |
 |---|---|---|---|
 | **iPhone** | **402×874 pt** (iPhone 17, 17 Pro, 18 Pro) | 375×667 (iPhone SE 4.7", shortest) and 360×780 (iPhone 13 mini, narrowest) / 440×956 (Pro Max) | Drop the 360/375 checks only if analytics show you can |
-| iPhone, other current sizes | — | 390×844 (16e/17e) · 393×852 (15/16) · 420×912 (Air) · 430×932 (16 Plus) | Spot-check the one closest to your audience |
+| iPhone, other current sizes | none | 390×844 (16e/17e) · 393×852 (15/16) · 420×912 (Air) · 430×932 (16 Plus) | Spot-check the one closest to your audience |
 | **Android phone** | **411×891 dp** (Android Studio reference phone) | 360×800 dp (a top mobile viewport worldwide) / largest supported phone | Window size, not device, drives layout |
 | Foldable | 673×841 dp (reference unfolded foldable) | Folded (compact) and unfolded, both orientations | iPhone Duo: see § 3 |
 | **Tablet** | **820×1180 pt** (iPad, iPad Air 11") | 744×1133 (iPad mini) / 1032×1376 (iPad Pro 13"), portrait and landscape | Android reference tablet: 1280×800 dp landscape |
@@ -75,7 +75,7 @@ iPhone 18 Pro / Pro Max and 17e points are Apple's published pixels ÷ 3 (same p
 | Item | Value | Rule |
 |---|---|---|
 | Size classes | iPhone portrait = compact width, regular height. iPad full screen = regular/regular. Max/Plus/Air landscape = regular width, compact height | Lay out by size class, not by device or orientation |
-| Safe area | Top (status bar, Dynamic Island) and bottom (home indicator) vary by model; typical top ≈ 47–62 pt, bottom 34 pt on Face ID iPhones **(verify)** | Read the safe area; never hardcode. Backgrounds bleed under bars; controls and text stay inside |
+| Safe area | Top (status bar, Dynamic Island) and bottom (home indicator) vary by model; typical top ≈ 47 to 62 pt, bottom 34 pt on Face ID iPhones **(verify)** | Read the safe area; never hardcode. Backgrounds bleed under bars; controls and text stay inside |
 | Side margins | System layout margins: 16 pt on most iPhones, 20 pt on larger/regular widths **(verify)** | Align content to layout margins. Avoid full-width buttons; inset them |
 | Navigation bar | Standard title, or Large Title (34 pt text style) that collapses on scroll | Use the system bar from Apple's current (Liquid Glass) UI kit. Legacy UIKit heights: 44 pt nav bar, 49 pt tab bar **(verify; Liquid Glass bars float and differ)** |
 | Tab bar | iOS: floats over content at the bottom. iPadOS: near the top, can convert to a sidebar | Navigation only, never actions. Short single-word labels. Avoid overflow: extra tabs collapse into a "More" tab. On iPad, default to five or fewer |
@@ -83,7 +83,7 @@ iPhone 18 Pro / Pro Max and 17e points are Apple's published pixels ÷ 3 (same p
 | Hit target | **44×44 pt** default · **28×28 pt** absolute minimum | Leave ~12 pt around bezeled controls, ~24 pt around borderless ones |
 | Text size | Default 17 pt · minimum 11 pt | Support enlargement to at least 200% |
 
-### Dynamic Type — Large (default) size, SF Pro
+### Dynamic Type, Large (default) size, SF Pro
 
 | Style | Weight | Size / leading (pt) | Emphasized |
 |---|---|---|---|
@@ -108,7 +108,7 @@ Body runs from 14 pt (xSmall) to 23 pt (xxxLarge) and 53 pt (AX5). With a custom
 | iOS, iPadOS, macOS | 1024×1024 px, square, layered | System rounds the corners | Build in Icon Composer. Provide default, dark, clear and tinted appearances (the system generates missing ones) |
 | watchOS | 1088×1088 px | Circular | Avoid a pure black background |
 | visionOS | 1024×1024 px, layered (3D) | Circular | Background plus one or two layers |
-| tvOS | 800×480 px, 2–5 parallax layers | Rounded rectangle | Keep a safe zone; focus scaling crops edges |
+| tvOS | 800×480 px, 2 to 5 parallax layers | Rounded rectangle | Keep a safe zone; focus scaling crops edges |
 
 Never pre-round corners or pre-apply masks, shadows or glows; the system adds them. Keep the motif centered. Color: sRGB or Display P3.
 
@@ -119,12 +119,12 @@ Never pre-round corners or pre-apply masks, shadows or glows; the system adds th
 | Class | Width (dp) | Typical | Panes | Navigation | Margin · spacer |
 |---|---|---|---|---|---|
 | **Compact** | < 600 | Phone portrait | 1 | Navigation bar (or modal expanded rail) | 16 dp |
-| **Medium** | 600–839 | Tablet portrait, unfolded foldable portrait | 1 (2 only for low-density content, 50/50) | Rail for 1 pane; bar for 2 panes | 24 · 24 dp |
-| **Expanded** | 840–1199 | Phone or tablet landscape, unfolded foldable landscape | 1 or 2 (2 recommended) | Collapsed or expanded rail | 24 · 24 dp; fixed pane 360 dp |
-| **Large** | 1200–1599 | Large tablet, desktop | 2 recommended | Rail | 24 · 24 dp; fixed pane 412 dp |
-| **Extra-large** | ≥ 1600 | Desktop, ultra-wide | 1–3 (third = side sheet, ≤ 400 dp) | Expanded rail | 24 · 24 dp |
+| **Medium** | 600 to 839 | Tablet portrait, unfolded foldable portrait | 1 (2 only for low-density content, 50/50) | Rail for 1 pane; bar for 2 panes | 24 · 24 dp |
+| **Expanded** | 840 to 1199 | Phone or tablet landscape, unfolded foldable landscape | 1 or 2 (2 recommended) | Collapsed or expanded rail | 24 · 24 dp; fixed pane 360 dp |
+| **Large** | 1200 to 1599 | Large tablet, desktop | 2 recommended | Rail | 24 · 24 dp; fixed pane 412 dp |
+| **Extra-large** | ≥ 1600 | Desktop, ultra-wide | 1 to 3 (third = side sheet, ≤ 400 dp) | Expanded rail | 24 · 24 dp |
 
-Height classes: compact < 480 dp, medium 480–899 dp, expanded ≥ 900 dp. Most scrolling layouts never need them. Keep text at 40–60 characters per line at every breakpoint. M3 no longer fixes column counts; it places rails and panes on rulers. When a column grid helps, use the Material 2 grid: 4 columns below 600 dp (16 dp margins), 8 columns at 600–904 (32 dp margins), 12 columns from 905 (840 dp body, then flexible margins up to 200 dp; 1040 dp body from 1440).
+Height classes: compact < 480 dp, medium 480 to 899 dp, expanded ≥ 900 dp. Most scrolling layouts never need them. Keep text at 40 to 60 characters per line at every breakpoint. M3 no longer fixes column counts; it places rails and panes on rulers. When a column grid helps, use the Material 2 grid: 4 columns below 600 dp (16 dp margins), 8 columns at 600 to 904 (32 dp margins), 12 columns from 905 (840 dp body, then flexible margins up to 200 dp; 1040 dp body from 1440).
 
 ### Components (M3 Expressive, current)
 
@@ -133,14 +133,14 @@ Height classes: compact < 480 dp, medium 480–899 dp, expanded ≥ 900 dp. Most
 | Top app bar, small | 64 high | Leading or centered title (center-aligned bar merged into small) |
 | Top app bar, medium flexible | 112 expanded (136 with subtitle) → 64 collapsed | Replaces baseline medium (112) |
 | Top app bar, large flexible | 120 expanded (152 with subtitle) → 64 collapsed | Replaces baseline large (152) |
-| Navigation bar (flexible) | 64 high | Baseline bar was 80. 3–5 equal destinations; compact and medium |
+| Navigation bar (flexible) | 64 high | Baseline bar was 80. 3 to 5 equal destinations; compact and medium |
 | Navigation rail, collapsed | 96 wide (narrow 80) | Medium and up |
-| Navigation rail, expanded | 220–360 wide | Replaces the navigation drawer (360 wide, no longer recommended) |
+| Navigation rail, expanded | 220 to 360 wide | Replaces the navigation drawer (360 wide, no longer recommended) |
 | FAB | 56 (icon 24) | Most important action on the screen |
 | Medium FAB | 80 (icon 28) | New in Expressive |
 | Large FAB | 96 (icon 32) | Small FAB (40) is no longer recommended |
 | Touch target | **≥ 48×48** | Visual can be smaller (a 24 dp icon) if the target is 48; keep targets separated |
-| Adaptive launcher icon | 108×108 layers | Logo 48–66 dp; only the inner 66×66 is never masked |
+| Adaptive launcher icon | 108×108 layers | Logo 48 to 66 dp; only the inner 66×66 is never masked |
 
 ### Type scale (Roboto baseline, sp)
 
@@ -164,12 +164,12 @@ Set breakpoints where the content breaks, not where devices are: start at 320, w
 |---|---|---|---|---|---|
 | Tailwind v4 | 40rem (640) | 48rem (768) | 64rem (1024) | 80rem (1280) | 96rem (1536) |
 | Bootstrap 5.3 | 576 | 768 | 992 | 1200 | 1400 |
-| Material 3 | — | 600 | 840 | 1200 | 1600 |
+| Material 3 | none | 600 | 840 | 1200 | 1600 |
 
 ### Containers and columns
 
 - **Tailwind `container`:** `width: 100%` plus a `max-width` equal to the current breakpoint (640 → 1536). It neither centers nor pads: add `mx-auto px-4` (or the style's margin token).
-- **Bootstrap `.container`:** 540 / 720 / 960 / 1140 / 1320 px at sm–xxl; gutter 1.5rem (24px).
+- **Bootstrap `.container`:** 540 / 720 / 960 / 1140 / 1320 px at sm-xxl; gutter 1.5rem (24px).
 - **Your own:** derive the max width from the content. Long-form text caps at the measure; app shells and grids usually stop between 1200 and 1440.
 
 Typical column grid (Material 2 grid, Material 3 margins, Bootstrap gutter); keep gutters clearly narrower than columns:
@@ -177,8 +177,8 @@ Typical column grid (Material 2 grid, Material 3 margins, Bootstrap gutter); kee
 | Range | Columns | Outer margin | Gutter |
 |---|---|---|---|
 | Mobile (< 600) | 4 | 16 | 16 |
-| Tablet (600–904) | 8 | 24–32 | 24 |
-| Desktop (≥ 905) | 12 | Flexible; body capped (~1040–1320) | 24 |
+| Tablet (600 to 904) | 8 | 24 to 32 | 24 |
+| Desktop (≥ 905) | 12 | Flexible; body capped (~1040 to 1320) | 24 |
 
 ### Viewport and safe areas
 
@@ -195,7 +195,7 @@ Typical column grid (Material 2 grid, Material 3 margins, Bootstrap gutter); kee
 ### Text and measure
 
 - Body text 1rem (16px, the browser default) or larger; size type in rem so user font settings apply.
-- Measure: at most 80 characters per line (WCAG 1.4.8); 40–60 for UI text (Material). Set `max-width` in `ch` on text blocks, then count real characters at the widest breakpoint. No horizontal scrolling at 320 CSS px (WCAG 1.4.10 Reflow).
+- Measure: at most 80 characters per line (WCAG 1.4.8); 40 to 60 for UI text (Material). Set `max-width` in `ch` on text blocks, then count real characters at the widest breakpoint. No horizontal scrolling at 320 CSS px (WCAG 1.4.10 Reflow).
 
 ### Tap targets
 
@@ -203,7 +203,7 @@ Typical column grid (Material 2 grid, Material 3 margins, Bootstrap gutter); kee
 |---|---|---|
 | Minimum (AA) | **24×24 CSS px**, or an undersized target whose 24 px circle doesn't overlap another target | WCAG 2.2 SC 2.5.8 |
 | Enhanced (AAA) | 44×44 CSS px | WCAG 2.2 SC 2.5.5 |
-| Recommended for touch | **44–48 px** for every primary control | Apple 44 pt, Material 48 dp |
+| Recommended for touch | **44 to 48 px** for every primary control | Apple 44 pt, Material 48 dp |
 
 Enlarge the hit area with padding or a pseudo-element; keep the visual size the style wants.
 
@@ -258,10 +258,10 @@ Declare `og:image:width`, `og:image:height` and `og:image:alt`. Keep text large,
 | App Store | iPhone, Face ID large (needed if you skip Dynamic Island large) | 1284×2778 or 1242×2688 |
 | App Store | iPad 13" (required if the app runs on iPad) | 2064×2752 or 2048×2732 |
 | App Store | iPhone Duo, outer / inner (optional now; required from April 2027 for apps built with the iOS 27.1 SDK or later) | 1398×2034 / 2007×2853 |
-| App Store | Count and format | 1–10 per size; JPEG or PNG; no alpha or transparency |
+| App Store | Count and format | 1 to 10 per size; JPEG or PNG; no alpha or transparency |
 | Google Play | App icon | 512×512, 32-bit PNG, ≤ 1024 KB |
 | Google Play | Feature graphic | 1024×500, JPEG or 24-bit PNG, no alpha |
-| Google Play | Screenshots | 320–3840 px per side, long side ≤ 2× short side, 2–8 per device type; for recommendation slots, ≥ 4 at 1080×1920 (9:16) or 1920×1080 (16:9) |
+| Google Play | Screenshots | 320 to 3840 px per side, long side ≤ 2× short side, 2 to 8 per device type; for recommendation slots, ≥ 4 at 1080×1920 (9:16) or 1920×1080 (16:9) |
 
 ## 7. Checklist before delivering a screen
 

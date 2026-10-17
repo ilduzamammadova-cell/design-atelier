@@ -3,7 +3,7 @@ id: japanese-kamon
 name: Kamon (Japanese family crests)
 type: tradition
 discipline: [graphic, craft]
-era: c. 12th century–present (court and warrior crests; merchant and family use from the Edo period)
+era: c. 12th century-present (court and warrior crests; merchant and family use from the Edo period)
 origin: Japan
 lineage: []
 tags:
@@ -39,9 +39,9 @@ Kamon carry a lineage across centuries with no colour heraldry at all, only shap
 
 ## Blends
 
-- **Amplifies:** `otl-aicher`, `susan-kare`, `japanese-modernism` — constructed pictograms and single-colour clarity.
-- **Productive tension with:** `art-nouveau` — organic plant drawing forced into a strict circle and counted symmetry.
-- **Clashes with:** `psychedelic` — melting forms and colour floods destroy the emblem's constancy.
+- **Amplifies:** `otl-aicher`, `susan-kare`, `japanese-modernism`, constructed pictograms and single-colour clarity.
+- **Productive tension with:** `art-nouveau`, organic plant drawing forced into a strict circle and counted symmetry.
+- **Clashes with:** `psychedelic`, melting forms and colour floods destroy the emblem's constancy.
 
 ## Don't copy
 

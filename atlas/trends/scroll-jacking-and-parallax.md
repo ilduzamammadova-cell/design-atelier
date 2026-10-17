@@ -3,8 +3,8 @@ id: scroll-jacking-and-parallax
 name: Scroll-Jacking & Parallax
 type: trend
 discipline: [ui, ux]
-era: 2011–2026 (waves — early-2010s parallax, mid-2010s Apple product pages, 2020s GSAP + smooth-scroll libraries)
-origin: Global — product launch pages, agency/Awwwards sites, scroll animation libraries
+era: 2011 to 2026 (waves, early-2010s parallax, mid-2010s Apple product pages, 2020s GSAP + smooth-scroll libraries)
+origin: Global, product launch pages, agency/Awwwards sites, scroll animation libraries
 lineage: [flash-era-web, saul-bass]
 tags:
   mood: [cinematic, immersive, controlling, showy]
@@ -15,7 +15,7 @@ saturation: 6
 
 # Scroll-Jacking & Parallax
 
-**Essence:** The page takes over the scroll wheel — pinning sections, scrubbing video, moving layers at different speeds, smoothing and slowing input — to tell a product story like a film.
+**Essence:** The page takes over the scroll wheel, pinning sections, scrubbing video, moving layers at different speeds, smoothing and slowing input, to tell a product story like a film.
 
 ## Genes
 
@@ -27,7 +27,7 @@ saturation: 6
 
 ## Why it reads as slop now
 
-Parallax storytelling pages appeared in the early 2010s, inheriting Flash-era intros; Apple's product pages made pinned, scroll-scrubbed reveals famous in the mid-2010s; GSAP ScrollTrigger and smooth-scroll libraries (Locomotive Scroll, Lenis) made it routine in 2020s agency work and Framer/Webflow templates. Nielsen Norman Group's "Scrolljacking 101" (August 2023) found most participants at least mildly disoriented, some thinking the page was broken, and task-focused users feeling their time was wasted — worst when altered scrolling accompanied text. The cheap version: smooth-scroll inertia on every page, a pinned hero where three wheel turns move a headline 20px, horizontally scrolling feature sections, no way to skip.
+Parallax storytelling pages appeared in the early 2010s, inheriting Flash-era intros; Apple's product pages made pinned, scroll-scrubbed reveals famous in the mid-2010s; GSAP ScrollTrigger and smooth-scroll libraries (Locomotive Scroll, Lenis) made it routine in 2020s agency work and Framer/Webflow templates. Nielsen Norman Group's "Scrolljacking 101" (August 2023) found most participants at least mildly disoriented, some thinking the page was broken, and task-focused users feeling their time was wasted, worst when altered scrolling accompanied text. The cheap version: smooth-scroll inertia on every page, a pinned hero where three wheel turns move a headline 20px, horizontally scrolling feature sections, no way to skip.
 
 ## Subvert
 
@@ -49,8 +49,8 @@ The website as a film the designer directs. It privileges the author's timing ov
 ## Blends
 
 - **Amplifies:** `kinetic-type-everywhere`, `spline-3d-hero`, `cursor-followers-and-magnetic-buttons`.
-- **Productive tension with:** `saul-bass` — title-sequence economy: one strong idea per beat, short, in service of the story.
-- **Clashes with:** `bento-grid`, `centered-hero-three-cards-template` — scan-first layouts lose their point when locked into a timeline.
+- **Productive tension with:** `saul-bass`, title-sequence economy: one strong idea per beat, short, in service of the story.
+- **Clashes with:** `bento-grid`, `centered-hero-three-cards-template`, scan-first layouts lose their point when locked into a timeline.
 
 ## Don't copy
 
@@ -58,6 +58,6 @@ Apple's specific product-page sequences (AirPods, iPhone, Mac launches); award-w
 
 ## Study
 
-- Nielsen Norman Group, "Scrolljacking 101" (Sara Paul, Aug 6, 2023) — nngroup.com/articles/scrolljacking-101
-- GSAP ScrollTrigger docs (gsap.com) — know the tool in order to restrain it.
+- Nielsen Norman Group, "Scrolljacking 101" (Sara Paul, Aug 6, 2023), nngroup.com/articles/scrolljacking-101
+- GSAP ScrollTrigger docs (gsap.com), know the tool in order to restrain it.
 - WCAG 2.2, 2.2.2 Pause, Stop, Hide and 2.3.3 Animation from Interactions.

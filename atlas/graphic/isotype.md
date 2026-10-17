@@ -3,7 +3,7 @@ id: isotype
 name: Isotype (International System of Typographic Picture Education)
 type: system
 discipline: [graphic, ux]
-era: 1925–1971
+era: 1925 to 1971
 origin: Vienna, Austria → The Hague → Oxford and London, UK
 lineage: [new-typography, constructivism]
 tags:
@@ -14,9 +14,9 @@ axes: {order: 9, density: 6, ornament: 0, warmth: 6, contrast: 5, geometry: 7, c
 
 # Isotype
 
-**Essence:** Count with pictures — repeat one standard pictogram to show quantity, so anyone can compare without reading numbers.
+**Essence:** Count with pictures, repeat one standard pictogram to show quantity, so anyone can compare without reading numbers.
 
-Begun as the "Vienna Method" at Otto Neurath's Social and Economic Museum (1925), with Marie Reidemeister (later Neurath, 1898–1986) as chief "transformer" and Gerd Arntz (1900–1988) designing most pictograms from 1928. Renamed Isotype in 1935, it moved to The Hague (1934) and England (1940); Marie continued the work until 1971. Futura was adopted soon after its release.
+Begun as the "Vienna Method" at Otto Neurath's Social and Economic Museum (1925), with Marie Reidemeister (later Neurath, 1898 to 1986) as chief "transformer" and Gerd Arntz (1900 to 1988) designing most pictograms from 1928. Renamed Isotype in 1935, it moved to The Hague (1934) and England (1940); Marie continued the work until 1971. Futura was adopted soon after its release.
 
 ## Genes
 
@@ -31,7 +31,7 @@ Begun as the "Vienna Method" at Otto Neurath's Social and Economic Museum (1925)
 
 ## Visual facts
 
-- **Color:** muted flat red, blue, black, ochre and green on off-white — approx. `#C0392B`, `#2F5D8A`, `#1A1A1A`, `#D9A441`, `#4E7D4A`, `#F4EFE6`.
+- **Color:** muted flat red, blue, black, ochre and green on off-white, approx. `#C0392B`, `#2F5D8A`, `#1A1A1A`, `#D9A441`, `#4E7D4A`, `#F4EFE6`.
 - **Type:** Futura for labels and titles. Free: Jost.
 - **Form:** solid geometric silhouettes (originally linocut), simple maps, repeated rows.
 - **Composition:** aligned rows and columns, consistent spacing, pictograms and maps combined.
@@ -42,9 +42,9 @@ Visual education as a democratic tool: if facts are visible, citizens can judge 
 
 ## Blends
 
-- **Amplifies:** `harry-beck`, `ladislav-sutnar`, `otl-aicher` — clarity systems for public information.
-- **Productive tension with:** `photomontage` — neutral counting beside emotive montage gives data journalism that is both honest and moving.
-- **Clashes with:** `psychedelic` — distortion and colour flux destroy the countable unit.
+- **Amplifies:** `harry-beck`, `ladislav-sutnar`, `otl-aicher`, clarity systems for public information.
+- **Productive tension with:** `photomontage`, neutral counting beside emotive montage gives data journalism that is both honest and moving.
+- **Clashes with:** `psychedelic`, distortion and colour flux destroy the countable unit.
 
 ## Don't copy
 
@@ -53,5 +53,5 @@ Gerd Arntz's individual pictograms; plates from *Gesellschaft und Wirtschaft* (1
 ## Study
 
 - *Gesellschaft und Wirtschaft* (atlas, 1930); Otto Neurath, *International Picture Language* (1936).
-- Marie Neurath & Robin Kinross, *The Transformer: Principles of Making Isotype Charts* (Hyphen Press, 2009); Christopher Burke, Eric Kindel & Sue Walker (eds.), *Isotype: Design and Contexts 1925–1971* (Hyphen Press, 2013).
+- Marie Neurath & Robin Kinross, *The Transformer: Principles of Making Isotype Charts* (Hyphen Press, 2009); Christopher Burke, Eric Kindel & Sue Walker (eds.), *Isotype: Design and Contexts 1925 to 1971* (Hyphen Press, 2013).
 - Otto and Marie Neurath Isotype Collection, University of Reading (reading.ac.uk); Meggs, ch. 16.

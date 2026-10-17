@@ -37,8 +37,8 @@ Crests record the histories and rights of lineages; displaying them is a right a
 
 ## Blends
 
-- **Amplifies:** `art-nouveau` — structurally, the idea of a continuous living line.
-- **Productive tension with:** `bauhaus` — monoline geometry against breathing, variable-width line.
+- **Amplifies:** `art-nouveau`, structurally, the idea of a continuous living line.
+- **Productive tension with:** `bauhaus`, monoline geometry against breathing, variable-width line.
 - **Clashes with:** any imitation of the surface; "Native-style" graphics undercut the artists whose language it is.
 
 ## Don't copy

@@ -3,7 +3,7 @@ id: verner-panton
 name: Verner Panton
 type: designer
 discipline: [product, architecture, craft]
-era: 1955–1998
+era: 1955 to 1998
 origin: Gamtofte, Denmark → Basel, Switzerland
 lineage: [scandinavian-modern, op-art]
 tags:
@@ -14,7 +14,7 @@ axes: {order: 4, density: 6, ornament: 6, warmth: 6, contrast: 6, geometry: 3, c
 
 # Verner Panton
 
-**Essence:** Colour as space — continuous curving forms and saturated tones that turn a room into one immersive environment.
+**Essence:** Colour as space, continuous curving forms and saturated tones that turn a room into one immersive environment.
 
 ## Genes
 
@@ -22,9 +22,9 @@ axes: {order: 4, density: 6, ornament: 6, warmth: 6, contrast: 6, geometry: 3, c
 |---|---|---|
 | G1 · Total environment | In *Visiona 2* (Bayer, Cologne, 1970) and the Spiegel publishing house interiors (Hamburg, 1969), floors, walls, ceilings, seating and lights merged into one colour-saturated landscape. | **Product:** design the whole space, not a piece; furniture, light and surface share one gesture. **UI:** immersive modes where background, panels, controls and illustration all shift into one hue family (e.g. a "focus" mode fully in deep violet tones #2B0F4C → #7A3FD1), chrome dissolving into the environment. |
 | G2 · Monochrome room, many tones | Panton often ran a single hue through many shades within one space, using colour gradients to model depth. | **Product:** one hue, many values, as the organising principle. **UI:** single-hue themes generated from 10 OKLCH lightness steps of one colour; hierarchy expressed purely by lightness, never by introducing a second hue. |
-| G3 · One continuous form | The Panton Chair (designed late 1950s, presented 1967) is a single cantilevered piece of moulded plastic — no joints, legs flowing into seat and back. | **Product:** one continuous moulded body, no visible assembly. **UI:** seamless transitions — shared-element morphs where a card flows into a full page without cuts; continuous curved section edges instead of hard divider lines. |
+| G3 · One continuous form | The Panton Chair (designed late 1950s, presented 1967) is a single cantilevered piece of moulded plastic, no joints, legs flowing into seat and back. | **Product:** one continuous moulded body, no visible assembly. **UI:** seamless transitions, shared-element morphs where a card flows into a full page without cuts; continuous curved section edges instead of hard divider lines. |
 | G4 · Curves in space | The Cone chair (1958), Living Tower (1969) and Phantasy Landscape use stacked waves, cones and rounded cavities you sit inside. | **Product:** concave forms that hold the body. **UI:** containers with concave/curved tops (clip-path or SVG mask waves), nested rounded "pods" for grouped content; motion along curves (arc paths) rather than straight lines. |
-| G5 · Op-art pattern as surface | His textiles (e.g. the Mira-X collections from 1970) and light installations use concentric circles, waves and squares in rhythmic repetition. | **Product:** geometric repeat patterns that vibrate at room scale. **UI:** concentric-circle or wave patterns as generative backgrounds (SVG or CSS repeating-radial-gradient) for hero or idle states — subtle, low-amplitude motion only with prefers-reduced-motion respected. |
+| G5 · Op-art pattern as surface | His textiles (e.g. the Mira-X collections from 1970) and light installations use concentric circles, waves and squares in rhythmic repetition. | **Product:** geometric repeat patterns that vibrate at room scale. **UI:** concentric-circle or wave patterns as generative backgrounds (SVG or CSS repeating-radial-gradient) for hero or idle states, subtle, low-amplitude motion only with prefers-reduced-motion respected. |
 
 ## Visual facts
 
@@ -35,13 +35,13 @@ axes: {order: 4, density: 6, ornament: 6, warmth: 6, contrast: 6, geometry: 3, c
 
 ## Attitude
 
-Panton rejected the restrained Danish mainstream and argued that colour and form should affect mood and senses. He thought of design as creating experiences — rooms you enter rather than objects you look at.
+Panton rejected the restrained Danish mainstream and argued that colour and form should affect mood and senses. He thought of design as creating experiences, rooms you enter rather than objects you look at.
 
 ## Blends
 
 - **Amplifies:** `joe-colombo`, `memphis`, `op-art`.
-- **Productive tension with:** `scandinavian-modern` — Danish warmth and craft with Panton's immersive colour: calm structure with one total-colour room.
-- **Clashes with:** `kenya-hara` — emptiness and white versus total saturation.
+- **Productive tension with:** `scandinavian-modern`, Danish warmth and craft with Panton's immersive colour: calm structure with one total-colour room.
+- **Clashes with:** `kenya-hara`, emptiness and white versus total saturation.
 
 ## Don't copy
 

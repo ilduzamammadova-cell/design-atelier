@@ -3,7 +3,7 @@ id: henry-dreyfuss
 name: Henry Dreyfuss
 type: designer
 discipline: [product, ux]
-era: 1929–1972
+era: 1929 to 1972
 origin: New York, USA
 lineage: [streamline-moderne]
 tags:
@@ -20,7 +20,7 @@ axes: {order: 7, density: 4, ornament: 1, warmth: 6, contrast: 4, geometry: 5, c
 
 | Gene | The idea | In UI / product terms |
 |---|---|---|
-| G1 · Joe and Josephine | *The Measure of Man* (1960) published anthropometric charts built around two composite figures, Joe and Josephine, with dimensions across percentiles. Design for the range, not the average. | **Product:** size controls for the 5th-percentile woman to 95th-percentile man (reach, grip, sight line). **UI:** minimum 44–48px touch targets; type ramp tested at 200% zoom; layouts verified for one-thumb reach zones on 6.7" phones; personas with physical parameters (vision, dexterity, posture), not just goals. |
+| G1 · Joe and Josephine | *The Measure of Man* (1960) published anthropometric charts built around two composite figures, Joe and Josephine, with dimensions across percentiles. Design for the range, not the average. | **Product:** size controls for the 5th-percentile woman to 95th-percentile man (reach, grip, sight line). **UI:** minimum 44 to 48px touch targets; type ramp tested at 200% zoom; layouts verified for one-thumb reach zones on 6.7" phones; personas with physical parameters (vision, dexterity, posture), not just goals. |
 | G2 · Fit the hand, then the eye | The Western Electric Model 500 telephone (1949) refined handset cross-section, weight and dial legibility after studies of how people held and used it. | **Product:** prototype ergonomics in foam before styling. **UI:** prototype the interaction (timing, thumb paths, gesture thresholds) in grey boxes and test it before applying visual style; style is the last layer. |
 | G3 · One control, one obvious motion | The Honeywell T87 "Round" thermostat (1953) reduced setting temperature to turning a dial that cannot be installed crooked and reads at a glance. | **Product:** map the main function to a single, natural gesture. **UI:** the primary task gets a single direct-manipulation control (a dial, slider or drag) with immediate feedback; secondary settings sit behind a separate entry. |
 | G4 · Symbols as a shared language | *Symbol Sourcebook* (1972) collected graphic symbols across fields and cultures as an international reference. | **Product:** label controls with standard symbols, verified across markets. **UI:** an icon dictionary with each glyph's meaning, origin standard (ISO/IEC where they exist), and forbidden alternate meanings; icons always paired with text labels in primary navigation. |
@@ -28,7 +28,7 @@ axes: {order: 7, density: 4, ornament: 1, warmth: 6, contrast: 4, geometry: 5, c
 
 ## Visual facts
 
-- **Color:** utilitarian neutrals with friendly accents — Bell black (#111111), beige (#E8DCC4), Princess-phone pastel pink/aqua (#F2C6C2, #9FD3C7), John Deere green (#367C2B) and yellow (#FFDE00).
+- **Color:** utilitarian neutrals with friendly accents, Bell black (#111111), beige (#E8DCC4), Princess-phone pastel pink/aqua (#F2C6C2, #9FD3C7), John Deere green (#367C2B) and yellow (#FFDE00).
 - **Type:** clear industrial sans on dials and labels. Free equivalents: Public Sans, IBM Plex Sans, B612 for instrument legibility.
 - **Form:** softened rectangles, hand-sized radii, weighted bases, generous controls; no ornament.
 - **Composition:** controls grouped by task; the main function placed front and centre; figures and charts in his books drawn with diagrammatic clarity.
@@ -39,9 +39,9 @@ Dreyfuss argued that when the point of contact between product and person causes
 
 ## Blends
 
-- **Amplifies:** `dieter-rams`, `naoto-fukasawa` — usability as the core of form.
-- **Productive tension with:** `memphis` — Memphis' expressive surfaces disciplined by Dreyfuss' ergonomics produce objects that are playful yet comfortable.
-- **Clashes with:** `italian-radical-design` — conceptual objects that refuse use undermine his entire method.
+- **Amplifies:** `dieter-rams`, `naoto-fukasawa`, usability as the core of form.
+- **Productive tension with:** `memphis`, Memphis' expressive surfaces disciplined by Dreyfuss' ergonomics produce objects that are playful yet comfortable.
+- **Clashes with:** `italian-radical-design`, conceptual objects that refuse use undermine his entire method.
 
 ## Don't copy
 

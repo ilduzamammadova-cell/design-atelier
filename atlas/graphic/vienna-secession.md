@@ -3,7 +3,7 @@ id: vienna-secession
 name: Vienna Secession and the Wiener Werkstätte (Moser, Hoffmann, Roller, Olbrich)
 type: movement
 discipline: [graphic, architecture, craft, product]
-era: 1897–c. 1914 (Werkstätte to 1932)
+era: 1897-c. 1914 (Werkstätte to 1932)
 origin: Vienna, Austria
 lineage: [art-nouveau, charles-rennie-mackintosh, arts-and-crafts]
 tags:
@@ -20,7 +20,7 @@ axes: {order: 8, density: 6, ornament: 6, warmth: 4, contrast: 7, geometry: 9, c
 
 | Gene | The idea | In UI / product terms |
 |---|---|---|
-| G1 · The square as master unit | *Ver Sacrum* (1898–1903) used a near-square format. Rudolf von Larisch taught filling a square with letters to sharpen figure and ground, and the Werkstätte mark sits in a square. | Square-first layout: 1:1 cards, tiles and avatars, and wordmarks drawn to fill a square block. Grid modules are square (e.g. 8×8 base, 96×96 tiles), and every logo lockup has a square variant. |
+| G1 · The square as master unit | *Ver Sacrum* (1898 to 1903) used a near-square format. Rudolf von Larisch taught filling a square with letters to sharpen figure and ground, and the Werkstätte mark sits in a square. | Square-first layout: 1:1 cards, tiles and avatars, and wordmarks drawn to fill a square block. Grid modules are square (e.g. 8×8 base, 96×96 tiles), and every logo lockup has a square variant. |
 | G2 · Checker and grid ornament | Hoffmann's and Moser's patterns use black-and-white squares, grids and repeated rectangles in sequence, geometry with an organic softness. | Pattern tokens from squares only: checker strip (8px squares), dotted grid, stacked rectangles. Used as borders on tables, banners and packaging edges, always black/white plus one colour. |
 | G3 · Lettering fitted to the block | Secession posters reshape letters (rounded rectangles, stretched stems) so text locks into a block, sometimes at the cost of legibility (Roller, 1902). | Display-only lockups where letters are redrawn to fill a rectangle or square, for posters, covers and event identities. Hard rule: never in navigation, forms or body. Pair with a highly legible text face. |
 | G4 · Magazine as laboratory | *Ver Sacrum* had a rotating artist committee and unusual production: metallic inks, translucent papers, white-on-white embossing. Advertisers had to commission their ads from the contributors so the issue stayed unified. | Sponsored and third-party content must use the house template (ads are designed inside the system, never pasted in). Reserve an "experiment" slot per release for tactile effects such as subtle emboss (inset shadow ≤ 1px) or metallic-gradient foil on premium moments. |
@@ -50,7 +50,7 @@ The young artists led by Gustav Klimt broke from the academic Künstlerhaus in 1
 
 ## Study
 
-- MAK – Museum of Applied Arts, Vienna: Wiener Werkstätte archive (mak.at)
+- MAK, Museum of Applied Arts, Vienna: Wiener Werkstätte archive (mak.at)
 - Leopold Museum, Vienna (leopoldmuseum.org); Neue Galerie New York (neuegalerie.org)
 - *Ver Sacrum* digitized: Austrian National Library ANNO (anno.onb.ac.at)
 - Meggs, ch. 12, "The Vienna Secession"; Aynsley, "Wiener Werkstätte"

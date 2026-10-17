@@ -3,7 +3,7 @@ id: wim-crouwel
 name: Wim Crouwel
 type: designer
 discipline: [graphic]
-era: 1955–1985 (active until 2019)
+era: 1955 to 1985 (active until 2019)
 origin: Amsterdam, Netherlands
 lineage: [swiss-international, de-stijl, new-typography]
 tags:
@@ -39,9 +39,9 @@ Crouwel saw the designer as an objective problem solver who simplifies both mess
 
 ## Blends
 
-- **Amplifies:** `experimental-jetset`, `swiss-international` — his heirs and his school.
-- **Productive tension with:** `jan-van-toorn` — the 1972 debate as a recipe: an objective grid carrying subjective montage.
-- **Clashes with:** `art-nouveau` — whiplash curves cannot live on a square module; one of the two must lose.
+- **Amplifies:** `experimental-jetset`, `swiss-international`, his heirs and his school.
+- **Productive tension with:** `jan-van-toorn`, the 1972 debate as a recipe: an objective grid carrying subjective montage.
+- **Clashes with:** `art-nouveau`, whiplash curves cannot live on a square module; one of the two must lose.
 
 ## Don't copy
 
@@ -53,4 +53,4 @@ The *New Alphabet* outlines, the *Vormgevers* poster, specific Stedelijk Museum 
 - *The Debate: The Legendary Contest of Two Giants of Graphic Design* (Crouwel and Van Toorn, 2015)
 - Stedelijk Museum Amsterdam collection: https://www.stedelijk.nl
 - Design Museum London, *Wim Crouwel: A Graphic Odyssey* (2011)
-- Aynsley, *A Century of Graphic Design*, pp. 180–181
+- Aynsley, *A Century of Graphic Design*, pp. 180 to 181

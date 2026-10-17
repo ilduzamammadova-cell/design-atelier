@@ -3,7 +3,7 @@ id: editorial-web
 name: Editorial Web (art-directed long-form)
 type: movement
 discipline: [ui, graphic]
-era: 2008–present
+era: 2008 to present
 origin: New York, USA, and worldwide newsrooms and independent publishers
 lineage: [swiss-international, alexey-brodovitch, jan-tschichold]
 tags:
@@ -14,15 +14,15 @@ axes: {order: 7, density: 4, ornament: 2, warmth: 6, contrast: 6, geometry: 6, c
 
 # Editorial Web (art-directed long-form)
 
-**Essence:** Reading as the interface — magazine-grade typography, a bespoke layout for each story, and media that unfolds as you scroll.
+**Essence:** Reading as the interface, magazine-grade typography, a bespoke layout for each story, and media that unfolds as you scroll.
 
 ## Genes
 
 | Gene | The idea | In UI / product terms |
 |---|---|---|
-| G1 · Measure first | Long-form web design starts from comfortable reading: line length, size and leading are set before anything else. | Body 19–21 px serif with 1.55–1.65 line height, `max-width: 66ch`; paragraphs separated either by space or by indent, never both. Everything else derives from this measure. |
+| G1 · Measure first | Long-form web design starts from comfortable reading: line length, size and leading are set before anything else. | Body 19 to 21 px serif with 1.55 to 1.65 line height, `max-width: 66ch`; paragraphs separated either by space or by indent, never both. Everything else derives from this measure. |
 | G2 · Art direction per story | Designers such as Jason Santa Maria and Dustin Curtis gave individual articles their own layout, palette and display type, as magazines do. | Article template exposes per-story tokens (display face, accent colour, hero layout variant) while navigation, body text and footer stay invariant across the site. |
-| G3 · Scroll as narrative engine | "Snow Fall" (*The New York Times*, December 2012) wove video, maps and graphics into the reading flow; scrollytelling became a genre (The Pudding, 2017–). | A sticky media pane (`position: sticky`) beside or behind the text; each paragraph is a "step" that changes the graphic when it crosses 50% of the viewport. Text never scrolls under media without a scrim. |
+| G3 · Scroll as narrative engine | "Snow Fall" (*The New York Times*, December 2012) wove video, maps and graphics into the reading flow; scrollytelling became a genre (The Pudding, 2017, ). | A sticky media pane (`position: sticky`) beside or behind the text; each paragraph is a "step" that changes the graphic when it crosses 50% of the viewport. Text never scrolls under media without a scrim. |
 | G4 · Breakout rhythm | Images and graphics step out of the text column to wide or full-bleed widths, creating rhythm between intimate and expansive. | Grid with named lines: `content` (66ch), `wide` (~1100 px), `full` (100vw). Every figure declares one of the three; alternate widths to pace the story. |
 | G5 · Print hierarchy, native to screen | Kickers, headlines, deks, bylines, drop caps and pull quotes give readers entry points. | Component set: kicker (13 px caps, +8% tracking), headline, dek (24 px), byline with date, 3-line drop cap, pull quote at 1.5× body in the display face. |
 | G6 · Flow with the web's grain | Responsive design (Ethan Marcotte, 2010) and Frank Chimero's "The Web's Grain" (2015) argued for layouts that flex instead of fixed artboards. | Fluid type with `clamp()`, intrinsic layouts (`minmax`, `fit-content`), no fixed-width canvases; test the story at 320 px first. |
@@ -36,13 +36,13 @@ axes: {order: 7, density: 4, ornament: 2, warmth: 6, contrast: 6, geometry: 6, c
 
 ## Attitude
 
-The editorial web believes journalism and essays deserve the craft once reserved for print magazines, and that the screen adds powers print never had — motion, data, sound, interactivity — without sacrificing the calm of reading. It is reading-first: every flourish must serve comprehension.
+The editorial web believes journalism and essays deserve the craft once reserved for print magazines, and that the screen adds powers print never had, motion, data, sound, interactivity, without sacrificing the calm of reading. It is reading-first: every flourish must serve comprehension.
 
 ## Blends
 
-- **Amplifies:** `swiss-international`, `alexey-brodovitch`, `jan-tschichold` — editorial grids, typographic hierarchy, pacing.
-- **Productive tension with:** `brutalist-web` — raw, visible structure carrying impeccable long-form typography reads as confident and independent.
-- **Clashes with:** `web-2-gloss` — badges, gloss and sign-up urgency compete with sustained reading.
+- **Amplifies:** `swiss-international`, `alexey-brodovitch`, `jan-tschichold`, editorial grids, typographic hierarchy, pacing.
+- **Productive tension with:** `brutalist-web`, raw, visible structure carrying impeccable long-form typography reads as confident and independent.
+- **Clashes with:** `web-2-gloss`, badges, gloss and sign-up urgency compete with sustained reading.
 
 ## Don't copy
 
@@ -53,4 +53,4 @@ The editorial web believes journalism and essays deserve the craft once reserved
 - "Snow Fall: The Avalanche at Tunnel Creek," John Branch, *The New York Times* (2012; Pulitzer Prize for Feature Writing 2013).
 - Ethan Marcotte, "Responsive Web Design," *A List Apart* (May 2010); Frank Chimero, "The Web's Grain" (2015).
 - Jason Santa Maria, *On Web Typography* (A Book Apart, 2014); Matthew Butterick, *Practical Typography* (practicaltypography.com).
-- The Pudding (pudding.cool) — visual essays and their open methods.
+- The Pudding (pudding.cool), visual essays and their open methods.

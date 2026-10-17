@@ -3,8 +3,8 @@ id: eiko-ishioka
 name: Eiko Ishioka
 type: designer
 discipline: [graphic, art]
-era: 1961–2012
-origin: Tokyo, Japan; later New York, USA (1938–2012)
+era: 1961 to 2012
+origin: Tokyo, Japan; later New York, USA (1938 to 2012)
 lineage: [japanese-modernism, surrealism]
 tags:
   mood: [audacious, sensual, theatrical, uncanny]
@@ -39,9 +39,9 @@ Ishioka refused to be packaged as "Japanese style". She treated the art director
 
 ## Blends
 
-- **Amplifies:** `m-m-paris`, `vaughan-oliver` — fashion-world art direction and uncanny, staged imagery.
-- **Productive tension with:** `ikko-tanaka` — both reinvent Japanese tradition, one through calm flat planes, the other through disturbing bodies; planes plus one staged figure is a strong pairing.
-- **Clashes with:** `pentagram` — a visual pun resolves meaning instantly; Ishioka withholds it. Together the wit deflates the mystery.
+- **Amplifies:** `m-m-paris`, `vaughan-oliver`, fashion-world art direction and uncanny, staged imagery.
+- **Productive tension with:** `ikko-tanaka`, both reinvent Japanese tradition, one through calm flat planes, the other through disturbing bodies; planes plus one staged figure is a strong pairing.
+- **Clashes with:** `pentagram`, a visual pun resolves meaning instantly; Ishioka withholds it. Together the wit deflates the mystery.
 
 ## Don't copy
 
@@ -52,4 +52,4 @@ The Parco posters (including the Faye Dunaway campaign), the Miles Davis *Tutu* 
 - Eiko Ishioka, *Eiko by Eiko* (1983) and *Eiko on Stage* (2000)
 - ADC Hall of Fame: https://creativehalloffame.org/inductees/eiko-ishioka/
 - AIGA Eye on Design, "The rebellious and revolutionary work of designer Eiko Ishioka"
-- Aynsley, *A Century of Graphic Design*, pp. 230–231
+- Aynsley, *A Century of Graphic Design*, pp. 230 to 231

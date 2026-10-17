@@ -3,7 +3,7 @@ id: william-caslon
 name: William Caslon
 type: designer
 discipline: [graphic]
-era: 1720–1766
+era: 1720 to 1766
 origin: London, England
 lineage: [claude-garamond]
 tags:
@@ -50,5 +50,5 @@ Caslon was a craftsman-entrepreneur (he began as an engraver of gun locks) who g
 ## Study
 
 - Caslon specimen sheet (1734): St Bride Library, London (sbf.org.uk)
-- Johnson Ball, *William Caslon, 1693–1766* (1973), the standard biography
+- Johnson Ball, *William Caslon, 1693 to 1766* (1973), the standard biography
 - Meggs, ch. 8, "Caslon and Baskerville"

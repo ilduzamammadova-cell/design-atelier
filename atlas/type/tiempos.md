@@ -21,16 +21,16 @@ axes: {order: 7, density: 6, ornament: 1, warmth: 5, contrast: 5, geometry: 6, c
 | Gene | The idea | In UI / product terms |
 |---|---|---|
 | G1 · Update the function, not the costume | Klim describes Tiempos Text as carrying over the job Plantin and Times did (economical, legible setting) and renewing it for today. | When refreshing a classic, keep the measurable function (x-height, width per character, colour) and change the details. Acceptance test: characters per line within ±5% of the predecessor at the same size. |
-| G2 · Three optical subfamilies | Text for running copy, Headline for large sizes, Fine for the largest and most expressive settings, each with its own proportions and detail. | Tokens map to subfamily by size: Text ≤ 20px, Headline 24–60px, Fine ≥ 60px. Text is never scaled to hero size (it looks blunt) and Fine never drops to body (it breaks). |
-| G3 · Sturdy, economical text | Text is robust and compact, made to set a lot of words cleanly. | News and editorial product body 17px / 1.55 at 60–65ch; headlines in Headline at line-height 1.05–1.1 with −1% tracking from 40px up. |
-| G4 · Warm curves, sharp details | Fine heightens the contrast between soft curves and crisp, pointed details. | Pull-quotes and section openers in the Fine cut at 36–72px, with the opening quote hung into the margin (negative `text-indent`), as the single moment of display drama per article. |
+| G2 · Three optical subfamilies | Text for running copy, Headline for large sizes, Fine for the largest and most expressive settings, each with its own proportions and detail. | Tokens map to subfamily by size: Text ≤ 20px, Headline 24 to 60px, Fine ≥ 60px. Text is never scaled to hero size (it looks blunt) and Fine never drops to body (it breaks). |
+| G3 · Sturdy, economical text | Text is robust and compact, made to set a lot of words cleanly. | News and editorial product body 17px / 1.55 at 60 to 65ch; headlines in Headline at line-height 1.05 to 1.1 with −1% tracking from 40px up. |
+| G4 · Warm curves, sharp details | Fine heightens the contrast between soft curves and crisp, pointed details. | Pull-quotes and section openers in the Fine cut at 36 to 72px, with the opening quote hung into the margin (negative `text-indent`), as the single moment of display drama per article. |
 
 ## Visual facts
 
 - **Classification:** contemporary transitional / "realist" serif (Klim's terms: modern transitional).
 - **Origin:** Kris Sowersby, Klim Type Foundry, Wellington; Text and Headline 2010; Fine 2018 (with Noe Blanco). Text won an ATypI Letter.2 award (2011).
 - **Licence:** commercial (desktop, web, app and variable licences from Klim; test fonts available).
-- **Anatomy:** large x-height, compact width, moderate contrast in Text rising to high contrast in Fine, crisp serifs, robust hairlines; the Text cut has a variable weight axis (400–700).
+- **Anatomy:** large x-height, compact width, moderate contrast in Text rising to high contrast in Fine, crisp serifs, robust hairlines; the Text cut has a variable weight axis (400 to 700).
 - **Free / open alternatives:** Source Serif 4 (Frank Grießhammer, Adobe, OFL; five optical sizes from Caption to Display) and Newsreader (Hugues Gentile / Production Type, commissioned by Google Fonts, OFL; optical-size and weight axes for on-screen reading).
 
 ## Attitude

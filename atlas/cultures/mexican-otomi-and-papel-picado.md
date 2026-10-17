@@ -23,7 +23,7 @@ axes: {order: 5, density: 7, ornament: 8, warmth: 9, contrast: 7, geometry: 4, c
 | G1 · Flat silhouette bestiary | Tenangos fill white cotton with animals, birds and plants as flat filled shapes: no outline, no shading, no horizon. | Illustration system of silhouettes only, floating on white; density decreases near content areas so text keeps a clear field. |
 | G2 · One colour or many | Many tenangos are worked in a single vivid colour; others go fully multicolour. | Two illustration themes: monochrome (all art in the brand colour) for everyday screens, multicolour reserved for celebrations and milestones. |
 | G3 · Pattern as holes | Papel picado is cut with small chisels through stacks of tissue paper; the image is light passing through the cuts. | Header banners built from repeated "cut" flags using CSS masks; background colour or photo visible through the cut-outs; flags strung along a gently sagging line. |
-| G4 · Made to flutter and fade | Paper banners are temporary, hung over streets and altars and replaced each season. | Event skins that appear for a limited time then retire; motion is a gentle flutter (2–3° rotation, 3s ease-in-out) applied only to festive elements. |
+| G4 · Made to flutter and fade | Paper banners are temporary, hung over streets and altars and replaced each season. | Event skins that appear for a limited time then retire; motion is a gentle flutter (2 to 3° rotation, 3s ease-in-out) applied only to festive elements. |
 | G5 · Stacked repetition | Artisans cut many layers at once from one template, so identical forms appear in many colours. | Generate banner variants from one template with a colour per instance; never redraw per colour. |
 
 ## Visual facts
@@ -39,9 +39,9 @@ Tenango embroidery grew in the 1960s from Otomí blouse embroidery when drought 
 
 ## Blends
 
-- **Amplifies:** `alexander-girard`, `luis-barragan`, `henri-matisse` — folk colour, cut-out silhouette, joy as a design value.
-- **Productive tension with:** `dieter-rams` — playful silhouettes inside an otherwise austere product UI.
-- **Clashes with:** `ulm-school` — grey rationalism mutes the colour logic that carries the meaning.
+- **Amplifies:** `alexander-girard`, `luis-barragan`, `henri-matisse`, folk colour, cut-out silhouette, joy as a design value.
+- **Productive tension with:** `dieter-rams`, playful silhouettes inside an otherwise austere product UI.
+- **Clashes with:** `ulm-school`, grey rationalism mutes the colour logic that carries the meaning.
 
 ## Don't copy
 
