@@ -1,0 +1,86 @@
+{
+  "skill_name": "design-atelier",
+  "evals": [
+    {
+      "id": 1,
+      "name": "discover-designer-style",
+      "prompt": "Salam. 6 ildir UI dizaynerəm, amma işlərim hamısı bir-birinə oxşayır, Dribbble-dakı hər şey kimi görünür. Öz stilimi tapmaq istəyirəm. Sevdiyim şeylər: köhnə Braun radiom, yapon kağız fənəri, Vignelli-nin Nyu-York metro xəritəsi, Tarkovski filmləri. Nifrət etdiyim: bənövşəyi gradientlər, glassmorphism, emoji ikonlar. Ən çox fəxr etdiyim işim çox sıx, məlumatla dolu bir fintech dashboard idi — ağ-qara, bircə narıncı aksent. Material olsaydı, kağız və tünd taxta olardı. Profilimi qur və mənə 3 istiqamət təklif et.",
+      "expected_output": "A saved Style DNA profile (12-axis vector, stated vs revealed gap, kin masters from the atlas, verbatim rejections as never-rules) and three named directions, each with 5 testable laws, genes traced to atlas sources across 2+ disciplines, a token sketch, and a risk. Reply in Azerbaijani.",
+      "files": [],
+      "assertions": [
+        "The reply to the user is written in Azerbaijani",
+        "A Style DNA profile file is saved to disk, and its scores are tied to cited evidence from the user's message (objects, rejections, proudest work)",
+        "The user's three rejections (purple gradients, glassmorphism, emoji icons) are recorded as explicit 'never' rules",
+        "The response names the tension between the calm, slow references (paper lantern, Tarkovsky, Braun radio) and the dense data-heavy dashboard the user is proudest of, and offers it to the user as a choice",
+        "Exactly three named directions are proposed, none with a generic label like 'Modern Minimal' or 'Clean'",
+        "Each direction has at least five concrete, testable rules/laws",
+        "Each direction draws on at least two named sources from at least two different disciplines (not only graphic or UI design)",
+        "Each direction includes a token sketch with hex colors and a named type pairing; any typeface from the model-default list (IBM Plex, Archivo, Schibsted/Hanken Grotesk, Atkinson Hyperlegible, Instrument Serif, Fraunces, Newsreader, Shippori Mincho) comes with the alternatives considered or a gene-based reason",
+        "The reply to the user contains no internal jargon (no raw distances like 'd=3.2', 'sat 9', gene ids like 'G1', or unexplained axis vectors); sources are named by real names in plain language",
+        "The three directions differ from each other in palette, type or shape language, not only in name"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "blend-culture-specimen",
+      "prompt": "I'm building a sleep & wind-down app for night-shift nurses. I want a visual style nobody else has — mix Japanese wabi-sabi with something unexpected from outside UI design. Give me the full style spec (tokens, type, icons, motion) and build a single-page HTML specimen showing the style. Dark mode first — they use it at 4am.",
+      "expected_output": "A named style spec with laws and lineage (wabi-sabi gene used with its Respect guidance, plus a far/cross-domain gene), dark-first tokens with contrast ratios, icon and motion decisions, slop tells, and a working specimen.html with all component states that avoids saturated trends.",
+      "files": [],
+      "assertions": [
+        "A style spec file exists with a non-generic style name and 5–7 explicit, testable laws",
+        "The spec's lineage names a wabi-sabi / Japanese aesthetic source AND at least one source from outside UI design, saying which idea was taken from each",
+        "The spec includes cultural-respect guidance AND the specimen does not use a religious or sacred symbol (e.g. an ensō circle, kanji, temple motifs) as decoration in the hero, icons or animations",
+        "Dark-mode color tokens are defined first, and text/background contrast ratios are stated (body text pair ≥ 4.5:1)",
+        "Motion is specified with duration and easing tokens; prefers-reduced-motion is handled in the specimen CSS",
+        "The icon set is monochrome (currentColor, no multicolor/gradients/duotone), simple, and uses one language (outline with one stroke weight, or solid glyphs)",
+        "The specimen contains real imagery made for the style (illustration or photo, with alt text) — no empty or grey image placeholders",
+        "The specimen shows button states (including focus-visible and disabled) and a form field with a visible label and an error state",
+        "Spot-checking the specimen code against three of the spec's own laws finds no violation",
+        "Interactive targets in the specimen are at least 44px tall and body text at least 16px",
+        "The specimen avoids saturated trend surfaces: no backdrop-filter glass, no Inter, no purple/indigo gradient, no emoji icons, no glow shadows",
+        "Typefaces from the model-default list (Shippori Mincho, Atkinson Hyperlegible, IBM Plex, etc.) are either avoided or justified with the alternatives considered"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "audit-generic-landing",
+      "prompt": "Bu landing səhifəmizə UX audit et (fayl: flowly-landing.html). Niyə bu qədər generik, AI ilə düzəldilmiş kimi görünür? Sonra düzəlişlər üçün konkret plan ver.",
+      "expected_output": "An audit report in Azerbaijani: top-5 fixes, findings with severity and evidence, accessibility issues (placeholder-only input label, gradient/low-contrast text, transition: all, emoji icons), fabricated content flagged (fake logos, stats, testimonial), slop tells mapped to trend saturation, and concrete fixes that give the product a distinctive identity.",
+      "files": [
+        "design-atelier-workspace/fixtures/flowly-landing.html"
+      ],
+      "assertions": [
+        "The audit is written in Azerbaijani",
+        "Findings carry severity levels and a prioritized top list of fixes",
+        "Flags fabricated or unverifiable content: the fake client logo strip, the '10,000+ teams / 99.99% / 3x' stats, and the generic testimonial",
+        "Flags the email input that has only a placeholder and no label",
+        "Flags low-contrast text on the dark background or gradient-clipped headline text as an accessibility issue",
+        "Uses interaction-design lenses beyond visuals: e.g. missing signifiers/feedback, buttons that do nothing, gulfs of execution/evaluation, or slip-vs-mistake framing",
+        "Names the generic patterns as recognizable trends/templates (purple-indigo gradient SaaS, centered hero + three feature cards, glass cards, logo strip, pill buttons with arrows)",
+        "Gives concrete fixes with specific changes (values, components, copy), not vague advice",
+        "Proposes a direction for a distinctive identity, and that direction is not itself a model default (warm paper + ink + one accent, transit-map diagram) unless justified",
+        "The reply to the user contains no internal jargon (no raw distances like 'd=3.2', 'sat 9', gene ids like 'G1', or unexplained axis vectors); sources are named by real names in plain language"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "apply-bakery-app-and-site",
+      "prompt": "Məhəllədə kiçik bir çörək sexi açıram. İki şey lazımdır: iPhone üçün sifariş tətbiqinin ana ekranı və saytın ana səhifəsi (desktop və mobil). İkonları özün çək, illüstrasiya və şəkillər olsun, generik görünməsin. Hər ikisini HTML kimi ver.",
+      "expected_output": "An iPhone home screen at a real device size with safe areas and 44px targets, and a responsive website; a monochrome custom SVG icon set named by meaning; real art-directed imagery with alt text and credits; a distinctive style blended from the atlas; reply in Azerbaijani without internal jargon.",
+      "files": [],
+      "assertions": [
+        "The reply to the user is written in Azerbaijani",
+        "The mobile screen is built at a real current iPhone logical size (e.g. 402×874, 393×852, 390×844 or 440×956) and keeps content inside the safe areas (status bar / home indicator)",
+        "Interactive targets on the mobile screen are at least 44×44 px",
+        "The website is responsive: at least two breakpoints in the CSS, and nothing forces horizontal scroll at 375px width",
+        "A custom icon set is drawn as SVG: single-color currentColor, one language (outline with one stroke weight or solid), simple; running scripts/icon_check.py on the icons (if saved as files) reports no color/gradient issues",
+        "Icons are named by meaning (e.g. bread, cart, clock), not by number or shape",
+        "Both deliverables contain real imagery (photographs with credited source, or illustrations made for the style); any stand-ins for real products are labelled as placeholders; no empty grey boxes",
+        "An image art direction is stated (light, color grade, crop/aspect) and the images follow it",
+        "Meaningful images have alt text; body text is at least 16px; text/background contrast meets WCAG AA",
+        "Layouts show deliberate alignment to a grid and a clear single focal point per view (one primary action emphasized)",
+        "The reply to the user contains no internal jargon (no raw distances like 'd=3.2', 'sat 9', gene ids like 'G1', or unexplained axis vectors); sources are named by real names in plain language"
+      ]
+    }
+  ]
+}
