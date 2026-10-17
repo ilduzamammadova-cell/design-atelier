@@ -21,7 +21,7 @@ Add `--include-cultures` only if the person asked for cultural mixing.
 
 Sources used in earlier blends (`~/.design-atelier/recent-sources.json`) are pushed to the bottom of every list. Prefer fresh sources: a master that appears in every style becomes a new house default, which is the same failure as a trend. Reuse a recent source only when this person's evidence clearly calls for it, and say why.
 
-Read only the cards you are seriously considering (8–12), and from each read the **Genes** table and **Don't copy**.
+Read only the cards you are seriously considering (8–12) with `atlas_match.py --genes id1,id2,…`, which prints just the essence, **Genes** table and **Don't copy**. Open a full card only for the sources you end up using.
 
 ## 2. Pick genes by role
 

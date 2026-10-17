@@ -87,6 +87,22 @@ Present **three directions**, never one and never ten. Each is a different blend
 - **Every design has real imagery.** Photographs, illustrations, icons and diagrams are part of the deliverable — never grey boxes or empty frames. Follow `references/imagery.md`; label generated stand-ins for real things as placeholders.
 - **Sizes are not a style choice.** Frames, safe areas, touch targets and breakpoints come from `references/dimensions.md`; a personal style never shrinks a target or ignores a safe area.
 
+## Working lean
+
+After Andrej Karpathy's guidelines for LLM work (the `karpathy-guidelines` skill, MIT), applied to design:
+
+- **Think before building.** State assumptions in one line each. If the brief has two readings, name both and ask — don't build both.
+- **Simplicity first.** Build only what was asked: one direction fully, the others as small previews; one specimen, not a full component library, unless asked. No extra pages, sections or features.
+- **Surgical changes.** When revising, change only what the feedback names; leave untouched parts as they are.
+- **Verify against criteria.** Turn the request into checkable goals (laws, sizes, contrast, the pre-delivery check) and loop until they pass.
+
+Token budget:
+- Load only the files the current mode needs; never bulk-read the atlas or all of `references/figma/`.
+- Get genes with `atlas_match.py --genes id1,id2,…` (essence, genes, don't-copy) instead of opening whole cards; open a full card only for the one or two sources you actually use.
+- When you need one part of a reference, find its heading (`grep -n '^## ' file`) and read that section only.
+- Write each file once, then patch it; don't re-read what you just wrote; run each check once, after the last change.
+- Keep replies short: the decision, the result, what's missing.
+
 ## Output routes
 
 - **Figma** — when the person works in Figma or shares a figma.com link. Uses the Figma MCP tools; load the `figma:figma-use` skill before any `use_figma` call. See `references/figma.md`.

@@ -16,6 +16,7 @@ Usage:
   atlas_match.py --check            # validate cards: axes, ids, dangling refs
   atlas_match.py --vector ... --vary --seed 7     # sample from a wider pool instead of the same top cards
   atlas_match.py --record josef-albers,carlo-scarpa   # log sources used in a blend (down-ranked next time)
+  atlas_match.py --genes saul-bass,luis-barragan      # print only essence + genes + don't-copy (saves reading whole cards)
 
 Sources recorded in ~/.design-atelier/recent-sources.json (last 40) are pushed
 to the end of every list, so the same masters don't become a house default.
@@ -132,6 +133,7 @@ def main():
     ap.add_argument("--seed", type=int, help="random seed for --vary (omit for a fresh draw)")
     ap.add_argument("--recent", type=Path, default=RECENT, help="recently used sources file")
     ap.add_argument("--record", help="comma list of ids used in a finished blend; appends to --recent and exits")
+    ap.add_argument("--genes", help="comma list of ids: print essence, genes table and don't-copy only")
     ap.add_argument("--index", action="store_true")
     ap.add_argument("--check", action="store_true")
     args = ap.parse_args()
@@ -151,6 +153,24 @@ def main():
         return
 
     cards = load_atlas()
+
+    if args.genes:
+        by_id = {c.get("id"): c for c in cards}
+        for cid in [i.strip() for i in args.genes.split(",") if i.strip()]:
+            c = by_id.get(cid)
+            if not c:
+                print(f"## {cid}: not found\n"); continue
+            text = (ROOT / c["path"]).read_text(encoding="utf-8")
+            body = re.sub(r"^---\n.*?\n---\n", "", text, flags=re.S)
+            ess = re.search(r"^\*\*Essence:\*\*.*$", body, re.M)
+            genes = re.search(r"^## Genes\n(.*?)(?=^## )", body, re.S | re.M)
+            dont = re.search(r"^## Don't copy\n(.*?)(?=^## |\Z)", body, re.S | re.M)
+            print(f"## {c.get('name', cid)} ({cid}, {c['section']}, {c.get('era', '')})")
+            if ess: print(ess.group(0))
+            if genes: print(genes.group(1).strip())
+            if dont: print("Don't copy: " + " ".join(dont.group(1).split()))
+            print()
+        return
 
     if args.check:
         ids = {c.get("id") for c in cards}
